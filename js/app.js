@@ -214,7 +214,7 @@ const VIEWS = {
     const stage = index.stages.find(s => s.n === ch.stage);
     const isRead = !!prefs.get().read[id];
 
-    const toc = el('nav', { class: 'toc', 'aria-label': 'Contents' },
+    const toc = el('nav', { class: 'toc', 'aria-label': tr('contents') },
       el('p', { class: 'toc-title' }, pick(stage.title, lang())),
       el('ol', {}, stage.chapters.map(cId => {
         const c = index.chapters.find(x => x.id === cId);
@@ -347,7 +347,7 @@ const VIEWS = {
       el('p', { class: 'lede' }, tr('tagline')),
       el('dl', { class: 'keyval' },
         el('dt', {}, tr('version')), el('dd', {}, releases[0]?.v ?? ''),
-        el('dt', {}, 'Offline'), el('dd', {}, status)),
+        el('dt', {}, tr('offline')), el('dd', {}, status)),
       el('p', { class: 'credit' }, tr('createdBy')),
       el('p', {}, el('a', { class: 'button button-quiet', href: '#/share' }, tr('share'))),
       el('h2', {}, tr('allSources')),

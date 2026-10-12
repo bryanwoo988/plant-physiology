@@ -1,4 +1,8 @@
 [
+ {"v": "1.0.2", "date": "2026-10-12", "notes": [
+  {"zh": "“细胞放进溶液”图：膨压滑杆不会再显示超过 −Ψs 的数值；Z 形图的 DCMU 说明更准确。", "en": "Cell-in-solution figure: the turgor slider no longer shows a value above −Ψs; clearer DCMU note on the Z-scheme.", "ms": "Rajah sel dalam larutan: gelangsar turgor tidak lagi menunjukkan nilai melebihi −Ψs; nota DCMU pada skema Z lebih jelas."},
+  {"zh": "“关于”页和章节目录的几个标签现在也会跟着语言切换。", "en": "A few labels on the About page and the chapter contents now follow the chosen language.", "ms": "Beberapa label pada halaman Perihal dan kandungan bab kini mengikut bahasa yang dipilih."}
+ ]},
  {"v": "1.0.1", "date": "2026-10-12", "notes": [
   {"zh": "划线和荧光笔更好用：选取已标记的文字可以只擦掉其中一段；同一颜色再点一次即取消；同色重叠会合并。", "en": "Highlights work better: select marked words to erase just that part; tap the same colour again to remove it; overlapping marks in one colour merge.", "ms": "Penyerlah lebih baik: pilih perkataan bertanda untuk memadam bahagian itu sahaja; ketik warna yang sama sekali lagi untuk membuangnya; tanda bertindih dengan warna sama digabungkan."},
   {"zh": "跨越多个列表项的标记不再把文字连在一起；修正了手机上工具条过宽和快速切换页面时的问题。", "en": "Marks across list items no longer run the words together; fixed an over-wide toolbar on phones and quick page switches.", "ms": "Tanda merentasi item senarai tidak lagi mencantumkan perkataan; membetulkan bar alat yang terlalu lebar pada telefon dan pertukaran halaman yang pantas."}

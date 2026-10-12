@@ -130,8 +130,10 @@ export const UI = {
   copied: { zh: '已复制', en: 'Copied', ms: 'Disalin' },
   createdBy: { zh: 'Apps created by Bryan Woo', en: 'Apps created by Bryan Woo', ms: 'Apps created by Bryan Woo' },
   version: { zh: '版本', en: 'Version', ms: 'Versi' },
+  offline: { zh: '离线', en: 'Offline', ms: 'Luar talian' },
   offlineReady: { zh: '已可离线使用', en: 'Ready to use offline', ms: 'Sedia digunakan luar talian' },
   offlineNotYet: { zh: '尚未完成离线下载', en: 'Offline download not finished yet', ms: 'Muat turun luar talian belum selesai' },
+  contents: { zh: '目录', en: 'Contents', ms: 'Kandungan' },
   allSources: { zh: '资料来源', en: 'Sources', ms: 'Sumber' },
 
   updateReady: { zh: '有新版本', en: 'A new version is ready', ms: 'Versi baharu sedia' },

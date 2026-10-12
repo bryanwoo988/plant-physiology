@@ -59,8 +59,11 @@ export function mount(el, { lang }) {
   }
 
   function update() {
+    // Turgor cannot exceed −Ψs (the cell's Ψ would be above pure water), so
+    // the slider shows the value actually used.
+    if (psiP > -psiS) { psiP = Number((-psiS).toFixed(2)); sP.set(psiP); }
     const psiOut = osmoticPotential(sucrose, 1, 20);
-    const r = cellInSolution({ psiS, psiP: Math.min(psiP, -psiS), psiOut });
+    const r = cellInSolution({ psiS, psiP, psiOut });
     // How far the protoplast pulls away from the wall once plasmolysed.
     const shrink = r.plasmolysed ? clamp((psiS - psiOut) / -psiS, 0, 0.45) : 0;
     const inset = 5 + shrink * Math.min(cw, ch) * 0.8;
@@ -79,7 +82,7 @@ export function mount(el, { lang }) {
       }
       arrows.append(s('text', { x: 18, y: cy - 10, class: 'cell-label' }, 'H₂O'));
     }
-    const psiCell = Math.min(psiP, -psiS) + psiS;
+    const psiCell = psiP + psiS;
     rows.set('out', `${fmt(psiOut, 2)} MPa`);
     rows.set('cell', `${fmt(psiCell, 2)} MPa`);
     rows.set('flow', p(r.flow === 'in' ? 'in' : r.flow === 'out' ? 'outF' : 'none'));

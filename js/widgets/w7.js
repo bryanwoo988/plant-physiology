@@ -14,7 +14,7 @@ const L = {
   result: {
     linear: T('产生：ATP、NADPH、O₂', 'Makes: ATP, NADPH, O₂', 'Menghasilkan: ATP, NADPH, O₂'),
     cyclic: T('产生：只有 ATP（不放氧，没有 NADPH）', 'Makes: ATP only (no O₂, no NADPH)', 'Menghasilkan: ATP sahaja (tiada O₂, tiada NADPH)'),
-    dcmu: T('电子停在 QA：PQ 以后都拿不到电子，不放氧也不产生 NADPH', 'Electrons stop at QA: nothing downstream of PQ is reduced; no O₂, no NADPH', 'Elektron berhenti di QA: tiada apa selepas PQ diturunkan; tiada O₂, tiada NADPH'),
+    dcmu: T('电子停在 QA：从 PQ 开始都拿不到电子，不放氧也不产生 NADPH', 'Electrons stop at QA: PQ and everything after it stay unreduced; no O₂, no NADPH', 'Elektron berhenti di QA: PQ dan semua selepasnya tidak diturunkan; tiada O₂, tiada NADPH'),
     pq: T('电子在 PSI 末端被抢走交给 O₂，产生活性氧；NADPH 不能形成', 'Electrons are stolen at the end of PSI and given to O₂, making reactive oxygen; no NADPH', 'Elektron dicuri di hujung PSI dan diberi kepada O₂, menghasilkan oksigen reaktif; tiada NADPH'),
   },
   hint: T('点任何一个载体看说明', 'Tap any carrier for a note', 'Ketik mana-mana pembawa untuk nota'),

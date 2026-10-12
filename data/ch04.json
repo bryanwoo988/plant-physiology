@@ -1,0 +1,696 @@
+{
+ "id": "ch04",
+ "num": 4,
+ "stage": 1,
+ "title": {
+  "zh": "植物与无机营养",
+  "en": "Plants and inorganic nutrients",
+  "ms": "Tumbuhan dan nutrien tak organik"
+ },
+ "sources": [
+  "HH",
+  "LEC"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "从“吃土”到水培",
+    "en": "From soil to solution culture",
+    "ms": "Daripada tanah ke kultur larutan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "动物是异养的，靠现成的有机物过活；植物是自养的，可以在完全无机的环境里生存。植物营养分两部分：有机营养是靠光合作用把碳、氢、氧变成有机物；无机营养是从土壤取得矿质元素，也就是本章的主题。",
+      "en": "Animals are heterotrophs, living on ready-made organic molecules; plants are autotrophs that can live in an entirely inorganic world. Plant nutrition has two parts: organic nutrition, building carbon compounds from C, H and O by photosynthesis; and inorganic nutrition, taking mineral elements from the soil — the subject of this chapter.",
+      "ms": "Haiwan ialah heterotrof yang hidup daripada molekul organik sedia ada; tumbuhan ialah autotrof yang boleh hidup dalam persekitaran tak organik sepenuhnya. Pemakanan tumbuhan ada dua bahagian: pemakanan organik, membina sebatian karbon daripada C, H dan O melalui fotosintesis; dan pemakanan tak organik, mengambil unsur mineral dari tanah — topik bab ini."
+     },
+     "src": [
+      "HH:61-62",
+      "LEC"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "de Saussure（1767–1845）：用元素分析发现某些元素是生长必需的。",
+       "en": "de Saussure (1767–1845): elemental analysis showed some elements are needed for growth.",
+       "ms": "de Saussure (1767–1845): analisis unsur menunjukkan sesetengah unsur diperlukan untuk pertumbuhan."
+      },
+      {
+       "zh": "Sprengel（1787–1859）：只要缺一种必需元素，土壤就可能长不好。",
+       "en": "Sprengel (1787–1859): a soil may be unproductive if it lacks just one necessary element.",
+       "ms": "Sprengel (1787–1859): tanah mungkin tidak produktif jika kekurangan satu unsur yang perlu sahaja."
+      },
+      {
+       "zh": "Boussingault：豆科植物能利用空气中的氮——后来证实是根瘤里的固氮细菌。",
+       "en": "Boussingault: legumes can use atmospheric nitrogen — later traced to nitrogen-fixing bacteria in root nodules.",
+       "ms": "Boussingault: kekacang boleh menggunakan nitrogen atmosfera — kemudian dikesan kepada bakteria pengikat nitrogen dalam nodul akar."
+      },
+      {
+       "zh": "Sachs（1860）：第一次证明植物可以不用土壤，在配好的营养液里长大。",
+       "en": "Sachs (1860): first showed plants can grow without soil in a defined nutrient solution.",
+       "ms": "Sachs (1860): pertama kali menunjukkan tumbuhan boleh membesar tanpa tanah dalam larutan nutrien yang ditentukan."
+      },
+      {
+       "zh": "Lawes 和 Gilbert：用酸把不溶的磷矿石变成可溶的过磷酸钙，开启化肥工业。",
+       "en": "Lawes and Gilbert: treated insoluble rock phosphate with acid to make soluble superphosphate, starting the fertiliser industry.",
+       "ms": "Lawes dan Gilbert: merawat batuan fosfat tak larut dengan asid untuk menghasilkan superfosfat yang larut, memulakan industri baja."
+      }
+     ],
+     "src": [
+      "HH:62-63",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:hydroponics}}至今仍是研究植物营养需求的主要方法。现代配方多出自 Hoagland，浓度比土壤溶液高很多倍（土壤可以由颗粒不断补充，营养液不行）。营养液要打气，否则会缺氧，根的呼吸受抑制，吸收养分所需的能量就不够；容器要涂黑或包起来，避免藻类长出来抢养分。植物不断吸收，会选择性地耗尽某些离子、改变 pH，所以营养液要定期更换。",
+      "en": "{{t:hydroponics}} is still the main way to study nutrient requirements. Most modern recipes descend from Hoagland and are many times more concentrated than soil solution (soil particles keep topping the soil up; a solution cannot). The solution must be aerated — otherwise it becomes anoxic, root respiration stalls and there is no energy for uptake — and the container blacked out or wrapped so algae do not grow and compete. As plants grow they deplete some ions selectively and shift the pH, so the solution must be replaced regularly.",
+      "ms": "{{t:hydroponics}} masih merupakan cara utama mengkaji keperluan nutrien. Kebanyakan resipi moden berasal daripada Hoagland dan berkali ganda lebih pekat daripada larutan tanah (zarah tanah terus menambah larutan tanah; larutan tidak boleh). Larutan mesti diudarakan — jika tidak ia menjadi anoksik, respirasi akar terhenti dan tiada tenaga untuk pengambilan — dan bekas dihitamkan atau dibalut supaya alga tidak tumbuh dan bersaing. Apabila tumbuhan membesar, ia menyusutkan sesetengah ion secara memilih dan mengubah pH, jadi larutan mesti diganti dengan kerap."
+     },
+     "defines": [
+      "hydroponics"
+     ],
+     "src": [
+      "HH:63-65",
+      "LEC"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": {
+      "zh": "做实验时“没有任何介质是真正不含养分的”：软玻璃会释出钠，硬玻璃会释出硼，塑料会带来氯或氟。Sachs 当年只找到九种必需元素，因为其他元素需要量极少，早已以杂质形式混在他的盐和水里。",
+      "en": "In experiments, no medium is truly free of nutrients: soft glass releases sodium, hard glass boron, plastics chloride or fluoride. Sachs found only nine essential elements because the others are needed in such tiny amounts that they were already present as impurities in his salts and water.",
+      "ms": "Dalam eksperimen, tiada medium yang benar-benar bebas nutrien: kaca lembut membebaskan natrium, kaca keras boron, plastik klorida atau fluorida. Sachs hanya menemui sembilan unsur perlu kerana yang lain diperlukan dalam jumlah yang sangat kecil sehingga sudah wujud sebagai bendasing dalam garam dan airnya."
+     },
+     "src": [
+      "HH:63-65",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "什么叫“必需元素”",
+    "en": "What makes an element essential",
+    "ms": "Apa yang menjadikan unsur perlu"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "一个元素符合下面任何一条，就算{{t:essential-element}}：一、缺了它植物就无法完成正常生活史（例如结不出有活力的种子）；二、它是某种必需成分或代谢物的一部分，例如镁是叶绿素的组成。还有第三条：它必须直接参与植物代谢，而不只是改善培养介质里的微生物或化学条件——用营养液培养基本上已排除了这个疑虑。",
+      "en": "An element is an {{t:essential-element}} if it meets either of two criteria: without it the plant cannot complete a normal life cycle (for example, it cannot set viable seed); or it is part of an essential constituent or metabolite — magnesium in chlorophyll, for instance. A third criterion says it must act directly in the plant's metabolism, not merely correct an unfavourable microbial or chemical condition in the medium; solution culture largely takes care of that.",
+      "ms": "Sesuatu unsur ialah {{t:essential-element}} jika ia memenuhi salah satu daripada dua kriteria: tanpanya tumbuhan tidak dapat melengkapkan kitaran hidup normal (contohnya tidak dapat menghasilkan biji benih yang hidup); atau ia sebahagian daripada juzuk atau metabolit yang perlu — magnesium dalam klorofil, misalnya. Kriteria ketiga menyatakan ia mesti bertindak secara langsung dalam metabolisme tumbuhan, bukan sekadar membetulkan keadaan mikrob atau kimia yang tidak sesuai dalam medium; kultur larutan sebahagian besarnya menyelesaikan hal itu."
+     },
+     "defines": [
+      "essential-element"
+     ],
+     "src": [
+      "HH:65",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "目前公认的必需元素有 17 个，按组织中的含量分成两类（分类只看需要量，不代表哪个比较重要）：{{t:macronutrient}}：C、H、O、N、P、K、S、Ca、Mg；{{t:micronutrient}}：Fe、B、Cu、Zn、Mn、Mo、Cl、Ni。需要量大的元素很容易用“缺某元素”的营养液验证；需要量极小的，要等到够纯的盐出现才证实。有些“病”后来发现其实是缺素：例如燕麦灰斑病是缺锰。",
+      "en": "Seventeen elements are recognised as essential. They are grouped by the amounts found in tissue — which says nothing about relative importance. {{t:macronutrient}}: C, H, O, N, P, K, S, Ca, Mg. {{t:micronutrient}}: Fe, B, Cu, Zn, Mn, Mo, Cl, Ni. Elements needed in large amounts are easy to test by leaving them out of the solution; those needed in traces could only be confirmed once salts of sufficient purity existed. Some ‘diseases’ turned out to be deficiencies: grey speck of oats is manganese deficiency.",
+      "ms": "Tujuh belas unsur diiktiraf sebagai perlu. Ia dikumpulkan mengikut jumlah dalam tisu — yang tidak menunjukkan kepentingan relatif. {{t:macronutrient}}: C, H, O, N, P, K, S, Ca, Mg. {{t:micronutrient}}: Fe, B, Cu, Zn, Mn, Mo, Cl, Ni. Unsur yang diperlukan dalam jumlah besar mudah diuji dengan meninggalkannya daripada larutan; yang diperlukan dalam jumlah surih hanya dapat disahkan apabila garam yang cukup tulen wujud. Sesetengah ‘penyakit’ ternyata kekurangan nutrien: bintik kelabu oat ialah kekurangan mangan."
+     },
+     "defines": [
+      "macronutrient",
+      "micronutrient"
+     ],
+     "src": [
+      "HH:65-66",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "有些元素只对部分植物有益，称为有益元素：钠是许多 C₄ 植物必需的（32 种植物的调查发现 C₄ 需要、C₃ 不需要；缺钠会生长减慢、黄化、坏死）；硅累积在细胞壁里，帮植物抵抗真菌、防止倒伏；钴是根瘤里固氮细菌需要的，所以只有靠固氮时豆科植物才显出需要钴。",
+      "en": "Some elements help only certain plants — beneficial elements. Sodium is required by many C₄ plants (a survey of 32 species found C₄ but not C₃ plants need it; without it they grow slowly, yellow and develop dead patches). Silicon builds up in cell walls, helping resist fungi and preventing lodging. Cobalt is needed by the nitrogen-fixing bacteria of nodules, so legumes show a cobalt need only when they rely on fixation.",
+      "ms": "Sesetengah unsur hanya membantu tumbuhan tertentu — unsur bermanfaat. Natrium diperlukan oleh banyak tumbuhan C₄ (tinjauan 32 spesies mendapati C₄ tetapi bukan C₃ memerlukannya; tanpanya ia tumbuh perlahan, menguning dan mengalami bintik mati). Silikon terkumpul dalam dinding sel, membantu menahan kulat dan mencegah rebah. Kobalt diperlukan oleh bakteria pengikat nitrogen dalam nodul, jadi kekacang hanya menunjukkan keperluan kobalt apabila bergantung pada pengikatan."
+     },
+     "src": [
+      "HH:66-67",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "够不够？临界浓度与缺素症状",
+    "en": "Enough or not? Critical concentration and symptoms",
+    "ms": "Cukup atau tidak? Kepekatan kritikal dan simptom"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "一个元素供应不足时生长会下降。组织中刚好低于最大生长所需的浓度叫{{t:critical-concentration}}：低于它是缺乏，高于它再多也没好处（足够），太高则所有元素都会中毒。",
+      "en": "When an element runs short, growth falls. The tissue concentration just below the level that gives maximum growth is the {{t:critical-concentration}}: below it the plant is deficient; above it more does no good (adequate); and at high enough levels every nutrient becomes toxic.",
+      "ms": "Apabila sesuatu unsur tidak mencukupi, pertumbuhan menurun. Kepekatan tisu tepat di bawah paras yang memberi pertumbuhan maksimum ialah {{t:critical-concentration}}: di bawahnya tumbuhan kekurangan; di atasnya tambahan tidak memberi manfaat (mencukupi); dan pada paras yang cukup tinggi setiap nutrien menjadi toksik."
+     },
+     "defines": [
+      "critical-concentration"
+     ],
+     "src": [
+      "HH:67-68",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "缺素症状常见的是{{t:chlorosis}}（叶绿素减少而发黄）和坏死（组织死亡）。出现在哪里，取决于元素在体内的移动性：移动性高的元素（N、P、K、Mg、Cl）会从老叶搬到新叶，所以症状先出现在老叶；移动性低的（Ca、S、Fe、B、Cu 等）搬不动，症状先出现在幼叶和顶端。",
+      "en": "Common symptoms are {{t:chlorosis}} (yellowing from lost chlorophyll) and necrosis (dead tissue). Where they appear depends on how mobile the element is in the plant. Mobile elements (N, P, K, Mg, Cl) are moved from old leaves to young ones, so symptoms show first in older leaves; immobile ones (Ca, S, Fe, B, Cu and others) cannot be moved, so symptoms show first in young leaves and growing tips.",
+      "ms": "Simptom biasa ialah {{t:chlorosis}} (penguningan akibat kehilangan klorofil) dan nekrosis (tisu mati). Lokasinya bergantung pada mobiliti unsur dalam tumbuhan. Unsur mudah gerak (N, P, K, Mg, Cl) dipindahkan dari daun tua ke daun muda, jadi simptom muncul dahulu pada daun tua; unsur tidak mudah gerak (Ca, S, Fe, B, Cu dan lain-lain) tidak dapat dipindahkan, jadi simptom muncul dahulu pada daun muda dan hujung yang sedang tumbuh."
+     },
+     "defines": [
+      "chlorosis"
+     ],
+     "src": [
+      "HH:68-69",
+      "LEC"
+     ]
+    },
+    {
+     "type": "widget",
+     "id": "W4"
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "每个元素做什么",
+    "en": "What each element does",
+    "ms": "Apa yang dilakukan setiap unsur"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "table",
+     "src": [
+      "HH:69-75",
+      "LEC"
+     ],
+     "caption": {
+      "zh": "必需矿质元素一览",
+      "en": "The essential mineral elements at a glance",
+      "ms": "Unsur mineral perlu secara ringkas"
+     },
+     "headers": [
+      {
+       "zh": "元素",
+       "en": "Element",
+       "ms": "Unsur"
+      },
+      {
+       "zh": "吸收形式",
+       "en": "Taken up as",
+       "ms": "Diambil sebagai"
+      },
+      {
+       "zh": "主要功能",
+       "en": "Main roles",
+       "ms": "Peranan utama"
+      },
+      {
+       "zh": "移动性",
+       "en": "Mobility",
+       "ms": "Mobiliti"
+      },
+      {
+       "zh": "典型症状",
+       "en": "Typical symptoms",
+       "ms": "Simptom biasa"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "zh": "N",
+        "en": "N",
+        "ms": "N"
+       },
+       {
+        "zh": "NO₃⁻、NH₄⁺",
+        "en": "NO₃⁻, NH₄⁺",
+        "ms": "NO₃⁻, NH₄⁺"
+       },
+       {
+        "zh": "蛋白质、核酸、叶绿素、部分激素",
+        "en": "proteins, nucleic acids, chlorophyll, some hormones",
+        "ms": "protein, asid nukleik, klorofil, sesetengah hormon"
+       },
+       {
+        "zh": "高",
+        "en": "high",
+        "ms": "tinggi"
+       },
+       {
+        "zh": "老叶先黄化、生长慢、花青素累积；过多则地上部徒长",
+        "en": "older leaves yellow first, slow growth, anthocyanin; excess gives lush shoots",
+        "ms": "daun tua menguning dahulu, tumbesaran perlahan, antosianin; berlebihan memberi pucuk subur"
+       }
+      ],
+      [
+       {
+        "zh": "P",
+        "en": "P",
+        "ms": "P"
+       },
+       {
+        "zh": "H₂PO₄⁻ 等（磷酸，受 pH 影响）",
+        "en": "H₂PO₄⁻ etc. (phosphoric acid; pH-dependent)",
+        "ms": "H₂PO₄⁻ dll. (asid fosforik; bergantung pH)"
+       },
+       {
+        "zh": "磷酸糖、ATP、DNA/RNA、磷脂",
+        "en": "sugar phosphates, ATP, DNA/RNA, phospholipids",
+        "ms": "gula fosfat, ATP, DNA/RNA, fosfolipid"
+       },
+       {
+        "zh": "高",
+        "en": "high",
+        "ms": "tinggi"
+       },
+       {
+        "zh": "深绿、生长受阻、坏死斑",
+        "en": "intense green, stunting, necrotic spots",
+        "ms": "hijau pekat, terbantut, bintik nekrosis"
+       }
+      ],
+      [
+       {
+        "zh": "K",
+        "en": "K",
+        "ms": "K"
+       },
+       {
+        "zh": "K⁺",
+        "en": "K⁺",
+        "ms": "K⁺"
+       },
+       {
+        "zh": "活化光合与呼吸酶、调节渗透势、气孔开闭",
+        "en": "activates photosynthesis and respiration enzymes; osmotic balance; stomata",
+        "ms": "mengaktifkan enzim fotosintesis dan respirasi; keseimbangan osmotik; stoma"
+       },
+       {
+        "zh": "高",
+        "en": "high",
+        "ms": "tinggi"
+       },
+       {
+        "zh": "老叶斑驳黄化、叶缘坏死；砂土易缺",
+        "en": "mottled older leaves, scorched margins; common on sandy soils",
+        "ms": "daun tua bertompok, tepi hangus; biasa di tanah berpasir"
+       }
+      ],
+      [
+       {
+        "zh": "S",
+        "en": "S",
+        "ms": "S"
+       },
+       {
+        "zh": "SO₄²⁻",
+        "en": "SO₄²⁻",
+        "ms": "SO₄²⁻"
+       },
+       {
+        "zh": "含硫氨基酸、二硫键、辅酶 A、铁硫蛋白",
+        "en": "S amino acids, disulphide bonds, coenzyme A, iron–sulphur proteins",
+        "ms": "asid amino S, ikatan disulfida, koenzim A, protein besi–sulfur"
+       },
+       {
+        "zh": "低",
+        "en": "low",
+        "ms": "rendah"
+       },
+       {
+        "zh": "幼叶先黄化；不常见",
+        "en": "young leaves yellow first; uncommon",
+        "ms": "daun muda menguning dahulu; jarang"
+       }
+      ],
+      [
+       {
+        "zh": "Ca",
+        "en": "Ca",
+        "ms": "Ca"
+       },
+       {
+        "zh": "Ca²⁺",
+        "en": "Ca²⁺",
+        "ms": "Ca²⁺"
+       },
+       {
+        "zh": "中胶层的果胶钙、纺锤体、膜的完整、第二信使",
+        "en": "calcium pectate in the middle lamella, spindle, membranes, second messenger",
+        "ms": "kalsium pektat dalam lamela tengah, gelendong, membran, utusan kedua"
+       },
+       {
+        "zh": "低",
+        "en": "low",
+        "ms": "rendah"
+       },
+       {
+        "zh": "分生组织异常、根生长差、顶端坏死",
+        "en": "abnormal division, poor roots, dying tips",
+        "ms": "pembahagian tidak normal, akar lemah, hujung mati"
+       }
+      ],
+      [
+       {
+        "zh": "Mg",
+        "en": "Mg",
+        "ms": "Mg"
+       },
+       {
+        "zh": "Mg²⁺",
+        "en": "Mg²⁺",
+        "ms": "Mg²⁺"
+       },
+       {
+        "zh": "叶绿素中心原子、核糖体、把 ATP 接到酶上",
+        "en": "centre of chlorophyll, ribosomes, links ATP to enzymes",
+        "ms": "pusat klorofil, ribosom, menghubungkan ATP kepada enzim"
+       },
+       {
+        "zh": "高",
+        "en": "high",
+        "ms": "tinggi"
+       },
+       {
+        "zh": "老叶叶脉间黄化；酸性与砂质土易缺",
+        "en": "interveinal chlorosis of older leaves; acid, sandy soils",
+        "ms": "klorosis antara urat daun tua; tanah berasid dan berpasir"
+       }
+      ],
+      [
+       {
+        "zh": "Fe",
+        "en": "Fe",
+        "ms": "Fe"
+       },
+       {
+        "zh": "Fe²⁺、Fe³⁺（螯合）",
+        "en": "Fe²⁺, Fe³⁺ (chelated)",
+        "ms": "Fe²⁺, Fe³⁺ (berkelat)"
+       },
+       {
+        "zh": "细胞色素、铁硫蛋白；合成叶绿素所需",
+        "en": "cytochromes, iron–sulphur proteins; needed to make chlorophyll",
+        "ms": "sitokrom, protein besi–sulfur; diperlukan untuk membuat klorofil"
+       },
+       {
+        "zh": "低",
+        "en": "low",
+        "ms": "rendah"
+       },
+       {
+        "zh": "幼叶叶脉间黄化",
+        "en": "interveinal chlorosis of young leaves",
+        "ms": "klorosis antara urat daun muda"
+       }
+      ],
+      [
+       {
+        "zh": "B",
+        "en": "B",
+        "ms": "B"
+       },
+       {
+        "zh": "H₃BO₃",
+        "en": "H₃BO₃",
+        "ms": "H₃BO₃"
+       },
+       {
+        "zh": "细胞壁；作用机理所知最少",
+        "en": "cell walls; the least understood",
+        "ms": "dinding sel; paling kurang difahami"
+       },
+       {
+        "zh": "低",
+        "en": "low",
+        "ms": "rendah"
+       },
+       {
+        "zh": "分生组织坏死、节间缩短呈丛生状",
+        "en": "dead meristems, short internodes, bushy habit",
+        "ms": "meristem mati, ruas pendek, rupa merimbun"
+       }
+      ],
+      [
+       {
+        "zh": "Cu",
+        "en": "Cu",
+        "ms": "Cu"
+       },
+       {
+        "zh": "Cu²⁺",
+        "en": "Cu²⁺",
+        "ms": "Cu²⁺"
+       },
+       {
+        "zh": "质体蓝素、细胞色素氧化酶、多酚氧化酶、Cu/Zn-SOD",
+        "en": "plastocyanin, cytochrome oxidase, polyphenol oxidase, Cu/Zn-SOD",
+        "ms": "plastosianin, sitokrom oksidase, polifenol oksidase, Cu/Zn-SOD"
+       },
+       {
+        "zh": "低",
+        "en": "low",
+        "ms": "rendah"
+       },
+       {
+        "zh": "幼叶扭曲变形",
+        "en": "young leaves distorted",
+        "ms": "daun muda herot"
+       }
+      ],
+      [
+       {
+        "zh": "Zn",
+        "en": "Zn",
+        "ms": "Zn"
+       },
+       {
+        "zh": "Zn²⁺",
+        "en": "Zn²⁺",
+        "ms": "Zn²⁺"
+       },
+       {
+        "zh": "乙醇脱氢酶、碳酸酐酶、SOD；与生长素量有关",
+        "en": "alcohol dehydrogenase, carbonic anhydrase, SOD; linked to auxin levels",
+        "ms": "alkohol dehidrogenase, karbonik anhidrase, SOD; berkait dengan paras auksin"
+       },
+       {
+        "zh": "低",
+        "en": "low",
+        "ms": "rendah"
+       },
+       {
+        "zh": "节间短、小叶（“小叶病”）",
+        "en": "short internodes, small leaves (‘little leaf’)",
+        "ms": "ruas pendek, daun kecil (‘daun kecil’)"
+       }
+      ],
+      [
+       {
+        "zh": "Mn",
+        "en": "Mn",
+        "ms": "Mn"
+       },
+       {
+        "zh": "Mn²⁺",
+        "en": "Mn²⁺",
+        "ms": "Mn²⁺"
+       },
+       {
+        "zh": "光系统 II 放氧复合体、呼吸中的脱氢与脱羧酶",
+        "en": "oxygen-evolving complex of photosystem II; dehydrogenases, decarboxylases",
+        "ms": "kompleks pembebasan oksigen fotosistem II; dehidrogenase, dekarboksilase"
+       },
+       {
+        "zh": "低",
+        "en": "low",
+        "ms": "rendah"
+       },
+       {
+        "zh": "燕麦灰斑病、叶脉间斑点",
+        "en": "grey speck of oats, interveinal spots",
+        "ms": "bintik kelabu oat, bintik antara urat"
+       }
+      ],
+      [
+       {
+        "zh": "Mo",
+        "en": "Mo",
+        "ms": "Mo"
+       },
+       {
+        "zh": "MoO₄²⁻",
+        "en": "MoO₄²⁻",
+        "ms": "MoO₄²⁻"
+       },
+       {
+        "zh": "硝酸还原酶、固氮酶",
+        "en": "nitrate reductase, nitrogenase",
+        "ms": "nitrat reduktase, nitrogenase"
+       },
+       {
+        "zh": "中",
+        "en": "moderate",
+        "ms": "sederhana"
+       },
+       {
+        "zh": "需要量最低；花椰菜“鞭尾”叶",
+        "en": "smallest requirement; ‘whiptail’ leaves",
+        "ms": "keperluan paling kecil; daun ‘ekor cemeti’"
+       }
+      ],
+      [
+       {
+        "zh": "Cl",
+        "en": "Cl",
+        "ms": "Cl"
+       },
+       {
+        "zh": "Cl⁻",
+        "en": "Cl⁻",
+        "ms": "Cl⁻"
+       },
+       {
+        "zh": "平衡阳离子电荷、光系统 II 放氧",
+        "en": "balances cation charge; oxygen evolution in PSII",
+        "ms": "mengimbangi cas kation; pembebasan oksigen PSII"
+       },
+       {
+        "zh": "高",
+        "en": "high",
+        "ms": "tinggi"
+       },
+       {
+        "zh": "叶尖萎蔫；极少见",
+        "en": "wilting leaf tips; very rare",
+        "ms": "hujung daun layu; sangat jarang"
+       }
+      ],
+      [
+       {
+        "zh": "Ni",
+        "en": "Ni",
+        "ms": "Ni"
+       },
+       {
+        "zh": "Ni²⁺",
+        "en": "Ni²⁺",
+        "ms": "Ni²⁺"
+       },
+       {
+        "zh": "脲酶、氢化酶",
+        "en": "urease, hydrogenase",
+        "ms": "urease, hidrogenase"
+       },
+       {
+        "zh": "—",
+        "en": "—",
+        "ms": "—"
+       },
+       {
+        "zh": "叶尖累积尿素而坏死",
+        "en": "urea builds up and kills leaf tips",
+        "ms": "urea terkumpul dan membunuh hujung daun"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "铁特别值得一提：所有微量元素中植物需要最多的就是铁，但在生物体常见的 pH 下，Fe³⁺ 容易形成不溶的水合氧化物，所以缺铁很普遍。农业上常用{{t:chelate}}供铁，例如 EDTA 铁：螯合剂和金属离子共用电子对，形成稳定又可溶的复合物，根仍然能把铁取出来。",
+      "en": "Iron deserves a closer look. Of all the micronutrients it is needed in the largest amounts, yet at biological pH Fe³⁺ readily forms insoluble hydrous oxides, so iron deficiency is common. Growers often supply it as a {{t:chelate}} such as Fe-EDTA: the chelating agent shares electron pairs with the metal ion to form a stable, soluble complex from which the root can still withdraw the iron.",
+      "ms": "Besi wajar diberi perhatian. Antara semua mikronutrien, ia diperlukan dalam jumlah terbesar, namun pada pH biologi Fe³⁺ mudah membentuk oksida terhidrat yang tidak larut, jadi kekurangan besi biasa berlaku. Penanam sering membekalkannya sebagai {{t:chelate}} seperti Fe-EDTA: agen pengkelat berkongsi pasangan elektron dengan ion logam untuk membentuk kompleks stabil yang larut, daripada mana akar masih boleh mengambil besi."
+     },
+     "defines": [
+      "chelate"
+     ],
+     "src": [
+      "HH:72-73",
+      "LEC"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "策略 I（大多数双子叶植物）：根表皮形成特化的传递细胞、向土壤分泌更多 H⁺ 降低 pH、释放咖啡酸等强配体，并在表皮细胞膜上诱导还原酶，把 Fe³⁺ 还原成 Fe²⁺ 再吸收。",
+       "en": "Strategy I (most dicots): transfer cells form in the root epidermis, more H⁺ is secreted to acidify the soil, strong ligands such as caffeic acid are released, and reductases are induced in the epidermal membrane to reduce Fe³⁺ to Fe²⁺ before uptake.",
+       "ms": "Strategi I (kebanyakan dikotiledon): sel pemindahan terbentuk dalam epidermis akar, lebih banyak H⁺ dirembeskan untuk mengasidkan tanah, ligan kuat seperti asid kafeik dibebaskan, dan reduktase diaruh dalam membran epidermis untuk menurunkan Fe³⁺ kepada Fe²⁺ sebelum pengambilan."
+      },
+      {
+       "zh": "策略 II（禾本科等）：根分泌对 Fe³⁺ 亲和力很高的“植物铁载体”，整个复合物被吸收，进入根后再把铁还原成 Fe²⁺ 释放出来。",
+       "en": "Strategy II (grasses): roots release phytosiderophores with a very high affinity for Fe³⁺; the whole complex is taken up and the iron is reduced to Fe²⁺ inside the root.",
+       "ms": "Strategi II (rumput): akar membebaskan fitosiderofor yang berafiniti sangat tinggi terhadap Fe³⁺; seluruh kompleks diambil dan besi diturunkan kepada Fe²⁺ di dalam akar."
+      }
+     ],
+     "src": [
+      "HH:72-73",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "heading": {
+    "zh": "太多也不行：毒害",
+    "en": "Too much: toxicity",
+    "ms": "Terlalu banyak: ketoksikan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "微量元素最能说明“过量的危险”：大多数适宜范围很窄，在较低浓度就会中毒。临界毒害浓度定义为使干物质减少 10 % 的组织浓度。例如淹水土壤常出现锰中毒；葡萄园长期喷含铜农药会累积铜；酸性土壤或施用污泥时也可能出现金属毒害。",
+      "en": "Micronutrients show the dangers of excess best: most have a narrow adequate range and become toxic at fairly low concentrations. The critical toxicity level is the tissue concentration that reduces dry matter by 10 %. Manganese toxicity is common in waterlogged soils; copper builds up in vineyards from years of copper sprays; metal toxicity can also appear in acid soils or where sewage sludge is applied.",
+      "ms": "Mikronutrien paling jelas menunjukkan bahaya berlebihan: kebanyakannya mempunyai julat mencukupi yang sempit dan menjadi toksik pada kepekatan yang agak rendah. Paras ketoksikan kritikal ialah kepekatan tisu yang mengurangkan bahan kering sebanyak 10 %. Ketoksikan mangan biasa berlaku di tanah bertakung air; kuprum terkumpul di ladang anggur akibat semburan kuprum bertahun-tahun; ketoksikan logam juga boleh muncul di tanah berasid atau tempat enap cemar kumbahan digunakan."
+     },
+     "src": [
+      "HH:75-76",
+      "LEC"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "hydroponics",
+  "essential-element",
+  "macronutrient",
+  "micronutrient",
+  "critical-concentration",
+  "chlorosis",
+  "chelate"
+ ]
+}

@@ -1,0 +1,346 @@
+{
+ "id": "ch08",
+ "num": 8,
+ "stage": 2,
+ "title": {
+  "zh": "碳反应：固定二氧化碳",
+  "en": "The carbon reactions: fixing CO₂",
+  "ms": "Tindak balas karbon: mengikat CO₂"
+ },
+ "sources": [
+  "HH",
+  "LEC"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "气孔：CO₂ 的入口",
+    "en": "Stomata: the door for CO₂",
+    "ms": "Stoma: pintu masuk CO₂"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "叶片 90 % 以上的 CO₂ 和水汽交换经过气孔。一对保卫细胞，加上周围形状不同的副卫细胞，合称{{t:stomatal-complex}}。保卫细胞有两型：大多数双子叶植物是肾形（椭圆形），禾本科是哑铃形。肾形保卫细胞的背壁薄、腹壁厚，外侧还有突起的“外缘”保护气孔口。",
+      "en": "More than 90 % of a leaf's exchange of CO₂ and water vapour passes through stomata. A pair of guard cells plus the differently shaped subsidiary cells around them form the {{t:stomatal-complex}}. Guard cells come in two types: kidney-shaped (elliptic) in most dicots, and dumbbell-shaped in grasses. Kidney-shaped guard cells have a thin dorsal wall and a thick ventral wall, with a ledge on the outside that protects the throat of the pore.",
+      "ms": "Lebih 90 % pertukaran CO₂ dan wap air daun melalui stoma. Sepasang sel pengawal bersama sel subsidiari yang berlainan bentuk di sekelilingnya membentuk {{t:stomatal-complex}}. Sel pengawal ada dua jenis: berbentuk ginjal (elips) dalam kebanyakan dikotiledon, dan berbentuk dumbel dalam rumput. Sel pengawal berbentuk ginjal mempunyai dinding dorsal nipis dan dinding ventral tebal, dengan birai di luar yang melindungi kerongkong liang."
+     },
+     "defines": [
+      "stomatal-complex"
+     ],
+     "src": [
+      "HH:130-132",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "气孔全开时只占叶面积的 0.5–2 %，CO₂ 进入的速率却可达同样面积开放表面的 70 %。原因是“边缘效应”：经过小孔的扩散不只直线前进，还会从孔边缘向四周散开，扩散量和孔的周长（直径）成正比，而不是和面积成正比。所以许多分散的小孔比一个同样总面积的大孔有效得多。",
+      "en": "Fully open stomata cover only 0.5–2 % of the leaf, yet CO₂ can enter at up to 70 % of the rate through an open surface of the same area. The reason is the edge effect: molecules diffusing through a small pore do not only go straight through but also spill out sideways around its rim, so diffusion scales with the pore's perimeter (diameter) rather than its area. Many scattered small pores are therefore far more effective than one large pore of the same total area.",
+      "ms": "Stoma yang terbuka penuh hanya meliputi 0.5–2 % daun, namun CO₂ boleh masuk sehingga 70 % kadar melalui permukaan terbuka yang sama luas. Sebabnya ialah kesan tepi: molekul yang meresap melalui liang kecil bukan sahaja bergerak lurus tetapi juga tertumpah ke sisi di sekeliling bibirnya, jadi resapan berkadar dengan perimeter (garis pusat) liang dan bukan luasnya. Banyak liang kecil yang bertaburan oleh itu jauh lebih berkesan daripada satu liang besar yang sama jumlah luasnya."
+     },
+     "src": [
+      "HH:132-133",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "气孔怎样开关",
+    "en": "How stomata open and close",
+    "ms": "Bagaimana stoma membuka dan menutup"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "保卫细胞吸水、膨压上升时气孔张开。为什么是“张开”而不是单纯胀大？因为细胞壁里的纤维素微纤丝呈放射状排列，加上腹壁较厚：细胞只能沿长轴伸长并向外弯，两个细胞之间的孔就被拉开。",
+      "en": "Stomata open when guard cells take up water and their turgor rises. Why open rather than just swell? Cellulose microfibrils in the walls run radially and the ventral wall is thicker, so the cells can only lengthen and bow outwards, pulling the pore between them open.",
+      "ms": "Stoma membuka apabila sel pengawal menyerap air dan turgornya meningkat. Mengapa membuka dan bukan sekadar membengkak? Mikrofibril selulosa dalam dinding tersusun secara jejarian dan dinding ventral lebih tebal, jadi sel hanya boleh memanjang dan melengkung ke luar, menarik liang di antaranya terbuka."
+     },
+     "src": [
+      "HH:133-134",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "保卫细胞的水势怎样降低？靠累积溶质：开孔时 K⁺ 浓度可以升高好几倍。第一步是质膜 {{t:proton-pump}}把 H⁺ 泵出，使膜内更负，K⁺ 随之经通道进入。证据：促进质子泵的真菌毒素壳梭孢素（fusicoccin）会让气孔打开，抑制质子泵的钒酸盐会阻止开孔。为保持电中性，阴离子跟着累积：一部分是吸进来的 Cl⁻，一部分是保卫细胞用 PEP 羧化酶自己合成的苹果酸。",
+      "en": "How does the guard cell lower its water potential? By accumulating solutes — K⁺ can rise several-fold as the pore opens. The first step is the plasma-membrane {{t:proton-pump}} extruding H⁺, making the inside more negative so K⁺ enters through channels. The evidence: fusicoccin, a fungal toxin that stimulates the pump, opens stomata, and vanadate, which inhibits it, prevents opening. To keep electrical neutrality, anions accumulate too — partly Cl⁻ taken up, partly malate made in the guard cell by PEP carboxylase.",
+      "ms": "Bagaimana sel pengawal merendahkan keupayaan airnya? Dengan mengumpul zat terlarut — K⁺ boleh meningkat beberapa kali ganda apabila liang membuka. Langkah pertama ialah {{t:proton-pump}} membran plasma mengeluarkan H⁺, menjadikan bahagian dalam lebih negatif supaya K⁺ masuk melalui saluran. Buktinya: fusikoksin, toksin kulat yang merangsang pam, membuka stoma, dan vanadat, yang merencatnya, menghalang pembukaan. Untuk mengekalkan keneutralan elektrik, anion turut terkumpul — sebahagiannya Cl⁻ yang diambil, sebahagiannya malat yang dibuat dalam sel pengawal oleh PEP karboksilase."
+     },
+     "src": [
+      "HH:133-135",
+      "LEC"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "光：通常光使气孔开。部分是间接的——光合作用消耗了叶内的 CO₂。",
+       "en": "Light: stomata usually open in light, partly indirectly, because photosynthesis draws down the CO₂ inside the leaf.",
+       "ms": "Cahaya: stoma biasanya membuka dalam cahaya, sebahagiannya secara tidak langsung, kerana fotosintesis menurunkan CO₂ di dalam daun."
+      },
+      {
+       "zh": "CO₂：气孔反应的是细胞间隙里的 CO₂ 浓度。低 CO₂ 开、高 CO₂ 关；但在无 CO₂ 的空气里，黑暗中的气孔仍然不容易打开。",
+       "en": "CO₂: stomata respond to the CO₂ concentration in the intercellular spaces — low CO₂ opens, high CO₂ closes; yet in CO₂-free air, stomata in the dark still do not open easily.",
+       "ms": "CO₂: stoma bertindak balas kepada kepekatan CO₂ dalam ruang antara sel — CO₂ rendah membuka, CO₂ tinggi menutup; namun dalam udara bebas CO₂, stoma dalam gelap masih sukar membuka."
+      },
+      {
+       "zh": "蓝光：在很低的光量（低于约 15 μmol m⁻² s⁻¹）下，蓝光就能直接作用于保卫细胞，促进质子泵和苹果酸合成。黎明和黄昏光里蓝光比例高，这个反应可能让气孔在一早就准备好。",
+       "en": "Blue light: at very low fluence (below about 15 μmol m⁻² s⁻¹), blue light acts directly on guard cells, activating the proton pump and malate synthesis. Light at dawn and dusk is relatively rich in blue, so this response may prime stomata early in the day.",
+       "ms": "Cahaya biru: pada fluens sangat rendah (di bawah kira-kira 15 μmol m⁻² s⁻¹), cahaya biru bertindak terus ke atas sel pengawal, mengaktifkan pam proton dan sintesis malat. Cahaya pada subuh dan senja agak kaya dengan biru, jadi tindak balas ini mungkin menyediakan stoma awal hari."
+      },
+      {
+       "zh": "脱落酸（ABA）：干旱时让气孔关闭（第 21 章）。",
+       "en": "Abscisic acid (ABA): closes stomata under drought (Chapter 21).",
+       "ms": "Asid absisik (ABA): menutup stoma semasa kemarau (Bab 21)."
+      }
+     ],
+     "src": [
+      "HH:135-136",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "卡尔文循环",
+    "en": "The Calvin cycle",
+    "ms": "Kitaran Calvin"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "CO₂ 在叶绿体基质里经{{t:calvin-cycle}}（光合碳还原循环，PCR 循环）还原成糖。它分三个阶段：",
+      "en": "CO₂ is reduced to sugar in the stroma by the {{t:calvin-cycle}} (the photosynthetic carbon reduction, or PCR, cycle). It has three stages:",
+      "ms": "CO₂ diturunkan kepada gula dalam stroma oleh {{t:calvin-cycle}} (kitaran penurunan karbon fotosintetik, atau PCR). Ia mempunyai tiga peringkat:"
+     },
+     "defines": [
+      "calvin-cycle"
+     ],
+     "src": [
+      "HH:136-137",
+      "LEC"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "羧化：{{t:rubisco}}把 CO₂ 加到五碳的 {{t:rubp}} 上，立刻裂成两分子三碳的 3-磷酸甘油酸（3-PGA）。3-PGA 是光合作用第一个稳定产物，所以这条途径叫 C₃ 途径；这一步 ΔG 约 −35 kJ/mol，很容易进行。",
+       "en": "Carboxylation: {{t:rubisco}} adds CO₂ to five-carbon {{t:rubp}}, which immediately splits into two molecules of three-carbon 3-phosphoglycerate (3-PGA). 3-PGA is the first stable product, which is why this is called the C₃ pathway; the step has ΔG of about −35 kJ/mol and runs readily.",
+       "ms": "Pengkarboksilan: {{t:rubisco}} menambah CO₂ kepada {{t:rubp}} lima karbon, yang serta-merta terbelah menjadi dua molekul 3-fosfogliserat (3-PGA) tiga karbon. 3-PGA ialah hasil stabil pertama, sebab itu ia dipanggil laluan C₃; langkah ini mempunyai ΔG kira-kira −35 kJ/mol dan berlaku dengan mudah."
+      },
+      {
+       "zh": "还原：3-PGA 先用 ATP 磷酸化，再用 NADPH 还原成丙糖磷酸（甘油醛-3-磷酸）——光反应的产物就用在这里。",
+       "en": "Reduction: 3-PGA is phosphorylated with ATP and then reduced with NADPH to triose phosphate (glyceraldehyde-3-phosphate) — this is where the products of the light reactions are spent.",
+       "ms": "Penurunan: 3-PGA difosforilkan dengan ATP dan kemudian diturunkan dengan NADPH kepada triosa fosfat (gliseraldehid-3-fosfat) — di sinilah hasil tindak balas cahaya digunakan."
+      },
+      {
+       "zh": "再生：大部分丙糖磷酸经一连串反应重新组合，再花 ATP 变回 RuBP，让循环继续；剩下的才输出合成蔗糖或淀粉。",
+       "en": "Regeneration: most of the triose phosphate is rearranged through a series of reactions and, with more ATP, turned back into RuBP so the cycle continues; only the rest is exported to make sucrose or starch.",
+       "ms": "Penjanaan semula: kebanyakan triosa fosfat disusun semula melalui satu siri tindak balas dan, dengan lebih banyak ATP, ditukar kembali kepada RuBP supaya kitaran berterusan; hanya bakinya dieksport untuk membuat sukrosa atau kanji."
+      }
+     ],
+     "ordered": true,
+     "defines": [
+      "rubisco",
+      "rubp"
+     ],
+     "src": [
+      "HH:137-139",
+      "LEC"
+     ]
+    },
+    {
+     "type": "widget",
+     "id": "W8"
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "算账：每固定 1 分子 CO₂ 需要 3 个 ATP 和 2 个 NADPH（ATP/NADPH = 1.5）。每个 NADPH 带 2 个电子，所以每个 CO₂ 要 4 个电子，相当于 529 kJ/mol；而己糖完全氧化每个 CO₂ 约放出 469 kJ，储能效率约 88 %。若把再生 RuBP 用掉的 ATP 也算进去，效率约 58 %。",
+      "en": "The bookkeeping: each CO₂ fixed costs 3 ATP and 2 NADPH (ATP/NADPH = 1.5). Each NADPH carries two electrons, so each CO₂ takes four electrons, an input of 529 kJ/mol; oxidising hexose returns about 469 kJ per CO₂, an energy-storage efficiency of about 88 %. Counting the ATP spent regenerating RuBP as well, efficiency is about 58 %.",
+      "ms": "Perakaunannya: setiap CO₂ yang diikat memerlukan 3 ATP dan 2 NADPH (ATP/NADPH = 1.5). Setiap NADPH membawa dua elektron, jadi setiap CO₂ memerlukan empat elektron, input 529 kJ/mol; pengoksidaan heksosa memulangkan kira-kira 469 kJ bagi setiap CO₂, kecekapan penyimpanan tenaga kira-kira 88 %. Jika ATP yang digunakan untuk menjana semula RuBP turut dikira, kecekapannya kira-kira 58 %."
+     },
+     "src": [
+      "HH:138-139"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "卡尔文循环受到严密调控",
+    "en": "The cycle is tightly regulated",
+    "ms": "Kitaran dikawal rapi"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "RuBP 的再生是“自催化”的：产物之一正是循环所需的反应物。RuBP 少的时候，循环先把丙糖磷酸全部留下来增加中间产物，等量足够了才开始输出。所以植物从暗处进入光下，要过一段“光合诱导期”才达到稳定速率。",
+      "en": "Regenerating RuBP is autocatalytic: one of the products is a reactant the cycle needs. When RuBP is low, the cycle keeps all its triose phosphate to build up intermediates and begins exporting only when there is enough. A plant moved from dark to light therefore goes through a photosynthetic induction period before reaching a steady rate.",
+      "ms": "Penjanaan semula RuBP adalah autokatalitik: salah satu hasilnya ialah bahan tindak balas yang diperlukan kitaran. Apabila RuBP rendah, kitaran menyimpan semua triosa fosfatnya untuk membina perantaraan dan hanya mula mengeksport apabila cukup. Tumbuhan yang dipindahkan dari gelap ke cahaya oleh itu melalui tempoh aruhan fotosintetik sebelum mencapai kadar stabil."
+     },
+     "src": [
+      "HH:139-140",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "光间接控制 rubisco 的活性。光下质子被泵进类囊体腔，基质的 pH 从暗中的约 5.0 升到约 8.0，同时游离 Mg²⁺ 增加。rubisco 要先活化：CO₂（不是作为底物的那一个）和酶活性位点上一个赖氨酸的氨基结合形成氨基甲酸酯，再与 Mg²⁺ 配位——高 pH 有利于此。但试管里只靠 CO₂、Mg²⁺ 和合适 pH，活性连预期的一半都不到；加上耗 ATP 的 {{t:rubisco-activase}} 才达到预期。",
+      "en": "Light controls rubisco indirectly. In light, protons are pumped into the lumen, the stromal pH rises from about 5.0 in the dark to about 8.0, and free Mg²⁺ increases. Rubisco must first be activated: a CO₂ (not the substrate one) binds an amino group of a lysine in the active site to form a carbamate, which then coordinates Mg²⁺ — favoured by high pH. Yet in the test tube CO₂, Mg²⁺ and the right pH give less than half the expected activity; adding the ATP-using {{t:rubisco-activase}} restores it.",
+      "ms": "Cahaya mengawal rubisco secara tidak langsung. Dalam cahaya, proton dipam ke dalam lumen, pH stroma naik daripada kira-kira 5.0 dalam gelap kepada kira-kira 8.0, dan Mg²⁺ bebas bertambah. Rubisco mesti diaktifkan dahulu: satu CO₂ (bukan CO₂ substrat) terikat pada kumpulan amino lisina di tapak aktif membentuk karbamat, yang kemudian berkoordinasi dengan Mg²⁺ — digalakkan oleh pH tinggi. Namun dalam tabung uji, CO₂, Mg²⁺ dan pH yang betul memberi kurang separuh aktiviti yang dijangka; menambah {{t:rubisco-activase}} yang menggunakan ATP memulihkannya."
+     },
+     "defines": [
+      "rubisco-activase"
+     ],
+     "src": [
+      "HH:140-141",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "其他几个卡尔文循环的酶也受光调控，靠的是铁氧还蛋白/硫氧还蛋白系统：PSI 还原铁氧还蛋白，再经铁氧还蛋白–硫氧还蛋白还原酶还原硫氧还蛋白，硫氧还蛋白把目标酶的二硫键还原，酶就被开启；天黑时又被氧化关闭。",
+      "en": "Several other Calvin-cycle enzymes are switched by light through the ferredoxin/thioredoxin system: PSI reduces ferredoxin, which reduces thioredoxin via ferredoxin–thioredoxin reductase; thioredoxin reduces disulphide bonds in the target enzymes, switching them on, and in the dark they are oxidised and switched off.",
+      "ms": "Beberapa enzim kitaran Calvin yang lain dihidupkan oleh cahaya melalui sistem feredoksin/tioredoksin: PSI menurunkan feredoksin, yang menurunkan tioredoksin melalui feredoksin–tioredoksin reduktase; tioredoksin menurunkan ikatan disulfida dalam enzim sasaran, menghidupkannya, dan dalam gelap ia dioksidakan dan dimatikan."
+     },
+     "src": [
+      "HH:141-142",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "heading": {
+    "zh": "光呼吸",
+    "en": "Photorespiration",
+    "ms": "Fotorespirasi"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "Rubisco 的全名是“核酮糖-1,5-二磷酸羧化酶/加氧酶”：它也会把 O₂ 加到 RuBP 上，产生一分子 3-PGA 和一分子二碳的磷酸乙醇酸。回收磷酸乙醇酸的途径叫 C₂ 乙醇酸循环，即{{t:photorespiration}}，横跨三个细胞器：",
+      "en": "Rubisco's full name is ribulose-1,5-bisphosphate carboxylase/oxygenase: it can also add O₂ to RuBP, giving one 3-PGA and one two-carbon phosphoglycolate. The salvage of phosphoglycolate is the C₂ glycolate cycle, or {{t:photorespiration}}, and it spans three organelles:",
+      "ms": "Nama penuh rubisco ialah ribulosa-1,5-bisfosfat karboksilase/oksigenase: ia juga boleh menambah O₂ kepada RuBP, menghasilkan satu 3-PGA dan satu fosfoglikolat dua karbon. Penyelamatan fosfoglikolat ialah kitaran glikolat C₂, atau {{t:photorespiration}}, dan ia merentasi tiga organel:"
+     },
+     "defines": [
+      "photorespiration"
+     ],
+     "src": [
+      "HH:142-143",
+      "LEC"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "叶绿体：磷酸乙醇酸去磷酸成乙醇酸，送到过氧化物酶体。",
+       "en": "Chloroplast: phosphoglycolate is dephosphorylated to glycolate, which goes to the peroxisome.",
+       "ms": "Kloroplas: fosfoglikolat dinyahfosforilkan kepada glikolat, yang pergi ke peroksisom."
+      },
+      {
+       "zh": "过氧化物酶体：乙醇酸氧化成乙醛酸和 H₂O₂（由过氧化氢酶分解）；乙醛酸经转氨作用变成甘氨酸。",
+       "en": "Peroxisome: glycolate is oxidised to glyoxylate and H₂O₂ (broken down by catalase); glyoxylate is transaminated to glycine.",
+       "ms": "Peroksisom: glikolat dioksidakan kepada glioksilat dan H₂O₂ (diuraikan oleh katalase); glioksilat ditransaminasi menjadi glisina."
+      },
+      {
+       "zh": "线粒体：两分子甘氨酸（4 C）变成一分子丝氨酸（3 C）加一分子 CO₂，同时放出等量的 NH₃。光呼吸的 CO₂ 就是从这里来的；NH₃ 随即在叶绿体中被重新同化（第 11 章）。",
+       "en": "Mitochondrion: two glycines (4 C) become one serine (3 C) plus one CO₂, releasing an equal amount of NH₃. This is where photorespired CO₂ comes from; the NH₃ is promptly reassimilated in the chloroplast (Chapter 11).",
+       "ms": "Mitokondria: dua glisina (4 C) menjadi satu serina (3 C) serta satu CO₂, membebaskan NH₃ dalam jumlah yang sama. Dari sinilah CO₂ fotorespirasi datang; NH₃ segera diasimilasi semula dalam kloroplas (Bab 11)."
+      },
+      {
+       "zh": "丝氨酸回到过氧化物酶体，变成羟基丙酮酸，再还原成甘油酸；甘油酸回到叶绿体，磷酸化成 3-PGA，重新进入卡尔文循环。",
+       "en": "Serine returns to the peroxisome, becomes hydroxypyruvate and is reduced to glycerate; glycerate goes back to the chloroplast and is phosphorylated to 3-PGA, re-entering the Calvin cycle.",
+       "ms": "Serina kembali ke peroksisom, menjadi hidroksipiruvat dan diturunkan kepada gliserat; gliserat kembali ke kloroplas dan difosforilkan kepada 3-PGA, memasuki semula kitaran Calvin."
+      }
+     ],
+     "ordered": true,
+     "src": [
+      "HH:142-143",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "在普通空气（21 % O₂）中，向日葵的光呼吸速率约为总光合作用的 17 %。每放出一个光呼吸 CO₂ 要用掉两个 O₂，所以真正的加氧速率约 34 %，羧化与加氧之比约 3 : 1。光呼吸既耗 ATP 和还原力，又损失已固定的碳。",
+      "en": "In normal air (21 % O₂), photorespiration in sunflower leaves runs at about 17 % of gross photosynthesis. Each photorespired CO₂ needs two O₂, so the true oxygenation rate is about 34 % and the ratio of carboxylation to oxygenation about 3 : 1. Photorespiration spends ATP and reducing power and loses carbon already fixed.",
+      "ms": "Dalam udara biasa (21 % O₂), fotorespirasi dalam daun bunga matahari berlaku pada kira-kira 17 % fotosintesis kasar. Setiap CO₂ fotorespirasi memerlukan dua O₂, jadi kadar pengoksigenan sebenar kira-kira 34 % dan nisbah pengkarboksilan kepada pengoksigenan kira-kira 3 : 1. Fotorespirasi menggunakan ATP dan kuasa penurunan serta kehilangan karbon yang sudah diikat."
+     },
+     "src": [
+      "HH:143-144",
+      "LEC"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "为什么保留这么浪费的途径？假说一：rubisco 演化于 CO₂ 多、O₂ 少的古代大气，本来就不必区分两者；而一旦产生了磷酸乙醇酸，就必须回收。拟南芥的光呼吸突变体在普通空气中会死亡，说明 C₃ 植物仍需要它。",
+       "en": "Why keep such a wasteful pathway? Hypothesis one: rubisco evolved when the atmosphere was high in CO₂ and low in O₂, with no need to discriminate; once phosphoglycolate is made it must be salvaged. Arabidopsis photorespiratory mutants die in normal air, so C₃ plants still need the pathway.",
+       "ms": "Mengapa mengekalkan laluan yang begitu membazir? Hipotesis pertama: rubisco berevolusi ketika atmosfera tinggi CO₂ dan rendah O₂, tanpa keperluan membezakan; apabila fosfoglikolat terbentuk ia mesti diselamatkan. Mutan fotorespirasi Arabidopsis mati dalam udara biasa, jadi tumbuhan C₃ masih memerlukan laluan ini."
+      },
+      {
+       "zh": "假说二：光呼吸消耗多余的激发能和电子，在强光、CO₂ 不足（例如气孔关闭）时保护叶片免受光氧化伤害。",
+       "en": "Hypothesis two: photorespiration uses up excess excitation energy and electrons, protecting the leaf from photo-oxidative damage under bright light with little CO₂ (when stomata are shut, for instance).",
+       "ms": "Hipotesis kedua: fotorespirasi menggunakan tenaga pengujaan dan elektron berlebihan, melindungi daun daripada kerosakan foto-oksidatif di bawah cahaya terang dengan sedikit CO₂ (contohnya apabila stoma tertutup)."
+      }
+     ],
+     "src": [
+      "HH:143-145",
+      "LEC"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": {
+      "zh": "有些植物发展出把 CO₂ 浓缩到 rubisco 周围的办法，几乎消除了光呼吸：C₄ 植物把两个步骤分在不同细胞，CAM 植物分在白天和晚上。详见第 15 章。",
+      "en": "Some plants have evolved ways to concentrate CO₂ around rubisco and almost abolish photorespiration: C₄ plants separate the steps between cells, CAM plants between day and night. See Chapter 15.",
+      "ms": "Sesetengah tumbuhan telah berevolusi cara untuk memekatkan CO₂ di sekeliling rubisco dan hampir menghapuskan fotorespirasi: tumbuhan C₄ memisahkan langkah antara sel, tumbuhan CAM antara siang dan malam. Lihat Bab 15."
+     },
+     "src": [
+      "HH:145-147",
+      "LEC"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "stomatal-complex",
+  "calvin-cycle",
+  "rubisco",
+  "rubp",
+  "rubisco-activase",
+  "photorespiration"
+ ]
+}

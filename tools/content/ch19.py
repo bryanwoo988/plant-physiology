@@ -1,0 +1,121 @@
+"""Chapter 19 — Gibberellins. Run: python3 tools/content/ch19.py"""
+import sys
+sys.path.insert(0, 'tools/content')
+from build import T, P, L, N, write_chapter
+
+chapter = {"id": "ch19", "num": 19, "stage": 4,
+ "title": T("赤霉素", "Gibberellins", "Giberelin"),
+ "sources": ["HH", "LEC"],
+ "sections": [
+ {"id": "s1", "heading": T("“笨苗病”与赤霉素的发现", "‘Foolish seedlings’ and the discovery of gibberellin", "‘Anak benih bodoh’ dan penemuan giberelin"), "level": "basic", "blocks": [
+  P("19 世纪末到 20 世纪初，日本稻农苦于一种叫“bakanae”（笨苗病）的病害：病株茎细长柔弱，几乎不结谷粒。病原是真菌 Gibberella fujikuroi。1926 年黑泽英一发现，用这种真菌培养液的无菌滤液处理健康稻苗，也会出现同样症状；1938 年日本研究者分离、结晶出活性物质，以真菌属名命名为{{t:gibberellin}}。",
+    "In the late nineteenth and early twentieth centuries Japanese rice farmers battled bakanae, ‘foolish seedling’ disease: infected plants had weak, overlong stems and set little or no grain. The cause was the fungus Gibberella fujikuroi. In 1926 E. Kurosawa showed that sterile filtrates of the fungal culture produced the same symptoms in healthy rice; by 1938 Japanese workers had isolated and crystallised the active material and named it {{t:gibberellin}} after the fungus.",
+    "Pada akhir abad ke-19 dan awal abad ke-20, petani padi Jepun bergelut dengan bakanae, penyakit ‘anak benih bodoh’: tumbuhan yang dijangkiti mempunyai batang lemah yang terlalu panjang dan menghasilkan sedikit atau tiada bijirin. Puncanya kulat Gibberella fujikuroi. Pada 1926 E. Kurosawa menunjukkan bahawa turasan steril kultur kulat itu menghasilkan simptom yang sama pada padi sihat; menjelang 1938 penyelidik Jepun telah mengasingkan dan menghablurkan bahan aktif itu dan menamakannya {{t:gibberellin}} sempena kulat tersebut.",
+    defines=["gibberellin"], src=["HH:325", "LEC"]),
+  P("赤霉素对茎伸长、种子萌发，以及开花和果实发育等生殖过程有显著作用。已知的有 135 种以上，但只有少数具活性（例如 GA₁、GA₃、GA₄），其余大多是合成中间产物或失活形式。它们是 19 或 20 碳的二萜，基本骨架是 ent-赤霉烷；C₁₉ 赤霉素活性比 C₂₀ 高。编号按发现先后：GA₁ 是植物中第一个发现的，GA₃（赤霉酸）是真菌产生的，也是商业上的主要形式。",
+    "Gibberellins have marked effects on stem elongation, seed germination and reproductive processes such as flowering and fruit development. More than 135 are known, but only a few — GA₁, GA₃, GA₄ — are bioactive; most are biosynthetic intermediates or inactivated forms. They are diterpenes of 19 or 20 carbons built on the ent-gibberellane skeleton, and C₁₉ gibberellins are more active than C₂₀. They are numbered in order of discovery: GA₁ was the first found in plants, and GA₃ (gibberellic acid), made by the fungus, is the main commercial form.",
+    "Giberelin mempunyai kesan ketara ke atas pemanjangan batang, percambahan biji dan proses pembiakan seperti pembungaan dan perkembangan buah. Lebih 135 diketahui, tetapi hanya beberapa — GA₁, GA₃, GA₄ — bioaktif; kebanyakannya perantaraan biosintesis atau bentuk tidak aktif. Ia diterpena 19 atau 20 karbon yang dibina pada rangka ent-giberelana, dan giberelin C₁₉ lebih aktif daripada C₂₀. Ia dinomborkan mengikut urutan penemuan: GA₁ yang pertama ditemui dalam tumbuhan, dan GA₃ (asid giberelik), yang dibuat oleh kulat, ialah bentuk komersial utama.",
+    src=["HH:323-325", "LEC"]),
+ ]},
+ {"id": "s2", "heading": T("萜类与合成途径", "Terpenes and the biosynthetic pathway", "Terpena dan laluan biosintesis"), "level": "basic", "blocks": [
+  P("赤霉素属于{{t:terpene}}（类异戊二烯）：由五碳的异戊二烯单位聚合而成，按碳数（5 的倍数）分类。其他萜类包括类胡萝卜素、甾醇、强心苷、乳胶和精油。基本单位是异戊烯焦磷酸（IPP）及其异构体二甲基烯丙基焦磷酸（DMAPP），有两条合成路：",
+    "Gibberellins are {{t:terpene}}s (isoprenoids), built from five-carbon isoprene units and classed by carbon number in multiples of five. Other terpenes include carotenoids, sterols, cardiac glycosides, latex and essential oils. The building blocks are isopentenyl pyrophosphate (IPP) and its isomer dimethylallyl pyrophosphate (DMAPP), made by two routes:",
+    "Giberelin ialah {{t:terpene}} (isoprenoid), dibina daripada unit isoprena lima karbon dan dikelaskan mengikut bilangan karbon dalam gandaan lima. Terpena lain termasuk karotenoid, sterol, glikosida kardiak, lateks dan minyak pati. Unit asasnya ialah isopentenil pirofosfat (IPP) dan isomernya dimetilalil pirofosfat (DMAPP), dibuat melalui dua laluan:",
+    defines=["terpene"], src=["HH:325-327", "LEC"]),
+  L(("细胞质的甲羟戊酸途径：3 个乙酰-CoA 缩合成 HMG-CoA，用 NADPH 不可逆地还原成甲羟戊酸，再经 ATP 磷酸化、脱羧去磷酸得到 IPP。细胞质合成的有细胞分裂素、倍半萜（C₁₅）和油菜素甾醇；中间产物法尼基焦磷酸（FPP）是倍半萜和植物甾醇的分支点。", "The cytosolic mevalonic acid pathway: three acetyl-CoA condense to HMG-CoA, which NADPH reduces irreversibly to mevalonic acid; phosphorylation by ATP and decarboxylation give IPP. The cytosol makes cytokinins, sesquiterpenes (C₁₅) and brassinosteroids; its intermediate farnesyl pyrophosphate (FPP) is the branch point for sesquiterpenes and the sterol precursors of brassinosteroids.", "Laluan asid mevalonik sitosol: tiga asetil-KoA berkondensasi menjadi HMG-KoA, yang diturunkan secara tidak berbalik oleh NADPH kepada asid mevalonik; pemfosforilan oleh ATP dan penyahkarboksilan memberi IPP. Sitosol membuat sitokinin, seskuiterpena (C₁₅) dan brasinosteroid; perantaraannya farnesil pirofosfat (FPP) ialah titik cabang untuk seskuiterpena dan prekursor sterol brasinosteroid."),
+    ("叶绿体的甲基赤藓醇磷酸（MEP）途径：丙酮酸和甘油醛-3-磷酸缩合、失去 CO₂，经甲基赤藓醇-4-磷酸得到 IPP。叶绿体合成单萜（C₁₀）、赤霉素、脱落酸、质体醌和叶绿素；中间产物{{t:ggpp}}是 C₂₀ 与 C₄₀ 萜类的分支点。", "The chloroplast methylerythritol phosphate (MEP) pathway: pyruvate and glyceraldehyde-3-phosphate condense with loss of CO₂ and proceed via methylerythritol-4-phosphate to IPP. The chloroplast makes monoterpenes (C₁₀), gibberellins, abscisic acid, plastoquinone and chlorophyll; its intermediate {{t:ggpp}} is the branch point for C₂₀ and C₄₀ terpenes.", "Laluan metileritritol fosfat (MEP) kloroplas: piruvat dan gliseraldehid-3-fosfat berkondensasi dengan kehilangan CO₂ dan melalui metileritritol-4-fosfat kepada IPP. Kloroplas membuat monoterpena (C₁₀), giberelin, asid absisik, plastokuinon dan klorofil; perantaraannya {{t:ggpp}} ialah titik cabang untuk terpena C₂₀ dan C₄₀."),
+    defines=["ggpp"], src=["HH:326-328", "LEC"]),
+  P("赤霉素由 GGPP 合成：先经两次环化形成内根-贝壳杉烯（ent-kaurene）；C-19 的甲基经三次氧化变成羧基，成为贝壳杉烯酸；依赖 NADPH 的膜结合细胞色素 P450 单加氧酶接着形成 GA₁₂-7-醛。所有其他赤霉素都由 GA₁₂-7-醛衍生：先氧化成 GA₁₂（所有植物共通），之后转成哪些活性赤霉素则因物种和组织而异；GA₂₀ 和 GA₁ 在种子和茎中合成。",
+    "Gibberellins are made from GGPP: two cyclisations give ent-kaurene; three oxidations turn the C-19 methyl into a carboxyl, giving kaurenoic acid; NADPH-dependent, membrane-bound cytochrome P450 monooxygenases then form GA₁₂-7-aldehyde. All other gibberellins derive from it: oxidation to GA₁₂ is common to all plants, and what follows varies with species and tissue; GA₂₀ and GA₁ are made in seeds and shoots.",
+    "Giberelin dibuat daripada GGPP: dua pengitaran memberi ent-kaurena; tiga pengoksidaan menukar metil C-19 kepada karboksil, memberi asid kaurenoik; monooksigenase sitokrom P450 bergantung NADPH yang terikat membran kemudian membentuk GA₁₂-7-aldehid. Semua giberelin lain berasal daripadanya: pengoksidaan kepada GA₁₂ adalah sama bagi semua tumbuhan, dan yang seterusnya berbeza mengikut spesies dan tisu; GA₂₀ dan GA₁ dibuat dalam biji dan pucuk.",
+    src=["HH:327-329", "LEC"]),
+  P("活性主要靠失活控制：最主要的方式是 C-2 羟基化，例如活性的 GA₁ 变成无活性的 GA₈；种子中 GA₈ 还可再与葡萄糖结合成酯。主要合成部位有三：发育中的种子和果实、顶芽和伸长茎中的幼叶，以及根尖。赤霉素的运输所知不多：它随韧皮部按源–库方向移动，不像生长素那样有极性；是否也走木质部仍不清楚。",
+    "Activity is controlled mainly by inactivation, chiefly by hydroxylation at C-2 — bioactive GA₁ becomes inactive GA₈, which in seeds can be further conjugated as a glucosyl ester. There are three main sites of synthesis: developing seeds and fruits, young leaves of apical buds and elongating shoots, and root tips. Transport is poorly understood: gibberellins move in the phloem with source–sink flow, without the polarity of auxin; whether they also travel in the xylem is unclear.",
+    "Aktiviti dikawal terutamanya melalui penyahaktifan, terutamanya penghidroksilan pada C-2 — GA₁ bioaktif menjadi GA₈ tidak aktif, yang dalam biji boleh dikonjugat lagi sebagai ester glukosil. Terdapat tiga tapak sintesis utama: biji dan buah yang sedang berkembang, daun muda tunas apeks dan pucuk yang memanjang, dan hujung akar. Pengangkutan kurang difahami: giberelin bergerak dalam floem mengikut aliran sumber–sinki, tanpa kekutuban seperti auksin; sama ada ia juga bergerak dalam xilem tidak jelas.",
+    src=["HH:323-324", "HH:329-330", "LEC"]),
+ ]},
+ {"id": "s3", "heading": T("抗赤霉素：生长延缓剂", "Antigibberellins: growth retardants", "Antigiberelin: perencat pertumbuhan"), "level": "basic", "blocks": [
+  P("人工合成的{{t:antigibberellin}}能阻断赤霉素合成，使植株矮化，广泛用于盆花和观赏植物生产，也是研究工具。常考的几种：",
+    "Synthetic {{t:antigibberellin}}s block gibberellin synthesis and dwarf plants; they are widely used for potted and ornamental plants and as research tools. The ones exams ask about:",
+    "{{t:antigibberellin}} sintetik menyekat sintesis giberelin dan membantutkan tumbuhan; ia digunakan secara meluas untuk tumbuhan pasu dan hiasan serta sebagai alat penyelidikan. Yang sering ditanya dalam peperiksaan:",
+    defines=["antigibberellin"], src=["HH:329-330", "LEC"]),
+  {"type": "table", "src": ["HH:329-330"],
+   "caption": T("赤霉素合成抑制剂与作用步骤", "Gibberellin synthesis inhibitors and where they act", "Perencat sintesis giberelin dan tempat ia bertindak"),
+   "headers": [T("抑制剂", "Inhibitor", "Perencat"), T("阻断哪一步", "Step blocked", "Langkah yang disekat"), T("加哪种 GA 可以逆转", "Reversed by", "Diterbalikkan oleh")],
+   "rows": [
+    [T("AMO-1618、CCC（矮壮素）、Phosfon D", "AMO-1618, CCC (chlormequat), Phosfon D", "AMO-1618, CCC (klormekuat), Phosfon D"), T("合成内根-贝壳杉烯的酶", "Enzymes making ent-kaurene", "Enzim yang membuat ent-kaurena"), T("GA₂₀ 或 GA₃", "GA₂₀ or GA₃", "GA₂₀ atau GA₃")],
+    [T("嘧啶醇（ancymidol）", "Ancymidol", "Ansimidol"), T("贝壳杉烯 → 贝壳杉烯酸的氧化", "Oxidation of kaurene to kaurenoic acid", "Pengoksidaan kaurena kepada asid kaurenoik"), T("GA₂₀ 或 GA₃", "GA₂₀ or GA₃", "GA₂₀ atau GA₃")],
+    [T("BX-112", "BX-112", "BX-112"), T("GA₂₀ → GA₁ 的 3β-羟基化", "3β-hydroxylation of GA₂₀ to GA₁", "Penghidroksilan-3β GA₂₀ kepada GA₁"), T("只有 GA₁ 本身", "Only GA₁ itself", "Hanya GA₁ sendiri")],
+   ]},
+  N("tip", "问答题“说明研究生长素和赤霉素时用的抑制剂”：生长素——极性运输抑制剂 TIBA、NPA、形态素（第 18 章）；赤霉素——合成抑制剂 AMO-1618、CCC、Phosfon D、嘧啶醇、BX-112。一个阻断运输，一个阻断合成，可以对照着写。",
+    "For ‘describe the inhibitors used to study auxin and gibberellin’: auxin — polar-transport inhibitors TIBA, NPA and morphactin (Chapter 18); gibberellin — synthesis inhibitors AMO-1618, CCC, Phosfon D, ancymidol and BX-112. One set blocks transport, the other synthesis — a neat contrast to write up.",
+    "Untuk ‘terangkan perencat yang digunakan untuk mengkaji auksin dan giberelin’: auksin — perencat pengangkutan berkutub TIBA, NPA dan morfaktin (Bab 18); giberelin — perencat sintesis AMO-1618, CCC, Phosfon D, ansimidol dan BX-112. Satu set menyekat pengangkutan, satu lagi sintesis — perbandingan yang kemas untuk ditulis.",
+    src=["HH:317", "HH:329-330", "LEC"]),
+ ]},
+ {"id": "s4", "heading": T("赤霉素做什么", "What gibberellins do", "Apa yang dilakukan giberelin"), "level": "basic", "blocks": [
+  L(("茎伸长：施用赤霉素能使某些矮生植物恢复正常高度，但对正常植株通常没有作用；很多矮生突变是赤霉素合成基因的突变。由此证明赤霉素主要促进节间伸长。", "Stem elongation: applied gibberellin can restore normal height to some dwarf plants but generally has no effect on normal ones; many dwarf mutants are defective in gibberellin-synthesis genes. These studies showed gibberellin acts mainly by promoting internode elongation.", "Pemanjangan batang: giberelin yang diberikan boleh memulihkan ketinggian normal sesetengah tumbuhan kerdil tetapi biasanya tiada kesan pada tumbuhan normal; banyak mutan kerdil cacat dalam gen sintesis giberelin. Kajian ini menunjukkan giberelin bertindak terutamanya dengan menggalakkan pemanjangan ruas."),
+    ("{{t:bolting}}：莲座状植物（菠菜、甘蓝等）开花前茎急速伸长。环境信号（长日照或低温）把无活性的赤霉素（例如 GA₁₉）转成活性的（例如 GA₂₀）；在许多植物中施用 GA₃ 可以代替低温需求。", "{{t:bolting}}: rosette plants (spinach, cabbage) rapidly elongate their stems before flowering. The environmental signal (long days or cold) converts inactive gibberellins (such as GA₁₉) into active ones (such as GA₂₀); in many plants applied GA₃ can substitute for the cold requirement.", "{{t:bolting}}: tumbuhan roset (bayam, kubis) memanjangkan batang dengan cepat sebelum berbunga. Isyarat persekitaran (hari panjang atau sejuk) menukar giberelin tidak aktif (seperti GA₁₉) kepada yang aktif (seperti GA₂₀); dalam banyak tumbuhan GA₃ yang diberikan boleh menggantikan keperluan sejuk."),
+    ("种子萌发：有些赤霉素突变体的种子要外加赤霉素才能萌发。", "Seed germination: seeds of some gibberellin mutants germinate only if gibberellin is supplied.", "Percambahan biji: biji sesetengah mutan giberelin hanya bercambah jika giberelin dibekalkan."),
+    ("果实：赤霉素用于生产无籽葡萄（例如 Thompson Seedless）以增大果粒，也影响柑橘、苹果、桃等的果实发育。", "Fruit: gibberellin is used on seedless table grapes such as ‘Thompson Seedless’ to enlarge the berries, and affects fruit growth in citrus, apple, peach and others.", "Buah: giberelin digunakan pada anggur meja tanpa biji seperti ‘Thompson Seedless’ untuk membesarkan buah, dan mempengaruhi pertumbuhan buah sitrus, epal, pic dan lain-lain."),
+    ("工业：大麦制麦芽时加赤霉素加速 α-淀粉酶产生；也用来提高甘蔗产量。", "Industry: added in barley malting to speed α-amylase production; also used to raise sugarcane yield.", "Industri: ditambah dalam pemaltan barli untuk mempercepat penghasilan α-amilase; juga digunakan untuk meningkatkan hasil tebu."),
+    defines=["bolting"], src=["HH:330-333", "LEC"]),
+ ]},
+ {"id": "s5", "heading": T("萌发中的谷粒：糊粉层模型", "The germinating grain: the aleurone model", "Bijirin yang bercambah: model aleuron"), "level": "basic", "blocks": [
+  P("禾谷类种子萌发是研究赤霉素作用最经典的系统。吸胀后，胚开始合成赤霉素；赤霉素扩散到包围胚乳的{{t:aleurone}}，诱导合成 α-淀粉酶和蛋白酶等水解酶；这些酶分泌进胚乳，分解贮藏的淀粉和蛋白质，供胚生长。这种诱导发生在基因层次：α-淀粉酶的 mRNA 和蛋白质都大量增加。",
+    "The germinating cereal grain is the classic system for gibberellin action. After imbibition the embryo begins to make gibberellin, which diffuses to the {{t:aleurone}} surrounding the endosperm and induces hydrolytic enzymes such as α-amylase and proteases; these are secreted into the endosperm and break down stored starch and protein to feed the embryo. The induction is at the level of genes: α-amylase mRNA and protein both rise sharply.",
+    "Bijirin yang bercambah ialah sistem klasik untuk tindakan giberelin. Selepas imbibisi, embrio mula membuat giberelin, yang meresap ke {{t:aleurone}} yang mengelilingi endosperma dan mengaruh enzim hidrolitik seperti α-amilase dan protease; enzim ini dirembeskan ke dalam endosperma dan menguraikan kanji dan protein tersimpan untuk memberi makan embrio. Aruhan ini berlaku pada peringkat gen: mRNA dan protein α-amilase kedua-duanya meningkat dengan ketara.",
+    defines=["aleurone"], src=["HH:331-333", "LEC"]),
+ ]},
+ {"id": "s6", "heading": T("受体与 DELLA：去抑制", "Receptor and DELLA: de-repression", "Reseptor dan DELLA: penyahtindasan"), "level": "basic", "blocks": [
+  P("两种看似矛盾的突变提供了线索。水稻 slender rice1（slr1）突变体一直伸长，好像泡在赤霉素里，但它的赤霉素含量反而比野生型低；拟南芥的 gai（赤霉素不敏感）突变体则矮小、对赤霉素没反应。SLR1 和 GAI 基因都编码{{t:della}}——赤霉素信号的抑制者，是生长的“刹车”：刹车失灵（slr1）就一直长，刹车拆不掉（gai）就怎么也长不高。",
+    "Two seemingly contradictory mutants gave the clue. The rice slender rice1 (slr1) mutant elongates constantly as if saturated with gibberellin, yet contains less gibberellin than the wild type; the Arabidopsis gai (gibberellin-insensitive) mutant is dwarf and does not respond to gibberellin. Both SLR1 and GAI encode {{t:della}} proteins — repressors of gibberellin signalling, the brakes on growth: lose the brake (slr1) and growth never stops; make it impossible to remove (gai) and the plant stays short.",
+    "Dua mutan yang kelihatan bercanggah memberi petunjuk. Mutan padi slender rice1 (slr1) sentiasa memanjang seolah-olah tepu dengan giberelin, namun mengandungi kurang giberelin daripada jenis liar; mutan Arabidopsis gai (tidak sensitif giberelin) kerdil dan tidak bertindak balas kepada giberelin. Kedua-dua SLR1 dan GAI mengekod protein {{t:della}} — penindas pengisyaratan giberelin, brek pertumbuhan: hilang brek (slr1) dan pertumbuhan tidak pernah berhenti; jadikan brek mustahil dibuang (gai) dan tumbuhan kekal pendek.",
+    defines=["della"], src=["HH:333-334", "LEC"]),
+  P("赤霉素受体是可溶性的核内蛋白 {{t:gid1}}。赤霉素与 GID1 结合后，GID1–GA 再与 DELLA（例如 SLR1）形成复合体；这使 DELLA 被 SCF^SLY1/GID2（另一个 F-box 蛋白组成的 E3 连接酶）泛素化，经 26S 蛋白酶体降解，赤霉素响应基因被“去抑制”。这个模型也解释了 gai：突变的 GAI 蛋白无法与 GA–GID1 结合，就不会被降解，基因一直被抑制。",
+    "The gibberellin receptor is the soluble nuclear protein {{t:gid1}}. Gibberellin binds GID1, and GID1–GA then forms a complex with a DELLA protein (such as SLR1); this lets SCF^SLY1/GID2 — an E3 ligase with another F-box protein — ubiquitinate the DELLA, which is destroyed by the 26S proteasome, de-repressing the gibberellin-responsive genes. The model also explains gai: the mutant GAI protein cannot bind GA–GID1, so it is never destroyed and the genes stay repressed.",
+    "Reseptor giberelin ialah protein nukleus larut {{t:gid1}}. Giberelin terikat pada GID1, dan GID1–GA kemudian membentuk kompleks dengan protein DELLA (seperti SLR1); ini membolehkan SCF^SLY1/GID2 — ligase E3 dengan protein F-box lain — mengubikuitinkan DELLA, yang dimusnahkan oleh proteasom 26S, menyahtindas gen responsif giberelin. Model ini juga menerangkan gai: protein GAI mutan tidak dapat terikat pada GA–GID1, jadi ia tidak pernah dimusnahkan dan gen kekal ditindas.",
+    defines=["gid1"], src=["HH:333-335", "LEC"]),
+  {"type": "widget", "id": "W19", "opts": {"hormone": "ga"}},
+ ]},
+]}
+
+terms = [
+ ("gibberellin", T("赤霉素", "gibberellin", "giberelin"),
+  T("一群二萜类激素，促进茎节间伸长、种子萌发、抽薹和果实发育；简称 GA。", "Diterpenoid hormones promoting internode elongation, germination, bolting and fruit growth; abbreviated GA.", "Hormon diterpenoid yang menggalakkan pemanjangan ruas, percambahan, pembentukan batang bunga dan pertumbuhan buah; disingkat GA."), "GA"),
+ ("terpene", T("萜类（类异戊二烯）", "terpene (isoprenoid)", "terpena (isoprenoid)"),
+  T("由五碳异戊二烯单位组成的化合物；包括赤霉素、类胡萝卜素、甾醇等。", "Compounds built from five-carbon isoprene units, including gibberellins, carotenoids and sterols.", "Sebatian yang dibina daripada unit isoprena lima karbon, termasuk giberelin, karotenoid dan sterol.")),
+ ("ggpp", T("香叶基香叶基焦磷酸", "geranylgeranyl pyrophosphate", "geranilgeranil pirofosfat"),
+  T("叶绿体中 C₂₀ 和 C₄₀ 萜类（赤霉素、类胡萝卜素等）的共同前体。", "The plastid precursor of C₂₀ and C₄₀ terpenes such as gibberellins and carotenoids.", "Prekursor plastid terpena C₂₀ dan C₄₀ seperti giberelin dan karotenoid."), "GGPP"),
+ ("antigibberellin", T("抗赤霉素（生长延缓剂）", "antigibberellin (growth retardant)", "antigiberelin (perencat pertumbuhan)"),
+  T("阻断赤霉素合成、使植株矮化的化合物，例如 CCC、AMO-1618、嘧啶醇。", "A compound that blocks gibberellin synthesis and dwarfs plants: CCC, AMO-1618, ancymidol.", "Sebatian yang menyekat sintesis giberelin dan membantutkan tumbuhan: CCC, AMO-1618, ansimidol.")),
+ ("bolting", T("抽薹", "bolting", "pembentukan batang bunga"),
+  T("莲座状植物开花前茎急速伸长，由赤霉素介导。", "The rapid stem elongation of rosette plants before flowering, mediated by gibberellin.", "Pemanjangan batang yang pantas oleh tumbuhan roset sebelum berbunga, diantara oleh giberelin.")),
+ ("aleurone", T("糊粉层", "aleurone layer", "lapisan aleuron"),
+  T("包围谷粒胚乳的细胞层；受赤霉素诱导分泌 α-淀粉酶等水解酶。", "The cell layer around the cereal endosperm that secretes α-amylase and other hydrolases in response to gibberellin.", "Lapisan sel di sekeliling endosperma bijirin yang merembeskan α-amilase dan hidrolase lain sebagai tindak balas kepada giberelin.")),
+ ("della", T("DELLA 蛋白", "DELLA protein", "protein DELLA"),
+  T("赤霉素信号的核内抑制者（例如 GAI、SLR1）；赤霉素使它被降解。", "A nuclear repressor of gibberellin signalling (GAI, SLR1); gibberellin causes its destruction.", "Penindas nukleus pengisyaratan giberelin (GAI, SLR1); giberelin menyebabkan ia dimusnahkan.")),
+ ("gid1", T("GID1（赤霉素受体）", "GID1 (gibberellin receptor)", "GID1 (reseptor giberelin)"),
+  T("可溶性核内赤霉素受体；GA–GID1 结合 DELLA，使其被 SCF^SLY1/GID2 降解。", "The soluble nuclear gibberellin receptor; GA–GID1 binds DELLA and sends it for destruction by SCF^SLY1/GID2.", "Reseptor giberelin nukleus larut; GA–GID1 terikat pada DELLA dan menghantarnya untuk dimusnahkan oleh SCF^SLY1/GID2."), "GID1"),
+]
+
+quiz = [
+ {"stage": 4, "chapter": "ch19",
+  "q": T("赤霉素合成的第一个关键前体（C₂₀）是什么？", "What is the key C₂₀ precursor of gibberellin synthesis?", "Apakah prekursor C₂₀ utama sintesis giberelin?"),
+  "options": [T("IPP", "IPP", "IPP"), T("GGPP", "GGPP", "GGPP"), T("FPP", "FPP", "FPP"), T("色氨酸", "Tryptophan", "Triptofan")],
+  "answer": 1, "why": T("GGPP 环化成内根-贝壳杉烯，再氧化成 GA₁₂-7-醛。", "GGPP cyclises to ent-kaurene, which is oxidised to GA₁₂-7-aldehyde.", "GGPP mengitar menjadi ent-kaurena, yang dioksidakan kepada GA₁₂-7-aldehid.")},
+ {"stage": 4, "chapter": "ch19",
+  "q": T("为什么 gai 突变体矮小、对赤霉素不敏感？", "Why is the gai mutant dwarf and gibberellin-insensitive?", "Mengapa mutan gai kerdil dan tidak sensitif giberelin?"),
+  "options": [T("它不能合成赤霉素", "It cannot make gibberellin", "Ia tidak dapat membuat giberelin"), T("突变的 DELLA 不能与 GA–GID1 结合，无法被降解", "Its mutant DELLA cannot bind GA–GID1 and is never destroyed", "DELLA mutannya tidak dapat terikat pada GA–GID1 dan tidak pernah dimusnahkan"), T("它没有 GID1", "It has no GID1", "Ia tiada GID1"), T("它的赤霉素被氧化", "Its gibberellin is oxidised", "Giberelinnya dioksidakan")],
+  "answer": 1, "why": T("刹车拆不掉，生长基因一直被抑制。", "The brake cannot be removed, so growth genes stay repressed.", "Brek tidak dapat dibuang, jadi gen pertumbuhan kekal ditindas.")},
+ {"stage": 4, "chapter": "ch19",
+  "q": T("谷粒萌发时，赤霉素在糊粉层诱导什么？", "In a germinating grain, what does gibberellin induce in the aleurone?", "Dalam bijirin yang bercambah, apakah yang diaruh giberelin dalam aleuron?"),
+  "options": [T("叶绿素", "Chlorophyll", "Klorofil"), T("α-淀粉酶等水解酶", "α-Amylase and other hydrolases", "α-Amilase dan hidrolase lain"), T("脱落酸", "Abscisic acid", "Asid absisik"), T("纤维素", "Cellulose", "Selulosa")],
+  "answer": 1, "why": T("酶分泌进胚乳分解淀粉，供胚生长。", "The enzymes are secreted into the endosperm to break down starch for the embryo.", "Enzim dirembeskan ke dalam endosperma untuk menguraikan kanji untuk embrio.")},
+ {"stage": 4, "chapter": "ch19",
+  "q": T("哪个抑制剂的作用只能用 GA₁ 本身逆转？", "Which inhibitor's effect can be reversed only by GA₁ itself?", "Kesan perencat yang manakah hanya boleh diterbalikkan oleh GA₁ sendiri?"),
+  "options": [T("CCC", "CCC", "CCC"), T("AMO-1618", "AMO-1618", "AMO-1618"), T("BX-112", "BX-112", "BX-112"), T("嘧啶醇", "Ancymidol", "Ansimidol")],
+  "answer": 2, "why": T("BX-112 阻断最后一步 GA₂₀ → GA₁。", "BX-112 blocks the final step, GA₂₀ → GA₁.", "BX-112 menyekat langkah terakhir, GA₂₀ → GA₁.")},
+]
+
+if __name__ == "__main__":
+    write_chapter(chapter, terms, [], quiz)

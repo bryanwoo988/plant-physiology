@@ -1,0 +1,33 @@
+# Reference textbooks — commercial, copyrighted works used only as local
+# references for writing this app's original content. Never publish them.
+References/
+*.pdf
+# The course notes archive (slides, textbook, an exam paper with a
+# student's name on it) — local reference only.
+notes.zip
+*.zip
+notes/
+*.jpg
+*.jpeg
+
+# Python virtualenv for the tooling
+venv/
+__pycache__/
+*.pyc
+
+# Local agent/plugin state — not part of the app
+.swarm/
+.claude-flow/
+.claude/
+ruvector.db
+*.db
+*.db-shm
+*.db-wal
+
+# Editor and OS noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*~
+.superpowers/

@@ -1,0 +1,582 @@
+{
+ "id": "ch02",
+ "num": 2,
+ "stage": 1,
+ "title": {
+  "zh": "整株植物的水分关系",
+  "en": "Whole-plant water relations",
+  "ms": "Hubungan air seluruh tumbuhan"
+ },
+ "sources": [
+  "HH",
+  "LEC"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "蒸腾作用：水从叶子跑掉",
+    "en": "Transpiration: water leaving the leaf",
+    "ms": "Transpirasi: air meninggalkan daun"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "一株植物的水分关系可以分成三段：从土壤吸水、在体内运输、向大气散失。最后一段叫{{t:transpiration}}，即植物以水蒸气形式失去水分。幼嫩枝条树皮上的皮孔也会散失一点，但 90 % 以上是从叶片散失的。",
+      "en": "A plant's water relations come in three parts: uptake from the soil, transport through the plant, and loss to the atmosphere. The last is {{t:transpiration}} — the loss of water as vapour. A little escapes through lenticels in the bark of young twigs, but more than 90 % leaves through the leaves.",
+      "ms": "Hubungan air tumbuhan terdiri daripada tiga bahagian: pengambilan dari tanah, pengangkutan dalam tumbuhan, dan kehilangan ke atmosfera. Yang terakhir ialah {{t:transpiration}} — kehilangan air sebagai wap. Sedikit terlepas melalui lentisel pada kulit ranting muda, tetapi lebih 90 % keluar melalui daun."
+     },
+     "defines": [
+      "transpiration"
+     ],
+     "src": [
+      "HH:20",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "叶表面盖着一层蜡质的角质层（角质加蜡），用来限制蒸发。气体进出主要靠{{t:stoma}}：每个小孔由两个保卫细胞围成。叶肉细胞之间有大量细胞间隙，有时占叶片体积的 70 %，气孔下方的那一块叫“气孔下腔”。",
+      "en": "The leaf surface is covered by a waxy cuticle (cutin plus wax) that limits evaporation. Gases come and go mainly through the {{t:stoma}}, a pore bordered by two guard cells. Between the mesophyll cells is a large network of air spaces — up to 70 % of leaf volume in some leaves — and the space just inside each pore is the substomatal cavity.",
+      "ms": "Permukaan daun diliputi kutikel berlilin (kutin dan lilin) yang mengehadkan penyejatan. Gas keluar masuk terutamanya melalui {{t:stoma}}, liang yang dikelilingi dua sel pengawal. Di antara sel mesofil terdapat ruang udara yang luas — sehingga 70 % isi padu daun bagi sesetengah daun — dan ruang tepat di dalam setiap liang ialah rongga substoma."
+     },
+     "defines": [
+      "stoma"
+     ],
+     "src": [
+      "HH:20-21",
+      "LEC"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "第一步：水从湿润的叶肉细胞壁蒸发，进入细胞间隙。",
+       "en": "Step one: water evaporates from the moist walls of mesophyll cells into the air spaces.",
+       "ms": "Langkah pertama: air menyejat dari dinding sel mesofil yang lembap ke dalam ruang udara."
+      },
+      {
+       "zh": "第二步：水蒸气从气孔下腔扩散到外面的大气。",
+       "en": "Step two: water vapour diffuses from the substomatal cavity out into the atmosphere.",
+       "ms": "Langkah kedua: wap air meresap dari rongga substoma keluar ke atmosfera."
+      },
+      {
+       "zh": "气孔蒸腾占叶片失水的 90–95 %，穿过角质层的只占 5–10 %。",
+       "en": "Stomatal transpiration is 90–95 % of the water a leaf loses; cuticular transpiration only 5–10 %.",
+       "ms": "Transpirasi stoma ialah 90–95 % air yang hilang dari daun; transpirasi kutikel hanya 5–10 %."
+      }
+     ],
+     "src": [
+      "HH:21",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "蒸腾的驱动力",
+    "en": "What drives transpiration",
+    "ms": "Apa yang memacu transpirasi"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "蒸腾的本质是水蒸气的扩散，驱动它的是叶内与叶外水汽浓度的差。水汽浓度可以用水汽密度（g/m³）或水汽压 e 表示。在密闭容器里，水汽达到饱和时的压力叫饱和水汽压。",
+      "en": "Transpiration is the diffusion of water vapour, driven by the difference in vapour concentration between the inside and the outside of the leaf. Vapour concentration can be given as vapour density (g/m³) or as vapour pressure, e. In a closed container, the vapour pressure once the air is saturated is the saturation vapour pressure.",
+      "ms": "Transpirasi ialah resapan wap air, dipacu oleh perbezaan kepekatan wap antara bahagian dalam dan luar daun. Kepekatan wap boleh dinyatakan sebagai ketumpatan wap (g/m³) atau tekanan wap, e. Dalam bekas tertutup, tekanan wap apabila udara tepu ialah tekanan wap tepu."
+     },
+     "src": [
+      "HH:21-22",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "溶质会降低水汽压（拉乌尔定律 e = Xw·e°），但影响很小：0.5 molal 的溶液（大约是液泡汁的浓度）里水的摩尔分数仍有 55.5/56 ≈ 0.991，水汽压降不到 1 %。所以叶肉细胞间隙里的空气几乎是饱和的。温度的影响却很大：饱和水汽压在 10 °C 约 1.23 kPa、20 °C 约 2.34 kPa、30 °C 约 4.24 kPa。",
+      "en": "Solutes lower vapour pressure (Raoult's law, e = Xw·e°), but only slightly: in a 0.5 molal solution — about the strength of vacuolar sap — the mole fraction of water is still 55.5/56 ≈ 0.991, so the vapour pressure drops by less than 1 %. The air spaces of a leaf are therefore close to saturated. Temperature matters far more: saturation vapour pressure is about 1.23 kPa at 10 °C, 2.34 kPa at 20 °C and 4.24 kPa at 30 °C.",
+      "ms": "Zat terlarut merendahkan tekanan wap (hukum Raoult, e = Xw·e°), tetapi sedikit sahaja: dalam larutan 0.5 molal — kira-kira kekuatan sap vakuol — pecahan mol air masih 55.5/56 ≈ 0.991, jadi tekanan wap turun kurang daripada 1 %. Oleh itu ruang udara daun hampir tepu. Suhu jauh lebih penting: tekanan wap tepu kira-kira 1.23 kPa pada 10 °C, 2.34 kPa pada 20 °C dan 4.24 kPa pada 30 °C."
+     },
+     "src": [
+      "HH:22-24",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "蒸腾速率 = (e叶 − e气) / (r叶 + r气)。阻力有两部分：从叶肉细胞到气孔外的叶片阻力（主要由气孔开度决定），以及叶面上一层不流动空气——{{t:boundary-layer}}——的阻力。",
+      "en": "Transpiration rate = (e_leaf − e_air) / (r_leaf + r_air). There are two resistances: the leaf resistance from the mesophyll out through the pore (set mainly by how wide the stomata are open), and the resistance of the layer of still air on the leaf surface, the {{t:boundary-layer}}.",
+      "ms": "Kadar transpirasi = (e_daun − e_udara) / (r_daun + r_udara). Ada dua rintangan: rintangan daun dari mesofil keluar melalui liang (ditentukan terutamanya oleh bukaan stoma), dan rintangan lapisan udara pegun di permukaan daun, iaitu {{t:boundary-layer}}."
+     },
+     "defines": [
+      "boundary-layer"
+     ],
+     "src": [
+      "HH:22-24",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "影响蒸腾的三个环境因素：",
+      "en": "Three environmental factors change the rate:",
+      "ms": "Tiga faktor persekitaran mengubah kadarnya:"
+     },
+     "src": [
+      "HH:23-26",
+      "LEC"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "湿度：{{t:relative-humidity}}越低，叶内外的水汽压差越大，蒸腾越快。",
+       "en": "Humidity: the lower the {{t:relative-humidity}}, the larger the leaf-to-air vapour-pressure difference and the faster the transpiration.",
+       "ms": "Kelembapan: semakin rendah {{t:relative-humidity}}, semakin besar perbezaan tekanan wap daun-ke-udara dan semakin pantas transpirasi."
+      },
+      {
+       "zh": "温度：叶片升温，叶内的饱和水汽压大增，而空气里的水汽量变化不大，所以差距变大。即使空气相对湿度是 100 %，只要叶片比空气暖，仍会蒸腾。",
+       "en": "Temperature: a warmer leaf has a much higher saturation vapour pressure inside while the vapour content of the air changes little, so the gap widens. Even in air at 100 % relative humidity, a leaf warmer than the air still transpires.",
+       "ms": "Suhu: daun yang lebih panas mempunyai tekanan wap tepu yang jauh lebih tinggi di dalamnya sedangkan kandungan wap udara hampir tidak berubah, jadi jurangnya melebar. Walaupun udara pada kelembapan relatif 100 %, daun yang lebih panas daripada udara tetap bertranspirasi."
+      },
+      {
+       "zh": "风：风吹薄了边界层，缩短扩散路径；同样风速下，大叶片的边界层比小叶片厚。",
+       "en": "Wind: it thins the boundary layer and so shortens the diffusion path; at the same wind speed a large leaf has a thicker boundary layer than a small one.",
+       "ms": "Angin: ia menipiskan lapisan sempadan dan memendekkan laluan resapan; pada kelajuan angin yang sama, daun besar mempunyai lapisan sempadan yang lebih tebal berbanding daun kecil."
+      }
+     ],
+     "defines": [
+      "relative-humidity"
+     ],
+     "src": [
+      "HH:23-26",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "把空气的湿度换成水势，就看得出为什么水那么容易离开叶子：20 °C 时，相对湿度 95 % 的空气水势约 −6.9 MPa，50 % 时约 −93.5 MPa，而叶片通常只有 −1 MPa 左右。",
+      "en": "Express the humidity of air as a water potential and it is clear why water leaves the leaf so readily: at 20 °C, air at 95 % relative humidity has a water potential of about −6.9 MPa, and at 50 % about −93.5 MPa, while a leaf is typically around −1 MPa.",
+      "ms": "Nyatakan kelembapan udara sebagai keupayaan air dan jelaslah mengapa air begitu mudah meninggalkan daun: pada 20 °C, udara pada kelembapan relatif 95 % mempunyai keupayaan air kira-kira −6.9 MPa, dan pada 50 % kira-kira −93.5 MPa, sedangkan daun biasanya sekitar −1 MPa."
+     },
+     "src": [
+      "HH:24",
+      "LEC"
+     ]
+    },
+    {
+     "type": "widget",
+     "id": "W2"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "木质部：输水的管道",
+    "en": "Xylem: the water pipes",
+    "ms": "Xilem: paip air"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "维管组织像一套连续的管道，贯穿根、茎、枝、叶、花和果实。{{t:xylem}}运水和溶解的矿物质，韧皮部运有机物（第 9 章）。木质部由纤维细胞（支撑）、薄壁细胞（贮存和横向运输）和管状分子组成；真正负责输水的是管状分子。",
+      "en": "The vascular tissue is a continuous system of pipes running through root, stem, branch, leaf, flower and fruit. The {{t:xylem}} carries water and dissolved minerals; the phloem carries organic matter (Chapter 9). Xylem is made of fibres (support), parenchyma (storage and sideways transport) and tracheary elements — the cells that actually conduct water.",
+      "ms": "Tisu vaskular ialah sistem paip berterusan yang melalui akar, batang, dahan, daun, bunga dan buah. {{t:xylem}} membawa air dan mineral terlarut; floem membawa bahan organik (Bab 9). Xilem terdiri daripada gentian (sokongan), parenkima (simpanan dan pengangkutan ke sisi) dan unsur trakea — sel yang sebenarnya mengalirkan air."
+     },
+     "defines": [
+      "xylem"
+     ],
+     "src": [
+      "HH:24-26",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "管状分子成熟后是死的：原生质完全消失，只剩厚厚的次生壁（纤维素、半纤维素和木质素），彼此连成网络。它们有两种：",
+      "en": "Tracheary elements are dead when mature: the protoplasm is gone, leaving a thick secondary wall (cellulose, hemicellulose and lignin), and the cells form an interconnected network. There are two kinds:",
+      "ms": "Unsur trakea mati apabila matang: protoplasmanya hilang, meninggalkan dinding sekunder yang tebal (selulosa, hemiselulosa dan lignin), dan sel-selnya membentuk rangkaian yang bersambung. Ada dua jenis:"
+     },
+     "src": [
+      "HH:25-26",
+      "LEC"
+     ]
+    },
+    {
+     "type": "table",
+     "src": [
+      "HH:25-27",
+      "LEC"
+     ],
+     "defines": [
+      "tracheid",
+      "vessel"
+     ],
+     "caption": {
+      "zh": "管胞与导管",
+      "en": "Tracheids and vessels",
+      "ms": "Trakeid dan salur"
+     },
+     "headers": [
+      {
+       "zh": "特征",
+       "en": "Feature",
+       "ms": "Ciri"
+      },
+      {
+       "zh": "{{t:tracheid}}",
+       "en": "{{t:tracheid}}",
+       "ms": "{{t:tracheid}}"
+      },
+      {
+       "zh": "{{t:vessel}}",
+       "en": "{{t:vessel}}",
+       "ms": "{{t:vessel}}"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "zh": "形状",
+        "en": "Shape",
+        "ms": "Bentuk"
+       },
+       {
+        "zh": "单个细长细胞，两端尖",
+        "en": "A single long, tapering cell",
+        "ms": "Sel tunggal yang panjang dan tirus"
+       },
+       {
+        "zh": "许多导管分子首尾相接成长管",
+        "en": "Many vessel members joined end to end into a long tube",
+        "ms": "Banyak anggota salur bersambung hujung ke hujung menjadi tiub panjang"
+       }
+      ],
+      [
+       {
+        "zh": "大小",
+        "en": "Size",
+        "ms": "Saiz"
+       },
+       {
+        "zh": "直径 10–50 μm，长不到 1 cm",
+        "en": "10–50 μm across, under 1 cm long",
+        "ms": "Garis pusat 10–50 μm, panjang kurang 1 cm"
+       },
+       {
+        "zh": "枫树 40–60 μm、长 4–30 cm；橡树 300–500 μm、可长达 10 m",
+        "en": "Maple 40–60 μm and 4–30 cm long; oak 300–500 μm and up to 10 m",
+        "ms": "Mapel 40–60 μm dan 4–30 cm panjang; oak 300–500 μm dan sehingga 10 m"
+       }
+      ],
+      [
+       {
+        "zh": "两端",
+        "en": "Ends",
+        "ms": "Hujung"
+       },
+       {
+        "zh": "没有开口，水经纹孔从侧面过",
+        "en": "Closed; water passes sideways through pits",
+        "ms": "Tertutup; air melalui pit di sisi"
+       },
+       {
+        "zh": "端壁溶解成穿孔板（网状或梯状）",
+        "en": "End walls dissolve into perforation plates (reticulate or scalariform)",
+        "ms": "Dinding hujung larut menjadi plat tebukan (retikulat atau skalariform)"
+       }
+      ],
+      [
+       {
+        "zh": "分布",
+        "en": "Found in",
+        "ms": "Terdapat dalam"
+       },
+       {
+        "zh": "裸子植物的主要输水细胞",
+        "en": "The main conduits of gymnosperms",
+        "ms": "Saluran utama gimnosperma"
+       },
+       {
+        "zh": "被子植物；演化上较进步",
+        "en": "Angiosperms; evolutionarily more advanced",
+        "ms": "Angiosperma; lebih maju dari segi evolusi"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "为什么导管输水能力强得多？泊肃叶方程 Jv = πr⁴ΔP / 8ηl 告诉我们：流量与半径的四次方成正比。半径从 20 μm 加到 100 μm（5 倍），流量就多 5⁴ = 625 倍。",
+      "en": "Why do vessels conduct so much more? Poiseuille's equation, Jv = πr⁴ΔP / 8ηl, says flow rises with the fourth power of the radius. Make the radius five times larger, from 20 μm to 100 μm, and the flow rises 5⁴ = 625 times.",
+      "ms": "Mengapa salur mengalirkan jauh lebih banyak? Persamaan Poiseuille, Jv = πr⁴ΔP / 8ηl, menyatakan aliran meningkat mengikut kuasa empat jejari. Besarkan jejari lima kali, dari 20 μm ke 100 μm, dan aliran meningkat 5⁴ = 625 kali."
+     },
+     "src": [
+      "HH:26-27",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "水怎样爬上 100 米高的树",
+    "en": "How water climbs a 100-metre tree",
+    "ms": "Bagaimana air memanjat pokok setinggi 100 meter"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "北加州的海岸红杉有些超过 110 m。大气压只能撑起约 10.3 m 的水柱；要把水送上最高的树，还要克服管壁阻力，估计需要 2.0–3.0 MPa。教科书讨论三种解释：",
+      "en": "Some coast redwoods in northern California are over 110 m tall. Atmospheric pressure supports a water column of only about 10.3 m; lifting water to the top of the tallest trees, and overcoming friction in the conduits as well, needs an estimated 2.0–3.0 MPa. Three explanations have been considered:",
+      "ms": "Sesetengah redwood pantai di utara California melebihi 110 m tinggi. Tekanan atmosfera hanya menyokong turus air kira-kira 10.3 m; mengangkat air ke puncak pokok tertinggi, sambil mengatasi geseran dalam saluran, memerlukan anggaran 2.0–3.0 MPa. Tiga penjelasan telah dipertimbangkan:"
+     },
+     "src": [
+      "HH:27-28",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "一、{{t:root-pressure}}：根把离子运进木质部，降低木质部的水势，水随之渗入，产生正压。把茎切断，切口会冒出汁液；夜里叶缘的吐水也是它造成的。但实测只有 0.1–0.5 MPa，最多只够需要量的约 16 %，而且很多树（包括松柏类）几乎没有根压。",
+      "en": "First, {{t:root-pressure}}: the root loads ions into the xylem, lowering its water potential, and water follows osmotically, building a positive pressure. Cut a stem and sap oozes out; the droplets at leaf margins at night (guttation) come from it too. But measured values are only 0.1–0.5 MPa — at most about 16 % of what is needed — and many trees, conifers among them, show little or none.",
+      "ms": "Pertama, {{t:root-pressure}}: akar memuatkan ion ke dalam xilem, merendahkan keupayaan airnya, dan air mengikut secara osmosis, membina tekanan positif. Potong batang dan sap akan meleleh; titisan di tepi daun pada waktu malam (gutasi) juga berpunca daripadanya. Tetapi nilai yang diukur hanya 0.1–0.5 MPa — paling banyak kira-kira 16 % daripada yang diperlukan — dan banyak pokok, termasuk konifer, hampir tiada tekanan akar."
+     },
+     "defines": [
+      "root-pressure"
+     ],
+     "src": [
+      "HH:28-29",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "二、毛细作用：h = 1.49 × 10⁻⁵ / r（单位 m）。半径 25 μm 的管胞只能让水升高约 0.6 m，200 μm 的导管约 0.08 m。对一棵树来说远远不够。",
+      "en": "Second, capillarity: h = 1.49 × 10⁻⁵ / r (in metres). A tracheid of 25 μm radius raises water only about 0.6 m, a 200 μm vessel about 0.08 m. Nowhere near enough for a tree.",
+      "ms": "Kedua, kapilariti: h = 1.49 × 10⁻⁵ / r (dalam meter). Trakeid berjejari 25 μm hanya menaikkan air kira-kira 0.6 m, salur 200 μm kira-kira 0.08 m. Jauh daripada mencukupi untuk sebatang pokok."
+     },
+     "src": [
+      "HH:29-30",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "三、{{t:cohesion-tension}}：这是被普遍接受的解释。叶肉细胞壁上覆着一层水膜；水蒸发时，气液界面退进细胞壁微细的空隙里，形成曲率很大的弯月面，产生越来越大的负压（张力）。因为水有内聚力，这股拉力沿着连续的水柱一路传到根，把水“拉”上来。能量来自太阳：植物本身不花代谢能。",
+      "en": "Third, the {{t:cohesion-tension}}, the accepted explanation. Mesophyll cell walls are coated with a thin film of water. As water evaporates, the air–water surface retreats into the tiny spaces of the wall and curves sharply, generating an increasingly negative pressure — a tension. Because water is cohesive, the pull passes down the continuous column all the way to the root, and water is drawn up. The energy comes from the sun; the plant spends no metabolic energy on it.",
+      "ms": "Ketiga, {{t:cohesion-tension}}, penjelasan yang diterima umum. Dinding sel mesofil dilapisi filem air yang nipis. Apabila air menyejat, permukaan udara-air berundur ke ruang halus dinding dan melengkung tajam, menghasilkan tekanan yang semakin negatif — iaitu tegangan. Oleh sebab air berkohesi, tarikan itu bergerak turun sepanjang turus yang berterusan hingga ke akar, dan air ditarik naik. Tenaganya datang dari matahari; tumbuhan tidak menggunakan tenaga metabolik."
+     },
+     "defines": [
+      "cohesion-tension"
+     ],
+     "src": [
+      "HH:30-31",
+      "LEC"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "木质部真的在张力下吗？把木质部在染料液面下切断，染料会被迅速吸进去；树干直径在蒸腾旺盛的中午会微微变细。",
+       "en": "Is the xylem really under tension? Cut it under a dye solution and the dye is sucked in rapidly; tree trunks shrink slightly in diameter at midday when transpiration is fastest.",
+       "ms": "Adakah xilem benar-benar dalam tegangan? Potong di bawah larutan pewarna dan pewarna disedut masuk dengan pantas; batang pokok mengecil sedikit garis pusatnya pada tengah hari apabila transpirasi paling pantas."
+      },
+      {
+       "zh": "用 Scholander 压力室直接测得：蒸腾旺盛的植物木质部张力约 −0.5 到 −2.5 MPa。",
+       "en": "The Scholander pressure chamber measures it directly: about −0.5 to −2.5 MPa in rapidly transpiring plants.",
+       "ms": "Kebuk tekanan Scholander mengukurnya secara langsung: kira-kira −0.5 hingga −2.5 MPa dalam tumbuhan yang bertranspirasi pantas."
+      },
+      {
+       "zh": "水柱拉得住吗？水的抗张强度可承受 −25 到 −30 MPa，远超所需。",
+       "en": "Will the column hold? Water's tensile strength withstands −25 to −30 MPa, far more than needed.",
+       "ms": "Bolehkah turus itu bertahan? Kekuatan tegangan air mampu menahan −25 hingga −30 MPa, jauh melebihi keperluan."
+      }
+     ],
+     "src": [
+      "HH:30-31",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "heading": {
+    "zh": "气穴与栓塞：水柱断了怎么办",
+    "en": "Cavitation and embolism: when the column breaks",
+    "ms": "Kavitasi dan embolisme: apabila turus putus"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "在张力下的水柱处于不稳定（亚稳）状态。溶在水里的气体会在管壁的小缝里冒出微小气泡，气泡迅速扩大占满整条管子，这叫{{t:cavitation}}；形成的大气泡堵住管道，叫{{t:embolism}}。1966 年 Milburn 和 Johnson 用灵敏的麦克风“听”到了气穴发生时的一声声“咔嗒”。",
+      "en": "A water column under tension is metastable. Gases dissolved in the sap can come out as tiny bubbles in small crevices of the wall; a bubble may then expand rapidly to fill the conduit. This is {{t:cavitation}}, and the gas bubble that blocks the conduit is an {{t:embolism}}. In 1966 Milburn and Johnson used sensitive microphones to ‘hear’ each cavitation as a click.",
+      "ms": "Turus air dalam tegangan adalah metastabil. Gas yang terlarut dalam sap boleh keluar sebagai gelembung halus dalam celah kecil dinding; gelembung itu kemudian boleh mengembang dengan cepat memenuhi saluran. Inilah {{t:cavitation}}, dan gelembung gas yang menyumbat saluran ialah {{t:embolism}}. Pada 1966 Milburn dan Johnson menggunakan mikrofon sensitif untuk ‘mendengar’ setiap kavitasi sebagai bunyi klik."
+     },
+     "defines": [
+      "cavitation",
+      "embolism"
+     ],
+     "src": [
+      "HH:31-32",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "栓塞很常见。对糖枫的长期研究发现：夏季主干的导水度（导水能力）因栓塞下降约 31 %，冬季（冻融产生气泡）达到 60 %，有些小枝甚至完全不通。好在气泡被纹孔膜挡住，只占一个管分子，水可以经侧面的纹孔绕过去；不少植物还能在夜间靠根压或新长的木质部恢复。",
+      "en": "Embolisms are common. A long-term study of sugar maple found that embolisms cut the hydraulic conductance of the trunk by about 31 % in summer and 60 % in winter (when freezing and thawing release bubbles); some twigs lost 100 %. Fortunately pit membranes keep a bubble confined to one conduit, so water can detour sideways through pits, and many plants recover — through root pressure at night or by growing new xylem.",
+      "ms": "Embolisme adalah biasa. Kajian jangka panjang ke atas mapel gula mendapati embolisme mengurangkan konduktans hidraulik batang kira-kira 31 % pada musim panas dan 60 % pada musim sejuk (apabila pembekuan dan pencairan membebaskan gelembung); sesetengah ranting kehilangan 100 %. Nasib baik membran pit mengurung gelembung dalam satu saluran, jadi air boleh melencong ke sisi melalui pit, dan banyak tumbuhan pulih — melalui tekanan akar pada waktu malam atau dengan menumbuhkan xilem baharu."
+     },
+     "src": [
+      "HH:32-33",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "干旱为什么会让树死掉？最主要的原因之一是水力失效：木质部张力太大，栓塞越来越多，导水度损失百分比（PLC = 100 × (Kmax − K) / Kmax）不断上升。课上介绍的研究指出，被子植物乔木的 PLC 一旦超过约 88 %，重新浇水也救不回来。",
+      "en": "Why does drought kill trees? A leading cause is hydraulic failure: xylem tension grows, embolisms accumulate and the percentage loss of conductivity (PLC = 100 × (Kmax − K) / Kmax) climbs. The studies covered in lectures found that angiosperm trees whose PLC passes about 88 % do not recover even when watered again.",
+      "ms": "Mengapa kemarau membunuh pokok? Punca utamanya ialah kegagalan hidraulik: tegangan xilem meningkat, embolisme bertambah dan peratus kehilangan kekonduksian (PLC = 100 × (Kmax − K) / Kmax) naik. Kajian yang dibincangkan dalam kuliah mendapati pokok angiosperma yang PLC-nya melebihi kira-kira 88 % tidak pulih walaupun disiram semula."
+     },
+     "src": [
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "heading": {
+    "zh": "土壤里的水与根的吸水",
+    "en": "Water in the soil and uptake by roots",
+    "ms": "Air dalam tanah dan pengambilan oleh akar"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "土壤由岩石颗粒（砂、粉砂、黏土）、有机物、土壤溶液和土壤空气组成。颗粒之间的孔隙约占体积的 40–60 %：大孔隙的水会被重力排走，小的毛细孔隙才把水留住。下过大雨、多余的水排干之后，土壤保持的水量叫{{t:field-capacity}}。",
+      "en": "Soil is made of rock particles (sand, silt, clay), organic matter, the soil solution and soil air. The pores between particles take up about 40–60 % of its volume: water in the large pores drains away under gravity; the small capillary pores hold it. The water a soil holds after heavy rain once the excess has drained is its {{t:field-capacity}}.",
+      "ms": "Tanah terdiri daripada zarah batuan (pasir, kelodak, liat), bahan organik, larutan tanah dan udara tanah. Liang di antara zarah mengambil kira-kira 40–60 % isi padunya: air dalam liang besar mengalir keluar oleh graviti; liang kapilari yang kecil menahannya. Air yang ditahan tanah selepas hujan lebat apabila lebihannya sudah mengalir keluar ialah {{t:field-capacity}}."
+     },
+     "defines": [
+      "field-capacity"
+     ],
+     "src": [
+      "HH:33-34",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "土壤继续变干，到某个含水量时根再也吸不到水，植物即使放进潮湿的空气中也无法恢复，这时叫{{t:permanent-wilting}}；那时土壤水势相当一致，约 −1.5 MPa。田间持水量和永久萎蔫点之间的水，才是植物能用的“有效水”。粉砂土的有效水较多，砂土较少。",
+      "en": "As the soil dries further, it reaches a water content at which roots can no longer take up water and the plant will not recover even in humid air: the {{t:permanent-wilting}}. Soil water potential at that point is fairly uniform, about −1.5 MPa. Only the water between field capacity and the permanent wilting percentage is available to plants; silty soils hold more available water than sands.",
+      "ms": "Apabila tanah terus kering, ia mencapai kandungan air di mana akar tidak lagi dapat mengambil air dan tumbuhan tidak pulih walaupun dalam udara lembap: {{t:permanent-wilting}}. Keupayaan air tanah pada ketika itu agak seragam, kira-kira −1.5 MPa. Hanya air antara kapasiti ladang dan peratusan layu kekal yang tersedia untuk tumbuhan; tanah berkelodak menahan lebih banyak air tersedia berbanding tanah berpasir."
+     },
+     "defines": [
+      "permanent-wilting"
+     ],
+     "src": [
+      "HH:34-35",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "根要锚定植物、吸水和矿物质、贮存养分，也合成一些激素。吸水最活跃的是根尖后面、长着根毛的一段。水进入根以后，横向走到中央的维管柱有两条路：沿细胞壁和细胞间隙走的{{t:apoplast}}途径，以及经胞间连丝从一个细胞的细胞质走到下一个的{{t:symplast}}途径。",
+      "en": "Roots anchor the plant, take up water and minerals, store reserves and make some hormones. Water uptake is fastest in the region behind the tip that bears root hairs. Once inside, water crosses the root towards the central stele by two routes: the {{t:apoplast}} route, through cell walls and spaces between cells, and the {{t:symplast}} route, from the cytoplasm of one cell to the next through plasmodesmata.",
+      "ms": "Akar melabuhkan tumbuhan, mengambil air dan mineral, menyimpan rizab dan menghasilkan beberapa hormon. Pengambilan air paling pantas di kawasan di belakang hujung akar yang mempunyai bulu akar. Setelah masuk, air merentasi akar ke arah stele di tengah melalui dua laluan: laluan {{t:apoplast}}, melalui dinding sel dan ruang antara sel, dan laluan {{t:symplast}}, dari sitoplasma satu sel ke sel seterusnya melalui plasmodesmata."
+     },
+     "defines": [
+      "apoplast",
+      "symplast"
+     ],
+     "src": [
+      "HH:35-37",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "维管柱外围的一层细胞叫内皮层。内皮层细胞的径向壁和横向壁上有一圈由疏水的木栓质构成的{{t:casparian-strip}}，把细胞壁之间的空隙填满。走质外体的水到这里就被挡住，必须穿过内皮层细胞的质膜，进入共质体。这样根就能“检查”进入维管柱的东西。",
+      "en": "The layer of cells around the stele is the endodermis. Its radial and transverse walls carry the {{t:casparian-strip}}, a band of hydrophobic suberin that fills the wall spaces. Water travelling in the apoplast is stopped here and must cross the plasma membrane of an endodermal cell into the symplast. This lets the root screen what enters the stele.",
+      "ms": "Lapisan sel di sekeliling stele ialah endodermis. Dinding jejarian dan melintangnya membawa {{t:casparian-strip}}, jalur suberin hidrofobik yang memenuhi ruang dinding. Air yang bergerak dalam apoplas dihalang di sini dan mesti merentasi membran plasma sel endodermis masuk ke simplas. Ini membolehkan akar menapis apa yang masuk ke stele."
+     },
+     "defines": [
+      "casparian-strip"
+     ],
+     "src": [
+      "HH:36-37",
+      "LEC"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "key",
+     "text": {
+      "zh": "整条路可以看成一个“土壤—植物—大气连续体”：土壤约 −0.3 MPa，根、茎、叶一路越来越负，空气可以到 −100 MPa。水沿着这条下降的水势梯度，从土壤一直流到大气。",
+      "en": "The whole path forms a soil–plant–atmosphere continuum: soil at perhaps −0.3 MPa, root, stem and leaf progressively more negative, and the air down to −100 MPa. Water follows this falling water-potential gradient from the soil all the way to the atmosphere.",
+      "ms": "Keseluruhan laluan membentuk kontinum tanah–tumbuhan–atmosfera: tanah mungkin −0.3 MPa, akar, batang dan daun semakin negatif, dan udara sehingga −100 MPa. Air mengikut kecerunan keupayaan air yang menurun ini dari tanah hingga ke atmosfera."
+     },
+     "src": [
+      "HH:24",
+      "HH:33",
+      "LEC"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "transpiration",
+  "stoma",
+  "boundary-layer",
+  "relative-humidity",
+  "xylem",
+  "tracheid",
+  "vessel",
+  "root-pressure",
+  "cohesion-tension",
+  "cavitation",
+  "embolism",
+  "field-capacity",
+  "permanent-wilting",
+  "apoplast",
+  "symplast",
+  "casparian-strip"
+ ]
+}

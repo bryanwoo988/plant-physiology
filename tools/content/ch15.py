@@ -1,0 +1,121 @@
+"""Chapter 15 — Adaptations to the environment. Run: python3 tools/content/ch15.py"""
+import sys
+sys.path.insert(0, 'tools/content')
+from build import T, P, L, N, write_chapter
+
+chapter = {"id": "ch15", "num": 15, "stage": 3,
+ "title": T("对环境的适应", "Adaptations to the environment", "Adaptasi kepada persekitaran"),
+ "sources": ["HH", "LEC"],
+ "sections": [
+ {"id": "s1", "heading": T("阳生植物与阴生植物", "Sun plants and shade plants", "Tumbuhan cahaya dan tumbuhan teduh"), "level": "basic", "blocks": [
+  P("和第 14 章的驯化不同，{{t:adaptation}}是经过演化、可遗传的特征。按对光强的反应，植物可分成阳生植物和阴生植物；有的是只能在深荫下生存的“专性阴生植物”。",
+    "Unlike the acclimation of Chapter 14, an {{t:adaptation}} is an evolved, heritable trait. By their response to irradiance, plants are classed as sun or shade plants; some are obligate shade plants, able to live only in deep shade.",
+    "Berbeza dengan penyesuaian Bab 14, {{t:adaptation}} ialah ciri yang berevolusi dan diwarisi. Mengikut tindak balas terhadap sinaran, tumbuhan dikelaskan sebagai tumbuhan cahaya atau teduh; sesetengahnya tumbuhan teduh obligat, hanya boleh hidup dalam teduhan dalam.",
+    defines=["adaptation"], src=["HH:262", "LEC"]),
+  {"type": "table", "src": ["HH:262-263", "LEC"],
+   "caption": T("阴生叶与阳生叶的比较", "Shade leaves and sun leaves compared", "Perbandingan daun teduh dan daun cahaya"),
+   "headers": [T("特征", "Feature", "Ciri"), T("阴生叶", "Shade leaf", "Daun teduh"), T("阳生叶", "Sun leaf", "Daun cahaya")],
+   "rows": [
+    [T("叶片", "Leaf", "Daun"), T("较薄", "Thinner", "Lebih nipis"), T("较厚", "Thicker", "Lebih tebal")],
+    [T("叶绿素", "Chlorophyll", "Klorofil"), T("每叶含量较高", "Higher per leaf", "Lebih tinggi per daun"), T("较低", "Lower", "Lebih rendah")],
+    [T("类囊体", "Thylakoids", "Tilakoid"), T("基粒堆叠较高", "Taller grana stacks", "Tindanan grana lebih tinggi"), T("堆叠较少", "Fewer stacks", "Kurang tindanan")],
+    [T("叶绿素 a/b", "Chlorophyll a/b", "Klorofil a/b"), T("较低（集光复合体多）", "Lower (more light-harvesting complex)", "Lebih rendah (lebih banyak kompleks penuai cahaya)"), T("较高", "Higher", "Lebih tinggi")],
+    [T("弱光下", "In dim light", "Dalam cahaya malap"), T("光合效率高、光补偿点低", "Efficient; low compensation point", "Cekap; titik pampasan rendah"), T("较敏感", "More sensitive", "Lebih sensitif")],
+    [T("强光下", "In bright light", "Dalam cahaya terang"), T("很早饱和，易受光抑制", "Saturates early; prone to photoinhibition", "Tepu awal; mudah fotoperencatan"), T("能用更多光；可塑性大；较不易慢性光抑制", "Uses more light; very plastic; less prone to chronic photoinhibition", "Menggunakan lebih banyak cahaya; sangat plastik; kurang mudah fotoperencatan kronik")],
+   ]},
+  {"type": "widget", "id": "W12", "opts": {"types": ["sun", "shade", "c4"]}},
+ ]},
+ {"id": "s2", "heading": T("C₄ 植物：把 CO₂ 浓缩起来", "C₄ plants: concentrating CO₂", "Tumbuhan C₄: memekatkan CO₂"), "level": "basic", "blocks": [
+  P("C₃ 光合作用的第一个稳定产物是三碳的 3-PGA；{{t:c4-photosynthesis}}的第一个稳定产物则是四碳的草酰乙酸（OAA）。C₄ 植物多见于热带和亚热带，在被子植物 18 个科（3 个单子叶、15 个双子叶）中都有，但这些科也都有 C₃ 物种。",
+    "The first stable product of C₃ photosynthesis is three-carbon 3-PGA; in {{t:c4-photosynthesis}} it is four-carbon oxaloacetate (OAA). C₄ plants are common in the tropics and subtropics and occur in 18 angiosperm families (3 monocot, 15 dicot) — every one of which also has C₃ species.",
+    "Hasil stabil pertama fotosintesis C₃ ialah 3-PGA tiga karbon; dalam {{t:c4-photosynthesis}} ia ialah oksaloasetat (OAA) empat karbon. Tumbuhan C₄ biasa di kawasan tropika dan subtropika dan terdapat dalam 18 famili angiosperma (3 monokotiledon, 15 dikotiledon) — setiap satunya juga mempunyai spesies C₃.",
+    defines=["c4-photosynthesis"], src=["HH:263-264", "LEC"]),
+  P("C₄ 叶有特殊的{{t:kranz-anatomy}}（德文“花环”）：维管束靠得很近，外面围着一圈叶绿体很多、壁厚的维管束鞘细胞，排列松散的叶肉细胞在它们之间。C₄ 叶较薄，只有一种叶肉细胞，细胞排得紧、气室少，CO₂ 的扩散路径短；进行卡尔文循环的鞘细胞紧贴维管组织，糖可以很快运走。",
+    "C₄ leaves have {{t:kranz-anatomy}} (German for ‘wreath’): vascular bundles lie close together, each ringed by thick-walled bundle-sheath cells packed with chloroplasts, with mesophyll cells between them. The C₄ leaf is thinner, with only one type of mesophyll cell, tightly packed with fewer air spaces, so the diffusion path for CO₂ is short; the bundle-sheath cells that run the Calvin cycle sit against the vascular tissue, so sugar is exported quickly.",
+    "Daun C₄ mempunyai {{t:kranz-anatomy}} (bahasa Jerman untuk ‘kalungan’): berkas vaskular terletak berdekatan, setiap satu dikelilingi sel seludang berkas berdinding tebal yang penuh kloroplas, dengan sel mesofil di antaranya. Daun C₄ lebih nipis, dengan satu jenis sel mesofil sahaja, tersusun rapat dengan kurang ruang udara, jadi laluan resapan CO₂ pendek; sel seludang berkas yang menjalankan kitaran Calvin terletak bersebelahan tisu vaskular, jadi gula dieksport dengan cepat.",
+    defines=["kranz-anatomy"], src=["HH:263-266", "LEC"]),
+  L(("叶肉细胞：{{t:pepcase}}把碳酸氢根（HCO₃⁻）加到 PEP（3 C）上，形成 OAA（4 C）。这一步不可逆，而且 PEP 羧化酶不和 O₂ 反应。", "Mesophyll: {{t:pepcase}} adds bicarbonate (HCO₃⁻) to PEP (3 C), forming OAA (4 C). The step is irreversible, and PEP carboxylase does not react with O₂.", "Mesofil: {{t:pepcase}} menambah bikarbonat (HCO₃⁻) kepada PEP (3 C), membentuk OAA (4 C). Langkah ini tidak boleh berbalik, dan PEP karboksilase tidak bertindak balas dengan O₂."),
+    ("OAA 很快变成苹果酸或天冬氨酸，运到维管束鞘细胞。", "OAA is quickly converted to malate or aspartate and shuttled to the bundle-sheath cells.", "OAA ditukar dengan cepat kepada malat atau aspartat dan diangkut ke sel seludang berkas."),
+    ("在鞘细胞里，四碳酸脱羧，放出的 CO₂ 进入卡尔文循环（由 rubisco 固定）。", "In the bundle sheath the C₄ acid is decarboxylated and the released CO₂ enters the Calvin cycle via rubisco.", "Dalam seludang berkas, asid C₄ dinyahkarboksil dan CO₂ yang dibebaskan memasuki kitaran Calvin melalui rubisco."),
+    ("剩下的三碳酸（丙酮酸或丙氨酸）回到叶肉细胞，由丙酮酸磷酸双激酶（PPDK）磷酸化，再生 PEP，循环继续。", "The remaining C₃ acid (pyruvate or alanine) returns to the mesophyll, where pyruvate phosphate dikinase (PPDK) phosphorylates it to regenerate PEP and the cycle continues.", "Asid C₃ yang tinggal (piruvat atau alanina) kembali ke mesofil, di mana piruvat fosfat dikinase (PPDK) memfosforilkannya untuk menjana semula PEP dan kitaran berterusan."),
+    ordered=True, defines=["pepcase"], src=["HH:264-265", "LEC"]),
+  P("C₄ 循环本身没有净固定任何碳；它的作用是用有机酸把 CO₂“搬运”进鞘细胞，使那里的 CO₂ 浓度远高于单靠扩散能达到的水平，从而压制光呼吸，在最佳情况下把碳固定速率提高 2–3 倍。代价是多花能量：再生 PEP 要额外 2 个 ATP，所以每固定一个 CO₂ 需要 5 ATP + 2 NADPH（C₃ 是 3 ATP + 2 NADPH）。",
+    "The C₄ cycle itself fixes no carbon net. Its job is to ferry CO₂ into the bundle sheath as organic acids, building a CO₂ concentration far above what diffusion alone could reach — suppressing photorespiration and, at best, raising the rate of carbon fixation two- to threefold. The price is energy: regenerating PEP costs two extra ATP, so each CO₂ needs 5 ATP + 2 NADPH (against 3 ATP + 2 NADPH in C₃).",
+    "Kitaran C₄ sendiri tidak mengikat karbon secara bersih. Tugasnya ialah mengangkut CO₂ ke dalam seludang berkas sebagai asid organik, membina kepekatan CO₂ jauh melebihi apa yang boleh dicapai resapan sahaja — menindas fotorespirasi dan, paling baik, meningkatkan kadar pengikatan karbon dua hingga tiga kali ganda. Harganya ialah tenaga: menjana semula PEP memerlukan dua ATP tambahan, jadi setiap CO₂ memerlukan 5 ATP + 2 NADPH (berbanding 3 ATP + 2 NADPH dalam C₃).",
+    src=["HH:265-266", "LEC"]),
+  {"type": "widget", "id": "W15"},
+ ]},
+ {"id": "s3", "heading": T("C₄ 的生态意义", "Why C₄ matters ecologically", "Mengapa C₄ penting dari segi ekologi"), "level": "basic", "blocks": [
+  L(("光合速率较高，受 O₂ 抑制较少（光呼吸少），CO₂ 补偿点低；叶片还能把叶内产生的 CO₂ 再捕捉回来。", "Higher photosynthetic rates, less inhibition by O₂ (little photorespiration) and a low CO₂ compensation point; the leaf also traps and recycles CO₂ produced inside it.", "Kadar fotosintesis lebih tinggi, kurang perencatan oleh O₂ (fotorespirasi sedikit) dan titik pampasan CO₂ rendah; daun juga memerangkap dan mengitar semula CO₂ yang dihasilkan di dalamnya."),
+    ("最适温度较高：叶温升高时，C₄ 的量子产额保持稳定，C₃ 的则下降。但 C₄ 植物对低温较敏感，因为 PPDK 怕冷。这些特点强烈影响它们的地理分布。", "A higher temperature optimum: as leaf temperature rises, C₄ quantum yield holds steady while C₃ quantum yield falls. But C₄ plants are more sensitive to low temperature because PPDK is cold-labile. These traits strongly shape where they grow.", "Suhu optimum lebih tinggi: apabila suhu daun meningkat, hasil kuantum C₄ kekal stabil manakala hasil kuantum C₃ jatuh. Tetapi tumbuhan C₄ lebih sensitif kepada suhu rendah kerana PPDK labil sejuk. Ciri ini sangat menentukan di mana ia tumbuh."),
+    ("用水更省：{{t:wue}}（每蒸腾一摩尔水同化多少 CO₂）较高，蒸腾比（TR，WUE 的倒数）较低，在缺水时尤其有利。", "Thriftier with water: higher {{t:wue}} (moles of CO₂ assimilated per mole of water transpired) and a lower transpiration ratio (TR, the inverse), an advantage especially under drought.", "Lebih jimat air: {{t:wue}} lebih tinggi (mol CO₂ yang diasimilasi bagi setiap mol air yang ditranspirasi) dan nisbah transpirasi (TR, songsangnya) lebih rendah, kelebihan terutamanya semasa kemarau."),
+    ("光饱和速率高，生产力较大；但在低温或弱光下，C₃ 植物的生产力可以超过 C₄。", "High light-saturated rates and greater productivity — but at low temperature or in dim light, C₃ plants can out-produce C₄.", "Kadar tepu cahaya tinggi dan produktiviti lebih besar — tetapi pada suhu rendah atau dalam cahaya malap, tumbuhan C₃ boleh mengatasi C₄."),
+    defines=["wue"], src=["HH:265-267", "LEC"]),
+ ]},
+ {"id": "s4", "heading": T("CAM：沙漠里的夜班", "CAM: the night shift of the desert", "CAM: syif malam di gurun"), "level": "basic", "blocks": [
+  P("{{t:cam}}是另一种 CO₂ 浓缩机制，见于 23 个被子植物科（大多数不全是 CAM，有些科 C₃、C₄、CAM 都有）。CAM 植物生长在极干燥的地方，都是叶片肥厚的多肉植物（但不是所有多肉植物都是 CAM）。最显著的特点是气孔周期颠倒：夜里开、白天关，大大减少水分散失。",
+    "{{t:cam}} is another CO₂-concentrating mechanism, found in 23 angiosperm families (most not exclusively CAM; some contain C₃, C₄ and CAM species). CAM plants live in very dry places and are all succulents with thick, fleshy leaves — though not every succulent is CAM. Their most striking feature is an inverted stomatal cycle: open at night, shut by day, saving a great deal of water.",
+    "{{t:cam}} ialah satu lagi mekanisme pemekatan CO₂, terdapat dalam 23 famili angiosperma (kebanyakannya bukan CAM sepenuhnya; sesetengahnya mengandungi spesies C₃, C₄ dan CAM). Tumbuhan CAM hidup di tempat yang sangat kering dan semuanya sukulen dengan daun tebal berisi — walaupun bukan semua sukulen ialah CAM. Ciri paling ketara ialah kitaran stoma terbalik: terbuka pada waktu malam, tertutup pada siang hari, menjimatkan banyak air.",
+    defines=["cam"], src=["HH:267-268", "LEC"]),
+  L(("夜里：气孔打开，PEP 羧化酶固定 CO₂ 成 OAA，再还原成苹果酸（不是天冬氨酸），贮存在液泡里——液泡变酸。所需的 PEP 来自分解贮存的碳水化合物（淀粉）。", "Night: stomata open; PEP carboxylase fixes CO₂ into OAA, which is reduced to malate (not aspartate) and stored in the vacuole, which becomes acidic. The PEP comes from breaking down stored carbohydrate (starch).", "Malam: stoma terbuka; PEP karboksilase mengikat CO₂ menjadi OAA, yang diturunkan kepada malat (bukan aspartat) dan disimpan dalam vakuol, yang menjadi berasid. PEP datang daripada penguraian karbohidrat tersimpan (kanji)."),
+    ("白天：气孔关闭；苹果酸运出液泡，由 NAD-苹果酸酶脱羧，放出的 CO₂ 进入叶绿体的卡尔文循环。", "Day: stomata closed; malate leaves the vacuole and is decarboxylated by NAD-malic enzyme, and the CO₂ released enters the Calvin cycle in the chloroplast.", "Siang: stoma tertutup; malat keluar dari vakuol dan dinyahkarboksil oleh enzim NAD-malik, dan CO₂ yang dibebaskan memasuki kitaran Calvin dalam kloroplas."),
+    src=["HH:267-269", "LEC"]),
+  N("key", "C₄ 与 CAM 的异同（常考）：两者都用 PEP 羧化酶形成四碳酸来浓缩 CO₂。C₄ 是“空间分隔”——羧化在叶肉细胞、卡尔文循环在鞘细胞；CAM 是“时间分隔”——两步在同一个细胞，一晚一昼。CAM 的 PEP 来自贮存的碳水化合物。演化上 CAM 似乎比 C₄ 更早出现。",
+    "C₄ and CAM compared (a favourite exam question): both use PEP carboxylase to make a C₄ acid and concentrate CO₂. C₄ separates the steps in space — carboxylation in mesophyll, Calvin cycle in bundle sheath; CAM separates them in time — both in the same cell, one by night and one by day. In CAM the PEP comes from stored carbohydrate. In evolution, CAM appears to have preceded C₄.",
+    "C₄ dan CAM dibandingkan (soalan peperiksaan kegemaran): kedua-duanya menggunakan PEP karboksilase untuk membuat asid C₄ dan memekatkan CO₂. C₄ memisahkan langkah dari segi ruang — pengkarboksilan dalam mesofil, kitaran Calvin dalam seludang berkas; CAM memisahkannya dari segi masa — kedua-duanya dalam sel yang sama, satu pada waktu malam dan satu pada siang hari. Dalam CAM PEP datang daripada karbohidrat tersimpan. Dari segi evolusi, CAM nampaknya muncul sebelum C₄.",
+    src=["HH:268-269", "LEC"]),
+  P("CAM 植物比 C₃ 和 C₄ 更容易把呼吸放出的 CO₂ 重新固定；有些是“兼性 CAM”，只在需要时（例如干旱）才转用 CAM。CAM 的蒸腾速率比 C₃、C₄ 低得多，省水效果显著，但每天同化的碳也少得多，所以长得慢。",
+    "CAM plants re-fix respired CO₂ far more readily than C₃ and C₄ plants, and some are facultative, switching to CAM only when needed (under drought, for instance). CAM transpiration is much lower than in C₃ and C₄ plants, saving a great deal of water — but daily carbon gain is much lower too, so they grow slowly.",
+    "Tumbuhan CAM mengikat semula CO₂ respirasi jauh lebih mudah daripada tumbuhan C₃ dan C₄, dan sesetengahnya fakultatif, beralih kepada CAM hanya apabila perlu (semasa kemarau, contohnya). Transpirasi CAM jauh lebih rendah berbanding tumbuhan C₃ dan C₄, menjimatkan banyak air — tetapi perolehan karbon harian juga jauh lebih rendah, jadi ia tumbuh perlahan.",
+    src=["HH:268-269", "LEC"]),
+ ]},
+ {"id": "s5", "heading": T("C₄ 与 CAM 的调控", "Regulating C₄ and CAM", "Mengawal atur C₄ dan CAM"), "level": "basic", "blocks": [
+  P("两者都需要精确调控淀粉代谢以供应 PEP、回收苹果酸。它们的 PEP 羧化酶同工酶活性比 C₃ 植物高，并受光暗转换调节；PEP 也是糖酵解的中间产物，所以光合与呼吸要互相平衡。PEP 羧化酶受苹果酸反馈抑制——C₄ 在光下、CAM 在暗中。蛋白激酶把 PEP 羧化酶的一个丝氨酸磷酸化后活性更高；这个激酶在 C₄ 植物中被光激活，在 CAM 植物中则在白天失活。",
+    "Both need tight control of starch metabolism to supply PEP and retrieve malate. Their PEP carboxylase isozymes are more active than in C₃ plants and are regulated by light–dark transitions; PEP is also a glycolytic intermediate, so photosynthesis and respiration must be balanced. PEP carboxylase is feedback-inhibited by malate — in C₄ plants in the light, in CAM plants in the dark. A protein kinase phosphorylates a serine of PEP carboxylase, raising its activity; the kinase is activated by light in C₄ plants but inactivated during the day in CAM plants.",
+    "Kedua-duanya memerlukan kawalan rapi metabolisme kanji untuk membekalkan PEP dan mendapatkan semula malat. Isozim PEP karboksilasenya lebih aktif berbanding tumbuhan C₃ dan dikawal oleh peralihan cahaya–gelap; PEP juga perantaraan glikolisis, jadi fotosintesis dan respirasi mesti seimbang. PEP karboksilase direncat suap balik oleh malat — dalam tumbuhan C₄ dalam cahaya, dalam tumbuhan CAM dalam gelap. Protein kinase memfosforilkan serina PEP karboksilase, meningkatkan aktivitinya; kinase itu diaktifkan oleh cahaya dalam tumbuhan C₄ tetapi dinyahaktifkan pada siang hari dalam tumbuhan CAM.",
+    src=["HH:269-270", "LEC"]),
+ ]},
+ {"id": "s6", "heading": T("生物群系", "Biomes", "Biom"), "level": "basic", "blocks": [
+  P("从植物群落或生态系统的角度研究生理，叫生态生理学；植被特征相近的一群生态系统叫生物群系。热带雨林位于南北纬 23°30′ 之间，主要有亚马孙河流域、非洲雨林和马来西亚雨林；雨量高、光照强、温度高，光量和日长全年变化小，生产力极高，植物多样性也最高：有高出林冠的突出树、附生植物、藤本和腐生植物。雨林植物的蒸散作用为水循环贡献大量水分。",
+    "Studying physiology at the level of a plant community or ecosystem is ecophysiology, and a group of ecosystems with distinctive vegetation is a biome. Tropical rainforests lie between 23°30′ N and S, the main ones in the Amazon basin, Africa and Malaysia; with high rainfall, high irradiance and high temperature, and little seasonal change in light or day length, they are extremely productive and have the greatest plant diversity — emergent trees, epiphytes, lianas and saprophytes. Evapotranspiration by rainforest plants returns large amounts of water to the hydrological cycle.",
+    "Mengkaji fisiologi pada peringkat komuniti tumbuhan atau ekosistem ialah ekofisiologi, dan sekumpulan ekosistem dengan tumbuh-tumbuhan tersendiri ialah biom. Hutan hujan tropika terletak antara 23°30′ U dan S, yang utama di lembangan Amazon, Afrika dan Malaysia; dengan hujan tinggi, sinaran tinggi dan suhu tinggi, serta sedikit perubahan bermusim dalam cahaya atau panjang hari, ia sangat produktif dan mempunyai kepelbagaian tumbuhan terbesar — pokok emergen, epifit, liana dan saprofit. Sejatpeluhan oleh tumbuhan hutan hujan mengembalikan jumlah air yang besar ke kitaran hidrologi.",
+    src=["HH:270-272", "LEC"]),
+ ]},
+]}
+
+terms = [
+ ("adaptation", T("适应", "adaptation", "adaptasi"),
+  T("经过演化、可遗传的有利特征；不同于个体一生中的驯化。", "An evolved, heritable trait; unlike acclimation within one lifetime.", "Ciri yang berevolusi dan diwarisi; berbeza daripada penyesuaian dalam satu hayat.")),
+ ("c4-photosynthesis", T("C₄ 光合作用", "C₄ photosynthesis", "fotosintesis C₄"),
+  T("先由 PEP 羧化酶把 CO₂ 固定成四碳酸，再在维管束鞘释放给 rubisco 的 CO₂ 浓缩机制。", "A CO₂-concentrating route: PEP carboxylase fixes CO₂ into a C₄ acid, which releases it to rubisco in the bundle sheath.", "Laluan pemekatan CO₂: PEP karboksilase mengikat CO₂ menjadi asid C₄, yang membebaskannya kepada rubisco dalam seludang berkas."), "C₄"),
+ ("kranz-anatomy", T("花环结构", "Kranz anatomy", "anatomi Kranz"),
+  T("C₄ 叶中维管束外围绕一圈叶绿体多的维管束鞘细胞、外面再有叶肉细胞的结构。", "The C₄ leaf layout: vascular bundles ringed by chloroplast-rich bundle-sheath cells, with mesophyll outside.", "Susunan daun C₄: berkas vaskular dikelilingi sel seludang berkas kaya kloroplas, dengan mesofil di luar.")),
+ ("pepcase", T("PEP 羧化酶", "PEP carboxylase", "PEP karboksilase"),
+  T("把 HCO₃⁻ 加到 PEP 上形成草酰乙酸的酶；不与 O₂ 反应。", "The enzyme adding HCO₃⁻ to PEP to form oxaloacetate; it does not react with O₂.", "Enzim yang menambah HCO₃⁻ kepada PEP untuk membentuk oksaloasetat; ia tidak bertindak balas dengan O₂."), "PEPcase"),
+ ("wue", T("水分利用效率", "water-use efficiency", "kecekapan penggunaan air"),
+  T("每蒸腾一摩尔水所同化的 CO₂ 摩尔数；倒数是蒸腾比。", "Moles of CO₂ assimilated per mole of water transpired; the inverse is the transpiration ratio.", "Mol CO₂ yang diasimilasi bagi setiap mol air yang ditranspirasi; songsangnya ialah nisbah transpirasi."), "WUE"),
+ ("cam", T("景天酸代谢", "crassulacean acid metabolism", "metabolisme asid krasulasea"),
+  T("夜间开气孔、以 PEP 羧化酶固定 CO₂ 成苹果酸贮存，白天关气孔再释放给卡尔文循环。", "Stomata open at night to fix CO₂ into stored malate via PEP carboxylase; by day, with stomata shut, the CO₂ is released to the Calvin cycle.", "Stoma terbuka pada waktu malam untuk mengikat CO₂ menjadi malat tersimpan melalui PEP karboksilase; pada siang hari, dengan stoma tertutup, CO₂ dibebaskan kepada kitaran Calvin."), "CAM"),
+]
+
+quiz = [
+ {"stage": 3, "chapter": "ch15",
+  "q": T("C₄ 植物固定每个 CO₂ 需要多少 ATP 和 NADPH？", "How much ATP and NADPH does a C₄ plant spend per CO₂?", "Berapa banyak ATP dan NADPH dibelanjakan tumbuhan C₄ bagi setiap CO₂?"),
+  "options": [T("3 ATP + 2 NADPH", "3 ATP + 2 NADPH", "3 ATP + 2 NADPH"), T("5 ATP + 2 NADPH", "5 ATP + 2 NADPH", "5 ATP + 2 NADPH"), T("2 ATP + 5 NADPH", "2 ATP + 5 NADPH", "2 ATP + 5 NADPH"), T("5 ATP + 5 NADPH", "5 ATP + 5 NADPH", "5 ATP + 5 NADPH")],
+  "answer": 1, "why": T("比 C₃ 多 2 个 ATP，用在 PPDK 再生 PEP。", "Two more ATP than C₃, spent by PPDK to regenerate PEP.", "Dua ATP lebih daripada C₃, dibelanjakan oleh PPDK untuk menjana semula PEP.")},
+ {"stage": 3, "chapter": "ch15",
+  "q": T("C₄ 和 CAM 最根本的分别是什么？", "What is the fundamental difference between C₄ and CAM?", "Apakah perbezaan asas antara C₄ dan CAM?"),
+  "options": [T("C₄ 不用 PEP 羧化酶", "C₄ does not use PEP carboxylase", "C₄ tidak menggunakan PEP karboksilase"), T("C₄ 在空间上分隔两步，CAM 在时间上分隔", "C₄ separates the steps in space, CAM in time", "C₄ memisahkan langkah dari segi ruang, CAM dari segi masa"), T("CAM 没有卡尔文循环", "CAM has no Calvin cycle", "CAM tiada kitaran Calvin"), T("CAM 只在热带", "CAM is only tropical", "CAM hanya tropika")],
+  "answer": 1, "why": T("C₄：叶肉细胞 vs 维管束鞘；CAM：同一细胞的夜晚 vs 白天。", "C₄: mesophyll vs bundle sheath; CAM: the same cell, night vs day.", "C₄: mesofil lawan seludang berkas; CAM: sel yang sama, malam lawan siang.")},
+ {"stage": 3, "chapter": "ch15",
+  "q": T("为什么 C₄ 植物较怕低温？", "Why are C₄ plants more sensitive to cold?", "Mengapa tumbuhan C₄ lebih sensitif kepada sejuk?"),
+  "options": [T("rubisco 在低温下失活", "Rubisco is inactivated by cold", "Rubisco dinyahaktifkan oleh sejuk"), T("丙酮酸磷酸双激酶（PPDK）对低温不稳定", "Pyruvate phosphate dikinase (PPDK) is cold-labile", "Piruvat fosfat dikinase (PPDK) labil sejuk"), T("它们没有叶黄素循环", "They lack a xanthophyll cycle", "Ia tiada kitaran xantofil"), T("它们的气孔不能关闭", "Their stomata cannot close", "Stomanya tidak dapat menutup")],
+  "answer": 1, "why": T("PPDK 再生 PEP；低温使它失活，C₄ 循环就停了。", "PPDK regenerates PEP; when cold inactivates it, the C₄ cycle stops.", "PPDK menjana semula PEP; apabila sejuk menyahaktifkannya, kitaran C₄ berhenti.")},
+ {"stage": 3, "chapter": "ch15",
+  "q": T("阴生叶为何叶绿素 a/b 比较低？", "Why do shade leaves have a lower chlorophyll a/b ratio?", "Mengapa daun teduh mempunyai nisbah klorofil a/b yang lebih rendah?"),
+  "options": [T("它们缺镁", "They lack magnesium", "Ia kekurangan magnesium"), T("它们有较多富含叶绿素 b 的集光复合体", "They have more chlorophyll-b-rich light-harvesting complex", "Ia mempunyai lebih banyak kompleks penuai cahaya kaya klorofil b"), T("它们的反应中心较多", "They have more reaction centres", "Ia mempunyai lebih banyak pusat tindak balas"), T("它们只进行循环电子传递", "They run only cyclic electron flow", "Ia hanya menjalankan aliran elektron berkitar")],
+  "answer": 1, "why": T("较大的天线让弱光下的集光效率更高。", "A larger antenna harvests dim light more efficiently.", "Antena yang lebih besar menuai cahaya malap dengan lebih cekap.")},
+]
+
+if __name__ == "__main__":
+    write_chapter(chapter, terms, [], quiz)

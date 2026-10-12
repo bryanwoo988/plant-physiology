@@ -1,0 +1,291 @@
+{
+ "id": "ch10",
+ "num": 10,
+ "stage": 2,
+ "title": {
+  "zh": "细胞呼吸",
+  "en": "Cellular respiration",
+  "ms": "Respirasi sel"
+ },
+ "sources": [
+  "HH",
+  "LEC"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "先把淀粉拆开",
+    "en": "First, take the starch apart",
+    "ms": "Mula-mula, leraikan kanji"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "细胞呼吸把光合作用存下的化学能释放出来，变成 ATP 和还原力，同时提供合成其他分子所需的碳骨架。它的原料大多来自淀粉。分解淀粉有两条路：水解途径（最后得到葡萄糖）和磷酸解途径（得到己糖磷酸）。",
+      "en": "Cellular respiration releases the chemical energy stored by photosynthesis as ATP and reducing power, and supplies the carbon skeletons for building other molecules. Much of its fuel comes from starch, which can be taken apart in two ways: the hydrolytic pathway, ending in glucose, and the phosphorolytic pathway, ending in hexose phosphates.",
+      "ms": "Respirasi sel membebaskan tenaga kimia yang disimpan oleh fotosintesis sebagai ATP dan kuasa penurunan, dan membekalkan rangka karbon untuk membina molekul lain. Kebanyakan bahan apinya datang daripada kanji, yang boleh dileraikan dengan dua cara: laluan hidrolitik, berakhir dengan glukosa, dan laluan fosforolitik, berakhir dengan heksosa fosfat."
+     },
+     "src": [
+      "HH:174-176",
+      "LEC"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "α-淀粉酶：在分子内部随机切 α-(1,4) 键，但不切末端的键、不切 α-(1,6) 分支键，也不切紧挨分支点的键；产物主要是麦芽糖和含 4–10 个葡萄糖、保留原来分支的极限糊精。",
+       "en": "α-Amylase: cuts α-(1,4) bonds at random inside the chain — but not terminal bonds, α-(1,6) branch bonds or bonds next to a branch point; the products are mainly maltose and limit dextrins of 4–10 glucose units that keep the original branches.",
+       "ms": "α-Amilase: memotong ikatan α-(1,4) secara rawak di dalam rantai — tetapi bukan ikatan hujung, ikatan cabang α-(1,6) atau ikatan bersebelahan titik cabang; hasilnya terutamanya maltosa dan dekstrin had 4–10 unit glukosa yang mengekalkan cabang asal."
+      },
+      {
+       "zh": "β-淀粉酶：只从非还原端开始，每隔一个 α-(1,4) 键切一次，产物只有麦芽糖；它碰不到分支分子的内部。",
+       "en": "β-Amylase: works only from the non-reducing ends, cutting every second α-(1,4) bond; its only product is maltose, and it leaves the interior of branched molecules untouched.",
+       "ms": "β-Amilase: bekerja hanya dari hujung bukan penurun, memotong setiap ikatan α-(1,4) kedua; hasil tunggalnya maltosa, dan ia tidak menyentuh bahagian dalam molekul bercabang."
+      },
+      {
+       "zh": "极限糊精酶：切 α-(1,6) 分支键，让两种淀粉酶可以继续工作；α-葡萄糖苷酶再把麦芽糖水解成两个葡萄糖。",
+       "en": "Limit dextrinase cuts the α-(1,6) branch bonds so both amylases can carry on; α-glucosidase then hydrolyses maltose into two glucose.",
+       "ms": "Dekstrinase had memotong ikatan cabang α-(1,6) supaya kedua-dua amilase boleh meneruskan; α-glukosidase kemudian menghidrolisis maltosa kepada dua glukosa."
+      },
+      {
+       "zh": "无机磷浓度高时走磷酸解途径：淀粉磷酸化酶用 Pi 直接切下葡萄糖-1-磷酸，省下一个 ATP。",
+       "en": "When inorganic phosphate is high, the phosphorolytic route takes over: starch phosphorylase uses Pi to release glucose-1-phosphate directly, saving an ATP.",
+       "ms": "Apabila fosfat tak organik tinggi, laluan fosforolitik mengambil alih: kanji fosforilase menggunakan Pi untuk membebaskan glukosa-1-fosfat secara langsung, menjimatkan satu ATP."
+      }
+     ],
+     "src": [
+      "HH:175-178",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "糖酵解与丙酮酸的命运",
+    "en": "Glycolysis and the fate of pyruvate",
+    "ms": "Glikolisis dan nasib piruvat"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:glycolysis}}在细胞质里把一个己糖切成两个三碳的丙酮酸，净得少量 ATP 和 NADH，不需要氧。接下来丙酮酸往哪里去，取决于有没有氧：",
+      "en": "{{t:glycolysis}}, in the cytosol, splits a hexose into two three-carbon pyruvates, with a small net gain of ATP and NADH and no need for oxygen. Where pyruvate goes next depends on whether oxygen is available:",
+      "ms": "{{t:glycolysis}}, dalam sitosol, membelah heksosa kepada dua piruvat tiga karbon, dengan sedikit keuntungan bersih ATP dan NADH serta tanpa memerlukan oksigen. Ke mana piruvat pergi seterusnya bergantung pada kehadiran oksigen:"
+     },
+     "defines": [
+      "glycolysis"
+     ],
+     "src": [
+      "HH:178-181",
+      "LEC"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "有氧：丙酮酸进入线粒体，彻底氧化成 CO₂。",
+       "en": "With oxygen: pyruvate enters the mitochondrion and is oxidised completely to CO₂.",
+       "ms": "Dengan oksigen: piruvat memasuki mitokondria dan dioksidakan sepenuhnya kepada CO₂."
+      },
+      {
+       "zh": "缺氧（例如淹水的根）：{{t:fermentation}}。乙醇脱氢酶（ADH）途径产生乙醇和 CO₂，乳酸脱氢酶（LDH）途径产生乳酸。发酵的目的是把 NADH 重新氧化成 NAD⁺，让糖酵解能继续产生一点 ATP。",
+       "en": "Without oxygen (in flooded roots, for example): {{t:fermentation}}. The alcohol dehydrogenase (ADH) route gives ethanol and CO₂; the lactate dehydrogenase (LDH) route gives lactate. Fermentation exists to re-oxidise NADH to NAD⁺ so glycolysis can keep producing a little ATP.",
+       "ms": "Tanpa oksigen (contohnya akar yang bertakung air): {{t:fermentation}}. Laluan alkohol dehidrogenase (ADH) menghasilkan etanol dan CO₂; laluan laktat dehidrogenase (LDH) menghasilkan laktat. Penapaian wujud untuk mengoksidakan semula NADH kepada NAD⁺ supaya glikolisis terus menghasilkan sedikit ATP."
+      }
+     ],
+     "defines": [
+      "fermentation"
+     ],
+     "src": [
+      "HH:181-182",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "细胞质里还有{{t:oppp}}：葡萄糖-6-磷酸在这里氧化，产生 NADPH 和五碳糖。NADPH 主要用来驱动合成反应（例如脂肪酸合成很活跃的组织里这条路就很活跃），五碳糖则是合成核酸的原料。",
+      "en": "The cytosol also runs the {{t:oppp}}: glucose-6-phosphate is oxidised here to give NADPH and five-carbon sugars. The NADPH mainly drives biosynthesis (the pathway is very active in fatty tissues), and the pentoses are raw material for nucleic acids.",
+      "ms": "Sitosol juga menjalankan {{t:oppp}}: glukosa-6-fosfat dioksidakan di sini untuk memberi NADPH dan gula lima karbon. NADPH terutamanya memacu biosintesis (laluan ini sangat aktif dalam tisu berlemak), dan pentosa ialah bahan mentah asid nukleik."
+     },
+     "defines": [
+      "oppp"
+     ],
+     "src": [
+      "HH:180-181"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "柠檬酸循环与电子传递链",
+    "en": "The citric acid cycle and the electron transport chain",
+    "ms": "Kitaran asid sitrik dan rantai pengangkutan elektron"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "在线粒体基质里，丙酮酸脱氢酶复合体把丙酮酸脱去一个 CO₂，变成乙酰辅酶 A。乙酰-CoA（2 C）和草酰乙酸（4 C）结合成柠檬酸（6 C），进入{{t:tca-cycle}}，绕一圈放出两个 CO₂、回到草酰乙酸，同时产生 NADH、FADH₂ 和 ATP。",
+      "en": "In the mitochondrial matrix, the pyruvate dehydrogenase complex removes one CO₂ from pyruvate to give acetyl-CoA. Acetyl-CoA (2 C) joins oxaloacetate (4 C) to make citrate (6 C), entering the {{t:tca-cycle}}; one turn releases two CO₂ and regenerates oxaloacetate, producing NADH, FADH₂ and ATP along the way.",
+      "ms": "Dalam matriks mitokondria, kompleks piruvat dehidrogenase membuang satu CO₂ daripada piruvat untuk memberi asetil-KoA. Asetil-KoA (2 C) bergabung dengan oksaloasetat (4 C) untuk membuat sitrat (6 C), memasuki {{t:tca-cycle}}; satu pusingan membebaskan dua CO₂ dan menjana semula oksaloasetat, menghasilkan NADH, FADH₂ dan ATP di sepanjang jalan."
+     },
+     "defines": [
+      "tca-cycle"
+     ],
+     "src": [
+      "HH:182-184",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "NADH 和 FADH₂ 的电子交给内膜上的电子传递链，最后传给 O₂ 生成水。NADH 的电子走复合体 I → 泛醌 → 复合体 III → 细胞色素 c → 复合体 IV；FADH₂（来自琥珀酸）从复合体 II 进入。复合体 I、III、IV 把质子从基质泵到膜间隙，ATP 合酶（F₀–F₁）让质子回流时合成 ATP，叫{{t:oxidative-phosphorylation}}。",
+      "en": "Electrons from NADH and FADH₂ go to the electron transport chain in the inner membrane and finally to O₂, forming water. NADH electrons travel complex I → ubiquinone → complex III → cytochrome c → complex IV; FADH₂ (from succinate) enters at complex II. Complexes I, III and IV pump protons from the matrix to the intermembrane space, and ATP synthase (F₀–F₁) makes ATP as they flow back — {{t:oxidative-phosphorylation}}.",
+      "ms": "Elektron daripada NADH dan FADH₂ pergi ke rantai pengangkutan elektron dalam membran dalam dan akhirnya ke O₂, membentuk air. Elektron NADH bergerak kompleks I → ubikuinon → kompleks III → sitokrom c → kompleks IV; FADH₂ (daripada suksinat) masuk di kompleks II. Kompleks I, III dan IV mengepam proton dari matriks ke ruang antara membran, dan ATP sintase (F₀–F₁) membuat ATP apabila ia mengalir balik — {{t:oxidative-phosphorylation}}."
+     },
+     "defines": [
+      "oxidative-phosphorylation"
+     ],
+     "src": [
+      "HH:184-186",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "每两个电子从内部 NADH 走到 O₂ 约可合成 3 个 ATP（P/O 比约 3），因为每个 ATP 约需 3 个 H⁺。线粒体做出的 ATP 大多要送到细胞其他地方，所以内膜上有 ADP/ATP 转运体，一对一交换线粒体内的 ATP 和细胞质的 ADP。",
+      "en": "Each pair of electrons passing from internal NADH to O₂ yields about 3 ATP (a P/O ratio of about 3), since each ATP needs about 3 H⁺. Most mitochondrial ATP is used elsewhere in the cell, so the inner membrane carries an ADP/ATP translocator that swaps mitochondrial ATP for cytosolic ADP one for one.",
+      "ms": "Setiap pasangan elektron yang bergerak dari NADH dalaman ke O₂ menghasilkan kira-kira 3 ATP (nisbah P/O kira-kira 3), kerana setiap ATP memerlukan kira-kira 3 H⁺. Kebanyakan ATP mitokondria digunakan di tempat lain dalam sel, jadi membran dalam membawa translokator ADP/ATP yang menukar ATP mitokondria dengan ADP sitosol satu dengan satu."
+     },
+     "src": [
+      "HH:185-186"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "植物线粒体的特别之处",
+    "en": "What is special about plant mitochondria",
+    "ms": "Keistimewaan mitokondria tumbuhan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "植物线粒体有四种 NAD(P)H 脱氢酶：内部的 NADH 脱氢酶（复合体 I）、不受鱼藤酮抑制的内部 NADH 脱氢酶，以及面向膜间隙、直接氧化细胞质 NADH 和 NADPH 的两种外部脱氢酶。后三者绕过复合体 I，每对电子最多只得 2 个 ATP。",
+      "en": "Plant mitochondria have four NAD(P)H dehydrogenases: the internal NADH dehydrogenase (complex I); a rotenone-insensitive internal NADH dehydrogenase; and two external ones facing the intermembrane space that oxidise cytosolic NADH and NADPH directly. The last three bypass complex I, so each electron pair yields at most 2 ATP.",
+      "ms": "Mitokondria tumbuhan mempunyai empat NAD(P)H dehidrogenase: NADH dehidrogenase dalaman (kompleks I); NADH dehidrogenase dalaman yang tidak sensitif kepada rotenon; dan dua dehidrogenase luaran yang menghadap ruang antara membran dan mengoksidakan NADH dan NADPH sitosol secara langsung. Tiga yang terakhir memintas kompleks I, jadi setiap pasangan elektron menghasilkan paling banyak 2 ATP."
+     },
+     "src": [
+      "HH:186-187"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "氰化物、一氧化碳和叠氮化物会阻断复合体 IV（细胞色素氧化酶），动物的呼吸因此停止；但大多数植物在氰化物下仍能吸收氧气，这种抗氰呼吸可占总呼吸的 40 %。它对水杨羟肟酸（SHAM）敏感，来自{{t:alternative-oxidase}}：它从泛醌直接把电子交给 O₂，绕过复合体 III 和 IV，所以电子经过它时只能得到 1 个 ATP（若从复合体 I 进入）或 0 个。",
+      "en": "Cyanide, carbon monoxide and azide block complex IV (cytochrome oxidase) and stop animal respiration, but most plants keep taking up oxygen in cyanide; this cyanide-resistant respiration can be 40 % of the total. It is sensitive to salicylhydroxamic acid (SHAM) and comes from the {{t:alternative-oxidase}}, which passes electrons from ubiquinone straight to O₂, bypassing complexes III and IV — so electrons that take it yield only 1 ATP (if they entered at complex I) or none.",
+      "ms": "Sianida, karbon monoksida dan azida menyekat kompleks IV (sitokrom oksidase) dan menghentikan respirasi haiwan, tetapi kebanyakan tumbuhan terus mengambil oksigen dalam sianida; respirasi tahan sianida ini boleh mencapai 40 % jumlah. Ia sensitif kepada asid salisilhidroksamik (SHAM) dan datang daripada {{t:alternative-oxidase}}, yang memindahkan elektron dari ubikuinon terus ke O₂, memintas kompleks III dan IV — jadi elektron yang melaluinya hanya menghasilkan 1 ATP (jika masuk di kompleks I) atau tiada."
+     },
+     "defines": [
+      "alternative-oxidase"
+     ],
+     "src": [
+      "HH:187-188"
+     ]
+    },
+    {
+     "type": "widget",
+     "id": "W10"
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "产热：臭菘等天南星科植物开花前，肉穗花序的耗氧量急剧上升（“呼吸危机”），几乎全靠交替途径，温度可比周围高约 10 °C，把有气味的胺类挥发出去吸引传粉昆虫。",
+       "en": "Heat: just before pollination in skunk cabbage and other aroids, the spadix's respiration surges (a ‘respiratory crisis’) almost entirely through the alternative pathway, warming it up to about 10 °C above the air and volatilising odorous amines that attract pollinators.",
+       "ms": "Haba: sejurus sebelum pendebungaan pada kubis sigung dan aroid lain, respirasi spadiks melonjak (‘krisis respirasi’) hampir sepenuhnya melalui laluan alternatif, memanaskannya sehingga kira-kira 10 °C melebihi udara dan meruapkan amina berbau yang menarik pendebunga."
+      },
+      {
+       "zh": "能量溢流假说：交替途径通常在细胞色素途径饱和后才运作，碳水化合物多时速率上升，可烧掉暂时过剩的碳，以免干扰源–库关系。",
+       "en": "The energy-overflow hypothesis: the alternative pathway usually runs only once the cytochrome pathway is saturated, and speeds up when carbohydrate is plentiful — burning off temporary excess carbon that might upset source–sink relations.",
+       "ms": "Hipotesis limpahan tenaga: laluan alternatif biasanya berfungsi hanya apabila laluan sitokrom tepu, dan mempercepat apabila karbohidrat banyak — membakar lebihan karbon sementara yang boleh mengganggu hubungan sumber–sinki."
+      },
+      {
+       "zh": "防止电子传递链过度还原，减少超氧自由基和氧化胁迫。",
+       "en": "Preventing over-reduction of the chain, which lowers the risk of superoxide and oxidative stress.",
+       "ms": "Mengelakkan penurunan berlebihan rantai, yang mengurangkan risiko superoksida dan tekanan oksidatif."
+      }
+     ],
+     "src": [
+      "HH:188-189"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "heading": {
+    "zh": "脂肪变糖、碳骨架与呼吸速率",
+    "en": "Fat to sugar, carbon skeletons and rates",
+    "ms": "Lemak kepada gula, rangka karbon dan kadar"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "很多种子以油脂（油体）贮存能量。脂肪不溶于水，不能在韧皮部运输，所以萌发时要先变成蔗糖：脂肪酶把甘油三酯分解，脂肪酸在乙醛酸循环体里经 β-氧化成乙酰-CoA，再经{{t:glyoxylate-cycle}}合成琥珀酸（4 C），最后经糖异生变成蔗糖，运到胚。",
+      "en": "Many seeds store energy as oil in oil bodies. Fats are insoluble and cannot move in the phloem, so at germination they must first become sucrose: lipases break down triglycerides; fatty acids undergo β-oxidation to acetyl-CoA in glyoxysomes; the {{t:glyoxylate-cycle}} turns acetyl-CoA into succinate (4 C); and gluconeogenesis turns that into sucrose for transport to the embryo.",
+      "ms": "Banyak biji menyimpan tenaga sebagai minyak dalam jasad minyak. Lemak tidak larut dan tidak boleh bergerak dalam floem, jadi semasa percambahan ia mesti menjadi sukrosa dahulu: lipase memecahkan trigliserida; asid lemak menjalani pengoksidaan-β kepada asetil-KoA dalam glioksisom; {{t:glyoxylate-cycle}} menukar asetil-KoA kepada suksinat (4 C); dan glukoneogenesis menukarnya kepada sukrosa untuk diangkut ke embrio."
+     },
+     "defines": [
+      "glyoxylate-cycle"
+     ],
+     "src": [
+      "HH:188-190"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "呼吸不只为了 ATP：糖酵解和柠檬酸循环的中间产物是氨基酸、核苷酸、脂质、色素等的碳骨架。呼吸速率随发育和代谢状态而变：生长中的组织高、成熟组织低；有些果实成熟时呼吸会突然升高，叫呼吸跃变（第 22 章）。温度、氧气和盐分也强烈影响呼吸速率。",
+      "en": "Respiration is not only for ATP: intermediates of glycolysis and the citric acid cycle are the carbon skeletons for amino acids, nucleotides, lipids, pigments and more. Respiration rate varies with development and metabolic state — high in growing tissue, lower in mature tissue — and some fruits show a sudden rise as they ripen, the climacteric (Chapter 22). Temperature, oxygen and salts also strongly affect the rate.",
+      "ms": "Respirasi bukan sahaja untuk ATP: perantaraan glikolisis dan kitaran asid sitrik ialah rangka karbon untuk asid amino, nukleotida, lipid, pigmen dan lain-lain. Kadar respirasi berubah dengan perkembangan dan keadaan metabolik — tinggi dalam tisu yang sedang tumbuh, lebih rendah dalam tisu matang — dan sesetengah buah menunjukkan kenaikan mendadak semasa masak, iaitu klimakterik (Bab 22). Suhu, oksigen dan garam juga sangat mempengaruhi kadarnya."
+     },
+     "src": [
+      "HH:189-193",
+      "LEC"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "glycolysis",
+  "fermentation",
+  "oppp",
+  "tca-cycle",
+  "oxidative-phosphorylation",
+  "alternative-oxidase",
+  "glyoxylate-cycle"
+ ]
+}

@@ -1,0 +1,315 @@
+{
+ "id": "ch17",
+ "num": 17,
+ "stage": 4,
+ "title": {
+  "zh": "细胞的生长、分裂与信号传导",
+  "en": "Cell growth, division and signalling",
+  "ms": "Pertumbuhan, pembahagian dan pengisyaratan sel"
+ },
+ "sources": [
+  "HH",
+  "LEC"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "细胞壁",
+    "en": "The cell wall",
+    "ms": "Dinding sel"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "植物细胞外面包着复杂的胞外基质，大部分是细胞壁。年轻、正在生长的细胞外是{{t:primary-wall}}；细胞成熟后，在里面再沉积一层次生壁。",
+      "en": "Plant cells are wrapped in a complex extracellular matrix, most of it cell wall. Young, growing cells have a {{t:primary-wall}}; once mature, they deposit a secondary wall inside it.",
+      "ms": "Sel tumbuhan dibalut matriks luar sel yang kompleks, kebanyakannya dinding sel. Sel muda yang sedang tumbuh mempunyai {{t:primary-wall}}; apabila matang, ia memendapkan dinding sekunder di dalamnya."
+     },
+     "defines": [
+      "primary-wall"
+     ],
+     "src": [
+      "HH:289-290",
+      "LEC"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "纤维素微纤丝：多达数千条 β-1,4 葡萄糖链成束排列，相邻链以氢键相连，非常稳定；初生壁中方向大致随机。",
+       "en": "Cellulose microfibrils: bundles of up to thousands of β-1,4-glucan chains held together by hydrogen bonds and very stable; their orientation in primary walls is roughly random.",
+       "ms": "Mikrofibril selulosa: berkas sehingga ribuan rantai glukan β-1,4 yang disatukan oleh ikatan hidrogen dan sangat stabil; orientasinya dalam dinding primer lebih kurang rawak."
+      },
+      {
+       "zh": "交联聚糖：非纤维素多糖把微纤丝连成半刚性的网，双子叶和许多单子叶植物是木葡聚糖。",
+       "en": "Cross-linking glycans: non-cellulosic polysaccharides tie the microfibrils into a semi-rigid network — xyloglucans in dicots and many monocots.",
+       "ms": "Glikan pemaut silang: polisakarida bukan selulosa mengikat mikrofibril menjadi rangkaian separa tegar — xiloglukan dalam dikotiledon dan banyak monokotiledon."
+      },
+      {
+       "zh": "果胶：以多聚半乳糖醛酸为主，游离的酸基与 Ca²⁺ 交联稳定基质；果胶是把相邻细胞黏在一起的中胶层的主要成分。",
+       "en": "Pectin: mainly polygalacturonic acid, whose free acid groups cross-link with Ca²⁺ to stabilise the matrix; pectin is the main component of the middle lamella that cements neighbouring cells together.",
+       "ms": "Pektin: terutamanya asid poligalakturonik, yang kumpulan asid bebasnya memaut silang dengan Ca²⁺ untuk menstabilkan matriks; pektin ialah komponen utama lamela tengah yang melekatkan sel berjiran."
+      },
+      {
+       "zh": "蛋白质：伸展蛋白是富含羟脯氨酸的糖蛋白，名字叫“伸展”，其实被认为是帮忙把细胞壁“锁”定形状、增加强度。",
+       "en": "Protein: extensin, a hydroxyproline-rich glycoprotein — despite its name, thought to help lock the wall into shape and strengthen it.",
+       "ms": "Protein: ekstensin, glikoprotein kaya hidroksiprolina — walaupun namanya, dipercayai membantu mengunci bentuk dinding dan menguatkannya."
+      }
+     ],
+     "src": [
+      "HH:290-292",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "纤维素由质膜上的纤维素合酶复合体（六个亚基组成的多聚体）以 UDP-葡萄糖为原料合成，一边合成一边组装成微纤丝、挤进细胞壁。次生壁更厚更硬，纤维素比例更高、交联聚糖和果胶较少，而且常含木质素；纤维素微纤丝加上木质素，就是木材强韧的原因。",
+      "en": "Cellulose is made from UDP-glucose by cellulose synthase complexes (multimers of six subunits) in the plasma membrane, which assemble the chains into microfibrils as they extrude them into the wall. Secondary walls are thicker and more rigid, with more cellulose, less glycan and pectin, and often lignin; cellulose microfibrils plus lignin give wood its strength.",
+      "ms": "Selulosa dibuat daripada UDP-glukosa oleh kompleks selulosa sintase (multimer enam subunit) dalam membran plasma, yang menyusun rantai menjadi mikrofibril semasa menyemperitnya ke dalam dinding. Dinding sekunder lebih tebal dan tegar, dengan lebih banyak selulosa, kurang glikan dan pektin, dan sering lignin; mikrofibril selulosa serta lignin memberi kayu kekuatannya."
+     },
+     "src": [
+      "HH:292-294",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "细胞分裂",
+    "en": "Cell division",
+    "ms": "Pembahagian sel"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "真核细胞分裂有两步：有丝分裂（核分裂）分配遗传物质，胞质分裂分配细胞质。{{t:cell-cycle}}分成 M 期（有丝分裂）、G₁ 期（有丝分裂后的间隙）、S 期（DNA 合成）和 G₂ 期（S 期后、M 期前），G₁、S、G₂ 合称间期。",
+      "en": "Eukaryotic division has two steps: mitosis (karyokinesis) shares out the genetic material and cytokinesis the cytoplasm. The {{t:cell-cycle}} runs M phase (mitosis), G₁ (a gap after mitosis), S (DNA synthesis) and G₂ (after S, before M); G₁, S and G₂ together are interphase.",
+      "ms": "Pembahagian eukariot mempunyai dua langkah: mitosis (kariokinesis) membahagikan bahan genetik dan sitokinesis sitoplasma. {{t:cell-cycle}} terdiri daripada fasa M (mitosis), G₁ (jurang selepas mitosis), S (sintesis DNA) dan G₂ (selepas S, sebelum M); G₁, S dan G₂ bersama-sama ialah interfasa."
+     },
+     "defines": [
+      "cell-cycle"
+     ],
+     "src": [
+      "HH:292-293",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "细胞周期的时序由{{t:cdk}}控制：细胞周期蛋白是 CDK 的亚基，结合后激活整个复合体；植物有 A、B、D、H 四类细胞周期蛋白，让调控更专一。磷酸酶和 CDK 抑制蛋白也是关键。",
+      "en": "The timing of the cycle is controlled by {{t:cdk}}s: cyclin is a subunit that activates the whole CDK complex, and plants have four classes of cyclins (A, B, D, H) that make the control specific. Phosphatases and CDK inhibitors also play key roles.",
+      "ms": "Pemasaan kitaran dikawal oleh {{t:cdk}}: siklin ialah subunit yang mengaktifkan seluruh kompleks CDK, dan tumbuhan mempunyai empat kelas siklin (A, B, D, H) yang menjadikan kawalan khusus. Fosfatase dan perencat CDK juga memainkan peranan utama."
+     },
+     "defines": [
+      "cdk"
+     ],
+     "src": [
+      "HH:293",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "植物的胞质分裂是从细胞内部向外建造新的膜和细胞壁：M 期后期，纺锤丝解体再重新组成{{t:phragmoplast}}，引导高尔基体分泌的囊泡排好，囊泡融合成{{t:cell-plate}}，向外扩展把母细胞一分为二。细胞板形成时保留下一些胞间连丝，让两个子细胞的共质体保持连续，小分子可以不穿膜直接交换。",
+      "en": "Plant cytokinesis builds new membrane and wall from the inside outwards. Late in M phase the spindle fibres break down and reassemble into the {{t:phragmoplast}}, which lines up secretory vesicles from the Golgi; the vesicles fuse into the {{t:cell-plate}}, which grows outwards and splits the parent cell in two. Some plasmodesmata are kept as the plate forms, so the daughter cells' symplast stays continuous and small molecules can pass without crossing membranes.",
+      "ms": "Sitokinesis tumbuhan membina membran dan dinding baharu dari dalam ke luar. Lewat dalam fasa M, gentian gelendong terurai dan tersusun semula menjadi {{t:phragmoplast}}, yang menyusun vesikel rembesan daripada Golgi; vesikel bergabung menjadi {{t:cell-plate}}, yang tumbuh ke luar dan membelah sel induk kepada dua. Sesetengah plasmodesmata dikekalkan semasa plat terbentuk, jadi simplas sel anak kekal berterusan dan molekul kecil boleh berpindah tanpa merentasi membran."
+     },
+     "defines": [
+      "phragmoplast",
+      "cell-plate"
+     ],
+     "src": [
+      "HH:293-294",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "细胞怎样长大：酸生长",
+    "en": "How cells enlarge: acid growth",
+    "ms": "Bagaimana sel membesar: pertumbuhan asid"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "细胞长大的动力是吸水。原生质体想膨胀，细胞壁抵抗变形，于是产生膨压，并在壁内产生张力。细胞的生长速率可以写成 dV/dt = m(P − Y)：P 是膨压，Y 是“屈服阈值”（细胞开始扩张所需的最低膨压），m 是{{t:wall-extensibility}}——壁不可逆增加面积的能力。",
+      "en": "Cells enlarge by taking up water. As the protoplast tries to expand, the wall resists deformation, generating turgor and stress in the wall. The growth rate can be written dV/dt = m(P − Y): P is turgor, Y the yield threshold (the minimum turgor for expansion), and m the {{t:wall-extensibility}} — the capacity of the wall to increase its area irreversibly.",
+      "ms": "Sel membesar dengan mengambil air. Apabila protoplas cuba mengembang, dinding menahan perubahan bentuk, menjana turgor dan tegasan dalam dinding. Kadar pertumbuhan boleh ditulis dV/dt = m(P − Y): P ialah turgor, Y ambang alah (turgor minimum untuk pengembangan), dan m {{t:wall-extensibility}} — keupayaan dinding untuk meningkatkan luasnya secara tidak berbalik."
+     },
+     "defines": [
+      "wall-extensibility"
+     ],
+     "src": [
+      "HH:294-295",
+      "LEC"
+     ]
+    },
+    {
+     "type": "widget",
+     "id": "W17"
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "应力松弛模型：膨压使细胞壁的弹性成分伸长；可塑成分“屈服”后弹性成分得以放松；膨压再次建立壁内应力，细胞壁就扩大了可塑成分伸长的那么多。要生长，细胞壁必须先“松动”。",
+      "en": "The stress-relaxation model: turgor stretches the elastic components of the wall; the plastic components yield, letting the elastic ones relax; turgor then re-establishes stress and the wall has grown by as much as the plastic components lengthened. To grow, the wall must first be loosened.",
+      "ms": "Model kelonggaran tegasan: turgor meregangkan komponen kenyal dinding; komponen plastik mengalah, membiarkan komponen kenyal mengendur; turgor kemudian membina semula tegasan dan dinding telah membesar sebanyak pemanjangan komponen plastik. Untuk tumbuh, dinding mesti dilonggarkan dahulu."
+     },
+     "src": [
+      "HH:295-296",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "低 pH 会刺激细胞壁伸展，这叫{{t:acid-growth}}。生长素激活质膜 H⁺ 泵，把质子泵进细胞壁，pH 下降；1990 年代发现的{{t:expansin}}在低 pH 下作用，松开木葡聚糖与纤维素之间的连接，使细胞壁应力松弛、伸展。同时膜电位升高、离子吸收增加，细胞吸水、膨压上升，细胞伸长（第 18 章）。扩张蛋白作用很快，在生长和分化中的组织大量表达。",
+      "en": "Low pH stimulates wall extension — {{t:acid-growth}}. Auxin activates the plasma-membrane H⁺ pump, which acidifies the wall; {{t:expansin}}s, discovered in the 1990s, act at low pH to loosen the xyloglucan–cellulose links, allowing stress relaxation and extension. At the same time the membrane potential rises, ion uptake increases, water follows, turgor rises and the cell elongates (Chapter 18). Expansins act fast and are highly expressed in growing, differentiating tissues.",
+      "ms": "pH rendah merangsang pemanjangan dinding — {{t:acid-growth}}. Auksin mengaktifkan pam H⁺ membran plasma, yang mengasidkan dinding; {{t:expansin}}, ditemui pada 1990-an, bertindak pada pH rendah untuk melonggarkan pautan xiloglukan–selulosa, membenarkan kelonggaran tegasan dan pemanjangan. Pada masa yang sama keupayaan membran meningkat, pengambilan ion bertambah, air mengikut, turgor meningkat dan sel memanjang (Bab 18). Ekspansin bertindak pantas dan diekspresikan dengan tinggi dalam tisu yang sedang tumbuh dan membeza."
+     },
+     "defines": [
+      "acid-growth",
+      "expansin"
+     ],
+     "src": [
+      "HH:295-297",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "信号：从接收到反应",
+    "en": "Signals: from reception to response",
+    "ms": "Isyarat: daripada penerimaan kepada tindak balas"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "植物感受内外的信号：内部的有激素——生长素、赤霉素、细胞分裂素、油菜素甾醇、脱落酸、乙烯、独脚金内酯、茉莉酸、水杨酸；外部的有光和光周期、重力、水分、机械刺激（风、触碰）、磁场、生物因子和污染物。{{t:signal-transduction}}分三步：受体接收信号，经蛋白质、小 RNA 和第二信使传递，最后引起细胞反应；有的信号也可直接进细胞核改变基因表达。",
+      "en": "Plants sense internal and external signals. Internal ones are hormones — auxins, gibberellins, cytokinins, brassinosteroids, abscisic acid, ethylene, strigolactones, jasmonic acid and salicylic acid; external ones include light and photoperiod, gravity, moisture, mechanical stimuli (wind, touch), magnetic fields, living organisms and pollutants. {{t:signal-transduction}} has three steps: a receptor receives the signal, proteins, small RNAs and second messengers relay it, and the cell responds; some signals instead go straight to the nucleus and change gene expression.",
+      "ms": "Tumbuhan mengesan isyarat dalaman dan luaran. Isyarat dalaman ialah hormon — auksin, giberelin, sitokinin, brasinosteroid, asid absisik, etilena, strigolakton, asid jasmonik dan asid salisilik; isyarat luaran termasuk cahaya dan fotoperiod, graviti, kelembapan, rangsangan mekanikal (angin, sentuhan), medan magnet, organisma hidup dan bahan cemar. {{t:signal-transduction}} mempunyai tiga langkah: reseptor menerima isyarat, protein, RNA kecil dan utusan kedua menyampaikannya, dan sel bertindak balas; sesetengah isyarat pula terus ke nukleus dan mengubah ekspresi gen."
+     },
+     "defines": [
+      "signal-transduction"
+     ],
+     "src": [
+      "HH:298-300",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "G 蛋白系统是常见的受体系统：跨膜的 G 蛋白偶联受体（GPCR）加上膜内侧结合 GTP 的 G 蛋白；Gα 亚基本身的 GTP 酶活性会把 GTP 水解成 GDP，让系统回到不活化状态。",
+      "en": "The G-protein system is a common receptor system: a transmembrane G-protein-coupled receptor (GPCR) plus GTP-binding G proteins on the cytosolic side; the Gα subunit's own GTPase activity hydrolyses GTP to GDP and switches the system off.",
+      "ms": "Sistem protein G ialah sistem reseptor biasa: reseptor berganding protein G (GPCR) transmembran serta protein G pengikat GTP di sebelah sitosol; aktiviti GTPase subunit Gα sendiri menghidrolisis GTP kepada GDP dan mematikan sistem."
+     },
+     "src": [
+      "HH:300-301",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "heading": {
+    "zh": "第二信使",
+    "en": "Second messengers",
+    "ms": "Utusan kedua"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "信号不穿过膜时，由{{t:second-messenger}}在细胞内转达：",
+      "en": "When a signal does not cross the membrane, {{t:second-messenger}}s relay it inside the cell:",
+      "ms": "Apabila isyarat tidak merentasi membran, {{t:second-messenger}} menyampaikannya di dalam sel:"
+     },
+     "defines": [
+      "second-messenger"
+     ],
+     "src": [
+      "HH:300-302",
+      "LEC"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "蛋白激酶：以磷酸化激活其他蛋白质；一连串激酶（激酶级联）能把弱信号放大；磷酸酶则把作用关掉。",
+       "en": "Protein kinases activate other proteins by phosphorylation; a chain of them — a kinase cascade — amplifies weak signals; phosphatases switch the effect off.",
+       "ms": "Protein kinase mengaktifkan protein lain melalui pemfosforilan; rantaiannya — lata kinase — menguatkan isyarat lemah; fosfatase mematikan kesannya."
+      },
+      {
+       "zh": "磷脂衍生物：四种磷脂酶（PLA₁、PLA₂、PLC、PLD）水解膜磷脂产生信使。受体结合信号后激活 PLC，把 PIP₂ 切成三磷酸肌醇（IP₃）和二酰甘油（DAG）；IP₃ 打开钙通道释放胞内 Ca²⁺，DAG 被脂激酶变成磷脂酸（PA），调节多种转运体和酶。",
+       "en": "Phospholipid derivatives: four phospholipases (PLA₁, PLA₂, PLC, PLD) cut membrane lipids to make messengers. A signal-bound receptor activates PLC, which splits PIP₂ into inositol trisphosphate (IP₃) and diacylglycerol (DAG); IP₃ opens calcium channels to release internal Ca²⁺, and DAG is turned by a lipid kinase into phosphatidic acid (PA), which regulates a range of transporters and enzymes.",
+       "ms": "Terbitan fosfolipid: empat fosfolipase (PLA₁, PLA₂, PLC, PLD) memotong lipid membran untuk membuat utusan. Reseptor yang terikat isyarat mengaktifkan PLC, yang membelah PIP₂ menjadi inositol trifosfat (IP₃) dan diasilgliserol (DAG); IP₃ membuka saluran kalsium untuk membebaskan Ca²⁺ dalaman, dan DAG ditukar oleh lipid kinase menjadi asid fosfatidik (PA), yang mengawal pelbagai pengangkut dan enzim."
+      },
+      {
+       "zh": "钙离子：贮存在内质网、液泡和线粒体，释放到细胞质中作为第二信使，调节许多过程。",
+       "en": "Calcium ions: stored in the ER, vacuole and mitochondria and released into the cytosol as a second messenger regulating many processes.",
+       "ms": "Ion kalsium: disimpan dalam RE, vakuol dan mitokondria dan dibebaskan ke sitosol sebagai utusan kedua yang mengawal banyak proses."
+      },
+      {
+       "zh": "环 AMP（cAMP）和活性氧（ROS）也作为第二信使。",
+       "en": "Cyclic AMP (cAMP) and reactive oxygen species (ROS) also act as second messengers.",
+       "ms": "AMP kitaran (cAMP) dan spesies oksigen reaktif (ROS) juga bertindak sebagai utusan kedua."
+      }
+     ],
+     "src": [
+      "HH:300-303",
+      "LEC"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "key",
+     "text": {
+      "zh": "各条信号途径之间广泛“串话”（crosstalk）：同一个信使、同一个激酶可以被不同信号共用，所以一种激素往往同时影响好几个过程，也会被其他激素增强或抵消。接下来第 18–23 章的激素都要放在这个网络里理解。",
+      "en": "There is extensive crosstalk between signalling pathways: the same messenger or kinase can be shared by different signals, so one hormone usually affects several processes and is enhanced or opposed by others. The hormones of Chapters 18–23 are best understood within this network.",
+      "ms": "Terdapat interaksi silang yang meluas antara laluan isyarat: utusan atau kinase yang sama boleh dikongsi oleh isyarat berbeza, jadi satu hormon biasanya mempengaruhi beberapa proses dan dipertingkat atau ditentang oleh yang lain. Hormon dalam Bab 18–23 paling baik difahami dalam rangkaian ini."
+     },
+     "src": [
+      "HH:303-304"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "primary-wall",
+  "cell-cycle",
+  "cdk",
+  "phragmoplast",
+  "cell-plate",
+  "wall-extensibility",
+  "acid-growth",
+  "expansin",
+  "signal-transduction",
+  "second-messenger"
+ ]
+}

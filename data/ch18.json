@@ -1,0 +1,403 @@
+{
+ "id": "ch18",
+ "num": 18,
+ "stage": 4,
+ "title": {
+  "zh": "生长素",
+  "en": "Auxins",
+  "ms": "Auksin"
+ },
+ "sources": [
+  "HH",
+  "LEC"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "植物激素是什么",
+    "en": "What a plant hormone is",
+    "ms": "Apakah hormon tumbuhan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "多细胞生物需要协调各种细胞的活动，主要靠称为激素的化学物质。动物激素的定义是：天然的有机分子，在特定器官合成，运到作用部位，在很低浓度下就有活性、并依浓度控制生理过程。{{t:phytohormone}}有几点不同：合成可以较分散，同时在多种细胞进行；可以在合成的同一个细胞或组织起作用；浓度和作用强弱甚至作用种类之间，不一定是线性关系。",
+      "en": "Multicellular organisms coordinate their many cell types mainly through chemicals called hormones. The animal definition is a naturally occurring organic molecule, made in a discrete organ, transported to its site of action and active at low concentration in a concentration-dependent way. A {{t:phytohormone}} differs: its synthesis can be diffuse, in many cell types at once; it may act in the very cells or tissues that make it; and the link between its concentration and the strength — even the type — of its effect is not always linear.",
+      "ms": "Organisma multisel menyelaraskan pelbagai jenis selnya terutamanya melalui bahan kimia yang dipanggil hormon. Definisi haiwan ialah molekul organik semula jadi, dibuat dalam organ tertentu, diangkut ke tapak tindakan dan aktif pada kepekatan rendah secara bergantung kepekatan. {{t:phytohormone}} berbeza: sintesisnya boleh tersebar, dalam banyak jenis sel serentak; ia mungkin bertindak dalam sel atau tisu yang membuatnya; dan hubungan antara kepekatannya dengan kekuatan — malah jenis — kesannya tidak selalu linear."
+     },
+     "defines": [
+      "phytohormone"
+     ],
+     "src": [
+      "HH:305-306",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:auxin}}是第一个被发现的植物激素，因为功能极多，又被称为“主激素”。它在全株都能合成，但主要在生长活跃的部位：茎尖分生组织、快速生长的幼叶等。",
+      "en": "{{t:auxin}} was the first plant hormone discovered and, for its many roles, has been called the ‘master’ hormone. It can be made throughout the plant, but mainly in actively growing regions — the shoot apex, rapidly growing young leaves and so on.",
+      "ms": "{{t:auxin}} ialah hormon tumbuhan pertama yang ditemui dan, kerana pelbagai peranannya, digelar hormon ‘induk’. Ia boleh dibuat di seluruh tumbuhan, tetapi terutamanya di kawasan yang sedang tumbuh aktif — apeks pucuk, daun muda yang tumbuh pantas dan sebagainya."
+     },
+     "defines": [
+      "auxin"
+     ],
+     "src": [
+      "HH:306",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "发现：从达尔文到燕麦弯曲试验",
+    "en": "Discovery: from Darwin to the Avena test",
+    "ms": "Penemuan: daripada Darwin kepada ujian Avena"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "达尔文父子：胚芽鞘向光弯曲；感受光的是尖端，弯曲的却是下方，说明有某种“影响”从尖端传下来。",
+       "en": "Darwin (with his son): coleoptiles bend towards light; the tip perceives the light but the region below bends, so some ‘influence’ travels down from the tip.",
+       "ms": "Darwin (bersama anaknya): koleoptil membengkok ke arah cahaya; hujung mengesan cahaya tetapi kawasan di bawah yang membengkok, jadi sesuatu ‘pengaruh’ bergerak turun dari hujung."
+      },
+      {
+       "zh": "Boysen-Jensen（1910）：这个刺激能穿过琼脂块，所以是化学物质。",
+       "en": "Boysen-Jensen (1910): the stimulus passes through an agar block, so it is chemical.",
+       "ms": "Boysen-Jensen (1910): rangsangan melalui blok agar, jadi ia bahan kimia."
+      },
+      {
+       "zh": "Paál（1918）：把切下的尖端偏放在一侧，即使在黑暗中也会弯曲。",
+       "en": "Paál (1918): replace the cut tip off-centre and the coleoptile curves even in darkness.",
+       "ms": "Paál (1918): letakkan semula hujung yang dipotong secara tidak sejajar dan koleoptil melengkung walaupun dalam gelap."
+      },
+      {
+       "zh": "Went（1928）：把燕麦胚芽鞘尖端放在琼脂块上，让物质扩散进去，再把琼脂块偏放在去顶的胚芽鞘上，下方那一侧的细胞伸长较多而弯曲；弯曲度与琼脂中的活性物质量成正比。这就是{{t:avena-test}}，活性物质被命名为 auxin（希腊文 auxein，“增加”）。",
+       "en": "Went (1928): he stood oat coleoptile tips on agar blocks to collect the substance, then placed each block off-centre on a decapitated coleoptile; cells below the block elongated more and the coleoptile curved, in proportion to the amount of active substance. This is the {{t:avena-test}}, and the substance was named auxin (Greek auxein, ‘to increase’).",
+       "ms": "Went (1928): beliau meletakkan hujung koleoptil oat di atas blok agar untuk mengumpul bahan itu, kemudian meletakkan setiap blok secara tidak sejajar pada koleoptil yang dipotong hujungnya; sel di bawah blok memanjang lebih dan koleoptil melengkung, berkadar dengan jumlah bahan aktif. Inilah {{t:avena-test}}, dan bahan itu dinamakan auksin (bahasa Yunani auxein, ‘bertambah’)."
+      }
+     ],
+     "ordered": true,
+     "defines": [
+      "avena-test"
+     ],
+     "src": [
+      "HH:306-308",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:cholodny-went}}：单侧光使内源生长素横向重新分布，较多的生长素到了背光一侧，那一侧细胞伸长较快，于是植物弯向光源。",
+      "en": "The {{t:cholodny-went}}: one-sided light redistributes endogenous auxin laterally so that more reaches the shaded side; cells there elongate faster and the plant bends towards the light.",
+      "ms": "{{t:cholodny-went}}: cahaya sebelah mengagihkan semula auksin endogen secara sisi supaya lebih banyak sampai ke sisi yang terlindung; sel di situ memanjang lebih cepat dan tumbuhan membengkok ke arah cahaya."
+     },
+     "defines": [
+      "cholodny-went"
+     ],
+     "src": [
+      "HH:308",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "天然与合成生长素",
+    "en": "Natural and synthetic auxins",
+    "ms": "Auksin semula jadi dan sintetik"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "生长素不是单一化合物，而是一群结构相似、效果相同的分子。最常见、分布最广的是{{t:iaa}}，叶中浓度约 1–100 μg/kg 鲜重，种子里更高。其他天然生长素有吲哚-3-乙醇、吲哚-3-乙醛、吲哚-3-乙腈、吲哚-3-丁酸（IBA）、4-氯-IAA 和苯乙酸（PAA）。",
+      "en": "Auxin is not one compound but a group of structurally similar molecules with the same effect. The commonest and most widespread is {{t:iaa}}, at about 1–100 μg/kg fresh weight in leaves and higher in seeds. Other natural auxins include indole-3-ethanol, indole-3-acetaldehyde, indole-3-acetonitrile, indole-3-butyric acid (IBA), 4-chloroIAA and phenylacetic acid (PAA).",
+      "ms": "Auksin bukan satu sebatian tetapi sekumpulan molekul yang serupa strukturnya dengan kesan yang sama. Yang paling biasa dan meluas ialah {{t:iaa}}, kira-kira 1–100 μg/kg berat segar dalam daun dan lebih tinggi dalam biji. Auksin semula jadi lain termasuk indol-3-etanol, indol-3-asetaldehid, indol-3-asetonitril, asid indol-3-butirik (IBA), 4-kloroIAA dan asid fenilasetik (PAA)."
+     },
+     "defines": [
+      "iaa"
+     ],
+     "src": [
+      "HH:307-309",
+      "LEC"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "合成生长素抗酶分解、较稳定、便宜：萘乙酸（NAA）。",
+       "en": "Synthetic auxins resist enzymatic breakdown, are stable and cheap: naphthaleneacetic acid (NAA).",
+       "ms": "Auksin sintetik tahan penguraian enzim, stabil dan murah: asid naftalenaasetik (NAA)."
+      },
+      {
+       "zh": "除草剂：2,4-D、2,4,5-T、麦草畏，低浓度有生长素活性，高浓度杀草。1946 年起 2,4-D 和 4-CPA 用作除草剂，对阔叶植物有选择性毒性（原因不明），至今仍是谷类田和草坪除阔叶杂草的主成分。",
+       "en": "Herbicides: 2,4-D, 2,4,5-T and dicamba are auxin-active at low concentrations and herbicidal at high ones. From 1946, 2,4-D and 4-CPA were used as herbicides, selectively toxic to broadleaf plants (for reasons not clear), and 2,4-D is still the main broadleaf-weed killer in cereal fields and lawns.",
+       "ms": "Racun rumpai: 2,4-D, 2,4,5-T dan dikamba aktif sebagai auksin pada kepekatan rendah dan meracun rumpai pada kepekatan tinggi. Sejak 1946, 2,4-D dan 4-CPA digunakan sebagai racun rumpai, toksik secara memilih kepada tumbuhan berdaun lebar (sebabnya tidak jelas), dan 2,4-D masih pembunuh rumpai berdaun lebar utama di ladang bijirin dan halaman."
+      },
+      {
+       "zh": "扦插生根：IBA 或 NAA 混入滑石粉做成“生根粉”。",
+       "en": "Rooting cuttings: IBA or NAA mixed with talc as ‘rooting powder’.",
+       "ms": "Mengakarkan keratan: IBA atau NAA dicampur dengan talkum sebagai ‘serbuk pengakaran’."
+      },
+      {
+       "zh": "果树：4-CPA 喷番茄增加开花坐果；NAA 诱导凤梨开花（其实是生长素诱导乙烯）；苹果和梨在花后早期喷 NAA 可疏果，果实接近成熟时喷则防止采前落果——效果相反，全看时机。",
+       "en": "Fruit: 4-CPA sprayed on tomatoes increases flowering and fruit set; NAA induces pineapple flowering (actually via auxin-induced ethylene); on apples and pears, NAA sprayed soon after bloom thins the fruit, while sprayed near maturity it prevents pre-harvest drop — opposite effects, depending on timing.",
+       "ms": "Buah: 4-CPA yang disembur pada tomato meningkatkan pembungaan dan set buah; NAA mengaruh pembungaan nanas (sebenarnya melalui etilena yang diaruh auksin); pada epal dan pear, NAA yang disembur sejurus selepas berbunga menjarangkan buah, manakala disembur hampir matang ia mencegah gugur sebelum tuai — kesan bertentangan, bergantung pada masa."
+      }
+     ],
+     "src": [
+      "HH:309-310",
+      "HH:316",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "合成、贮存与失活",
+    "en": "Synthesis, storage and inactivation",
+    "ms": "Sintesis, penyimpanan dan penyahaktifan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "芳香族氨基酸（苯丙氨酸、色氨酸、酪氨酸）由莽草酸途径合成：赤藓糖-4-磷酸加 PEP 生成莽草酸，再到分支酸，分支后一支到苯丙氨酸、另一支到酪氨酸和色氨酸。IAA 的合成有两条路：依赖色氨酸的途径（一般三步，不同物种中间产物不同），以及不依赖色氨酸的途径（以吲哚-3-乙腈为前体，在某些植物中来自硫代葡萄糖苷 glucobrassicin）。",
+      "en": "The aromatic amino acids (phenylalanine, tryptophan, tyrosine) are made by the shikimic acid pathway: erythrose-4-phosphate and PEP give shikimate, then chorismate, where the pathway branches — one branch to phenylalanine, the other to tyrosine and tryptophan. IAA is made by two routes: a tryptophan-dependent pathway (generally three steps, with intermediates varying between species) and a tryptophan-independent pathway (with indole-3-acetonitrile as precursor, derived in some plants from the glucosinolate glucobrassicin).",
+      "ms": "Asid amino aromatik (fenilalanina, triptofan, tirosina) dibuat oleh laluan asid shikimik: eritrosa-4-fosfat dan PEP memberi shikimat, kemudian korismat, di mana laluan bercabang — satu cabang ke fenilalanina, satu lagi ke tirosina dan triptofan. IAA dibuat melalui dua laluan: laluan bergantung triptofan (biasanya tiga langkah, dengan perantaraan berbeza antara spesies) dan laluan tidak bergantung triptofan (dengan indol-3-asetonitril sebagai prekursor, berasal dalam sesetengah tumbuhan daripada glukosinolat glukobrasisin)."
+     },
+     "src": [
+      "HH:309-310",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "细胞内活性生长素的浓度由几种方式控制：新合成；与糖或氨基酸结合成无活性的结合物（可贮存、日后再释放）；被 IAA 氧化酶氧化失活；以及从目标细胞运走。",
+      "en": "The active auxin level in a cell is set by several processes: new synthesis; conjugation to sugars or amino acids, giving inactive forms that can be stored and released later; oxidation by IAA oxidase; and transport away from the target cells.",
+      "ms": "Paras auksin aktif dalam sel ditentukan oleh beberapa proses: sintesis baharu; konjugasi kepada gula atau asid amino, memberi bentuk tidak aktif yang boleh disimpan dan dibebaskan kemudian; pengoksidaan oleh IAA oksidase; dan pengangkutan keluar dari sel sasaran."
+     },
+     "src": [
+      "HH:310-311",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "heading": {
+    "zh": "生长素做什么",
+    "en": "What auxin does",
+    "ms": "Apa yang dilakukan auksin"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "生长素最主要的作用是促进细胞伸长——不只是垂直生长，也包括向光性和向重力性的弯曲（第 25 章）。伸长随浓度增加，但会饱和。当时的模型（酸生长）：生长素与膜上的生长素结合蛋白 ABP1 结合，激活磷脂酶 A₂，其产物（溶血磷脂和脂肪酸）启动蛋白激酶级联，激活质膜 H⁺-ATP 酶把质子泵进细胞壁；低 pH 让扩张蛋白松动细胞壁，膨压推动细胞扩大（第 17 章）。",
+      "en": "Auxin's chief role is promoting cell elongation — not only upright growth but also the bending of phototropism and gravitropism (Chapter 25). Elongation rises with concentration but saturates. The model of the time (acid growth): auxin binds the membrane auxin-binding protein ABP1, activating phospholipase A₂, whose products (lysophospholipids and fatty acids) start a protein kinase cascade that activates the plasma-membrane H⁺-ATPase; protons pumped into the wall lower its pH, expansins loosen it and turgor drives expansion (Chapter 17).",
+      "ms": "Peranan utama auksin ialah menggalakkan pemanjangan sel — bukan sahaja pertumbuhan tegak tetapi juga pembengkokan fototropisme dan gravitropisme (Bab 25). Pemanjangan meningkat dengan kepekatan tetapi tepu. Model ketika itu (pertumbuhan asid): auksin terikat pada protein pengikat auksin membran ABP1, mengaktifkan fosfolipase A₂, yang hasilnya (lisofosfolipid dan asid lemak) memulakan lata protein kinase yang mengaktifkan H⁺-ATPase membran plasma; proton yang dipam ke dalam dinding merendahkan pHnya, ekspansin melonggarkannya dan turgor memacu pengembangan (Bab 17)."
+     },
+     "src": [
+      "HH:311-315",
+      "LEC"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "维管分化：促进维管组织（尤其茎中）分化与伤后再生；低浓度分化出韧皮部筛管，高浓度分化出木质部。",
+       "en": "Vascular differentiation: promotes the differentiation of vascular tissue, especially in shoots, and its regeneration after wounding; low concentrations give phloem sieve tubes, higher ones xylem.",
+       "ms": "Pembezaan vaskular: menggalakkan pembezaan tisu vaskular, terutamanya dalam pucuk, dan pertumbuhan semulanya selepas luka; kepekatan rendah memberi tiub tapis floem, yang lebih tinggi xilem."
+      },
+      {
+       "zh": "{{t:apical-dominance}}：茎尖产生的生长素往下运，抑制腋芽的细胞分裂和扩大；剪掉顶端，腋芽解除抑制，直到其中一个成为新的顶端。生长素运输抑制剂（TIBA、NPA）也能解除顶端优势。",
+       "en": "{{t:apical-dominance}}: auxin from the shoot apex moves down the stem and holds back division and expansion in the axillary buds; cut off the apex and the buds are released until one becomes the new leader. Auxin-transport inhibitors (TIBA, NPA) also release buds from dominance.",
+       "ms": "{{t:apical-dominance}}: auksin dari apeks pucuk bergerak turun batang dan menahan pembahagian serta pembesaran dalam tunas ketiak; potong apeks dan tunas dibebaskan sehingga satu menjadi peneraju baharu. Perencat pengangkutan auksin (TIBA, NPA) juga membebaskan tunas daripada dominasi."
+      },
+      {
+       "zh": "促进不定根和侧根形成；根的发育很依赖生长素的极性运输。",
+       "en": "Promotes adventitious and lateral roots; root development depends heavily on polar auxin transport.",
+       "ms": "Menggalakkan akar adventitis dan sisi; perkembangan akar sangat bergantung pada pengangkutan auksin berkutub."
+      }
+     ],
+     "defines": [
+      "apical-dominance"
+     ],
+     "src": [
+      "HH:315-317",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "heading": {
+    "zh": "受体：TIR1 与 SCF 复合体",
+    "en": "The receptor: TIR1 and the SCF complex",
+    "ms": "Reseptor: TIR1 dan kompleks SCF"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "酸诱导的生长是短暂的，30–60 分钟就停止；要持续生长，要靠生长素诱导基因表达。原初生长素响应基因包括 SAUR（小生长素上调 RNA，3 分钟内就出现，向重力弯曲时会不对称分布）和 AUX/IAA（约 30 分钟内诱导）。AUX/IAA 蛋白是转录抑制者：它结合在{{t:arf}}上，ARF 结合在生长素响应基因的启动子上却不能启动转录。",
+      "en": "Acid-induced growth is transient, stopping within 30–60 minutes; sustained growth needs auxin-induced gene expression. The primary auxin-response genes include SAUR (small auxin-upregulated RNAs, appearing within 3 minutes and distributed asymmetrically during gravitropic bending) and AUX/IAA (induced over about 30 minutes). AUX/IAA proteins are transcriptional repressors: they bind the {{t:arf}}, which sits on the promoters of auxin-responsive genes but cannot switch them on.",
+      "ms": "Pertumbuhan yang diaruh asid adalah sementara, berhenti dalam 30–60 minit; pertumbuhan berterusan memerlukan ekspresi gen yang diaruh auksin. Gen tindak balas auksin primer termasuk SAUR (RNA kecil yang ditingkatkan auksin, muncul dalam 3 minit dan tertabur tidak simetri semasa pembengkokan gravitropik) dan AUX/IAA (diaruh dalam kira-kira 30 minit). Protein AUX/IAA ialah penindas transkripsi: ia terikat pada {{t:arf}}, yang duduk pada promoter gen responsif auksin tetapi tidak dapat menghidupkannya."
+     },
+     "defines": [
+      "arf"
+     ],
+     "src": [
+      "HH:317-319",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:tir1}}是可溶、位于细胞核的生长素受体，也是一个 F-box 蛋白——即{{t:scf-complex}}（由 Skp1、Cullin 和 F-box 蛋白组成的 E3 泛素连接酶）中负责“认目标”的那一个亚基。TIR1 对 AUX/IAA 的亲和力本来很低；生长素进入 TIR1 的结合口袋，像“分子胶”把两者黏在一起。于是 SCF^TIR1 给 AUX/IAA 加上多聚泛素，送到 26S 蛋白酶体降解，ARF 被“去抑制”，基因转录、翻译出生长素响应蛋白。任何能塞进 TIR1 口袋、增强 TIR1–AUX/IAA 结合的分子，都表现得像生长素。",
+      "en": "{{t:tir1}} is a soluble, nuclear auxin receptor and an F-box protein — the ‘target-recognising’ subunit of the {{t:scf-complex}}, an E3 ubiquitin ligase built from Skp1, Cullin and an F-box protein. TIR1 alone has very low affinity for AUX/IAA; auxin sits in TIR1's binding pocket and acts as ‘molecular glue’ holding the two together. SCF^TIR1 then polyubiquitinates AUX/IAA, which is degraded by the 26S proteasome; ARF is de-repressed, and the genes are transcribed and translated into auxin-response proteins. Any molecule that fits the TIR1 pocket and strengthens TIR1–AUX/IAA binding behaves as an auxin.",
+      "ms": "{{t:tir1}} ialah reseptor auksin nukleus yang larut dan protein F-box — subunit ‘pengenal sasaran’ {{t:scf-complex}}, ligase ubikuitin E3 yang dibina daripada Skp1, Cullin dan protein F-box. TIR1 sendiri mempunyai afiniti sangat rendah terhadap AUX/IAA; auksin duduk dalam poket pengikatan TIR1 dan bertindak sebagai ‘gam molekul’ yang menyatukan kedua-duanya. SCF^TIR1 kemudian mempoliubikuitinkan AUX/IAA, yang diuraikan oleh proteasom 26S; ARF dinyahtindas, dan gen ditranskripsi serta diterjemah menjadi protein tindak balas auksin. Mana-mana molekul yang muat dalam poket TIR1 dan menguatkan ikatan TIR1–AUX/IAA berkelakuan sebagai auksin."
+     },
+     "defines": [
+      "tir1",
+      "scf-complex"
+     ],
+     "src": [
+      "HH:318-319",
+      "LEC"
+     ]
+    },
+    {
+     "type": "widget",
+     "id": "W19",
+     "opts": {
+      "hormone": "auxin"
+     }
+    },
+    {
+     "type": "note",
+     "kind": "key",
+     "text": {
+      "zh": "“去抑制”是植物激素最常见的套路：激素让受体把一个抑制蛋白送去降解，基因才打开。第 19 章的赤霉素（GID1–DELLA）走的是同一条 SCF–26S 蛋白酶体路线。",
+      "en": "‘De-repression’ is the commonest trick in plant hormone signalling: the hormone makes its receptor send a repressor protein for destruction, and only then are the genes switched on. Gibberellin in Chapter 19 (GID1–DELLA) uses the same SCF–26S proteasome route.",
+      "ms": "‘Penyahtindasan’ ialah helah paling biasa dalam pengisyaratan hormon tumbuhan: hormon membuat reseptornya menghantar protein penindas untuk dimusnahkan, dan barulah gen dihidupkan. Giberelin dalam Bab 19 (GID1–DELLA) menggunakan laluan SCF–proteasom 26S yang sama."
+     },
+     "src": [
+      "HH:318-319",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "heading": {
+    "zh": "极性运输",
+    "en": "Polar transport",
+    "ms": "Pengangkutan berkutub"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "茎里的生长素向基运输（从顶端往基部）：一部分走韧皮部，大部分靠细胞到细胞的{{t:polar-transport}}。根里则两个方向都有：向基流经中柱的木质部薄壁细胞到达根尖，再在皮层向上（向顶）回流。极性运输造成的浓度梯度控制许多发育过程。它是载体介导的二次主动运输——证据之一来自抑制剂（植物向性素）TIBA、NPA 和形态素。",
+      "en": "In shoots auxin moves basipetally (from apex to base): some in the phloem, most by cell-to-cell {{t:polar-transport}}. In roots it moves both ways: a stream down the xylem parenchyma of the stele to the root tip, and a return stream upwards through the cortex. The gradients set up by polar transport control many developmental processes. It is carrier-mediated secondary active transport — shown in part by inhibitors (phytotropins) such as TIBA, NPA and morphactin.",
+      "ms": "Dalam pucuk auksin bergerak secara basipetal (dari apeks ke pangkal): sebahagiannya dalam floem, kebanyakannya melalui {{t:polar-transport}} dari sel ke sel. Dalam akar ia bergerak dua arah: aliran menuruni parenkima xilem stele ke hujung akar, dan aliran balik ke atas melalui korteks. Kecerunan yang dibina oleh pengangkutan berkutub mengawal banyak proses perkembangan. Ia pengangkutan aktif sekunder yang diantara pembawa — ditunjukkan sebahagiannya oleh perencat (fitotropin) seperti TIBA, NPA dan morfaktin."
+     },
+     "defines": [
+      "polar-transport"
+     ],
+     "src": [
+      "HH:317-321",
+      "LEC"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "细胞壁略酸，约 80 % 的 IAA 解离成 IAA⁻，其余以 IAAH 存在。",
+       "en": "The wall is slightly acidic, so about 80 % of IAA is dissociated as IAA⁻ and the rest is IAAH.",
+       "ms": "Dinding sedikit berasid, jadi kira-kira 80 % IAA terurai sebagai IAA⁻ dan bakinya IAAH."
+      },
+      {
+       "zh": "在细胞顶端：IAA⁻ 经内流载体（AUX1 基因编码，与 H⁺ 同向运输）进入；少量 IAAH 靠简单扩散进入。",
+       "en": "At the top of the cell, IAA⁻ enters through the influx carrier (encoded by AUX1, a symport with H⁺); a smaller amount of IAAH enters by simple diffusion.",
+       "ms": "Di bahagian atas sel, IAA⁻ masuk melalui pembawa influks (dikodkan oleh AUX1, simport dengan H⁺); sejumlah kecil IAAH masuk melalui resapan ringkas."
+      },
+      {
+       "zh": "细胞质 pH 约 7，几乎所有 IAA 解离成 IAA⁻，带电，无法自己扩散出去——被困住了。",
+       "en": "The cytosol is near pH 7, so practically all IAA becomes IAA⁻, which is charged and cannot diffuse out — it is trapped.",
+       "ms": "Sitosol hampir pH 7, jadi hampir semua IAA menjadi IAA⁻, yang bercas dan tidak dapat meresap keluar — ia terperangkap."
+      },
+      {
+       "zh": "IAA⁻ 只能经外排载体出去，而外排载体（PIN 家族编码）只分布在细胞的基部——所以生长素只能往一个方向走。质膜 H⁺-ATP 酶维持细胞壁的酸性和质子动力势，提供能量。",
+       "en": "IAA⁻ can leave only through efflux carriers, and these (encoded by the PIN family) sit only at the base of the cell — so auxin moves in one direction. The plasma-membrane H⁺-ATPase keeps the wall acidic and supplies the proton motive force.",
+       "ms": "IAA⁻ hanya boleh keluar melalui pembawa efluks, dan ini (dikodkan oleh keluarga PIN) hanya terletak di pangkal sel — jadi auksin bergerak ke satu arah. H⁺-ATPase membran plasma mengekalkan keasidan dinding dan membekalkan daya gerak proton."
+      }
+     ],
+     "ordered": true,
+     "src": [
+      "HH:319-321",
+      "LEC"
+     ]
+    },
+    {
+     "type": "widget",
+     "id": "W18"
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "PIN 蛋白的分布不只决定极性运输：胚胎发生时它们的定位帮助建立顶–基轴；PIN 的分布模式也参与侧根起始和向性生长（第 25 章）。",
+      "en": "PIN proteins do more than direct polar transport: during embryogenesis their placement helps set up the apical–basal axis, and their patterns of distribution contribute to lateral-root initiation and to tropic growth (Chapter 25).",
+      "ms": "Protein PIN melakukan lebih daripada mengarahkan pengangkutan berkutub: semasa embriogenesis penempatannya membantu mewujudkan paksi apeks–basal, dan corak taburannya menyumbang kepada permulaan akar sisi dan pertumbuhan tropik (Bab 25)."
+     },
+     "src": [
+      "HH:321",
+      "LEC"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "phytohormone",
+  "auxin",
+  "avena-test",
+  "cholodny-went",
+  "iaa",
+  "apical-dominance",
+  "arf",
+  "tir1",
+  "scf-complex",
+  "polar-transport"
+ ]
+}

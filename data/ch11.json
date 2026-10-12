@@ -1,0 +1,419 @@
+{
+ "id": "ch11",
+ "num": 11,
+ "stage": 3,
+ "title": {
+  "zh": "氮同化",
+  "en": "Nitrogen assimilation",
+  "ms": "Asimilasi nitrogen"
+ },
+ "sources": [
+  "HH",
+  "LEC"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "氮循环",
+    "en": "The nitrogen cycle",
+    "ms": "Kitaran nitrogen"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "以干重计，氮是植物中含量第四多的元素，是蛋白质、核酸、叶绿素等的组成。大部分植物从土壤吸收硝酸盐（NO₃⁻）或铵（NH₄⁺），但土壤的氮常常不够，所以氮经常是限制生长的元素。空气里虽然有大量氮气（N₂），N≡N 三键却极其稳定，植物无法利用，只有某些原核生物能固定它。",
+      "en": "By dry weight nitrogen is the fourth most abundant element in plants, part of proteins, nucleic acids, chlorophyll and more. Most plants take it from the soil as nitrate (NO₃⁻) or ammonium (NH₄⁺), but soil supplies are limited, so nitrogen often limits growth. The air is full of N₂, but its N≡N triple bond is extremely stable and plants cannot use it; only certain prokaryotes can fix it.",
+      "ms": "Mengikut berat kering, nitrogen ialah unsur keempat paling banyak dalam tumbuhan, sebahagian daripada protein, asid nukleik, klorofil dan lain-lain. Kebanyakan tumbuhan mengambilnya dari tanah sebagai nitrat (NO₃⁻) atau ammonium (NH₄⁺), tetapi bekalan tanah terhad, jadi nitrogen sering mengehadkan pertumbuhan. Udara penuh dengan N₂, tetapi ikatan ganda tiga N≡N sangat stabil dan tumbuhan tidak dapat menggunakannya; hanya prokariot tertentu boleh mengikatnya."
+     },
+     "src": [
+      "HH:195",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "全球的氮分在三个库：大气（主要是 N₂）、土壤和地下水、生物体。氮在土壤中不断改变化学形式：",
+      "en": "Global nitrogen sits in three pools — the atmosphere (mostly N₂), soil and groundwater, and living biomass — and keeps changing chemical form in the soil:",
+      "ms": "Nitrogen global berada dalam tiga takungan — atmosfera (kebanyakannya N₂), tanah dan air bawah tanah, serta biojisim hidup — dan sentiasa bertukar bentuk kimia dalam tanah:"
+     },
+     "src": [
+      "HH:195-196",
+      "LEC"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "同化与固定：生物把硝酸盐变成氨基酸等有机氮，这部分氮暂时离开循环。",
+       "en": "Assimilation and immobilisation: organisms turn nitrate into amino acids and other organic N, holding it out of the cycle for a while.",
+       "ms": "Asimilasi dan imobilisasi: organisma menukar nitrat kepada asid amino dan N organik lain, menahannya di luar kitaran buat sementara."
+      },
+      {
+       "zh": "氨化（矿化）：生物排泄和死亡后，有机氮被分解成氨。",
+       "en": "Ammonification (mineralisation): when organisms excrete and die, organic N is broken down to ammonia.",
+       "ms": "Pengammoniaan (pemineralan): apabila organisma berkumuh dan mati, N organik diuraikan kepada ammonia."
+      },
+      {
+       "zh": "{{t:nitrification}}：化能自养细菌把氨氧化回硝酸盐——亚硝化单胞菌（Nitrosomonas）NH₄⁺ → NO₂⁻，硝化杆菌（Nitrobacter）NO₂⁻ → NO₃⁻。（2015 年还发现了能一步完成全程硝化的 Nitrospira。）",
+       "en": "{{t:nitrification}}: chemoautotrophic bacteria oxidise ammonia back to nitrate — Nitrosomonas NH₄⁺ → NO₂⁻, Nitrobacter NO₂⁻ → NO₃⁻. (In 2015, Nitrospira bacteria able to do the whole conversion were found.)",
+       "ms": "{{t:nitrification}}: bakteria kemoautotrof mengoksidakan ammonia kembali kepada nitrat — Nitrosomonas NH₄⁺ → NO₂⁻, Nitrobacter NO₂⁻ → NO₃⁻. (Pada 2015, bakteria Nitrospira yang boleh melakukan keseluruhan penukaran ditemui.)"
+      },
+      {
+       "zh": "反硝化：反硝化细菌把硝酸盐还原成 N₂ 回到大气——植物要和它们抢硝酸盐。",
+       "en": "Denitrification: denitrifying bacteria reduce nitrate to N₂, returning it to the air — plants compete with them for nitrate.",
+       "ms": "Penyahnitritan: bakteria penyahnitrit menurunkan nitrat kepada N₂, mengembalikannya ke udara — tumbuhan bersaing dengannya untuk nitrat."
+      }
+     ],
+     "defines": [
+      "nitrification"
+     ],
+     "src": [
+      "HH:195-196",
+      "LEC"
+     ]
+    },
+    {
+     "type": "widget",
+     "id": "W11"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "生物固氮与根瘤",
+    "en": "Biological nitrogen fixation and nodules",
+    "ms": "Pengikatan nitrogen biologi dan nodul"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:nitrogen-fixation}}是原核生物（细菌和蓝细菌）把 N₂ 还原成有机氮的途径。很多固氮菌是自由生活的；大多只在微氧或无氧下固氮，而且因为耗能太大，长得很慢，除了能光合的种类，多局限在有机碳丰富的地方。豆科植物则与一群统称{{t:rhizobia}}的细菌共生，在根（偶尔在茎）上长出{{t:nodule}}，为它们提供固氮所需的环境。共生固氮对土壤的贡献远大于自由生活的固氮菌，而且宿主与菌种之间有高度专一性。",
+      "en": "{{t:nitrogen-fixation}} is the pathway by which prokaryotes (bacteria and cyanobacteria) reduce N₂ to organic nitrogen. Many fixers are free-living; most fix N₂ only at low oxygen or none, and because fixation is so costly they grow slowly and, apart from the photosynthetic ones, keep to habitats rich in organic carbon. Legumes instead form a symbiosis with bacteria collectively called {{t:rhizobia}}, growing {{t:nodule}}s on their roots (occasionally stems) that give the bacteria the conditions they need. Symbiotic fixers add far more nitrogen to the soil than free-living ones, and host and bacterium are highly specific to each other.",
+      "ms": "{{t:nitrogen-fixation}} ialah laluan prokariot (bakteria dan sianobakteria) menurunkan N₂ kepada nitrogen organik. Banyak pengikat hidup bebas; kebanyakannya mengikat N₂ hanya pada oksigen rendah atau tanpa oksigen, dan kerana pengikatan sangat mahal ia tumbuh perlahan dan, selain yang berfotosintesis, terhad kepada habitat kaya karbon organik. Kekacang pula membentuk simbiosis dengan bakteria yang secara kolektif dipanggil {{t:rhizobia}}, menumbuhkan {{t:nodule}} pada akarnya (kadang-kadang batang) yang memberi bakteria keadaan yang diperlukan. Pengikat simbiotik menambah jauh lebih banyak nitrogen ke tanah berbanding yang hidup bebas, dan perumah serta bakteria sangat khusus antara satu sama lain."
+     },
+     "defines": [
+      "nitrogen-fixation",
+      "rhizobia",
+      "nodule"
+     ],
+     "src": [
+      "HH:196-198",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "结瘤是双方用化学信号“对话”的结果：",
+      "en": "Nodulation is a chemical dialogue between the two partners:",
+      "ms": "Pembentukan nodul ialah dialog kimia antara kedua-dua pasangan:"
+     },
+     "src": [
+      "HH:198-200",
+      "LEC"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "根分泌类黄酮（例如木犀草素），以正趋化性吸引合适的根瘤菌，并激活它们的 nod 基因。",
+       "en": "Roots release flavonoids (such as luteolin) that attract the right rhizobia by positive chemotaxis and switch on their nod genes.",
+       "ms": "Akar membebaskan flavonoid (seperti luteolin) yang menarik rizobia yang sesuai melalui kemotaksis positif dan menghidupkan gen nod-nya."
+      },
+      {
+       "zh": "根瘤菌做出{{t:nod-factor}}（脂几丁寡糖），让根毛变形、尖端卷曲，并诱导皮层细胞分裂，形成根瘤原基。凝集素与多糖参与双方的专一识别。",
+       "en": "The rhizobia make {{t:nod-factor}}s (lipo-chito-oligosaccharides) that deform and curl the root hair tips and trigger cell division in the cortex, starting the nodule primordium. Lectins and polysaccharides help the partners recognise each other.",
+       "ms": "Rizobia membuat {{t:nod-factor}} (lipo-kito-oligosakarida) yang mengubah bentuk dan menggulung hujung bulu akar serta mencetuskan pembahagian sel dalam korteks, memulakan primordium nodul. Lektin dan polisakarida membantu pasangan saling mengenali."
+      },
+      {
+       "zh": "细菌消化细胞壁，使根毛的细胞膜内陷，形成{{t:infection-thread}}；侵染线一路延伸到发育中的根瘤并分支。这时细菌仍在宿主细胞之外。",
+       "en": "The bacteria digest the wall and make the root hair membrane fold inwards into an {{t:infection-thread}}, which grows and branches into the developing nodule. At this stage the bacteria are still outside the host cells.",
+       "ms": "Bakteria mencerna dinding dan membuat membran bulu akar melipat ke dalam menjadi {{t:infection-thread}}, yang tumbuh dan bercabang ke dalam nodul yang sedang berkembang. Pada peringkat ini bakteria masih di luar sel perumah."
+      },
+      {
+       "zh": "细菌被释放进根瘤细胞，变大成为{{t:bacteroid}}，外面包着类菌体周膜。根瘤与维管组织连通：输入光合产物“喂”细菌，输出固定的氮。",
+       "en": "The bacteria are released into nodule cells, enlarge into {{t:bacteroid}}s and are wrapped in a peribacteroid membrane. The nodule connects to the vascular tissue, importing photoassimilate to feed them and exporting the fixed nitrogen.",
+       "ms": "Bakteria dilepaskan ke dalam sel nodul, membesar menjadi {{t:bacteroid}} dan dibalut membran peribakteroid. Nodul bersambung dengan tisu vaskular, mengimport fotoasimilat untuk memberinya makan dan mengeksport nitrogen yang diikat."
+      }
+     ],
+     "ordered": true,
+     "defines": [
+      "nod-factor",
+      "infection-thread",
+      "bacteroid"
+     ],
+     "src": [
+      "HH:198-200",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "固氮酶：昂贵又怕氧",
+    "en": "Nitrogenase: expensive and afraid of oxygen",
+    "ms": "Nitrogenase: mahal dan takut oksigen"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "固氮由{{t:dinitrogenase}}复合体完成，它有两个蛋白：较小的 Fe 蛋白（二聚体，含 Fe₄S₄ 簇）和较大的 MoFe 蛋白（四聚体，含 Fe₄S₄ 簇和两个钼原子）。还原态铁氧还蛋白把电子交给 Fe 蛋白，ATP 与 Fe 蛋白结合改变它的构象和电位，电子再传给 MoFe 蛋白，由它把 N₂ 还原成 NH₃：",
+      "en": "Fixation is carried out by the {{t:dinitrogenase}} complex of two proteins: the smaller Fe protein (a dimer with an Fe₄S₄ cluster) and the larger MoFe protein (a tetramer with Fe₄S₄ clusters and two molybdenum atoms). Reduced ferredoxin gives electrons to the Fe protein; ATP binds to it and changes its shape and redox potential; the electrons pass to the MoFe protein, which reduces N₂ to NH₃:",
+      "ms": "Pengikatan dijalankan oleh kompleks {{t:dinitrogenase}} yang terdiri daripada dua protein: protein Fe yang lebih kecil (dimer dengan gugusan Fe₄S₄) dan protein MoFe yang lebih besar (tetramer dengan gugusan Fe₄S₄ dan dua atom molibdenum). Feredoksin terturun memberi elektron kepada protein Fe; ATP terikat padanya dan mengubah bentuk serta keupayaan redoksnya; elektron berpindah ke protein MoFe, yang menurunkan N₂ kepada NH₃:"
+     },
+     "defines": [
+      "dinitrogenase"
+     ],
+     "src": [
+      "HH:200-201",
+      "LEC"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "key",
+     "text": {
+      "zh": "N₂ + 8 H⁺ + 8 e⁻ + 16 ATP → 2 NH₃ + H₂ + 16 ADP + 16 Pi",
+      "en": "N₂ + 8 H⁺ + 8 e⁻ + 16 ATP → 2 NH₃ + H₂ + 16 ADP + 16 Pi",
+      "ms": "N₂ + 8 H⁺ + 8 e⁻ + 16 ATP → 2 NH₃ + H₂ + 16 ADP + 16 Pi"
+     },
+     "src": [
+      "HH:200-201",
+      "LEC"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "很贵：算上产生还原态铁氧还蛋白等，每固定一分子 N₂ 要用多达 25 个 ATP（相比之下固定一个 CO₂ 只要 3 个 ATP）；大豆每固定 1 g 氮约消耗 12 g 碳。",
+       "en": "Expensive: counting the cost of reducing ferredoxin and more, fixing one N₂ uses up to 25 ATP (compared with 3 ATP per CO₂ fixed); soybean spends about 12 g of carbon per gram of nitrogen fixed.",
+       "ms": "Mahal: mengambil kira kos menurunkan feredoksin dan lain-lain, mengikat satu N₂ menggunakan sehingga 25 ATP (berbanding 3 ATP bagi setiap CO₂ yang diikat); kacang soya membelanjakan kira-kira 12 g karbon bagi setiap gram nitrogen yang diikat."
+      },
+      {
+       "zh": "会漏：固氮的同时会产生 H₂，可浪费 25–30 % 的 ATP 和电子。许多固氮生物有依赖氧的“吸氢酶”，氧化 H₂ 来回收一部分能量和电子。",
+       "en": "Leaky: H₂ is produced alongside, wasting up to 25–30 % of the ATP and electrons. Many fixers have an oxygen-dependent uptake hydrogenase that oxidises the H₂ to recover some energy and electrons.",
+       "ms": "Bocor: H₂ dihasilkan bersama, membazirkan sehingga 25–30 % ATP dan elektron. Banyak pengikat mempunyai hidrogenase pengambilan yang bergantung oksigen yang mengoksidakan H₂ untuk mendapatkan semula sebahagian tenaga dan elektron."
+      },
+      {
+       "zh": "怕氧：有氧时 Fe 蛋白的半衰期只有 30–45 秒，MoFe 蛋白约 10 分钟；但产生 ATP 的呼吸又需要氧。",
+       "en": "Afraid of oxygen: in air the Fe protein's half-life is only 30–45 seconds and the MoFe protein's about 10 minutes — yet the respiration that supplies ATP needs oxygen.",
+       "ms": "Takut oksigen: dalam udara separuh hayat protein Fe hanya 30–45 saat dan protein MoFe kira-kira 10 minit — namun respirasi yang membekalkan ATP memerlukan oksigen."
+      }
+     ],
+     "src": [
+      "HH:201-202",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "解决氧的矛盾有三种方式：自由生活的固氮菌多在无氧环境固氮；固氮蓝细菌形成{{t:heterocyst}}，壁厚多层限制氧扩散、呼吸旺盛把氧耗掉；豆科根瘤则由植物提供{{t:leghemoglobin}}，它结合氧并以适当的速度释放给类菌体，平衡呼吸与固氮——这也是切开根瘤呈粉红色的原因。",
+      "en": "There are three solutions to the oxygen dilemma. Free-living fixers mostly fix under anaerobic conditions. Nitrogen-fixing cyanobacteria form {{t:heterocyst}}s, with thick multilayered walls that slow oxygen diffusion and intense respiration that uses it up. In legume nodules the plant supplies {{t:leghemoglobin}}, which binds oxygen and releases it to the bacteroids at just the right rate to balance respiration and fixation — and gives a cut nodule its pink colour.",
+      "ms": "Ada tiga penyelesaian kepada dilema oksigen. Pengikat hidup bebas kebanyakannya mengikat dalam keadaan anaerobik. Sianobakteria pengikat nitrogen membentuk {{t:heterocyst}}, dengan dinding tebal berlapis yang melambatkan resapan oksigen dan respirasi giat yang menggunakannya. Dalam nodul kekacang, tumbuhan membekalkan {{t:leghemoglobin}}, yang mengikat oksigen dan melepaskannya kepada bakteroid pada kadar yang tepat untuk mengimbangi respirasi dan pengikatan — dan memberi nodul yang dipotong warna merah jambu."
+     },
+     "defines": [
+      "heterocyst",
+      "leghemoglobin"
+     ],
+     "src": [
+      "HH:201-202",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "基因方面：根瘤菌 Sym 质粒上的 nod 基因先被宿主的类黄酮激活（nodD 激活共同基因 nodABC 和决定宿主专一性的 nodEFGH），nif 基因编码固氮酶，fix 基因编码固氮所需的其他蛋白，两者在结瘤后期才启动。植物方面的结瘤相关基因编码“结瘤素”：早期结瘤素参与侵染线和根瘤原基，晚期结瘤素约在开始固氮时表达，包括最多的豆血红蛋白，以及谷氨酰胺合成酶、谷氨酸合酶、尿酸酶等。",
+      "en": "On the genetic side: the nod genes on the rhizobial Sym plasmid are switched on first by host flavonoids (nodD activates the common genes nodABC and the host-specificity genes nodEFGH); the nif genes encode dinitrogenase and the fix genes other proteins needed for fixation, both active late in nodulation. Plant nodulation genes encode nodulins: early nodulins work on the infection thread and nodule primordium; late nodulins appear about when fixation starts and include leghemoglobin (the most abundant), glutamine synthetase, glutamate synthase and uricase.",
+      "ms": "Dari segi genetik: gen nod pada plasmid Sym rizobia dihidupkan dahulu oleh flavonoid perumah (nodD mengaktifkan gen umum nodABC dan gen kekhususan perumah nodEFGH); gen nif mengekod dinitrogenase dan gen fix protein lain yang diperlukan untuk pengikatan, kedua-duanya aktif lewat dalam pembentukan nodul. Gen nodul tumbuhan mengekod nodulin: nodulin awal berfungsi pada benang jangkitan dan primordium nodul; nodulin lewat muncul kira-kira apabila pengikatan bermula dan termasuk leghemoglobin (paling banyak), glutamina sintetase, glutamat sintase dan urikase."
+     },
+     "src": [
+      "HH:203-204",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "从铵到氨基酸：GS–GOGAT",
+    "en": "From ammonium to amino acids: GS–GOGAT",
+    "ms": "Daripada ammonium kepada asid amino: GS–GOGAT"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "NH₃ 在细胞里和 NH₄⁺ 平衡，铵对植物有毒，还会抑制固氮酶，所以要马上同化。主要靠{{t:gs-gogat}}：谷氨酰胺合成酶（GS）用 ATP 把 NH₄⁺ 加到谷氨酸上，变成谷氨酰胺；谷氨酸合酶（GOGAT）再把谷氨酰胺的酰胺基转给 α-酮戊二酸（呼吸的中间产物），得到两个谷氨酸，其中一个回去继续循环。氨基再经转氨作用分给其他氨基酸。这一步是碳代谢和氮代谢的交会点：光合作用来的碳骨架加上固定来的氮。",
+      "en": "NH₃ equilibrates with NH₄⁺ in the cell; ammonium is toxic to plants and also inhibits dinitrogenase, so it must be assimilated at once, mainly by the {{t:gs-gogat}}. Glutamine synthetase (GS) uses ATP to add NH₄⁺ to glutamate, making glutamine; glutamate synthase (GOGAT) transfers glutamine's amide group to α-ketoglutarate (a respiratory intermediate), giving two glutamates, one of which goes round again. Transamination then shares the amino group out to other amino acids. This is where carbon and nitrogen metabolism meet: carbon skeletons from photosynthesis plus fixed nitrogen.",
+      "ms": "NH₃ berkeseimbangan dengan NH₄⁺ dalam sel; ammonium toksik kepada tumbuhan dan juga merencat dinitrogenase, jadi ia mesti diasimilasi segera, terutamanya oleh {{t:gs-gogat}}. Glutamina sintetase (GS) menggunakan ATP untuk menambah NH₄⁺ kepada glutamat, membuat glutamina; glutamat sintase (GOGAT) memindahkan kumpulan amida glutamina kepada α-ketoglutarat (perantaraan respirasi), memberi dua glutamat, salah satunya berpusing semula. Transaminasi kemudian membahagikan kumpulan amino kepada asid amino lain. Di sinilah metabolisme karbon dan nitrogen bertemu: rangka karbon daripada fotosintesis serta nitrogen yang diikat."
+     },
+     "defines": [
+      "gs-gogat"
+     ],
+     "src": [
+      "HH:204-206",
+      "LEC"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "GS 和 GOGAT 不只在根瘤：GS 在根细胞的细胞质、叶细胞的细胞质和叶绿体；GOGAT 在叶的叶绿体和根的质体。光呼吸放出的 NH₃ 也是靠它们回收（第 8 章）。",
+       "en": "GS and GOGAT are not confined to nodules: GS is in the cytosol of root cells and in the cytosol and chloroplasts of leaf cells; GOGAT in leaf chloroplasts and root plastids. They also recapture the NH₃ released by photorespiration (Chapter 8).",
+       "ms": "GS dan GOGAT tidak terhad kepada nodul: GS dalam sitosol sel akar dan dalam sitosol serta kloroplas sel daun; GOGAT dalam kloroplas daun dan plastid akar. Ia juga menangkap semula NH₃ yang dibebaskan oleh fotorespirasi (Bab 8)."
+      },
+      {
+       "zh": "谷氨酸脱氢酶（GDH）是另一条路，但量少得多、对铵的亲和力比 GS 低，多半是反方向工作。",
+       "en": "Glutamate dehydrogenase (GDH) is an alternative, but it is far less abundant, has a much lower affinity for ammonium than GS, and more often runs in reverse.",
+       "ms": "Glutamat dehidrogenase (GDH) ialah alternatif, tetapi jauh kurang banyak, mempunyai afiniti terhadap ammonium yang jauh lebih rendah daripada GS, dan lebih kerap berjalan secara berbalik."
+      },
+      {
+       "zh": "调控：PII 蛋白感知碳氮状况。谷氨酰胺少时，PII 被 UTP 尿苷酰化成 PII-UMP，激活 GS-GOGAT；未修饰的 PII 则抑制它，放慢铵的同化。",
+       "en": "Regulation: PII proteins sense the carbon/nitrogen status. When glutamine is low, PII is uridylylated by UTP to PII-UMP, which activates GS-GOGAT; unmodified PII inhibits it and slows ammonium assimilation.",
+       "ms": "Pengawalaturan: protein PII mengesan status karbon/nitrogen. Apabila glutamina rendah, PII diuridililkan oleh UTP menjadi PII-UMP, yang mengaktifkan GS-GOGAT; PII yang tidak diubah suai merencatnya dan melambatkan asimilasi ammonium."
+      }
+     ],
+     "src": [
+      "HH:205-207",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "固定的氮经木质部运出根瘤。有些植物以天冬酰胺运输：天冬氨酸转氨酶把谷氨酸的氨基给草酰乙酸成天冬氨酸，天冬酰胺合成酶再加上一个酰胺基；所需的草酰乙酸来自根瘤里很活跃的 PEP 羧化酶。另一些（尤其热带豆科）以{{t:ureide}}——尿囊素和尿囊酸——运输，它们的 C : N 比比天冬酰胺更划算。",
+      "en": "Fixed nitrogen leaves the nodule in the xylem. Some plants export it as asparagine: aspartate aminotransferase moves an amino group from glutamate to oxaloacetate to make aspartate, and asparagine synthetase adds an amide group; the oxaloacetate comes from very active PEP carboxylase in the nodule. Others — tropical legumes especially — export {{t:ureide}}s, allantoin and allantoic acid, whose C : N ratio is more economical than asparagine's.",
+      "ms": "Nitrogen yang diikat keluar dari nodul dalam xilem. Sesetengah tumbuhan mengeksportnya sebagai asparagina: aspartat aminotransferase memindahkan kumpulan amino dari glutamat kepada oksaloasetat untuk membuat aspartat, dan asparagina sintetase menambah kumpulan amida; oksaloasetat datang daripada PEP karboksilase yang sangat aktif dalam nodul. Yang lain — terutamanya kekacang tropika — mengeksport {{t:ureide}}, alantoin dan asid alantoik, yang nisbah C : N-nya lebih jimat daripada asparagina."
+     },
+     "defines": [
+      "ureide"
+     ],
+     "src": [
+      "HH:206-207",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "heading": {
+    "zh": "硝酸盐的吸收与还原",
+    "en": "Nitrate uptake and reduction",
+    "ms": "Pengambilan dan penurunan nitrat"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "硝酸盐往往是土壤里最常见的氮形式。根吸收硝酸盐有组成型和诱导型两种机制，对温度、缺氧以及呼吸和蛋白质合成抑制剂敏感——说明它需要能量（H⁺/NO₃⁻ 同向运输，第 3 章）。",
+      "en": "Nitrate is often the commonest form of nitrogen in soil. Roots take it up by both constitutive and inducible mechanisms, sensitive to temperature, anoxia and inhibitors of respiration and protein synthesis — a sign that uptake needs energy (H⁺/NO₃⁻ symport, Chapter 3).",
+      "ms": "Nitrat selalunya bentuk nitrogen paling biasa dalam tanah. Akar mengambilnya melalui mekanisme konstitutif dan teraruh, sensitif kepada suhu, anoksia dan perencat respirasi serta sintesis protein — tanda bahawa pengambilan memerlukan tenaga (simport H⁺/NO₃⁻, Bab 3)."
+     },
+     "src": [
+      "HH:207-208",
+      "LEC"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "第一步在细胞质：{{t:nitrate-reductase}}（NR）用 NAD(P)H 的电子把硝酸盐还原成亚硝酸盐：NO₃⁻ + 2 H⁺ + 2 e⁻ → NO₂⁻ + H₂O。NR 受到严密调控：硝酸盐供应、碳水化合物供应、光，以及蛋白激酶、磷酸酶和抑制蛋白。",
+       "en": "Step one, in the cytosol: {{t:nitrate-reductase}} (NR) uses electrons from NAD(P)H to reduce nitrate to nitrite: NO₃⁻ + 2 H⁺ + 2 e⁻ → NO₂⁻ + H₂O. NR is tightly regulated — by nitrate supply, carbohydrate supply, light, and protein kinases, phosphatases and inhibitor proteins.",
+       "ms": "Langkah pertama, dalam sitosol: {{t:nitrate-reductase}} (NR) menggunakan elektron daripada NAD(P)H untuk menurunkan nitrat kepada nitrit: NO₃⁻ + 2 H⁺ + 2 e⁻ → NO₂⁻ + H₂O. NR dikawal rapi — oleh bekalan nitrat, bekalan karbohidrat, cahaya, serta protein kinase, fosfatase dan protein perencat."
+      },
+      {
+       "zh": "第二步在质体（叶绿体）：亚硝酸盐有毒，被亚硝酸还原酶（NiR）迅速还原成铵：NO₂⁻ + 8 H⁺ + 6 e⁻ → NH₄⁺ + 2 H₂O。NiR 的活性比 NR 高，所以亚硝酸盐不会累积。叶片里的电子来自光合作用（还原态铁氧还蛋白），所以叶中的硝酸盐同化也算一种光合过程，和 CO₂ 同化竞争电子。",
+       "en": "Step two, in the plastid (chloroplast): nitrite is toxic and is quickly reduced to ammonium by nitrite reductase (NiR): NO₂⁻ + 8 H⁺ + 6 e⁻ → NH₄⁺ + 2 H₂O. NiR is more active than NR, so nitrite does not build up. In leaves the electrons come from photosynthesis (reduced ferredoxin), so leaf nitrate assimilation is itself a photosynthetic process that competes with CO₂ assimilation for electrons.",
+       "ms": "Langkah kedua, dalam plastid (kloroplas): nitrit toksik dan diturunkan dengan cepat kepada ammonium oleh nitrit reduktase (NiR): NO₂⁻ + 8 H⁺ + 6 e⁻ → NH₄⁺ + 2 H₂O. NiR lebih aktif daripada NR, jadi nitrit tidak terkumpul. Dalam daun elektron datang daripada fotosintesis (feredoksin terturun), jadi asimilasi nitrat daun sendiri ialah proses fotosintetik yang bersaing dengan asimilasi CO₂ untuk elektron."
+      },
+      {
+       "zh": "铵再进入 GS-GOGAT。硝酸盐在根还是在叶还原，因物种而异，也取决于外界浓度：浓度低时多在根还原，浓度高时更多运到叶还原。",
+       "en": "The ammonium then enters GS-GOGAT. Whether nitrate is reduced in roots or leaves varies with species and with external supply: at low nitrate most is reduced in the roots; at high nitrate more is sent to the shoots.",
+       "ms": "Ammonium kemudian memasuki GS-GOGAT. Sama ada nitrat diturunkan dalam akar atau daun berbeza mengikut spesies dan bekalan luar: pada nitrat rendah kebanyakannya diturunkan dalam akar; pada nitrat tinggi lebih banyak dihantar ke pucuk."
+      }
+     ],
+     "defines": [
+      "nitrate-reductase"
+     ],
+     "ordered": true,
+     "src": [
+      "HH:207-208",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "heading": {
+    "zh": "氮在植物体内循环与产量",
+    "en": "Nitrogen cycling in the plant and yield",
+    "ms": "Kitaran nitrogen dalam tumbuhan dan hasil"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "成熟叶片同时输入和输出氮；输出的氮可能是新同化的，也可能来自分解原有的蛋白质，对种子和果实发育很重要（例如小麦的籽粒灌浆）。叶中最多的蛋白质 rubisco 同时也是一种贮存蛋白和氮源；但把它分解掉会降低光合作用——对豆科植物而言，还会减少供给根瘤固氮的能量，进而限制种子发育。多年生植物在秋天把衰老叶片的氮运到根里过冬，第二年春天再用来支持新的生长。",
+      "en": "Mature leaves import and export nitrogen at the same time; the exported N may be newly assimilated or come from breaking down existing proteins, and it matters for seed and fruit development (grain filling in wheat, for example). Rubisco, the most abundant leaf protein, doubles as a storage protein and nitrogen source — but breaking it down cuts photosynthesis, and in legumes leaves less energy for fixation in the nodules, limiting seed development. Perennials move nitrogen from senescing leaves to the roots in autumn, store it over winter and use it for new growth in spring.",
+      "ms": "Daun matang mengimport dan mengeksport nitrogen pada masa yang sama; N yang dieksport mungkin baru diasimilasi atau datang daripada penguraian protein sedia ada, dan ia penting untuk perkembangan biji dan buah (pengisian bijirin gandum, contohnya). Rubisco, protein daun paling banyak, juga berfungsi sebagai protein simpanan dan sumber nitrogen — tetapi menguraikannya mengurangkan fotosintesis, dan bagi kekacang mengurangkan tenaga untuk pengikatan dalam nodul, mengehadkan perkembangan biji. Tumbuhan saka memindahkan nitrogen dari daun yang menua ke akar pada musim luruh, menyimpannya sepanjang musim sejuk dan menggunakannya untuk pertumbuhan baharu pada musim bunga."
+     },
+     "src": [
+      "HH:208-209",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "在陆地生态系统里，氮常是限制元素。农业上施用氮肥能显著提高产量，是维持一年生作物生产力所必需的；但多余的氮会流失到水体，造成优养化（第 3 章）。",
+      "en": "Nitrogen is often the limiting element in land ecosystems. In farming, nitrogen fertiliser has a pronounced effect on yield and is needed to sustain annual crop productivity — but excess nitrogen runs off into water and causes eutrophication (Chapter 3).",
+      "ms": "Nitrogen sering menjadi unsur pengehad dalam ekosistem darat. Dalam pertanian, baja nitrogen mempunyai kesan ketara ke atas hasil dan diperlukan untuk mengekalkan produktiviti tanaman tahunan — tetapi nitrogen berlebihan mengalir ke dalam air dan menyebabkan eutrofikasi (Bab 3)."
+     },
+     "src": [
+      "HH:209-210",
+      "LEC"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "nitrification",
+  "nitrogen-fixation",
+  "rhizobia",
+  "nodule",
+  "nod-factor",
+  "infection-thread",
+  "bacteroid",
+  "dinitrogenase",
+  "heterocyst",
+  "leghemoglobin",
+  "gs-gogat",
+  "ureide",
+  "nitrate-reductase"
+ ]
+}

@@ -1,0 +1,311 @@
+{
+ "first": {
+  "zh": "激素",
+  "en": "Hormone",
+  "ms": "Hormon"
+ },
+ "intro": {
+  "zh": "一页看完六大激素：怎么合成、怎么运、谁接收、做什么。点激素名字可以跳到那一章。",
+  "en": "The six hormones on one page: how they are made and moved, what receives them and what they do. Tap a name to open its chapter.",
+  "ms": "Enam hormon dalam satu halaman: bagaimana ia dibuat dan diangkut, apa yang menerimanya dan apa yang dilakukannya. Ketik nama untuk membuka babnya."
+ },
+ "src": "Hopkins & Hüner 2009, chs 18–21; lecture notes",
+ "cols": [
+  {
+   "key": "chem",
+   "label": {
+    "zh": "化学本质",
+    "en": "Chemistry",
+    "ms": "Kimia"
+   }
+  },
+  {
+   "key": "made",
+   "label": {
+    "zh": "合成（关键酶）",
+    "en": "Synthesis (key enzyme)",
+    "ms": "Sintesis (enzim utama)"
+   }
+  },
+  {
+   "key": "move",
+   "label": {
+    "zh": "运输",
+    "en": "Transport",
+    "ms": "Pengangkutan"
+   }
+  },
+  {
+   "key": "receptor",
+   "label": {
+    "zh": "受体",
+    "en": "Receptor",
+    "ms": "Reseptor"
+   }
+  },
+  {
+   "key": "does",
+   "label": {
+    "zh": "主要作用",
+    "en": "Main effects",
+    "ms": "Kesan utama"
+   }
+  },
+  {
+   "key": "tools",
+   "label": {
+    "zh": "常用处理 / 抑制剂",
+    "en": "Applied compounds / inhibitors",
+    "ms": "Sebatian / perencat"
+   }
+  }
+ ],
+ "rows": [
+  {
+   "id": "auxin",
+   "chapter": 18,
+   "name": {
+    "zh": "生长素",
+    "en": "Auxin",
+    "ms": "Auksin"
+   },
+   "cells": {
+    "chem": {
+     "zh": "吲哚化合物，主要是 IAA",
+     "en": "Indoles, chiefly IAA",
+     "ms": "Indol, terutamanya IAA"
+    },
+    "made": {
+     "zh": "色氨酸依赖与不依赖途径；茎尖、幼叶",
+     "en": "Tryptophan-dependent and -independent routes; shoot apex, young leaves",
+     "ms": "Laluan bergantung dan tidak bergantung triptofan; apeks pucuk, daun muda"
+    },
+    "move": {
+     "zh": "细胞到细胞的极性运输（AUX1 进、PIN 出）",
+     "en": "Cell-to-cell polar transport (AUX1 in, PIN out)",
+     "ms": "Pengangkutan berkutub sel ke sel (AUX1 masuk, PIN keluar)"
+    },
+    "receptor": {
+     "zh": "TIR1（SCF 的 F-box）→ AUX/IAA 降解 → ARF",
+     "en": "TIR1 (F-box of SCF) → AUX/IAA destroyed → ARF",
+     "ms": "TIR1 (F-box SCF) → AUX/IAA dimusnahkan → ARF"
+    },
+    "does": {
+     "zh": "细胞伸长（酸生长）、向性、顶端优势、维管分化、不定根",
+     "en": "Cell elongation (acid growth), tropisms, apical dominance, vascular differentiation, adventitious roots",
+     "ms": "Pemanjangan sel (pertumbuhan asid), tropisme, dominasi apeks, pembezaan vaskular, akar adventitis"
+    },
+    "tools": {
+     "zh": "NAA、IBA、2,4-D；运输抑制剂 TIBA、NPA",
+     "en": "NAA, IBA, 2,4-D; transport inhibitors TIBA, NPA",
+     "ms": "NAA, IBA, 2,4-D; perencat pengangkutan TIBA, NPA"
+    }
+   }
+  },
+  {
+   "id": "ga",
+   "chapter": 19,
+   "name": {
+    "zh": "赤霉素",
+    "en": "Gibberellins",
+    "ms": "Giberelin"
+   },
+   "cells": {
+    "chem": {
+     "zh": "二萜（C₁₉/C₂₀），活性的有 GA₁、GA₃、GA₄",
+     "en": "Diterpenes (C₁₉/C₂₀); active GA₁, GA₃, GA₄",
+     "ms": "Diterpena (C₁₉/C₂₀); aktif GA₁, GA₃, GA₄"
+    },
+    "made": {
+     "zh": "GGPP → 内根-贝壳杉烯 → GA₁₂；种子、幼叶、根尖",
+     "en": "GGPP → ent-kaurene → GA₁₂; seeds, young leaves, root tips",
+     "ms": "GGPP → ent-kaurena → GA₁₂; biji, daun muda, hujung akar"
+    },
+    "move": {
+     "zh": "韧皮部（源–库），无极性",
+     "en": "Phloem (source–sink), not polar",
+     "ms": "Floem (sumber–sinki), tidak berkutub"
+    },
+    "receptor": {
+     "zh": "GID1 → DELLA 被 SCF^SLY1/GID2 降解",
+     "en": "GID1 → DELLA destroyed via SCF^SLY1/GID2",
+     "ms": "GID1 → DELLA dimusnahkan melalui SCF^SLY1/GID2"
+    },
+    "does": {
+     "zh": "节间伸长、抽薹、种子萌发（α-淀粉酶）、果实发育",
+     "en": "Internode elongation, bolting, germination (α-amylase), fruit growth",
+     "ms": "Pemanjangan ruas, pembentukan batang bunga, percambahan (α-amilase), pertumbuhan buah"
+    },
+    "tools": {
+     "zh": "GA₃；合成抑制剂 CCC、AMO-1618、Phosfon D、嘧啶醇、BX-112",
+     "en": "GA₃; synthesis inhibitors CCC, AMO-1618, Phosfon D, ancymidol, BX-112",
+     "ms": "GA₃; perencat sintesis CCC, AMO-1618, Phosfon D, ansimidol, BX-112"
+    }
+   }
+  },
+  {
+   "id": "ck",
+   "chapter": 20,
+   "name": {
+    "zh": "细胞分裂素",
+    "en": "Cytokinins",
+    "ms": "Sitokinin"
+   },
+   "cells": {
+    "chem": {
+     "zh": "N⁶ 取代腺嘌呤：玉米素、iP；合成的激动素、BA",
+     "en": "N⁶-substituted adenines: zeatin, iP; synthetic kinetin, BA",
+     "ms": "Adenina tertukar ganti N⁶: zeatin, iP; kinetin sintetik, BA"
+    },
+    "made": {
+     "zh": "IPT（限速）把异戊烯基接到 AMP；主要在根尖",
+     "en": "IPT (rate-limiting) adds isopentenyl to AMP; mainly root tips",
+     "ms": "IPT (pengehad kadar) menambah isopentenil kepada AMP; terutamanya hujung akar"
+    },
+    "move": {
+     "zh": "木质部往上",
+     "en": "Up in the xylem",
+     "ms": "Naik dalam xilem"
+    },
+    "receptor": {
+     "zh": "CRE1/AHK4、AHK2、AHK3 双组分 → AHP → B 型 ARR",
+     "en": "CRE1/AHK4, AHK2, AHK3 two-component → AHP → type-B ARR",
+     "ms": "CRE1/AHK4, AHK2, AHK3 dua komponen → AHP → ARR jenis B"
+    },
+    "does": {
+     "zh": "与生长素一起促进分裂、组织培养长芽、延缓衰老、养分吸引、维持分生组织",
+     "en": "Division with auxin, shoots in culture, delays senescence, attracts nutrients, maintains meristems",
+     "ms": "Pembahagian bersama auksin, pucuk dalam kultur, melambatkan penuaan, menarik nutrien, mengekalkan meristem"
+    },
+    "tools": {
+     "zh": "BA、激动素；CKX 降解",
+     "en": "BA, kinetin; degraded by CKX",
+     "ms": "BA, kinetin; diuraikan oleh CKX"
+    }
+   }
+  },
+  {
+   "id": "aba",
+   "chapter": 21,
+   "name": {
+    "zh": "脱落酸",
+    "en": "Abscisic acid",
+    "ms": "Asid absisik"
+   },
+   "cells": {
+    "chem": {
+     "zh": "C₁₅ 倍半萜，只有一种",
+     "en": "A single C₁₅ sesquiterpene",
+     "ms": "Satu seskuiterpena C₁₅"
+    },
+    "made": {
+     "zh": "紫黄质经 NCED 切成黄氧素 → ABA；成熟叶、保卫细胞、维管组织",
+     "en": "Violaxanthin cut by NCED to xanthoxin → ABA; mature leaves, guard cells, vascular tissue",
+     "ms": "Violaxantin dipotong oleh NCED kepada xantoksin → ABA; daun matang, sel pengawal, tisu vaskular"
+    },
+    "move": {
+     "zh": "移动性高；根经木质部送到叶（干旱信号）",
+     "en": "Highly mobile; root to shoot in xylem (drought signal)",
+     "ms": "Sangat mudah bergerak; akar ke pucuk dalam xilem (isyarat kemarau)"
+    },
+    "receptor": {
+     "zh": "PYR/PYL/RCAR → 抑制 PP2C → SnRK2 活化",
+     "en": "PYR/PYL/RCAR → PP2C inhibited → SnRK2 active",
+     "ms": "PYR/PYL/RCAR → PP2C direncat → SnRK2 aktif"
+    },
+    "does": {
+     "zh": "气孔关闭、种子休眠、防止胎萌、逆境耐受",
+     "en": "Stomatal closure, seed dormancy, preventing vivipary, stress tolerance",
+     "ms": "Penutupan stoma, dorman biji, mencegah viviparti, toleransi tekanan"
+    },
+    "tools": {
+     "zh": "代谢成红花菜豆酸、二氢红花菜豆酸",
+     "en": "Inactivated to phaseic and dihydrophaseic acid",
+     "ms": "Dinyahaktifkan kepada asid faseik dan dihidrofaseik"
+    }
+   }
+  },
+  {
+   "id": "eth",
+   "chapter": 22,
+   "name": {
+    "zh": "乙烯",
+    "en": "Ethylene",
+    "ms": "Etilena"
+   },
+   "cells": {
+    "chem": {
+     "zh": "气体 C₂H₄",
+     "en": "The gas C₂H₄",
+     "ms": "Gas C₂H₄"
+    },
+    "made": {
+     "zh": "Met → SAM（SAM 合成酶）→ ACC（ACC 合成酶，限速）→ 乙烯（ACC 氧化酶）；Yang 循环",
+     "en": "Met → SAM (SAM synthetase) → ACC (ACC synthase, rate-limiting) → ethylene (ACC oxidase); Yang cycle",
+     "ms": "Met → SAM (SAM sintetase) → ACC (ACC sintase, pengehad kadar) → etilena (ACC oksidase); kitaran Yang"
+    },
+    "move": {
+     "zh": "气体扩散",
+     "en": "Diffuses as a gas",
+     "ms": "Meresap sebagai gas"
+    },
+    "receptor": {
+     "zh": "ETR1 等（内质网，含铜）；无乙烯时经 CTR1 抑制反应",
+     "en": "ETR1 family (ER, copper); represses via CTR1 when ethylene is absent",
+     "ms": "Keluarga ETR1 (RE, kuprum); menindas melalui CTR1 apabila etilena tiada"
+    },
+    "does": {
+     "zh": "果实成熟（跃变）、衰老、三重反应、偏上生长、脱落",
+     "en": "Ripening (climacteric), senescence, triple response, epinasty, abscission",
+     "ms": "Pemasakan (klimakterik), penuaan, tindak balas tiga serangkai, epinasti, keguguran"
+    },
+    "tools": {
+     "zh": "乙烯利（放出乙烯）",
+     "en": "Ethephon (releases ethylene)",
+     "ms": "Etefon (membebaskan etilena)"
+    }
+   }
+  },
+  {
+   "id": "br",
+   "chapter": 23,
+   "name": {
+    "zh": "油菜素甾醇",
+    "en": "Brassinosteroids",
+    "ms": "Brasinosteroid"
+   },
+   "cells": {
+    "chem": {
+     "zh": "植物甾醇激素，主要是油菜素内酯",
+     "en": "Plant steroid hormones, chiefly brassinolide",
+     "ms": "Hormon steroid tumbuhan, terutamanya brasinolida"
+    },
+    "made": {
+     "zh": "鲨烯 → 环阿屯醇 → 菜油甾醇 → 油菜素内酯",
+     "en": "Squalene → cycloartenol → campesterol → brassinolide",
+     "ms": "Skualena → sikloartenol → kampesterol → brasinolida"
+    },
+    "move": {
+     "zh": "大多就地作用",
+     "en": "Mostly act where made",
+     "ms": "Kebanyakannya bertindak di tempat dibuat"
+    },
+    "receptor": {
+     "zh": "质膜 BRI1 + BAK1 → BIN2 被抑制 → BZR1 进核",
+     "en": "Plasma-membrane BRI1 + BAK1 → BIN2 inhibited → BZR1 to nucleus",
+     "ms": "BRI1 + BAK1 membran plasma → BIN2 direncat → BZR1 ke nukleus"
+    },
+    "does": {
+     "zh": "茎和花粉管伸长、细胞分裂、萌发、维管分化；抑制根伸长",
+     "en": "Stem and pollen-tube elongation, division, germination, vascular differentiation; inhibits root elongation",
+     "ms": "Pemanjangan batang dan tiub debunga, pembahagian, percambahan, pembezaan vaskular; merencat pemanjangan akar"
+    },
+    "tools": {
+     "zh": "合成抑制剂芸苔素唑（Brz）",
+     "en": "Synthesis inhibitor brassinazole (Brz)",
+     "ms": "Perencat sintesis brasinazol (Brz)"
+    }
+   }
+  }
+ ]
+}

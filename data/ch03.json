@@ -1,0 +1,410 @@
+{
+ "id": "ch03",
+ "num": 3,
+ "stage": 1,
+ "title": {
+  "zh": "根、土壤与养分吸收",
+  "en": "Roots, soils and nutrient uptake",
+  "ms": "Akar, tanah dan pengambilan nutrien"
+ },
+ "sources": [
+  "HH",
+  "LEC"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "土壤是养分仓库",
+    "en": "The soil as a nutrient store",
+    "ms": "Tanah sebagai stor nutrien"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "植物的碳和氧来自空气中的 CO₂，其余元素几乎都来自土壤溶液。岩石颗粒风化时释放出各种元素，溶进土壤溶液，成为根能直接吸收的养分。但土壤溶液很稀，总矿物质浓度只有约 10⁻³ M，如果固相不持续补充，根很快就会把它吸光。",
+      "en": "A plant gets its carbon and oxygen from CO₂ in the air; almost every other element comes from the soil solution. As rock particles weather they release elements into the soil solution, where roots can take them up. But the soil solution is dilute — total minerals around 10⁻³ M — and roots would soon exhaust it if the solid phase did not keep topping it up.",
+      "ms": "Tumbuhan mendapat karbon dan oksigen daripada CO₂ di udara; hampir semua unsur lain datang daripada larutan tanah. Apabila zarah batuan terluluhawa, ia membebaskan unsur ke dalam larutan tanah, di mana akar boleh menyerapnya. Tetapi larutan tanah sangat cair — jumlah mineral sekitar 10⁻³ M — dan akar akan cepat menghabiskannya jika fasa pepejal tidak terus menambahnya."
+     },
+     "src": [
+      "HH:40-41",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "把土壤搅进水里：砂马上沉下去，粉砂要几小时到几天，黏土则一直悬浮不沉。这些小到不会下沉、又大到不算真溶液的颗粒叫{{t:colloid}}；它们看不见，却会散射穿过的光（丁达尔效应）。土壤胶体有两类：黏土（铝硅酸盐）和腐殖质（分解的有机物）。",
+      "en": "Stir soil into water: sand settles at once, silt within hours or days, and clay never settles. Particles too small to sink but too large to form a true solution are a {{t:colloid}}; they are invisible yet scatter light passing through (the Tyndall effect). Soil colloids are of two kinds: clay (aluminium silicates) and humus (decomposed organic matter).",
+      "ms": "Kacau tanah ke dalam air: pasir mendap serta-merta, kelodak dalam beberapa jam atau hari, dan liat tidak pernah mendap. Zarah yang terlalu kecil untuk tenggelam tetapi terlalu besar untuk membentuk larutan sebenar ialah {{t:colloid}}; ia tidak kelihatan tetapi menyerakkan cahaya yang melaluinya (kesan Tyndall). Koloid tanah ada dua jenis: liat (aluminium silikat) dan humus (bahan organik terurai)."
+     },
+     "defines": [
+      "colloid"
+     ],
+     "src": [
+      "HH:41-42",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "胶体是好仓库，原因有二。第一，比表面积（每单位质量的表面积）极大：把一块边长 10 mm 的立方体切成边长 0.001 mm 的小块，总表面积从 600 mm² 变成 6 000 000 mm²，增加一万倍。第二，表面带大量负电荷：黏土里的 Si⁴⁺ 被 Al³⁺ 取代后多出负电荷，腐殖质的羧基（COO⁻）和羟基也带负电。",
+      "en": "Colloids make a good store for two reasons. First, an enormous specific surface area (surface per unit mass): cut a 10 mm cube into cubes 0.001 mm on a side and the total surface rises from 600 mm² to 6,000,000 mm², ten thousand times more. Second, many negative charges: replacing Si⁴⁺ with Al³⁺ in clay leaves surplus negative charge, and the carboxyl (COO⁻) and hydroxyl groups of humus are negative too.",
+      "ms": "Koloid ialah stor yang baik atas dua sebab. Pertama, luas permukaan tentu yang sangat besar (permukaan per unit jisim): potong kubus 10 mm kepada kubus bersisi 0.001 mm dan jumlah permukaan naik daripada 600 mm² kepada 6,000,000 mm², sepuluh ribu kali ganda. Kedua, banyak cas negatif: penggantian Si⁴⁺ dengan Al³⁺ dalam liat meninggalkan lebihan cas negatif, dan kumpulan karboksil (COO⁻) serta hidroksil humus juga negatif."
+     },
+     "src": [
+      "HH:41-42",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "负电荷把阳离子吸附在胶体表面。吸附力的强弱排成“感胶离子序”：Al³⁺ > H⁺ > Ca²⁺ > Mg²⁺ > K⁺ = NH₄⁺ > Na⁺。价数越高吸得越紧；同价离子中，水合半径越小，越能靠近胶体表面。排前面的离子可以把后面的置换下来，这叫{{t:cation-exchange}}。根分泌 H⁺，就是用这个方法把 Ca²⁺、K⁺ 等从胶体上换下来，慢慢释放给植物。",
+      "en": "The negative charges hold cations on the colloid surfaces. The strength of binding follows the lyotropic series: Al³⁺ > H⁺ > Ca²⁺ > Mg²⁺ > K⁺ = NH₄⁺ > Na⁺. Higher charge binds tighter; among ions of the same charge, the one with the smaller hydrated radius gets closer to the surface. An ion higher in the series can displace one lower down — {{t:cation-exchange}}. Roots secrete H⁺ to do exactly this, releasing Ca²⁺, K⁺ and others from the colloids in a slow, controlled way.",
+      "ms": "Cas negatif menahan kation pada permukaan koloid. Kekuatan ikatan mengikut siri liotropik: Al³⁺ > H⁺ > Ca²⁺ > Mg²⁺ > K⁺ = NH₄⁺ > Na⁺. Cas lebih tinggi terikat lebih kuat; antara ion yang sama cas, ion dengan jejari terhidrat lebih kecil dapat lebih dekat ke permukaan. Ion yang lebih tinggi dalam siri boleh menyesarkan ion yang lebih rendah — {{t:cation-exchange}}. Akar merembeskan H⁺ untuk melakukan hal ini, membebaskan Ca²⁺, K⁺ dan lain-lain daripada koloid secara perlahan dan terkawal."
+     },
+     "defines": [
+      "cation-exchange"
+     ],
+     "src": [
+      "HH:42-43",
+      "LEC"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "warn",
+     "text": {
+      "zh": "阴离子就没那么幸运：带负电的胶体不抓 NO₃⁻。硝酸盐很容易随水流失，农民于是多施肥，多余的氮流进地下水、河流和湖泊，造成优养化。",
+      "en": "Anions are not so lucky: negatively charged colloids do not hold NO₃⁻. Nitrate washes out easily, so farmers apply more fertiliser, and the excess nitrogen runs into groundwater, rivers and lakes, causing eutrophication.",
+      "ms": "Anion tidak begitu bernasib baik: koloid bercas negatif tidak menahan NO₃⁻. Nitrat mudah larut lesap, jadi petani membaja lebih banyak, dan lebihan nitrogen mengalir ke air bawah tanah, sungai dan tasik, menyebabkan eutrofikasi."
+     },
+     "src": [
+      "HH:43",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "养分怎样穿过细胞膜",
+    "en": "How nutrients cross the membrane",
+    "ms": "Bagaimana nutrien merentasi membran"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "养分要进入根，必须穿过根细胞的质膜。方式有三种：简单扩散、协助扩散和主动运输。",
+      "en": "To enter the root, a nutrient must cross the plasma membrane of a root cell. There are three ways: simple diffusion, facilitated diffusion and active transport.",
+      "ms": "Untuk memasuki akar, nutrien mesti merentasi membran plasma sel akar. Ada tiga cara: resapan ringkas, resapan berbantu dan pengangkutan aktif."
+     },
+     "src": [
+      "HH:42-46",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "简单扩散：J = P·A·(C外 − C内)，P 是膜的透性系数。膜的屏障主要是脂质，非极性的分子容易过，离子因为带电又被水包着，几乎过不去。生物上重要的溶质很少是非极性的，真正靠简单扩散的大概只有 O₂、CO₂ 和 NH₃。",
+      "en": "Simple diffusion: J = P·A·(C_out − C_in), where P is the membrane's permeability coefficient. The barrier is mostly lipid: non-polar molecules pass easily, while ions, charged and wrapped in water, hardly pass at all. Few biologically important solutes are non-polar — essentially only O₂, CO₂ and NH₃ cross by simple diffusion.",
+      "ms": "Resapan ringkas: J = P·A·(C_luar − C_dalam), dengan P pekali ketelapan membran. Halangannya kebanyakannya lipid: molekul tak berkutub mudah melaluinya, manakala ion yang bercas dan dibalut air hampir tidak dapat melaluinya. Sedikit sahaja zat terlarut penting yang tak berkutub — pada dasarnya hanya O₂, CO₂ dan NH₃ merentas secara resapan ringkas."
+     },
+     "src": [
+      "HH:44-45",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:facilitated-diffusion}}：靠膜蛋白帮忙，但仍然顺着梯度走，不直接耗能。载体蛋白先和溶质结合、改变形状、再把它放到另一边，每秒约 10⁴–10⁵ 个分子；通道蛋白像一个孔，每秒可通过约 10⁸ 个离子，按水合离子的大小和电荷挑选，而且有“门”：有的受膜电位控制，有的受离子、光或激素控制。",
+      "en": "{{t:facilitated-diffusion}} uses membrane proteins but still runs downhill, with no direct energy cost. A carrier binds its solute, changes shape and releases it on the other side — about 10⁴–10⁵ molecules a second. A channel is a pore that can pass about 10⁸ ions a second, selecting them by hydrated size and charge, and it is gated: some by membrane voltage, others by ions, light or hormones.",
+      "ms": "{{t:facilitated-diffusion}} menggunakan protein membran tetapi masih bergerak menuruni kecerunan, tanpa kos tenaga langsung. Pembawa mengikat zat terlarut, berubah bentuk dan melepaskannya di sebelah lain — kira-kira 10⁴–10⁵ molekul sesaat. Saluran ialah liang yang boleh melalukan kira-kira 10⁸ ion sesaat, memilihnya mengikut saiz terhidrat dan cas, dan ia berpintu: sesetengahnya oleh voltan membran, yang lain oleh ion, cahaya atau hormon."
+     },
+     "defines": [
+      "facilitated-diffusion"
+     ],
+     "src": [
+      "HH:45-46",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:active-transport}}：逆着浓度梯度或电化学梯度运送溶质，必须和代谢能紧密偶联，通常是 ATP 水解，所以这类蛋白也叫“泵”。它能让溶质在细胞里累积到远高于外面的浓度。",
+      "en": "{{t:active-transport}} moves a solute against its concentration or electrochemical gradient. It must be tightly coupled to metabolic energy, usually ATP hydrolysis, which is why these proteins are called pumps. It lets a cell accumulate a solute far above the outside concentration.",
+      "ms": "{{t:active-transport}} menggerakkan zat terlarut melawan kecerunan kepekatan atau elektrokimianya. Ia mesti diganding rapat dengan tenaga metabolik, biasanya hidrolisis ATP, sebab itu protein ini dipanggil pam. Ia membolehkan sel mengumpul zat terlarut jauh melebihi kepekatan di luar."
+     },
+     "defines": [
+      "active-transport"
+     ],
+     "src": [
+      "HH:46",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "主动还是被动？看电化学梯度",
+    "en": "Active or passive? Look at the electrochemical gradient",
+    "ms": "Aktif atau pasif? Lihat kecerunan elektrokimia"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "细胞里某些离子的浓度远高于外面，这个比值叫累积比。对不带电的溶质（例如糖），累积比就能说明问题：Δμ = RT ln(U内/U外)，常写成 59 log(U内/U外)。Δμ > 0 表示里面比外面多，吸收一定要耗能（主动运输）；Δμ < 0 则可以靠协助扩散进来。",
+      "en": "Some ions are far more concentrated inside a cell than outside; the ratio is the accumulation ratio. For an uncharged solute such as a sugar, the ratio settles the question: Δμ = RT ln(U_in/U_out), often written 59 log(U_in/U_out). If Δμ > 0, the inside is richer and uptake must cost energy (active transport); if Δμ < 0, facilitated diffusion can bring it in.",
+      "ms": "Sesetengah ion jauh lebih pekat di dalam sel berbanding di luar; nisbah itu ialah nisbah pengumpulan. Bagi zat terlarut tidak bercas seperti gula, nisbah itu sudah menjawab soalan: Δμ = RT ln(U_dalam/U_luar), sering ditulis 59 log(U_dalam/U_luar). Jika Δμ > 0, bahagian dalam lebih pekat dan pengambilan mesti menggunakan tenaga (pengangkutan aktif); jika Δμ < 0, resapan berbantu boleh membawanya masuk."
+     },
+     "src": [
+      "HH:46-47",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "离子就复杂了，因为它们同时受浓度差和电位差推动。细胞里有大量不能扩散的负电荷（例如蛋白质的羧基），细胞又不停把阳离子（尤其 H⁺）泵出去，于是膜两侧产生电位差，即{{t:membrane-potential}}，植物细胞通常是里面负 −100 mV 以上。只有不可扩散的阴离子加上能自由移动的阳离子（例如 K⁺）所产生的电位，叫唐南电位。",
+      "en": "Ions are harder, because they respond to both a concentration difference and an electrical one. Cells hold many non-diffusible negative charges (the carboxyl groups of proteins, for example) and constantly pump cations — especially H⁺ — out. The result is a voltage across the membrane, the {{t:membrane-potential}}; in plant cells the inside is typically more than 100 mV negative. The potential produced by non-diffusible anions plus freely moving cations such as K⁺ alone is called a Donnan potential.",
+      "ms": "Ion lebih rumit kerana ia bertindak balas terhadap perbezaan kepekatan dan juga perbezaan elektrik. Sel mempunyai banyak cas negatif yang tidak boleh meresap (contohnya kumpulan karboksil protein) dan sentiasa mengepam kation — terutamanya H⁺ — keluar. Hasilnya ialah voltan merentasi membran, iaitu {{t:membrane-potential}}; dalam sel tumbuhan bahagian dalam biasanya lebih daripada 100 mV negatif. Keupayaan yang terhasil daripada anion tak boleh resap dan kation bebas seperti K⁺ sahaja dipanggil keupayaan Donnan."
+     },
+     "defines": [
+      "membrane-potential"
+     ],
+     "src": [
+      "HH:47-48",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "要判断一个离子是主动还是被动进来，用{{t:nernst-equation}}：ΔE = (59/z) log(C外/C内)（mV，25 °C），z 是离子价数（K⁺ = +1，Ca²⁺ = +2，Cl⁻ = −1）。先用微电极测出膜电位和外面浓度，算出“如果只靠被动扩散，里面应该是多少”，再和实际测到的比：实际/预测 > 1 是主动吸收，< 1 是主动排出。",
+      "en": "To decide whether an ion is taken up actively or passively, use the {{t:nernst-equation}}: ΔE = (59/z) log(C_out/C_in) (mV, 25 °C), where z is the ion's charge (K⁺ = +1, Ca²⁺ = +2, Cl⁻ = −1). Measure the membrane potential with a microelectrode and the outside concentration, calculate what the inside concentration would be with passive movement alone, and compare it with the measured value: actual/predicted > 1 means active uptake, < 1 means active expulsion.",
+      "ms": "Untuk menentukan sama ada ion diambil secara aktif atau pasif, gunakan {{t:nernst-equation}}: ΔE = (59/z) log(C_luar/C_dalam) (mV, 25 °C), dengan z cas ion (K⁺ = +1, Ca²⁺ = +2, Cl⁻ = −1). Ukur keupayaan membran dengan mikroelektrod dan kepekatan di luar, kira kepekatan di dalam jika hanya pergerakan pasif, dan bandingkan dengan nilai yang diukur: sebenar/ramalan > 1 bermaksud pengambilan aktif, < 1 bermaksud penyingkiran aktif."
+     },
+     "defines": [
+      "nernst-equation"
+     ],
+     "src": [
+      "HH:48-49",
+      "LEC"
+     ]
+    },
+    {
+     "type": "widget",
+     "id": "W3"
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": {
+      "zh": "因为细胞里面是负的，阳离子会被“吸进来”：膜电位 −118 mV 时，K⁺ 在里面被动累积到外面的约 100 倍也不算主动。反过来，阴离子要进来就几乎一定要主动运输。Na⁺ 在细胞里通常很低，部分原因是它被主动排出。",
+      "en": "Because the inside is negative, cations are drawn in: at −118 mV, K⁺ can passively reach about 100 times the outside concentration without any active transport. Anions, on the other hand, almost always need active transport to get in. Na⁺ is usually low in plant cells partly because it is actively pumped out.",
+      "ms": "Oleh sebab bahagian dalam negatif, kation ditarik masuk: pada −118 mV, K⁺ boleh secara pasif mencapai kira-kira 100 kali kepekatan di luar tanpa pengangkutan aktif. Anion pula hampir selalu memerlukan pengangkutan aktif untuk masuk. Na⁺ biasanya rendah dalam sel tumbuhan sebahagiannya kerana ia dipam keluar secara aktif."
+     },
+     "src": [
+      "HH:46-49",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "质子泵与协同运输",
+    "en": "Proton pumps and cotransport",
+    "ms": "Pam proton dan pengangkutan bersama"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "主动运输的能量主要来自 ATP 水解。质膜上的{{t:proton-pump}}（H⁺-ATPase）是一个多蛋白复合体：ATP（来自线粒体）结合在泵上、被水解，把 H⁺ 从细胞质送到细胞外。泵一次只把一种离子往一个方向送，叫单向运输；而且它造成电荷分离，所以是“生电”的，是大多数植物细胞膜电位的主要来源。",
+      "en": "The energy for active transport comes mainly from ATP hydrolysis. The {{t:proton-pump}} (H⁺-ATPase) of the plasma membrane is a multiprotein complex: ATP from the mitochondria binds to it and is hydrolysed, moving H⁺ from the cytosol to the outside. It moves one ion in one direction — a uniport — and because it separates charge it is electrogenic, the main source of the membrane potential in most plant cells.",
+      "ms": "Tenaga untuk pengangkutan aktif datang terutamanya daripada hidrolisis ATP. {{t:proton-pump}} (H⁺-ATPase) pada membran plasma ialah kompleks multiprotein: ATP daripada mitokondria terikat padanya dan dihidrolisis, menggerakkan H⁺ dari sitosol ke luar. Ia menggerakkan satu ion ke satu arah — uniport — dan kerana ia memisahkan cas, ia elektrogenik, sumber utama keupayaan membran dalam kebanyakan sel tumbuhan."
+     },
+     "defines": [
+      "proton-pump"
+     ],
+     "src": [
+      "HH:49-51",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "泵出去的 H⁺ 想沿着电化学梯度回来。载体可以让 H⁺ 回流的同时顺便带一个别的溶质，这叫{{t:cotransport}}：同方向带进来叫同向运输（symport，例如 H⁺/蔗糖、H⁺/NO₃⁻），反方向送出去叫反向运输（antiport，例如 H⁺/Na⁺）。这就是“二次主动运输”：直接用的是质子梯度，ATP 是间接的。",
+      "en": "The H⁺ pumped out wants to come back down its electrochemical gradient. A carrier can let H⁺ flow back while taking another solute along — {{t:cotransport}}. Carrying it in the same direction is symport (H⁺/sucrose, H⁺/NO₃⁻); in the opposite direction is antiport (H⁺/Na⁺). This is secondary active transport: it uses the proton gradient directly and ATP only indirectly.",
+      "ms": "H⁺ yang dipam keluar mahu kembali menuruni kecerunan elektrokimianya. Pembawa boleh membenarkan H⁺ mengalir balik sambil membawa zat terlarut lain bersama — {{t:cotransport}}. Membawanya ke arah yang sama ialah simport (H⁺/sukrosa, H⁺/NO₃⁻); ke arah bertentangan ialah antiport (H⁺/Na⁺). Ini pengangkutan aktif sekunder: ia menggunakan kecerunan proton secara langsung dan ATP secara tidak langsung."
+     },
+     "defines": [
+      "cotransport"
+     ],
+     "src": [
+      "HH:50-51",
+      "LEC"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "Ca²⁺-ATPase：把 Ca²⁺ 泵出细胞质，使细胞质钙浓度保持很低，一是避免和磷酸形成沉淀，二是让依赖 Ca²⁺ 的信号系统正常工作。",
+       "en": "Ca²⁺-ATPases pump Ca²⁺ out of the cytosol and keep it very low — to avoid precipitating phosphate, and so that Ca²⁺-based signalling works.",
+       "ms": "Ca²⁺-ATPase mengepam Ca²⁺ keluar dari sitosol dan mengekalkannya sangat rendah — untuk mengelakkan pemendakan fosfat, dan supaya pengisyaratan berasaskan Ca²⁺ berfungsi."
+      },
+      {
+       "zh": "K⁺ 有两套吸收系统：高亲和力（HAT）在低浓度时工作，亲和力高但容量小；低亲和力（LAT）在高浓度时工作，容量大。大多数大量元素离子的转换点约 1 mM。NO₃⁻、SO₄²⁻、PO₄³⁻、Ca²⁺ 也有类似的两套系统。",
+       "en": "K⁺ has two uptake systems: high-affinity (HAT), working at low concentrations with high affinity but low capacity, and low-affinity (LAT), working at high concentrations with high capacity. The switch-over for most macronutrient ions is about 1 mM. NO₃⁻, SO₄²⁻, PO₄³⁻ and Ca²⁺ have similar pairs.",
+       "ms": "K⁺ mempunyai dua sistem pengambilan: afiniti tinggi (HAT), berfungsi pada kepekatan rendah dengan afiniti tinggi tetapi kapasiti rendah, dan afiniti rendah (LAT), berfungsi pada kepekatan tinggi dengan kapasiti tinggi. Titik pertukaran bagi kebanyakan ion makronutrien kira-kira 1 mM. NO₃⁻, SO₄²⁻, PO₄³⁻ dan Ca²⁺ mempunyai pasangan serupa."
+      },
+      {
+       "zh": "养分之间会互相影响：例如缺硫会打乱氮代谢，导致叶片累积 NO₃⁻。",
+       "en": "Nutrients interact: sulphur shortage, for instance, disrupts nitrogen metabolism and NO₃⁻ builds up in the leaves.",
+       "ms": "Nutrien saling mempengaruhi: kekurangan sulfur, contohnya, mengganggu metabolisme nitrogen dan NO₃⁻ terkumpul dalam daun."
+      }
+     ],
+     "src": [
+      "HH:50-52",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "heading": {
+    "zh": "离子在根里的路线",
+    "en": "The path of ions through the root",
+    "ms": "Laluan ion melalui akar"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "经典实验：把大麦根放进含 Ca²⁺ 的溶液，头几分钟吸收很快，之后变成缓慢稳定的累积。再把根移到蒸馏水里，有一部分 Ca²⁺ 会流出来；改放进含 Mg²⁺ 的溶液，流出的更多，总量约等于最初快速吸收的那部分。",
+      "en": "A classic experiment: put barley roots in a Ca²⁺ solution and uptake is fast for the first few minutes, then settles into slow, steady accumulation. Move the roots to distilled water and some Ca²⁺ leaks out; move them to a Mg²⁺ solution instead and more comes out — about as much as was taken up in the fast first phase.",
+      "ms": "Eksperimen klasik: letakkan akar barli dalam larutan Ca²⁺ dan pengambilan pantas untuk beberapa minit pertama, kemudian menjadi pengumpulan yang perlahan dan stabil. Pindahkan akar ke air suling dan sebahagian Ca²⁺ bocor keluar; pindahkan ke larutan Mg²⁺ dan lebih banyak keluar — kira-kira sama dengan yang diambil dalam fasa pertama yang pantas."
+     },
+     "src": [
+      "HH:52-53",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "解释是：快速的那部分只进了{{t:free-space}}，即没有被膜隔开、和外面溶液直接相通的空间；靠扩散或离子交换（Mg²⁺ 换下 Ca²⁺）就能再出来。慢速的部分才真正穿过质膜进入细胞，出不来。表观自由空间的体积可以这样算：1.0 g 根泡在 20 μmol/mL 的 K₂SO₄ 里，再放进大量蒸馏水，洗出 4.5 μmol 硫酸根，4.5 / 20 = 0.22 mL。它和根皮层细胞壁的体积相当，到内皮层（凯氏带）就停了。",
+      "en": "The explanation: the fast part only entered the {{t:free-space}} — space not separated from the outside solution by any membrane — so it can leave again by diffusion or ion exchange (Mg²⁺ displacing Ca²⁺). The slow part crossed the plasma membrane into the cells and stays. The volume can be estimated: soak 1.0 g of root in 20 μmol/mL K₂SO₄, transfer it to a large volume of distilled water, and 4.5 μmol of sulphate washes out; 4.5 / 20 = 0.22 mL. It matches the volume of the cortical cell walls, and it stops at the endodermis (the Casparian band).",
+      "ms": "Penjelasannya: bahagian pantas hanya memasuki {{t:free-space}} — ruang yang tidak dipisahkan oleh membran daripada larutan luar — jadi ia boleh keluar semula melalui resapan atau pertukaran ion (Mg²⁺ menyesarkan Ca²⁺). Bahagian perlahan telah merentasi membran plasma masuk ke sel dan kekal di situ. Isi padunya boleh dianggarkan: rendam 1.0 g akar dalam K₂SO₄ 20 μmol/mL, pindahkan ke isi padu air suling yang besar, dan 4.5 μmol sulfat terlarut keluar; 4.5 / 20 = 0.22 mL. Ia sepadan dengan isi padu dinding sel korteks, dan ia berhenti di endodermis (jalur Caspary)."
+     },
+     "defines": [
+      "free-space"
+     ],
+     "src": [
+      "HH:52-54",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "离子可以从质外体进入共质体再进入维管柱，也可以先走质外体、在内皮层前转进共质体。少数离子可能全程走质外体：在一些植物里，有少数内皮层细胞（通道细胞）没有木栓化；或在侧根刚长出、凯氏带还不连续的地方。最后离子被装进中柱里的木质部导管，随蒸腾流快速运到全株。",
+      "en": "Ions may enter the symplast early and travel cell to cell into the stele, or travel the apoplast and switch to the symplast at the endodermis. A small share may go all the way in the apoplast — through the few unsuberised passage cells of the endodermis in some plants, or where a lateral root breaks through and the Casparian band is not yet continuous. Finally the ions are loaded into xylem vessels in the stele and carried quickly through the plant in the transpiration stream.",
+      "ms": "Ion boleh memasuki simplas awal dan bergerak dari sel ke sel ke dalam stele, atau bergerak dalam apoplas dan bertukar ke simplas di endodermis. Sebahagian kecil mungkin bergerak sepenuhnya dalam apoplas — melalui sel laluan endodermis yang tidak bersuberin dalam sesetengah tumbuhan, atau di tempat akar sisi menembusi dan jalur Caspary belum berterusan. Akhirnya ion dimuatkan ke dalam salur xilem dalam stele dan dibawa dengan pantas ke seluruh tumbuhan dalam aliran transpirasi."
+     },
+     "src": [
+      "HH:54-56",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "heading": {
+    "zh": "根际与菌根",
+    "en": "The rhizosphere and mycorrhizae",
+    "ms": "Rizosfera dan mikoriza"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "活的根影响的范围超出根表面，延伸到周围一圈土壤，叫{{t:rhizosphere}}。根分泌氨基酸、酰胺、还原糖等，养活大量细菌，根际的细菌数可比周围土壤多 50 %。最多的分泌物是高尔基体分泌的多糖黏液；黏液很快被细菌占据，又吸住胶体颗粒，三者合起来叫“黏胶层”（mucigel）。",
+      "en": "The influence of a living root extends beyond its surface into a zone of soil called the {{t:rhizosphere}}. Roots release amino acids, amides, reducing sugars and more, feeding large bacterial populations — up to 50 % more than in the surrounding bulk soil. The main secretion is mucilage, a polysaccharide released by Golgi vesicles; bacteria quickly invade it and it binds colloidal particles, and the mixture is called mucigel.",
+      "ms": "Pengaruh akar hidup melangkaui permukaannya ke dalam zon tanah yang dipanggil {{t:rhizosphere}}. Akar membebaskan asid amino, amida, gula penurun dan lain-lain, memberi makan populasi bakteria yang besar — sehingga 50 % lebih banyak berbanding tanah pukal di sekelilingnya. Rembesan utama ialah musilaj, polisakarida yang dibebaskan oleh vesikel Golgi; bakteria cepat menyerbunya dan ia mengikat zarah koloid, dan campuran itu dipanggil musigel."
+     },
+     "defines": [
+      "rhizosphere"
+     ],
+     "src": [
+      "HH:56",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "被真菌感染的根叫{{t:mycorrhiza}}（字面意思是“菌根”），是一种互利共生，研究过的植物中 80 % 以上都有。外生菌根限于少数科（例如松科、壳斗科），菌丝在根外形成菌套、在皮层细胞之间形成哈氏网；内生菌根最普遍的是丛枝菌根（VAM），菌丝伸进皮层细胞，长出像小树一样的“丛枝”，大大增加交换面积。",
+      "en": "A root infected by a fungus is a {{t:mycorrhiza}} (‘fungus root’), a mutualism found in more than 80 % of the plants studied. Ectomycorrhizae are restricted to a few families such as the pines and beeches; the fungus forms a sheath around the root and a Hartig net between cortical cells. The commonest endomycorrhiza is the vesicular-arbuscular mycorrhiza (VAM): hyphae enter cortical cells and form tree-like arbuscules that greatly enlarge the contact surface.",
+      "ms": "Akar yang dijangkiti kulat ialah {{t:mycorrhiza}} (‘akar kulat’), mutualisme yang terdapat pada lebih 80 % tumbuhan yang dikaji. Ektomikoriza terhad kepada beberapa famili seperti pain dan bic; kulat membentuk sarung di sekeliling akar dan jaringan Hartig di antara sel korteks. Endomikoriza yang paling biasa ialah mikoriza vesikular-arbuskular (VAM): hifa memasuki sel korteks dan membentuk arbuskul seperti pokok kecil yang sangat meluaskan permukaan sentuhan."
+     },
+     "defines": [
+      "mycorrhiza"
+     ],
+     "src": [
+      "HH:56-58",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "根能吸光养分的那一圈土壤叫“养分耗竭区”。两种菌根都扩大了根的表面积和耗竭区。耗竭区的大小因元素而异：氮易溶、移动快，耗竭区大；磷难溶、几乎不动，耗竭区很小——所以菌根对磷的吸收特别重要。接种菌根的树苗干重可增加 30–150 %。",
+      "en": "The zone of soil a root can readily strip of nutrients is the depletion zone. Both kinds of mycorrhiza enlarge the root's surface and its depletion zone. Its size depends on the element: nitrogen is soluble and mobile, so its zone is wide; phosphorus is poorly soluble and nearly immobile, so its zone is narrow — which is why mycorrhizae matter most for phosphorus. Tree seedlings inoculated with mycorrhizae have shown 30–150 % increases in dry weight.",
+      "ms": "Zon tanah yang boleh dikosongkan nutriennya oleh akar ialah zon susutan. Kedua-dua jenis mikoriza meluaskan permukaan akar dan zon susutannya. Saiznya bergantung pada unsur: nitrogen larut dan mudah bergerak, jadi zonnya luas; fosforus kurang larut dan hampir tidak bergerak, jadi zonnya sempit — sebab itu mikoriza paling penting untuk fosforus. Anak pokok yang diinokulasi mikoriza menunjukkan peningkatan berat kering 30–150 %."
+     },
+     "src": [
+      "HH:57-58",
+      "LEC"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "colloid",
+  "cation-exchange",
+  "facilitated-diffusion",
+  "active-transport",
+  "membrane-potential",
+  "nernst-equation",
+  "proton-pump",
+  "cotransport",
+  "free-space",
+  "rhizosphere",
+  "mycorrhiza"
+ ]
+}

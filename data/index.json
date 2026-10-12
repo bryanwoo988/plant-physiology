@@ -1,0 +1,399 @@
+{
+ "app": {
+  "zh": "植物生理学",
+  "en": "Plant Physiology",
+  "ms": "Fisiologi Tumbuhan"
+ },
+ "stages": [
+  {
+   "n": 1,
+   "exam": "I",
+   "title": {
+    "zh": "水与矿质营养",
+    "en": "Water and mineral nutrition",
+    "ms": "Air dan nutrien mineral"
+   },
+   "blurb": {
+    "zh": "细胞怎样吸水、水怎样从根爬到叶、根怎样挑选养分，以及植物到底需要哪些元素。",
+    "en": "How cells take up water, how water climbs from root to leaf, how roots choose their nutrients, and which elements a plant really needs.",
+    "ms": "Bagaimana sel menyerap air, bagaimana air naik dari akar ke daun, bagaimana akar memilih nutrien, dan unsur apa yang benar-benar diperlukan tumbuhan."
+   },
+   "chapters": [
+    "ch01",
+    "ch02",
+    "ch03",
+    "ch04"
+   ]
+  },
+  {
+   "n": 2,
+   "exam": "I",
+   "title": {
+    "zh": "能量、光合作用与呼吸",
+    "en": "Energy, photosynthesis and respiration",
+    "ms": "Tenaga, fotosintesis dan respirasi"
+   },
+   "blurb": {
+    "zh": "ATP 和氧化还原、阳光的双重角色、光反应与碳反应、糖怎样运输，以及呼吸怎样把能量拿回来。",
+    "en": "ATP and redox, the two roles of sunlight, the light and carbon reactions, how sugar is moved, and how respiration gets the energy back.",
+    "ms": "ATP dan redoks, dua peranan cahaya matahari, tindak balas cahaya dan karbon, bagaimana gula diangkut, dan bagaimana respirasi mendapatkan semula tenaga."
+   },
+   "chapters": [
+    "ch05",
+    "ch06",
+    "ch07",
+    "ch08",
+    "ch09",
+    "ch10"
+   ]
+  },
+  {
+   "n": 3,
+   "exam": "II",
+   "title": {
+    "zh": "氮、生产力与逆境",
+    "en": "Nitrogen, productivity and stress",
+    "ms": "Nitrogen, produktiviti dan tekanan"
+   },
+   "blurb": {
+    "zh": "氮从空气走进蛋白质的路、产量从哪里来，以及植物怎样面对强光、干旱、冷热与病虫害。",
+    "en": "How nitrogen gets from the air into protein, where yield comes from, and how plants cope with excess light, drought, heat, cold and pests.",
+    "ms": "Bagaimana nitrogen bergerak dari udara ke dalam protein, dari mana datangnya hasil, dan bagaimana tumbuhan menghadapi cahaya berlebihan, kemarau, panas, sejuk dan perosak."
+   },
+   "chapters": [
+    "ch11",
+    "ch12",
+    "ch13",
+    "ch14",
+    "ch15"
+   ]
+  },
+  {
+   "n": 4,
+   "exam": "II–III",
+   "title": {
+    "zh": "发育与植物激素",
+    "en": "Development and plant hormones",
+    "ms": "Perkembangan dan hormon tumbuhan"
+   },
+   "blurb": {
+    "zh": "从种子到成株、细胞怎样长大和接收信号，再逐一认识生长素、赤霉素、细胞分裂素、脱落酸、乙烯和油菜素甾醇。",
+    "en": "From seed to adult plant, how cells grow and receive signals, then the hormones one by one: auxin, gibberellins, cytokinins, abscisic acid, ethylene and brassinosteroids.",
+    "ms": "Daripada biji benih hingga tumbuhan dewasa, bagaimana sel membesar dan menerima isyarat, kemudian hormon satu demi satu: auksin, giberelin, sitokinin, asid absisik, etilena dan brasinosteroid."
+   },
+   "chapters": [
+    "ch16",
+    "ch17",
+    "ch18",
+    "ch19",
+    "ch20",
+    "ch21",
+    "ch22",
+    "ch23"
+   ]
+  },
+  {
+   "n": 5,
+   "exam": "III",
+   "title": {
+    "zh": "光、运动与开花",
+    "en": "Light, movement and flowering",
+    "ms": "Cahaya, pergerakan dan pembungaan"
+   },
+   "blurb": {
+    "zh": "光敏色素和隐花色素怎样“看”光、植物怎样弯向光和重力、怎样量日长，以及开花的信号和次生代谢物。",
+    "en": "How phytochromes and cryptochromes ‘see’ light, how plants bend towards light and gravity, how they measure day length, the flowering signal, and secondary metabolites.",
+    "ms": "Bagaimana fitokrom dan kriptokrom ‘melihat’ cahaya, bagaimana tumbuhan membengkok ke arah cahaya dan graviti, bagaimana ia mengukur panjang hari, isyarat pembungaan, dan metabolit sekunder."
+   },
+   "chapters": [
+    "ch24",
+    "ch25",
+    "ch26",
+    "ch27",
+    "ch28"
+   ]
+  }
+ ],
+ "chapters": [
+  {
+   "id": "ch01",
+   "num": 1,
+   "stage": 1,
+   "title": {
+    "zh": "植物细胞与水",
+    "en": "Plant cells and water",
+    "ms": "Sel tumbuhan dan air"
+   }
+  },
+  {
+   "id": "ch02",
+   "num": 2,
+   "stage": 1,
+   "title": {
+    "zh": "整株植物的水分关系",
+    "en": "Whole-plant water relations",
+    "ms": "Hubungan air seluruh tumbuhan"
+   }
+  },
+  {
+   "id": "ch03",
+   "num": 3,
+   "stage": 1,
+   "title": {
+    "zh": "根、土壤与养分吸收",
+    "en": "Roots, soils and nutrient uptake",
+    "ms": "Akar, tanah dan pengambilan nutrien"
+   }
+  },
+  {
+   "id": "ch04",
+   "num": 4,
+   "stage": 1,
+   "title": {
+    "zh": "植物与无机营养",
+    "en": "Plants and inorganic nutrients",
+    "ms": "Tumbuhan dan nutrien tak organik"
+   }
+  },
+  {
+   "id": "ch05",
+   "num": 5,
+   "stage": 2,
+   "title": {
+    "zh": "生物能量学与 ATP",
+    "en": "Bioenergetics and ATP",
+    "ms": "Bioenergetik dan ATP"
+   }
+  },
+  {
+   "id": "ch06",
+   "num": 6,
+   "stage": 2,
+   "title": {
+    "zh": "阳光的双重角色",
+    "en": "The dual role of sunlight",
+    "ms": "Dua peranan cahaya matahari"
+   }
+  },
+  {
+   "id": "ch07",
+   "num": 7,
+   "stage": 2,
+   "title": {
+    "zh": "光反应：捕捉光能",
+    "en": "The light reactions: harvesting light",
+    "ms": "Tindak balas cahaya: menuai tenaga cahaya"
+   }
+  },
+  {
+   "id": "ch08",
+   "num": 8,
+   "stage": 2,
+   "title": {
+    "zh": "碳反应：固定二氧化碳",
+    "en": "The carbon reactions: fixing CO₂",
+    "ms": "Tindak balas karbon: mengikat CO₂"
+   }
+  },
+  {
+   "id": "ch09",
+   "num": 9,
+   "stage": 2,
+   "title": {
+    "zh": "光合产物的分配与运输",
+    "en": "Allocation and translocation of photoassimilates",
+    "ms": "Peruntukan dan translokasi fotoasimilat"
+   }
+  },
+  {
+   "id": "ch10",
+   "num": 10,
+   "stage": 2,
+   "title": {
+    "zh": "细胞呼吸",
+    "en": "Cellular respiration",
+    "ms": "Respirasi sel"
+   }
+  },
+  {
+   "id": "ch11",
+   "num": 11,
+   "stage": 3,
+   "title": {
+    "zh": "氮同化",
+    "en": "Nitrogen assimilation",
+    "ms": "Asimilasi nitrogen"
+   }
+  },
+  {
+   "id": "ch12",
+   "num": 12,
+   "stage": 3,
+   "title": {
+    "zh": "碳、氮与植物生产力",
+    "en": "Carbon, nitrogen and plant productivity",
+    "ms": "Karbon, nitrogen dan produktiviti tumbuhan"
+   }
+  },
+  {
+   "id": "ch13",
+   "num": 13,
+   "stage": 3,
+   "title": {
+    "zh": "植物对环境逆境的反应",
+    "en": "Responses to environmental stress",
+    "ms": "Tindak balas terhadap tekanan persekitaran"
+   }
+  },
+  {
+   "id": "ch14",
+   "num": 14,
+   "stage": 3,
+   "title": {
+    "zh": "对逆境的驯化",
+    "en": "Acclimation to environmental stress",
+    "ms": "Penyesuaian terhadap tekanan persekitaran"
+   }
+  },
+  {
+   "id": "ch15",
+   "num": 15,
+   "stage": 3,
+   "title": {
+    "zh": "对环境的适应",
+    "en": "Adaptations to the environment",
+    "ms": "Adaptasi kepada persekitaran"
+   }
+  },
+  {
+   "id": "ch16",
+   "num": 16,
+   "stage": 4,
+   "title": {
+    "zh": "发育概论",
+    "en": "Development: an overview",
+    "ms": "Perkembangan: gambaran keseluruhan"
+   }
+  },
+  {
+   "id": "ch17",
+   "num": 17,
+   "stage": 4,
+   "title": {
+    "zh": "细胞的生长、分裂与信号传导",
+    "en": "Cell growth, division and signalling",
+    "ms": "Pertumbuhan, pembahagian dan pengisyaratan sel"
+   }
+  },
+  {
+   "id": "ch18",
+   "num": 18,
+   "stage": 4,
+   "title": {
+    "zh": "生长素",
+    "en": "Auxins",
+    "ms": "Auksin"
+   }
+  },
+  {
+   "id": "ch19",
+   "num": 19,
+   "stage": 4,
+   "title": {
+    "zh": "赤霉素",
+    "en": "Gibberellins",
+    "ms": "Giberelin"
+   }
+  },
+  {
+   "id": "ch20",
+   "num": 20,
+   "stage": 4,
+   "title": {
+    "zh": "细胞分裂素",
+    "en": "Cytokinins",
+    "ms": "Sitokinin"
+   }
+  },
+  {
+   "id": "ch21",
+   "num": 21,
+   "stage": 4,
+   "title": {
+    "zh": "脱落酸",
+    "en": "Abscisic acid",
+    "ms": "Asid absisik"
+   }
+  },
+  {
+   "id": "ch22",
+   "num": 22,
+   "stage": 4,
+   "title": {
+    "zh": "乙烯",
+    "en": "Ethylene",
+    "ms": "Etilena"
+   }
+  },
+  {
+   "id": "ch23",
+   "num": 23,
+   "stage": 4,
+   "title": {
+    "zh": "油菜素甾醇",
+    "en": "Brassinosteroids",
+    "ms": "Brasinosteroid"
+   }
+  },
+  {
+   "id": "ch24",
+   "num": 24,
+   "stage": 5,
+   "title": {
+    "zh": "光形态建成",
+    "en": "Photomorphogenesis",
+    "ms": "Fotomorfogenesis"
+   }
+  },
+  {
+   "id": "ch25",
+   "num": 25,
+   "stage": 5,
+   "title": {
+    "zh": "向性与感性运动",
+    "en": "Tropisms and nastic movements",
+    "ms": "Tropisme dan gerakan nastik"
+   }
+  },
+  {
+   "id": "ch26",
+   "num": 26,
+   "stage": 5,
+   "title": {
+    "zh": "光周期与生物钟",
+    "en": "Photoperiodism and the biological clock",
+    "ms": "Fotoperiodisme dan jam biologi"
+   }
+  },
+  {
+   "id": "ch27",
+   "num": 27,
+   "stage": 5,
+   "title": {
+    "zh": "开花与果实",
+    "en": "Flowering and fruit",
+    "ms": "Pembungaan dan buah"
+   }
+  },
+  {
+   "id": "ch28",
+   "num": 28,
+   "stage": 5,
+   "title": {
+    "zh": "次生代谢物",
+    "en": "Secondary metabolites",
+    "ms": "Metabolit sekunder"
+   }
+  }
+ ]
+}

@@ -1,0 +1,4109 @@
+[
+ {
+  "stage": 1,
+  "chapter": "ch01",
+  "q": {
+   "zh": "细胞 A：Ψs = −0.8 MPa，Ψp = 0.5 MPa；细胞 B：Ψs = −0.6 MPa，Ψp = 0.1 MPa。水往哪边流？",
+   "en": "Cell A: Ψs = −0.8 MPa, Ψp = 0.5 MPa. Cell B: Ψs = −0.6 MPa, Ψp = 0.1 MPa. Which way does water flow?",
+   "ms": "Sel A: Ψs = −0.8 MPa, Ψp = 0.5 MPa. Sel B: Ψs = −0.6 MPa, Ψp = 0.1 MPa. Ke arah mana air mengalir?"
+  },
+  "options": [
+   {
+    "zh": "从 A 到 B",
+    "en": "From A to B",
+    "ms": "Dari A ke B"
+   },
+   {
+    "zh": "从 B 到 A",
+    "en": "From B to A",
+    "ms": "Dari B ke A"
+   },
+   {
+    "zh": "不流动",
+    "en": "No net flow",
+    "ms": "Tiada aliran bersih"
+   },
+   {
+    "zh": "要看溶质种类",
+    "en": "It depends on the solute",
+    "ms": "Bergantung pada jenis zat terlarut"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "Ψ(A) = −0.3 MPa，Ψ(B) = −0.5 MPa。水从 Ψ 高（A）流向 Ψ 低（B），虽然 A 的 Ψs 更负。",
+   "en": "Ψ(A) = −0.3 MPa and Ψ(B) = −0.5 MPa. Water flows from higher Ψ (A) to lower Ψ (B), even though A has the more negative Ψs.",
+   "ms": "Ψ(A) = −0.3 MPa dan Ψ(B) = −0.5 MPa. Air mengalir dari Ψ tinggi (A) ke Ψ rendah (B), walaupun Ψs A lebih negatif."
+  }
+ },
+ {
+  "stage": 1,
+  "chapter": "ch01",
+  "q": {
+   "zh": "初始质壁分离时，细胞的水势等于什么？",
+   "en": "At incipient plasmolysis, a cell's water potential equals…",
+   "ms": "Pada plasmolisis permulaan, keupayaan air sel sama dengan…"
+  },
+  "options": [
+   {
+    "zh": "零",
+    "en": "zero",
+    "ms": "sifar"
+   },
+   {
+    "zh": "它的压力势",
+    "en": "its pressure potential",
+    "ms": "keupayaan tekanannya"
+   },
+   {
+    "zh": "它的渗透势",
+    "en": "its osmotic potential",
+    "ms": "keupayaan osmotiknya"
+   },
+   {
+    "zh": "外面纯水的水势",
+    "en": "the water potential of pure water outside",
+    "ms": "keupayaan air tulen di luar"
+   }
+  ],
+  "answer": 2,
+  "why": {
+   "zh": "此时膨压 Ψp = 0，所以 Ψ = Ψs。",
+   "en": "Turgor Ψp is zero at that point, so Ψ = Ψs.",
+   "ms": "Turgor Ψp ialah sifar pada ketika itu, jadi Ψ = Ψs."
+  }
+ },
+ {
+  "stage": 1,
+  "chapter": "ch01",
+  "q": {
+   "zh": "水通道蛋白对水的移动有什么作用？",
+   "en": "What do aquaporins do to water movement?",
+   "ms": "Apakah kesan akuaporin terhadap pergerakan air?"
+  },
+  "options": [
+   {
+    "zh": "消耗 ATP 把水泵进细胞",
+    "en": "Pump water into the cell using ATP",
+    "ms": "Mengepam air ke dalam sel menggunakan ATP"
+   },
+   {
+    "zh": "加快水通过膜的速度，但方向仍由水势决定",
+    "en": "Speed water across the membrane; direction is still set by Ψ",
+    "ms": "Mempercepat air merentasi membran; arah masih ditentukan oleh Ψ"
+   },
+   {
+    "zh": "只让溶质通过",
+    "en": "Let only solutes through",
+    "ms": "Hanya membenarkan zat terlarut melalui"
+   },
+   {
+    "zh": "把水势变成正的",
+    "en": "Make the water potential positive",
+    "ms": "Menjadikan keupayaan air positif"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "水通道蛋白是被动通道：降低阻力、提高速度，不提供能量也不决定方向。",
+   "en": "Aquaporins are passive channels: they lower resistance and raise the rate, but supply no energy and do not set the direction.",
+   "ms": "Akuaporin ialah saluran pasif: ia mengurangkan rintangan dan meningkatkan kadar, tetapi tidak membekalkan tenaga dan tidak menentukan arah."
+  }
+ },
+ {
+  "stage": 1,
+  "chapter": "ch01",
+  "q": {
+   "zh": "同样是 0.5 M，为什么 CaCl₂ 溶液的渗透势比 NaCl 更负？",
+   "en": "Why is 0.5 M CaCl₂ more negative in osmotic potential than 0.5 M NaCl?",
+   "ms": "Mengapa CaCl₂ 0.5 M lebih negatif keupayaan osmotiknya daripada NaCl 0.5 M?"
+  },
+  "options": [
+   {
+    "zh": "钙比钠重",
+    "en": "Calcium is heavier than sodium",
+    "ms": "Kalsium lebih berat daripada natrium"
+   },
+   {
+    "zh": "CaCl₂ 解离成 3 个粒子，NaCl 只有 2 个",
+    "en": "CaCl₂ splits into 3 particles, NaCl into only 2",
+    "ms": "CaCl₂ terurai kepada 3 zarah, NaCl hanya 2"
+   },
+   {
+    "zh": "CaCl₂ 不能溶解",
+    "en": "CaCl₂ does not dissolve",
+    "ms": "CaCl₂ tidak larut"
+   },
+   {
+    "zh": "钙离子带负电",
+    "en": "Calcium ions are negative",
+    "ms": "Ion kalsium bercas negatif"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "Ψs = −CiRT：渗透势取决于粒子数目，CaCl₂ 的 i ≈ 3，NaCl 的 i ≈ 2。",
+   "en": "Ψs = −CiRT: osmotic potential depends on the number of particles; i ≈ 3 for CaCl₂ and ≈ 2 for NaCl.",
+   "ms": "Ψs = −CiRT: keupayaan osmotik bergantung pada bilangan zarah; i ≈ 3 bagi CaCl₂ dan ≈ 2 bagi NaCl."
+  }
+ },
+ {
+  "stage": 1,
+  "chapter": "ch02",
+  "q": {
+   "zh": "导管半径是管胞的 5 倍，在同样的压力梯度下，导管的体积流量大约是管胞的几倍？",
+   "en": "A vessel has five times the radius of a tracheid. Under the same pressure gradient, roughly how much more does it carry?",
+   "ms": "Salur mempunyai jejari lima kali trakeid. Di bawah kecerunan tekanan yang sama, kira-kira berapa kali lebih banyak yang dibawanya?"
+  },
+  "options": [
+   {
+    "zh": "5 倍",
+    "en": "5 times",
+    "ms": "5 kali"
+   },
+   {
+    "zh": "25 倍",
+    "en": "25 times",
+    "ms": "25 kali"
+   },
+   {
+    "zh": "125 倍",
+    "en": "125 times",
+    "ms": "125 kali"
+   },
+   {
+    "zh": "625 倍",
+    "en": "625 times",
+    "ms": "625 kali"
+   }
+  ],
+  "answer": 3,
+  "why": {
+   "zh": "泊肃叶方程：流量与 r⁴ 成正比，5⁴ = 625。",
+   "en": "Poiseuille: flow scales with r⁴, and 5⁴ = 625.",
+   "ms": "Poiseuille: aliran berkadar dengan r⁴, dan 5⁴ = 625."
+  }
+ },
+ {
+  "stage": 1,
+  "chapter": "ch02",
+  "q": {
+   "zh": "把水从地面送到大树顶端，主要靠什么？",
+   "en": "What mainly lifts water from the ground to the top of a tall tree?",
+   "ms": "Apakah yang terutamanya mengangkat air dari tanah ke puncak pokok tinggi?"
+  },
+  "options": [
+   {
+    "zh": "根压",
+    "en": "Root pressure",
+    "ms": "Tekanan akar"
+   },
+   {
+    "zh": "毛细作用",
+    "en": "Capillarity",
+    "ms": "Kapilariti"
+   },
+   {
+    "zh": "叶片蒸发造成的张力，加上水的内聚力",
+    "en": "Tension from evaporation in the leaves, plus water's cohesion",
+    "ms": "Tegangan daripada penyejatan di daun, ditambah kohesi air"
+   },
+   {
+    "zh": "木质部细胞消耗 ATP 泵水",
+    "en": "Xylem cells pumping water with ATP",
+    "ms": "Sel xilem mengepam air dengan ATP"
+   }
+  ],
+  "answer": 2,
+  "why": {
+   "zh": "根压只有 0.1–0.5 MPa，毛细作用不到 1 m；内聚力–张力学说才能解释。",
+   "en": "Root pressure is only 0.1–0.5 MPa and capillarity under 1 m; only the cohesion–tension theory accounts for it.",
+   "ms": "Tekanan akar hanya 0.1–0.5 MPa dan kapilariti kurang 1 m; hanya teori kohesi–tegangan yang dapat menerangkannya."
+  }
+ },
+ {
+  "stage": 1,
+  "chapter": "ch02",
+  "q": {
+   "zh": "凯氏带的作用是什么？",
+   "en": "What does the Casparian band do?",
+   "ms": "Apakah fungsi jalur Caspary?"
+  },
+  "options": [
+   {
+    "zh": "把水泵进木质部",
+    "en": "Pumps water into the xylem",
+    "ms": "Mengepam air ke dalam xilem"
+   },
+   {
+    "zh": "阻断质外体，迫使水和溶质穿过内皮层细胞膜",
+    "en": "Blocks the apoplast, forcing water and solutes through endodermal membranes",
+    "ms": "Menyekat apoplas, memaksa air dan zat terlarut melalui membran endodermis"
+   },
+   {
+    "zh": "防止叶片蒸腾",
+    "en": "Stops leaf transpiration",
+    "ms": "Menghalang transpirasi daun"
+   },
+   {
+    "zh": "产生根毛",
+    "en": "Produces root hairs",
+    "ms": "Menghasilkan bulu akar"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "凯氏带由疏水的木栓质组成，填满内皮层细胞壁的空隙。",
+   "en": "It is a band of hydrophobic suberin filling the wall spaces of the endodermis.",
+   "ms": "Ia jalur suberin hidrofobik yang memenuhi ruang dinding endodermis."
+  }
+ },
+ {
+  "stage": 1,
+  "chapter": "ch02",
+  "q": {
+   "zh": "空气相对湿度 100 %，叶片还会蒸腾吗？",
+   "en": "Can a leaf transpire when the air is at 100 % relative humidity?",
+   "ms": "Bolehkah daun bertranspirasi apabila udara pada kelembapan relatif 100 %?"
+  },
+  "options": [
+   {
+    "zh": "不会，空气已经饱和",
+    "en": "No, the air is saturated",
+    "ms": "Tidak, udara sudah tepu"
+   },
+   {
+    "zh": "会，只要叶片比空气暖",
+    "en": "Yes, if the leaf is warmer than the air",
+    "ms": "Ya, jika daun lebih panas daripada udara"
+   },
+   {
+    "zh": "只有晚上会",
+    "en": "Only at night",
+    "ms": "Hanya pada waktu malam"
+   },
+   {
+    "zh": "只有气孔关闭时会",
+    "en": "Only when stomata are closed",
+    "ms": "Hanya apabila stoma tertutup"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "较暖的叶片内部饱和水汽压更高，叶内外仍有水汽压差。",
+   "en": "A warmer leaf has a higher saturation vapour pressure inside, so a vapour-pressure difference remains.",
+   "ms": "Daun yang lebih panas mempunyai tekanan wap tepu lebih tinggi di dalam, jadi perbezaan tekanan wap masih wujud."
+  }
+ },
+ {
+  "stage": 1,
+  "chapter": "ch03",
+  "q": {
+   "zh": "膜电位 −118 mV，外面 K⁺ 为 1 mM，里面测到 100 mM。K⁺ 是怎样进来的？",
+   "en": "Membrane potential −118 mV, outside K⁺ 1 mM, measured inside 100 mM. How did the K⁺ get in?",
+   "ms": "Keupayaan membran −118 mV, K⁺ di luar 1 mM, diukur di dalam 100 mM. Bagaimana K⁺ masuk?"
+  },
+  "options": [
+   {
+    "zh": "被动：和能斯特预测大致相同",
+    "en": "Passively — close to the Nernst prediction",
+    "ms": "Secara pasif — hampir dengan ramalan Nernst"
+   },
+   {
+    "zh": "主动吸收：比预测高很多",
+    "en": "Actively taken up — far above prediction",
+    "ms": "Diambil secara aktif — jauh melebihi ramalan"
+   },
+   {
+    "zh": "主动排出",
+    "en": "Actively expelled",
+    "ms": "Disingkirkan secara aktif"
+   },
+   {
+    "zh": "无法判断",
+    "en": "Cannot be decided",
+    "ms": "Tidak dapat ditentukan"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "预测 C内 = 1 × 10^(118/59) = 100 mM，与实测相同，被动即可。",
+   "en": "Predicted C_in = 1 × 10^(118/59) = 100 mM, the same as measured: passive movement is enough.",
+   "ms": "Ramalan C_dalam = 1 × 10^(118/59) = 100 mM, sama dengan yang diukur: pergerakan pasif sudah cukup."
+  }
+ },
+ {
+  "stage": 1,
+  "chapter": "ch03",
+  "q": {
+   "zh": "为什么硝酸盐（NO₃⁻）特别容易从土壤流失？",
+   "en": "Why does nitrate (NO₃⁻) leach out of soil so easily?",
+   "ms": "Mengapa nitrat (NO₃⁻) begitu mudah larut lesap dari tanah?"
+  },
+  "options": [
+   {
+    "zh": "它会挥发成气体",
+    "en": "It evaporates as a gas",
+    "ms": "Ia meruap sebagai gas"
+   },
+   {
+    "zh": "土壤胶体带负电，不吸附阴离子",
+    "en": "Soil colloids are negative and do not hold anions",
+    "ms": "Koloid tanah bercas negatif dan tidak menahan anion"
+   },
+   {
+    "zh": "它被根全部吸走",
+    "en": "Roots take it all up",
+    "ms": "Akar menyerap kesemuanya"
+   },
+   {
+    "zh": "它和钙形成沉淀",
+    "en": "It precipitates with calcium",
+    "ms": "Ia termendak dengan kalsium"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "胶体表面以负电荷为主，只抓阳离子。",
+   "en": "Colloid surfaces are mostly negative and hold only cations.",
+   "ms": "Permukaan koloid kebanyakannya negatif dan hanya menahan kation."
+  }
+ },
+ {
+  "stage": 1,
+  "chapter": "ch03",
+  "q": {
+   "zh": "H⁺/蔗糖同向运输属于哪一种运输？",
+   "en": "H⁺/sucrose symport is which kind of transport?",
+   "ms": "Simport H⁺/sukrosa ialah jenis pengangkutan apa?"
+  },
+  "options": [
+   {
+    "zh": "简单扩散",
+    "en": "Simple diffusion",
+    "ms": "Resapan ringkas"
+   },
+   {
+    "zh": "通道介导的协助扩散",
+    "en": "Channel-mediated facilitated diffusion",
+    "ms": "Resapan berbantu melalui saluran"
+   },
+   {
+    "zh": "二次主动运输：利用质子泵建立的梯度",
+    "en": "Secondary active transport, using the gradient built by the proton pump",
+    "ms": "Pengangkutan aktif sekunder, menggunakan kecerunan yang dibina pam proton"
+   },
+   {
+    "zh": "直接水解 ATP 的初级主动运输",
+    "en": "Primary active transport that hydrolyses ATP itself",
+    "ms": "Pengangkutan aktif primer yang menghidrolisis ATP sendiri"
+   }
+  ],
+  "answer": 2,
+  "why": {
+   "zh": "能量来自 H⁺ 的电化学梯度，ATP 只在质子泵那一步用到。",
+   "en": "The energy comes from the H⁺ electrochemical gradient; ATP is used only by the proton pump.",
+   "ms": "Tenaga datang daripada kecerunan elektrokimia H⁺; ATP hanya digunakan oleh pam proton."
+  }
+ },
+ {
+  "stage": 1,
+  "chapter": "ch03",
+  "q": {
+   "zh": "菌根对哪一种元素的吸收帮助最大？",
+   "en": "For which element are mycorrhizae most helpful?",
+   "ms": "Bagi unsur manakah mikoriza paling membantu?"
+  },
+  "options": [
+   {
+    "zh": "氮，因为它移动快",
+    "en": "Nitrogen, because it is mobile",
+    "ms": "Nitrogen, kerana ia mudah bergerak"
+   },
+   {
+    "zh": "磷，因为它难溶、几乎不移动",
+    "en": "Phosphorus, because it is poorly soluble and nearly immobile",
+    "ms": "Fosforus, kerana ia kurang larut dan hampir tidak bergerak"
+   },
+   {
+    "zh": "钠",
+    "en": "Sodium",
+    "ms": "Natrium"
+   },
+   {
+    "zh": "氧",
+    "en": "Oxygen",
+    "ms": "Oksigen"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "磷的耗竭区很小，菌丝把吸收范围延伸出去。",
+   "en": "Phosphorus has a narrow depletion zone; fungal hyphae extend the reach.",
+   "ms": "Fosforus mempunyai zon susutan yang sempit; hifa kulat meluaskan capaian."
+  }
+ },
+ {
+  "stage": 1,
+  "chapter": "ch04",
+  "q": {
+   "zh": "一株植物的老叶先发黄，幼叶正常。最可能缺什么？",
+   "en": "A plant's older leaves yellow first while young leaves look normal. Most likely deficiency?",
+   "ms": "Daun tua tumbuhan menguning dahulu manakala daun muda kelihatan normal. Kekurangan yang paling mungkin?"
+  },
+  "options": [
+   {
+    "zh": "铁",
+    "en": "Iron",
+    "ms": "Besi"
+   },
+   {
+    "zh": "钙",
+    "en": "Calcium",
+    "ms": "Kalsium"
+   },
+   {
+    "zh": "氮",
+    "en": "Nitrogen",
+    "ms": "Nitrogen"
+   },
+   {
+    "zh": "硼",
+    "en": "Boron",
+    "ms": "Boron"
+   }
+  ],
+  "answer": 2,
+  "why": {
+   "zh": "氮移动性高，会从老叶搬去新叶，所以老叶先出现症状。",
+   "en": "Nitrogen is mobile and is moved from old leaves to new ones, so old leaves show it first.",
+   "ms": "Nitrogen mudah gerak dan dipindahkan dari daun tua ke daun baharu, jadi daun tua menunjukkannya dahulu."
+  }
+ },
+ {
+  "stage": 1,
+  "chapter": "ch04",
+  "q": {
+   "zh": "下面哪一个是微量元素？",
+   "en": "Which of these is a micronutrient?",
+   "ms": "Antara berikut, yang manakah mikronutrien?"
+  },
+  "options": [
+   {
+    "zh": "镁",
+    "en": "Magnesium",
+    "ms": "Magnesium"
+   },
+   {
+    "zh": "硫",
+    "en": "Sulphur",
+    "ms": "Sulfur"
+   },
+   {
+    "zh": "钼",
+    "en": "Molybdenum",
+    "ms": "Molibdenum"
+   },
+   {
+    "zh": "钾",
+    "en": "Potassium",
+    "ms": "Kalium"
+   }
+  ],
+  "answer": 2,
+  "why": {
+   "zh": "钼的需要量是所有微量元素中最低的；Mg、S、K 是大量元素。",
+   "en": "Molybdenum has the smallest requirement of all; Mg, S and K are macronutrients.",
+   "ms": "Molibdenum mempunyai keperluan paling kecil; Mg, S dan K ialah makronutrien."
+  }
+ },
+ {
+  "stage": 1,
+  "chapter": "ch04",
+  "q": {
+   "zh": "为什么水培营养液一定要打气？",
+   "en": "Why must a nutrient solution be aerated?",
+   "ms": "Mengapa larutan nutrien mesti diudarakan?"
+  },
+  "options": [
+   {
+    "zh": "让藻类生长",
+    "en": "To let algae grow",
+    "ms": "Untuk membiarkan alga tumbuh"
+   },
+   {
+    "zh": "避免缺氧抑制根的呼吸，吸收养分需要能量",
+    "en": "To avoid anoxia; roots need respiration to power nutrient uptake",
+    "ms": "Untuk mengelakkan anoksia; akar memerlukan respirasi untuk menjana pengambilan nutrien"
+   },
+   {
+    "zh": "提高 pH",
+    "en": "To raise the pH",
+    "ms": "Untuk menaikkan pH"
+   },
+   {
+    "zh": "补充氮气",
+    "en": "To supply nitrogen gas",
+    "ms": "Untuk membekalkan gas nitrogen"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "缺氧时根细胞无法有氧呼吸，主动吸收就缺乏能量。",
+   "en": "Without oxygen, root cells cannot respire aerobically and active uptake lacks energy.",
+   "ms": "Tanpa oksigen, sel akar tidak dapat berespirasi secara aerobik dan pengambilan aktif kekurangan tenaga."
+  }
+ },
+ {
+  "stage": 1,
+  "chapter": "ch04",
+  "q": {
+   "zh": "禾本科植物在缺铁时的“策略 II”是什么？",
+   "en": "What is the ‘Strategy II’ iron response of grasses?",
+   "ms": "Apakah tindak balas besi ‘Strategi II’ rumput?"
+  },
+  "options": [
+   {
+    "zh": "分泌植物铁载体，吸收 Fe³⁺ 复合物",
+    "en": "Releasing phytosiderophores and taking up the Fe³⁺ complex",
+    "ms": "Membebaskan fitosiderofor dan mengambil kompleks Fe³⁺"
+   },
+   {
+    "zh": "关闭气孔",
+    "en": "Closing stomata",
+    "ms": "Menutup stoma"
+   },
+   {
+    "zh": "把铁储存在液泡",
+    "en": "Storing iron in the vacuole",
+    "ms": "Menyimpan besi dalam vakuol"
+   },
+   {
+    "zh": "合成更多叶绿素",
+    "en": "Making more chlorophyll",
+    "ms": "Menghasilkan lebih banyak klorofil"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "策略 I 是酸化与还原；策略 II 是分泌高亲和力的铁载体。",
+   "en": "Strategy I acidifies and reduces; Strategy II releases high-affinity siderophores.",
+   "ms": "Strategi I mengasidkan dan menurunkan; Strategi II membebaskan siderofor berafiniti tinggi."
+  }
+ },
+ {
+  "stage": 2,
+  "chapter": "ch05",
+  "q": {
+   "zh": "细胞里 ATP 能做功的根本原因是什么？",
+   "en": "Why, fundamentally, can ATP do work in a cell?",
+   "ms": "Mengapa, pada dasarnya, ATP boleh melakukan kerja dalam sel?"
+  },
+  "options": [
+   {
+    "zh": "它的磷酸键特别不稳定",
+    "en": "Its phosphate bonds are uniquely unstable",
+    "ms": "Ikatan fosfatnya sangat tidak stabil"
+   },
+   {
+    "zh": "细胞把 ATP/ADP 比维持在远离平衡的状态",
+    "en": "The cell keeps the ATP/ADP ratio far from equilibrium",
+    "ms": "Sel mengekalkan nisbah ATP/ADP jauh dari keseimbangan"
+   },
+   {
+    "zh": "它含有大量的熵",
+    "en": "It contains a lot of entropy",
+    "ms": "Ia mengandungi banyak entropi"
+   },
+   {
+    "zh": "它是唯一的磷酸化合物",
+    "en": "It is the only phosphate compound",
+    "ms": "Ia satu-satunya sebatian fosfat"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "做功能力取决于离平衡多远；平衡的 ATP 混合物做不了功。",
+   "en": "The capacity for work depends on distance from equilibrium; an equilibrium mixture of ATP can do none.",
+   "ms": "Keupayaan kerja bergantung pada jarak dari keseimbangan; campuran ATP pada keseimbangan tidak dapat melakukan sebarang kerja."
+  }
+ },
+ {
+  "stage": 2,
+  "chapter": "ch05",
+  "q": {
+   "zh": "电子从 H₂O（+820 mV）传到 NADP⁺（−320 mV），ΔG°′ 约为多少？",
+   "en": "For electrons passing from H₂O (+820 mV) to NADP⁺ (−320 mV), ΔG°′ is about…",
+   "ms": "Bagi elektron dari H₂O (+820 mV) ke NADP⁺ (−320 mV), ΔG°′ kira-kira…"
+  },
+  "options": [
+   {
+    "zh": "−220 kJ/mol，自发",
+    "en": "−220 kJ/mol, spontaneous",
+    "ms": "−220 kJ/mol, spontan"
+   },
+   {
+    "zh": "+220 kJ/mol，需要光能",
+    "en": "+220 kJ/mol, needs light energy",
+    "ms": "+220 kJ/mol, perlu tenaga cahaya"
+   },
+   {
+    "zh": "0",
+    "en": "0",
+    "ms": "0"
+   },
+   {
+    "zh": "+32 kJ/mol",
+    "en": "+32 kJ/mol",
+    "ms": "+32 kJ/mol"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "ΔEm = −1.14 V，ΔG°′ = −2 × 96 500 × (−1.14) ≈ +220 kJ/mol。",
+   "en": "ΔEm = −1.14 V, so ΔG°′ = −2 × 96,500 × (−1.14) ≈ +220 kJ/mol.",
+   "ms": "ΔEm = −1.14 V, jadi ΔG°′ = −2 × 96,500 × (−1.14) ≈ +220 kJ/mol."
+  }
+ },
+ {
+  "stage": 2,
+  "chapter": "ch05",
+  "q": {
+   "zh": "化学渗透学说的两个前提是什么？",
+   "en": "What are the two requirements of the chemiosmotic hypothesis?",
+   "ms": "Apakah dua syarat hipotesis kemiosmosis?"
+  },
+  "options": [
+   {
+    "zh": "膜对 H⁺ 不通透；电子载体在膜上不对称排列",
+    "en": "The membrane is impermeable to H⁺; electron carriers are arranged asymmetrically",
+    "ms": "Membran tidak telap kepada H⁺; pembawa elektron tersusun tidak simetri"
+   },
+   {
+    "zh": "膜对 H⁺ 自由通透；有 ATP 酶",
+    "en": "The membrane is freely permeable to H⁺; ATPase exists",
+    "ms": "Membran telap bebas kepada H⁺; ATPase wujud"
+   },
+   {
+    "zh": "需要光；需要氧",
+    "en": "Light is needed; oxygen is needed",
+    "ms": "Cahaya diperlukan; oksigen diperlukan"
+   },
+   {
+    "zh": "只发生在线粒体；需要葡萄糖",
+    "en": "Occurs only in mitochondria; needs glucose",
+    "ms": "Berlaku hanya dalam mitokondria; perlu glukosa"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "这样电子传递才能建立并保住质子梯度。",
+   "en": "Only then can electron transport build and hold a proton gradient.",
+   "ms": "Hanya dengan itu pengangkutan elektron dapat membina dan mengekalkan kecerunan proton."
+  }
+ },
+ {
+  "stage": 2,
+  "chapter": "ch05",
+  "q": {
+   "zh": "叶绿体 ATP 合酶中，哪一部分含有合成 ATP 的活性位点？",
+   "en": "Which part of the chloroplast ATP synthase carries the active site for ATP synthesis?",
+   "ms": "Bahagian manakah ATP sintase kloroplas yang membawa tapak aktif sintesis ATP?"
+  },
+  "options": [
+   {
+    "zh": "CF₀，埋在膜里",
+    "en": "CF₀, in the membrane",
+    "ms": "CF₀, dalam membran"
+   },
+   {
+    "zh": "CF₁，在基质一侧",
+    "en": "CF₁, on the stromal side",
+    "ms": "CF₁, di sebelah stroma"
+   },
+   {
+    "zh": "类囊体腔",
+    "en": "The lumen",
+    "ms": "Lumen"
+   },
+   {
+    "zh": "外被膜",
+    "en": "The outer envelope",
+    "ms": "Sampul luar"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "CF₀ 是质子通道，CF₁（α₃β₃γδε）合成 ATP。",
+   "en": "CF₀ is the proton channel; CF₁ (α₃β₃γδε) makes the ATP.",
+   "ms": "CF₀ ialah saluran proton; CF₁ (α₃β₃γδε) menghasilkan ATP."
+  }
+ },
+ {
+  "stage": 2,
+  "chapter": "ch06",
+  "q": {
+   "zh": "1 mol 660 nm 红光光子的能量约为多少？",
+   "en": "A mole of 660 nm red photons carries about…",
+   "ms": "Satu mol foton merah 660 nm membawa kira-kira…"
+  },
+  "options": [
+   {
+    "zh": "18 kJ",
+    "en": "18 kJ",
+    "ms": "18 kJ"
+   },
+   {
+    "zh": "181 kJ",
+    "en": "181 kJ",
+    "ms": "181 kJ"
+   },
+   {
+    "zh": "274 kJ",
+    "en": "274 kJ",
+    "ms": "274 kJ"
+   },
+   {
+    "zh": "3.01 × 10⁻¹⁹ J",
+    "en": "3.01 × 10⁻¹⁹ J",
+    "ms": "3.01 × 10⁻¹⁹ J"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "每个光子 3.01 × 10⁻¹⁹ J，乘以 6.02 × 10²³ 约 181 kJ；274 kJ 是 435 nm 蓝光。",
+   "en": "3.01 × 10⁻¹⁹ J per photon × 6.02 × 10²³ ≈ 181 kJ; 274 kJ is for 435 nm blue light.",
+   "ms": "3.01 × 10⁻¹⁹ J sefoton × 6.02 × 10²³ ≈ 181 kJ; 274 kJ ialah untuk cahaya biru 435 nm."
+  }
+ },
+ {
+  "stage": 2,
+  "chapter": "ch06",
+  "q": {
+   "zh": "为什么叶绿素的荧光波长总是比吸收的光长？",
+   "en": "Why is chlorophyll's fluorescence always at a longer wavelength than the light absorbed?",
+   "ms": "Mengapa pendarflour klorofil sentiasa pada panjang gelombang lebih panjang daripada cahaya yang diserap?"
+  },
+  "options": [
+   {
+    "zh": "荧光来自另一种色素",
+    "en": "It comes from a different pigment",
+    "ms": "Ia datang daripada pigmen lain"
+   },
+   {
+    "zh": "电子先以热失去一些能量，才从最低激发单线态放出光子",
+    "en": "The electron first loses some energy as heat, then emits from the lowest excited singlet",
+    "ms": "Elektron mula-mula kehilangan sebahagian tenaga sebagai haba, kemudian memancar dari singlet teruja terendah"
+   },
+   {
+    "zh": "荧光是三线态发出的",
+    "en": "Fluorescence comes from the triplet state",
+    "ms": "Pendarflour datang dari keadaan triplet"
+   },
+   {
+    "zh": "红光比蓝光快",
+    "en": "Red light travels faster than blue",
+    "ms": "Cahaya merah bergerak lebih laju daripada biru"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "不论蓝光或红光激发，荧光都来自第一激发单线态，能量较低、波长较长。",
+   "en": "Whether excited by blue or red, emission is from the first excited singlet: lower energy, longer wavelength.",
+   "ms": "Sama ada diuja oleh biru atau merah, pancaran dari singlet teruja pertama: tenaga lebih rendah, gelombang lebih panjang."
+  }
+ },
+ {
+  "stage": 2,
+  "chapter": "ch06",
+  "q": {
+   "zh": "作用光谱的用途是什么？",
+   "en": "What is an action spectrum used for?",
+   "ms": "Apakah kegunaan spektrum tindakan?"
+  },
+  "options": [
+   {
+    "zh": "测量叶片厚度",
+    "en": "Measuring leaf thickness",
+    "ms": "Mengukur ketebalan daun"
+   },
+   {
+    "zh": "与吸收光谱比较，找出驱动反应的色素",
+    "en": "Comparing with absorption spectra to identify the pigment driving a response",
+    "ms": "Dibandingkan dengan spektrum penyerapan untuk mengenal pasti pigmen yang memacu tindak balas"
+   },
+   {
+    "zh": "计算光子能量",
+    "en": "Calculating photon energy",
+    "ms": "Mengira tenaga foton"
+   },
+   {
+    "zh": "测量光合作用的 CO₂ 浓度",
+    "en": "Measuring CO₂ concentration",
+    "ms": "Mengukur kepekatan CO₂"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "最有效的波长应该对应负责色素的吸收峰。",
+   "en": "The most effective wavelengths should match the absorption peaks of the responsible pigment.",
+   "ms": "Panjang gelombang paling berkesan sepatutnya sepadan dengan puncak penyerapan pigmen yang bertanggungjawab."
+  }
+ },
+ {
+  "stage": 2,
+  "chapter": "ch06",
+  "q": {
+   "zh": "黑暗中长出的被子植物幼苗为什么是黄的？",
+   "en": "Why are dark-grown angiosperm seedlings yellow?",
+   "ms": "Mengapa anak benih angiosperma yang tumbuh dalam gelap berwarna kuning?"
+  },
+  "options": [
+   {
+    "zh": "缺镁",
+    "en": "They lack magnesium",
+    "ms": "Kekurangan magnesium"
+   },
+   {
+    "zh": "原叶绿素酸酯还原成叶绿素酸酯需要光",
+    "en": "Reducing protochlorophyllide to chlorophyllide needs light",
+    "ms": "Menurunkan protoklorofilida kepada klorofilida memerlukan cahaya"
+   },
+   {
+    "zh": "类胡萝卜素被光破坏",
+    "en": "Carotenoids are destroyed by light",
+    "ms": "Karotenoid dimusnahkan oleh cahaya"
+   },
+   {
+    "zh": "它们有藻胆体",
+    "en": "They have phycobilisomes",
+    "ms": "Ia mempunyai fikobilisom"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "被子植物的原叶绿素酸酯氧化还原酶依赖光，所以暗中不积累叶绿素，只剩类胡萝卜素的黄色。",
+   "en": "Angiosperm protochlorophyllide oxidoreductase is light-dependent, so no chlorophyll accumulates and only carotenoid yellow remains.",
+   "ms": "Protoklorofilida oksidoreduktase angiosperma bergantung pada cahaya, jadi tiada klorofil terkumpul dan hanya kuning karotenoid tinggal."
+  }
+ },
+ {
+  "stage": 2,
+  "chapter": "ch07",
+  "q": {
+   "zh": "光合作用放出的氧气来自哪里？",
+   "en": "Where does the oxygen released in photosynthesis come from?",
+   "ms": "Dari manakah oksigen yang dibebaskan dalam fotosintesis?"
+  },
+  "options": [
+   {
+    "zh": "CO₂",
+    "en": "CO₂",
+    "ms": "CO₂"
+   },
+   {
+    "zh": "水",
+    "en": "Water",
+    "ms": "Air"
+   },
+   {
+    "zh": "葡萄糖",
+    "en": "Glucose",
+    "ms": "Glukosa"
+   },
+   {
+    "zh": "空气中的 O₂",
+    "en": "O₂ in the air",
+    "ms": "O₂ di udara"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "Ruben 和 Kamen 用 ¹⁸O 证实：只有标记水时放出的氧才带标记。",
+   "en": "Ruben and Kamen showed with ¹⁸O that only labelled water gave labelled oxygen.",
+   "ms": "Ruben dan Kamen menunjukkan dengan ¹⁸O bahawa hanya air berlabel menghasilkan oksigen berlabel."
+  }
+ },
+ {
+  "stage": 2,
+  "chapter": "ch07",
+  "q": {
+   "zh": "DCMU 作用在哪里？",
+   "en": "Where does DCMU act?",
+   "ms": "Di manakah DCMU bertindak?"
+  },
+  "options": [
+   {
+    "zh": "ATP 合酶",
+    "en": "ATP synthase",
+    "ms": "ATP sintase"
+   },
+   {
+    "zh": "PSII D1 蛋白的 QB 位点，阻断电子传给质体醌",
+    "en": "The QB site of the PSII D1 protein, blocking electron transfer to plastoquinone",
+    "ms": "Tapak QB protein D1 PSII, menyekat pemindahan elektron kepada plastokuinon"
+   },
+   {
+    "zh": "铁氧还蛋白",
+    "en": "Ferredoxin",
+    "ms": "Feredoksin"
+   },
+   {
+    "zh": "rubisco",
+    "en": "Rubisco",
+    "ms": "Rubisco"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "脲类与三嗪类除草剂都和 PQ 竞争 QB 位点。",
+   "en": "Urea and triazine herbicides compete with PQ for the QB site.",
+   "ms": "Racun rumpai urea dan triazina bersaing dengan PQ untuk tapak QB."
+  }
+ },
+ {
+  "stage": 2,
+  "chapter": "ch07",
+  "q": {
+   "zh": "循环电子传递的产物是什么？",
+   "en": "What does cyclic electron transport produce?",
+   "ms": "Apakah hasil pengangkutan elektron berkitar?"
+  },
+  "options": [
+   {
+    "zh": "ATP 和 NADPH",
+    "en": "ATP and NADPH",
+    "ms": "ATP dan NADPH"
+   },
+   {
+    "zh": "只有 NADPH",
+    "en": "NADPH only",
+    "ms": "NADPH sahaja"
+   },
+   {
+    "zh": "只有 ATP",
+    "en": "ATP only",
+    "ms": "ATP sahaja"
+   },
+   {
+    "zh": "O₂ 和 ATP",
+    "en": "O₂ and ATP",
+    "ms": "O₂ dan ATP"
+   }
+  ],
+  "answer": 2,
+  "why": {
+   "zh": "电子从 Fd 绕回 PQ 和 P700，不还原 NADP⁺，也不氧化水。",
+   "en": "Electrons loop from Fd back to PQ and P700; no NADP⁺ is reduced and no water oxidised.",
+   "ms": "Elektron berkitar dari Fd kembali ke PQ dan P700; tiada NADP⁺ diturunkan dan tiada air dioksidakan."
+  }
+ },
+ {
+  "stage": 2,
+  "chapter": "ch07",
+  "q": {
+   "zh": "放出一个 O₂ 至少需要几个光子？",
+   "en": "At least how many photons are needed to evolve one O₂?",
+   "ms": "Sekurang-kurangnya berapa foton diperlukan untuk membebaskan satu O₂?"
+  },
+  "options": [
+   {
+    "zh": "2",
+    "en": "2",
+    "ms": "2"
+   },
+   {
+    "zh": "4",
+    "en": "4",
+    "ms": "4"
+   },
+   {
+    "zh": "8",
+    "en": "8",
+    "ms": "8"
+   },
+   {
+    "zh": "12",
+    "en": "12",
+    "ms": "12"
+   }
+  ],
+  "answer": 2,
+  "why": {
+   "zh": "4 个电子，每个在 PSII 和 PSI 各激发一次：4 × 2 = 8。",
+   "en": "Four electrons, each excited once at PSII and once at PSI: 4 × 2 = 8.",
+   "ms": "Empat elektron, setiap satu diuja sekali di PSII dan sekali di PSI: 4 × 2 = 8."
+  }
+ },
+ {
+  "stage": 2,
+  "chapter": "ch07",
+  "q": {
+   "zh": "PSI 和 ATP 合酶主要分布在类囊体的哪里？",
+   "en": "Where in the thylakoid are PSI and ATP synthase mainly found?",
+   "ms": "Di manakah PSI dan ATP sintase terutamanya terdapat dalam tilakoid?"
+  },
+  "options": [
+   {
+    "zh": "基粒中互相堆叠的区域",
+    "en": "The appressed (stacked) grana regions",
+    "ms": "Kawasan grana bertindan"
+   },
+   {
+    "zh": "不堆叠、面向基质的区域",
+    "en": "The non-appressed regions facing the stroma",
+    "ms": "Kawasan tidak bertindan yang menghadap stroma"
+   },
+   {
+    "zh": "类囊体腔里",
+    "en": "Inside the lumen",
+    "ms": "Di dalam lumen"
+   },
+   {
+    "zh": "外被膜",
+    "en": "The outer envelope",
+    "ms": "Sampul luar"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "PSII 和 LHCII 在堆叠区；PSI 和 ATP 合酶只在面向基质、不堆叠的区域；细胞色素 b₆f 两处都有。",
+   "en": "PSII and LHCII are in the stacked regions; PSI and ATP synthase only in the unstacked regions facing the stroma; cytochrome b₆f is in both.",
+   "ms": "PSII dan LHCII di kawasan bertindan; PSI dan ATP sintase hanya di kawasan tidak bertindan yang menghadap stroma; sitokrom b₆f di kedua-duanya."
+  }
+ },
+ {
+  "stage": 2,
+  "chapter": "ch08",
+  "q": {
+   "zh": "卡尔文循环每固定 1 分子 CO₂ 需要多少 ATP 和 NADPH？",
+   "en": "How much ATP and NADPH does the Calvin cycle use per CO₂ fixed?",
+   "ms": "Berapa banyak ATP dan NADPH digunakan kitaran Calvin bagi setiap CO₂ yang diikat?"
+  },
+  "options": [
+   {
+    "zh": "2 ATP + 2 NADPH",
+    "en": "2 ATP + 2 NADPH",
+    "ms": "2 ATP + 2 NADPH"
+   },
+   {
+    "zh": "3 ATP + 2 NADPH",
+    "en": "3 ATP + 2 NADPH",
+    "ms": "3 ATP + 2 NADPH"
+   },
+   {
+    "zh": "2 ATP + 3 NADPH",
+    "en": "2 ATP + 3 NADPH",
+    "ms": "2 ATP + 3 NADPH"
+   },
+   {
+    "zh": "1 ATP + 1 NADPH",
+    "en": "1 ATP + 1 NADPH",
+    "ms": "1 ATP + 1 NADPH"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "ATP/NADPH = 1.5；多出的 ATP 用在再生 RuBP。",
+   "en": "ATP/NADPH = 1.5; the extra ATP goes to regenerating RuBP.",
+   "ms": "ATP/NADPH = 1.5; ATP tambahan digunakan untuk menjana semula RuBP."
+  }
+ },
+ {
+  "stage": 2,
+  "chapter": "ch08",
+  "q": {
+   "zh": "光呼吸放出的 CO₂ 是在哪里产生的？",
+   "en": "Where is photorespired CO₂ released?",
+   "ms": "Di manakah CO₂ fotorespirasi dibebaskan?"
+  },
+  "options": [
+   {
+    "zh": "叶绿体，由 rubisco",
+    "en": "Chloroplast, by rubisco",
+    "ms": "Kloroplas, oleh rubisco"
+   },
+   {
+    "zh": "过氧化物酶体，由过氧化氢酶",
+    "en": "Peroxisome, by catalase",
+    "ms": "Peroksisom, oleh katalase"
+   },
+   {
+    "zh": "线粒体，两个甘氨酸变成丝氨酸时",
+    "en": "Mitochondrion, as two glycines become serine",
+    "ms": "Mitokondria, apabila dua glisina menjadi serina"
+   },
+   {
+    "zh": "细胞质，糖酵解中",
+    "en": "Cytosol, in glycolysis",
+    "ms": "Sitosol, dalam glikolisis"
+   }
+  ],
+  "answer": 2,
+  "why": {
+   "zh": "甘氨酸是光呼吸 CO₂ 的直接来源，同时放出 NH₃。",
+   "en": "Glycine is the immediate source of photorespired CO₂, with NH₃ released too.",
+   "ms": "Glisina ialah sumber terus CO₂ fotorespirasi, dengan NH₃ turut dibebaskan."
+  }
+ },
+ {
+  "stage": 2,
+  "chapter": "ch08",
+  "q": {
+   "zh": "壳梭孢素（fusicoccin）为什么会让气孔张开？",
+   "en": "Why does fusicoccin open stomata?",
+   "ms": "Mengapa fusikoksin membuka stoma?"
+  },
+  "options": [
+   {
+    "zh": "它直接打开 K⁺ 通道以外的孔",
+    "en": "It punches holes in the wall",
+    "ms": "Ia membuat lubang pada dinding"
+   },
+   {
+    "zh": "它刺激保卫细胞质膜的质子泵",
+    "en": "It stimulates the guard-cell proton pump",
+    "ms": "Ia merangsang pam proton sel pengawal"
+   },
+   {
+    "zh": "它降低光合作用",
+    "en": "It lowers photosynthesis",
+    "ms": "Ia mengurangkan fotosintesis"
+   },
+   {
+    "zh": "它是 ABA 的类似物",
+    "en": "It mimics ABA",
+    "ms": "Ia meniru ABA"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "H⁺ 外排使膜电位更负，K⁺ 进入；钒酸盐抑制质子泵则阻止开孔。",
+   "en": "H⁺ extrusion makes the membrane more negative so K⁺ enters; vanadate, which blocks the pump, prevents opening.",
+   "ms": "Penyingkiran H⁺ menjadikan membran lebih negatif supaya K⁺ masuk; vanadat, yang menyekat pam, menghalang pembukaan."
+  }
+ },
+ {
+  "stage": 2,
+  "chapter": "ch08",
+  "q": {
+   "zh": "光照后基质 pH 和 rubisco 活性怎样变化？",
+   "en": "What happens to stromal pH and rubisco activity in light?",
+   "ms": "Apakah yang berlaku kepada pH stroma dan aktiviti rubisco dalam cahaya?"
+  },
+  "options": [
+   {
+    "zh": "pH 从约 8 降到 5，rubisco 被抑制",
+    "en": "pH falls from about 8 to 5; rubisco is inhibited",
+    "ms": "pH turun dari kira-kira 8 ke 5; rubisco direncat"
+   },
+   {
+    "zh": "pH 从约 5 升到 8，加上 Mg²⁺ 和活化酶，rubisco 活化",
+    "en": "pH rises from about 5 to 8; with Mg²⁺ and activase, rubisco is activated",
+    "ms": "pH naik dari kira-kira 5 ke 8; dengan Mg²⁺ dan aktivase, rubisco diaktifkan"
+   },
+   {
+    "zh": "pH 不变",
+    "en": "pH stays the same",
+    "ms": "pH kekal sama"
+   },
+   {
+    "zh": "rubisco 只在晚上活化",
+    "en": "Rubisco is active only at night",
+    "ms": "Rubisco aktif hanya pada waktu malam"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "质子泵进类囊体腔使基质变碱，有利于赖氨酸氨基甲酸化和 Mg²⁺ 结合。",
+   "en": "Pumping protons into the lumen makes the stroma alkaline, favouring lysine carbamylation and Mg²⁺ binding.",
+   "ms": "Mengepam proton ke dalam lumen menjadikan stroma beralkali, menggalakkan pengkarbamilan lisina dan pengikatan Mg²⁺."
+  }
+ },
+ {
+  "stage": 2,
+  "chapter": "ch09",
+  "q": {
+   "zh": "为什么韧皮部运输的主要是蔗糖？",
+   "en": "Why is sucrose the main sugar carried in phloem?",
+   "ms": "Mengapa sukrosa ialah gula utama yang dibawa dalam floem?"
+  },
+  "options": [
+   {
+    "zh": "它是还原糖，反应快",
+    "en": "It is a reducing sugar and reacts quickly",
+    "ms": "Ia gula penurun dan bertindak balas cepat"
+   },
+   {
+    "zh": "它是非还原糖，化学上稳定",
+    "en": "It is a non-reducing sugar, chemically stable",
+    "ms": "Ia gula bukan penurun, stabil dari segi kimia"
+   },
+   {
+    "zh": "它不溶于水",
+    "en": "It is insoluble",
+    "ms": "Ia tidak larut"
+   },
+   {
+    "zh": "它含氮",
+    "en": "It contains nitrogen",
+    "ms": "Ia mengandungi nitrogen"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "没有游离的醛基或酮基，运输途中不会和其他物质反应。",
+   "en": "No free aldehyde or ketone group, so it does not react on the way.",
+   "ms": "Tiada kumpulan aldehid atau keton bebas, jadi ia tidak bertindak balas dalam perjalanan."
+  }
+ },
+ {
+  "stage": 2,
+  "chapter": "ch09",
+  "q": {
+   "zh": "压力流学说中，推动筛管溶液流动的是什么？",
+   "en": "In the pressure-flow model, what drives flow in the sieve tubes?",
+   "ms": "Dalam model aliran tekanan, apakah yang memacu aliran dalam tiub tapis?"
+  },
+  "options": [
+   {
+    "zh": "筛板上的 ATP 泵",
+    "en": "ATP pumps on the sieve plates",
+    "ms": "Pam ATP pada plat tapis"
+   },
+   {
+    "zh": "源端与库端的膨压差",
+    "en": "The turgor difference between source and sink",
+    "ms": "Perbezaan turgor antara sumber dan sinki"
+   },
+   {
+    "zh": "蒸腾拉力",
+    "en": "Transpiration pull",
+    "ms": "Tarikan transpirasi"
+   },
+   {
+    "zh": "细胞质流动",
+    "en": "Cytoplasmic streaming",
+    "ms": "Aliran sitoplasma"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "装载糖使源端吸水、膨压升高；卸载使库端膨压下降。",
+   "en": "Loading draws water in and raises turgor at the source; unloading lowers it at the sink.",
+   "ms": "Pemuatan menarik air masuk dan menaikkan turgor di sumber; pemunggahan menurunkannya di sinki."
+  }
+ },
+ {
+  "stage": 2,
+  "chapter": "ch09",
+  "q": {
+   "zh": "质外体装载时，外面溶液的 pH 为什么会升高？",
+   "en": "During apoplastic loading, why does the outside solution become more alkaline?",
+   "ms": "Semasa pemuatan apoplas, mengapa larutan luar menjadi lebih beralkali?"
+  },
+  "options": [
+   {
+    "zh": "蔗糖是碱性的",
+    "en": "Sucrose is alkaline",
+    "ms": "Sukrosa beralkali"
+   },
+   {
+    "zh": "H⁺ 随蔗糖一起被同向转运进细胞",
+    "en": "H⁺ is carried into the cell with sucrose by symport",
+    "ms": "H⁺ dibawa masuk ke sel bersama sukrosa melalui simport"
+   },
+   {
+    "zh": "细胞分泌 OH⁻",
+    "en": "Cells secrete OH⁻",
+    "ms": "Sel merembes OH⁻"
+   },
+   {
+    "zh": "光合作用消耗 CO₂",
+    "en": "Photosynthesis uses CO₂",
+    "ms": "Fotosintesis menggunakan CO₂"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "蔗糖–H⁺ 同向转运体利用质子梯度把糖逆浓度送进去。",
+   "en": "The sucrose–H⁺ symporter uses the proton gradient to drive sugar in against its gradient.",
+   "ms": "Simporter sukrosa–H⁺ menggunakan kecerunan proton untuk memacu gula masuk melawan kecerunannya."
+  }
+ },
+ {
+  "stage": 2,
+  "chapter": "ch09",
+  "q": {
+   "zh": "果糖-2,6-二磷酸增加时会发生什么？",
+   "en": "What happens when fructose-2,6-bisphosphate rises?",
+   "ms": "Apakah yang berlaku apabila fruktosa-2,6-bisfosfat meningkat?"
+  },
+  "options": [
+   {
+    "zh": "蔗糖合成加快",
+    "en": "Sucrose synthesis speeds up",
+    "ms": "Sintesis sukrosa dipercepat"
+   },
+   {
+    "zh": "细胞质 FBPase 被抑制，蔗糖合成减慢，碳转去合成淀粉",
+    "en": "Cytosolic FBPase is inhibited, sucrose synthesis slows and carbon goes to starch",
+    "ms": "FBPase sitosol direncat, sintesis sukrosa perlahan dan karbon pergi ke kanji"
+   },
+   {
+    "zh": "光合作用停止",
+    "en": "Photosynthesis stops",
+    "ms": "Fotosintesis berhenti"
+   },
+   {
+    "zh": "淀粉被分解",
+    "en": "Starch is broken down",
+    "ms": "Kanji diuraikan"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "F-2,6-BP 是蔗糖与淀粉之间的关键开关。",
+   "en": "F-2,6-BP is the key switch between sucrose and starch.",
+   "ms": "F-2,6-BP ialah suis utama antara sukrosa dan kanji."
+  }
+ },
+ {
+  "stage": 2,
+  "chapter": "ch10",
+  "q": {
+   "zh": "加了氰化物后，植物叶片仍在吸收氧气，最可能是因为？",
+   "en": "A leaf keeps taking up oxygen after cyanide is added. Most likely because…",
+   "ms": "Daun terus mengambil oksigen selepas sianida ditambah. Kemungkinan besar kerana…"
+  },
+  "options": [
+   {
+    "zh": "光合作用在放氧",
+    "en": "Photosynthesis is releasing oxygen",
+    "ms": "Fotosintesis membebaskan oksigen"
+   },
+   {
+    "zh": "交替氧化酶绕过了复合体 IV",
+    "en": "The alternative oxidase bypasses complex IV",
+    "ms": "Oksidase alternatif memintas kompleks IV"
+   },
+   {
+    "zh": "氰化物被根分解",
+    "en": "Roots destroyed the cyanide",
+    "ms": "Akar memusnahkan sianida"
+   },
+   {
+    "zh": "复合体 I 不受影响",
+    "en": "Complex I is unaffected",
+    "ms": "Kompleks I tidak terjejas"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "抗氰、对 SHAM 敏感的呼吸来自交替氧化酶。",
+   "en": "Cyanide-resistant, SHAM-sensitive respiration is the alternative oxidase.",
+   "ms": "Respirasi tahan sianida dan sensitif SHAM ialah oksidase alternatif."
+  }
+ },
+ {
+  "stage": 2,
+  "chapter": "ch10",
+  "q": {
+   "zh": "淹水的根进行发酵的主要目的是什么？",
+   "en": "What is the main point of fermentation in flooded roots?",
+   "ms": "Apakah tujuan utama penapaian dalam akar bertakung air?"
+  },
+  "options": [
+   {
+    "zh": "产生大量 ATP",
+    "en": "To make lots of ATP",
+    "ms": "Membuat banyak ATP"
+   },
+   {
+    "zh": "把 NADH 氧化回 NAD⁺，让糖酵解继续",
+    "en": "To re-oxidise NADH to NAD⁺ so glycolysis can continue",
+    "ms": "Mengoksidakan semula NADH kepada NAD⁺ supaya glikolisis boleh diteruskan"
+   },
+   {
+    "zh": "固定 CO₂",
+    "en": "To fix CO₂",
+    "ms": "Mengikat CO₂"
+   },
+   {
+    "zh": "合成淀粉",
+    "en": "To make starch",
+    "ms": "Membuat kanji"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "没有氧时，只有再生 NAD⁺ 糖酵解才能继续产生少量 ATP。",
+   "en": "Without oxygen, glycolysis keeps making a little ATP only if NAD⁺ is regenerated.",
+   "ms": "Tanpa oksigen, glikolisis terus membuat sedikit ATP hanya jika NAD⁺ dijana semula."
+  }
+ },
+ {
+  "stage": 2,
+  "chapter": "ch10",
+  "q": {
+   "zh": "细胞质 NADH 经外部脱氢酶进入植物线粒体，每对电子最多可得几个 ATP？",
+   "en": "Cytosolic NADH oxidised by an external dehydrogenase yields at most how many ATP per electron pair?",
+   "ms": "NADH sitosol yang dioksidakan oleh dehidrogenase luaran menghasilkan paling banyak berapa ATP bagi setiap pasangan elektron?"
+  },
+  "options": [
+   {
+    "zh": "0",
+    "en": "0",
+    "ms": "0"
+   },
+   {
+    "zh": "1",
+    "en": "1",
+    "ms": "1"
+   },
+   {
+    "zh": "2",
+    "en": "2",
+    "ms": "2"
+   },
+   {
+    "zh": "3",
+    "en": "3",
+    "ms": "3"
+   }
+  ],
+  "answer": 2,
+  "why": {
+   "zh": "它绕过复合体 I，只经过 III 和 IV 两个偶联位点。",
+   "en": "It bypasses complex I and passes only the two coupling sites at III and IV.",
+   "ms": "Ia memintas kompleks I dan hanya melalui dua tapak gandingan di III dan IV."
+  }
+ },
+ {
+  "stage": 2,
+  "chapter": "ch10",
+  "q": {
+   "zh": "油料种子萌发时，脂肪怎样变成可运输的糖？",
+   "en": "How do germinating oily seeds turn fat into transportable sugar?",
+   "ms": "Bagaimana biji berminyak yang bercambah menukar lemak kepada gula yang boleh diangkut?"
+  },
+  "options": [
+   {
+    "zh": "直接经韧皮部运输脂肪",
+    "en": "Fat moves in the phloem as it is",
+    "ms": "Lemak bergerak dalam floem seadanya"
+   },
+   {
+    "zh": "β-氧化、乙醛酸循环，再经糖异生成蔗糖",
+    "en": "β-oxidation, the glyoxylate cycle, then gluconeogenesis to sucrose",
+    "ms": "Pengoksidaan-β, kitaran glioksilat, kemudian glukoneogenesis kepada sukrosa"
+   },
+   {
+    "zh": "光合作用",
+    "en": "Photosynthesis",
+    "ms": "Fotosintesis"
+   },
+   {
+    "zh": "发酵成乙醇",
+    "en": "Fermentation to ethanol",
+    "ms": "Penapaian kepada etanol"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "脂肪不溶于水，必须先在乙醛酸循环体中转成糖。",
+   "en": "Fat is insoluble, so it is first converted to sugar via glyoxysomes.",
+   "ms": "Lemak tidak larut, jadi ia ditukar kepada gula dahulu melalui glioksisom."
+  }
+ },
+ {
+  "stage": 3,
+  "chapter": "ch11",
+  "q": {
+   "zh": "根瘤切开呈粉红色是因为什么？",
+   "en": "Why is a cut nodule pink?",
+   "ms": "Mengapa nodul yang dipotong berwarna merah jambu?"
+  },
+  "options": [
+   {
+    "zh": "花青素",
+    "en": "Anthocyanin",
+    "ms": "Antosianin"
+   },
+   {
+    "zh": "豆血红蛋白",
+    "en": "Leghemoglobin",
+    "ms": "Leghemoglobin"
+   },
+   {
+    "zh": "固氮酶中的钼",
+    "en": "Molybdenum in nitrogenase",
+    "ms": "Molibdenum dalam nitrogenase"
+   },
+   {
+    "zh": "类胡萝卜素",
+    "en": "Carotenoids",
+    "ms": "Karotenoid"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "豆血红蛋白结合氧，调节类菌体的氧供应。",
+   "en": "Leghemoglobin binds oxygen and meters it to the bacteroids.",
+   "ms": "Leghemoglobin mengikat oksigen dan menyukatnya kepada bakteroid."
+  }
+ },
+ {
+  "stage": 3,
+  "chapter": "ch11",
+  "q": {
+   "zh": "植物同化铵的主要途径是？",
+   "en": "The main route by which plants assimilate ammonium is…",
+   "ms": "Laluan utama tumbuhan mengasimilasi ammonium ialah…"
+  },
+  "options": [
+   {
+    "zh": "谷氨酸脱氢酶（GDH）",
+    "en": "Glutamate dehydrogenase (GDH)",
+    "ms": "Glutamat dehidrogenase (GDH)"
+   },
+   {
+    "zh": "GS–GOGAT 循环",
+    "en": "The GS–GOGAT cycle",
+    "ms": "Kitaran GS–GOGAT"
+   },
+   {
+    "zh": "硝酸还原酶",
+    "en": "Nitrate reductase",
+    "ms": "Nitrat reduktase"
+   },
+   {
+    "zh": "固氮酶",
+    "en": "Dinitrogenase",
+    "ms": "Dinitrogenase"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "GS 对铵的亲和力高得多；GDH 量少且多半反向工作。",
+   "en": "GS has a much higher affinity for ammonium; GDH is scarce and mostly runs in reverse.",
+   "ms": "GS mempunyai afiniti terhadap ammonium yang jauh lebih tinggi; GDH sedikit dan kebanyakannya berjalan berbalik."
+  }
+ },
+ {
+  "stage": 3,
+  "chapter": "ch11",
+  "q": {
+   "zh": "硝酸盐还原两步分别在哪里进行？",
+   "en": "Where do the two steps of nitrate reduction take place?",
+   "ms": "Di manakah dua langkah penurunan nitrat berlaku?"
+  },
+  "options": [
+   {
+    "zh": "都在叶绿体",
+    "en": "Both in the chloroplast",
+    "ms": "Kedua-duanya dalam kloroplas"
+   },
+   {
+    "zh": "NO₃⁻ → NO₂⁻ 在细胞质；NO₂⁻ → NH₄⁺ 在质体",
+    "en": "NO₃⁻ → NO₂⁻ in the cytosol; NO₂⁻ → NH₄⁺ in the plastid",
+    "ms": "NO₃⁻ → NO₂⁻ dalam sitosol; NO₂⁻ → NH₄⁺ dalam plastid"
+   },
+   {
+    "zh": "都在线粒体",
+    "en": "Both in mitochondria",
+    "ms": "Kedua-duanya dalam mitokondria"
+   },
+   {
+    "zh": "NO₃⁻ → NO₂⁻ 在质体；NO₂⁻ → NH₄⁺ 在细胞质",
+    "en": "NO₃⁻ → NO₂⁻ in the plastid; NO₂⁻ → NH₄⁺ in the cytosol",
+    "ms": "NO₃⁻ → NO₂⁻ dalam plastid; NO₂⁻ → NH₄⁺ dalam sitosol"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "NR 在细胞质，NiR 在质体，用光合作用来的还原态铁氧还蛋白。",
+   "en": "NR is cytosolic; NiR is in the plastid and uses reduced ferredoxin from photosynthesis.",
+   "ms": "NR dalam sitosol; NiR dalam plastid dan menggunakan feredoksin terturun daripada fotosintesis."
+  }
+ },
+ {
+  "stage": 3,
+  "chapter": "ch11",
+  "q": {
+   "zh": "固氮反应每还原一个 N₂，除了 2 NH₃ 还产生什么？",
+   "en": "Besides 2 NH₃, what does dinitrogenase produce for each N₂ reduced?",
+   "ms": "Selain 2 NH₃, apakah yang dihasilkan dinitrogenase bagi setiap N₂ yang diturunkan?"
+  },
+  "options": [
+   {
+    "zh": "O₂",
+    "en": "O₂",
+    "ms": "O₂"
+   },
+   {
+    "zh": "H₂",
+    "en": "H₂",
+    "ms": "H₂"
+   },
+   {
+    "zh": "CO₂",
+    "en": "CO₂",
+    "ms": "CO₂"
+   },
+   {
+    "zh": "NO₃⁻",
+    "en": "NO₃⁻",
+    "ms": "NO₃⁻"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "N₂ + 8H⁺ + 8e⁻ + 16 ATP → 2NH₃ + H₂；吸氢酶可回收部分能量。",
+   "en": "N₂ + 8H⁺ + 8e⁻ + 16 ATP → 2NH₃ + H₂; uptake hydrogenase recovers some energy.",
+   "ms": "N₂ + 8H⁺ + 8e⁻ + 16 ATP → 2NH₃ + H₂; hidrogenase pengambilan mendapatkan semula sebahagian tenaga."
+  }
+ },
+ {
+  "stage": 3,
+  "chapter": "ch12",
+  "q": {
+   "zh": "光补偿点是什么？",
+   "en": "What is the light compensation point?",
+   "ms": "Apakah titik pampasan cahaya?"
+  },
+  "options": [
+   {
+    "zh": "光合速率达到最大的光量",
+    "en": "The light level giving maximum photosynthesis",
+    "ms": "Paras cahaya yang memberi fotosintesis maksimum"
+   },
+   {
+    "zh": "光合吸收 CO₂ 等于呼吸放出 CO₂ 时的光量",
+    "en": "The light level where CO₂ uptake equals CO₂ release",
+    "ms": "Paras cahaya di mana pengambilan CO₂ sama dengan pembebasan CO₂"
+   },
+   {
+    "zh": "植物开始开花的光量",
+    "en": "The light level that triggers flowering",
+    "ms": "Paras cahaya yang mencetuskan pembungaan"
+   },
+   {
+    "zh": "叶绿素开始被破坏的光量",
+    "en": "The light level that destroys chlorophyll",
+    "ms": "Paras cahaya yang memusnahkan klorofil"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "低于这个光量，叶片净损失碳。",
+   "en": "Below it the leaf is a net loser of carbon.",
+   "ms": "Di bawahnya daun kehilangan karbon secara bersih."
+  }
+ },
+ {
+  "stage": 3,
+  "chapter": "ch12",
+  "q": {
+   "zh": "高 CO₂ 下，C₃ 光合作用主要受什么限制？",
+   "en": "At high CO₂, what mainly limits C₃ photosynthesis?",
+   "ms": "Pada CO₂ tinggi, apakah yang terutamanya mengehadkan fotosintesis C₃?"
+  },
+  "options": [
+   {
+    "zh": "rubisco 的羧化能力",
+    "en": "Rubisco's carboxylation capacity",
+    "ms": "Kapasiti pengkarboksilan rubisco"
+   },
+   {
+    "zh": "电子传递链再生 RuBP 的能力",
+    "en": "The electron transport chain's capacity to regenerate RuBP",
+    "ms": "Kapasiti rantai pengangkutan elektron menjana semula RuBP"
+   },
+   {
+    "zh": "气孔数目",
+    "en": "Stomatal number",
+    "ms": "Bilangan stoma"
+   },
+   {
+    "zh": "光呼吸",
+    "en": "Photorespiration",
+    "ms": "Fotorespirasi"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "低 CO₂ 时受 rubisco 羧化限制，高 CO₂ 时受 RuBP 再生（电子传递）限制。",
+   "en": "Rubisco limits at low CO₂; RuBP regeneration (electron transport) at high CO₂.",
+   "ms": "Rubisco mengehadkan pada CO₂ rendah; penjanaan semula RuBP (pengangkutan elektron) pada CO₂ tinggi."
+  }
+ },
+ {
+  "stage": 3,
+  "chapter": "ch12",
+  "q": {
+   "zh": "某反应 20 °C 时速率为 4，30 °C 时为 10，Q₁₀ 是多少？",
+   "en": "A rate is 4 at 20 °C and 10 at 30 °C. What is Q₁₀?",
+   "ms": "Kadar ialah 4 pada 20 °C dan 10 pada 30 °C. Berapakah Q₁₀?"
+  },
+  "options": [
+   {
+    "zh": "0.4",
+    "en": "0.4",
+    "ms": "0.4"
+   },
+   {
+    "zh": "2.5",
+    "en": "2.5",
+    "ms": "2.5"
+   },
+   {
+    "zh": "6",
+    "en": "6",
+    "ms": "6"
+   },
+   {
+    "zh": "10",
+    "en": "10",
+    "ms": "10"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "Q₁₀ = 10 / 4 = 2.5，在一般生物过程的 2–3 范围内。",
+   "en": "Q₁₀ = 10 / 4 = 2.5, within the usual 2–3 for biological processes.",
+   "ms": "Q₁₀ = 10 / 4 = 2.5, dalam julat biasa 2–3 bagi proses biologi."
+  }
+ },
+ {
+  "stage": 3,
+  "chapter": "ch12",
+  "q": {
+   "zh": "植株种得太密，总生物量为什么反而下降？",
+   "en": "Why does total biomass fall when a crop is planted too densely?",
+   "ms": "Mengapa jumlah biojisim jatuh apabila tanaman ditanam terlalu padat?"
+  },
+  "options": [
+   {
+    "zh": "土壤中的氮用光了",
+    "en": "Soil nitrogen runs out",
+    "ms": "Nitrogen tanah habis"
+   },
+   {
+    "zh": "叶片互相遮荫，阴暗的叶片仍在呼吸消耗碳",
+    "en": "Leaves shade each other and shaded leaves still burn carbon in respiration",
+    "ms": "Daun saling meneduhkan dan daun terlindung masih membakar karbon dalam respirasi"
+   },
+   {
+    "zh": "光呼吸停止",
+    "en": "Photorespiration stops",
+    "ms": "Fotorespirasi berhenti"
+   },
+   {
+    "zh": "CO₂ 浓度太高",
+    "en": "CO₂ is too high",
+    "ms": "CO₂ terlalu tinggi"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "LAI 太高时下层叶片低于光补偿点，成为净消耗者。",
+   "en": "At too high an LAI, lower leaves fall below the compensation point and become net consumers.",
+   "ms": "Pada LAI terlalu tinggi, daun bawah jatuh di bawah titik pampasan dan menjadi pengguna bersih."
+  }
+ },
+ {
+  "stage": 3,
+  "chapter": "ch13",
+  "q": {
+   "zh": "光抑制主要损伤哪里？",
+   "en": "Where does photoinhibition mainly do its damage?",
+   "ms": "Di manakah fotoperencatan terutamanya merosakkan?"
+  },
+  "options": [
+   {
+    "zh": "光系统 I 的 P700",
+    "en": "P700 of photosystem I",
+    "ms": "P700 fotosistem I"
+   },
+   {
+    "zh": "光系统 II 的 D1 蛋白",
+    "en": "The D1 protein of photosystem II",
+    "ms": "Protein D1 fotosistem II"
+   },
+   {
+    "zh": "rubisco",
+    "en": "Rubisco",
+    "ms": "Rubisco"
+   },
+   {
+    "zh": "ATP 合酶",
+    "en": "ATP synthase",
+    "ms": "ATP sintase"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "D1 被光氧化损坏，靠 D1 修复循环更换。",
+   "en": "D1 is photo-oxidised and replaced by the D1 repair cycle.",
+   "ms": "D1 terfoto-oksida dan diganti oleh kitaran pembaikan D1."
+  }
+ },
+ {
+  "stage": 3,
+  "chapter": "ch13",
+  "q": {
+   "zh": "分根实验说明了什么？",
+   "en": "What does the split-root experiment show?",
+   "ms": "Apakah yang ditunjukkan oleh eksperimen akar terbelah?"
+  },
+  "options": [
+   {
+    "zh": "叶片水势下降后气孔才关",
+    "en": "Stomata close only after leaf water potential falls",
+    "ms": "Stoma tertutup hanya selepas keupayaan air daun jatuh"
+   },
+   {
+    "zh": "干燥的根送出 ABA，在叶片缺水前就让气孔关闭",
+    "en": "Drying roots send ABA that closes stomata before the leaves lose water",
+    "ms": "Akar yang mengering menghantar ABA yang menutup stoma sebelum daun kehilangan air"
+   },
+   {
+    "zh": "根不需要水",
+    "en": "Roots do not need water",
+    "ms": "Akar tidak memerlukan air"
+   },
+   {
+    "zh": "ABA 只在叶片合成",
+    "en": "ABA is made only in leaves",
+    "ms": "ABA hanya dibuat dalam daun"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "这是前馈调控：根先感知土壤变干。",
+   "en": "This is feed-forward control: the roots sense the drying soil first.",
+   "ms": "Ini kawalan suap depan: akar mengesan tanah yang mengering dahulu."
+  }
+ },
+ {
+  "stage": 3,
+  "chapter": "ch13",
+  "q": {
+   "zh": "为什么膜磷脂中饱和脂肪酸比例高的植物较怕冷？",
+   "en": "Why are plants with more saturated fatty acids in their membranes more chilling-sensitive?",
+   "ms": "Mengapa tumbuhan dengan lebih banyak asid lemak tepu dalam membrannya lebih sensitif kedinginan?"
+  },
+  "options": [
+   {
+    "zh": "饱和脂肪酸会结冰",
+    "en": "Saturated fats freeze",
+    "ms": "Lemak tepu membeku"
+   },
+   {
+    "zh": "它们的相变温度较高，膜较早变成凝胶态",
+    "en": "Their transition temperature is higher, so membranes gel sooner",
+    "ms": "Suhu peralihannya lebih tinggi, jadi membran menjadi gel lebih awal"
+   },
+   {
+    "zh": "它们会产生活性氧",
+    "en": "They make reactive oxygen",
+    "ms": "Ia menghasilkan oksigen reaktif"
+   },
+   {
+    "zh": "它们抑制 ABA 合成",
+    "en": "They block ABA synthesis",
+    "ms": "Ia menyekat sintesis ABA"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "相变温度以下膜失去流动性，膜功能受损。",
+   "en": "Below the transition temperature membranes lose fluidity and stop working properly.",
+   "ms": "Di bawah suhu peralihan membran kehilangan kebendaliran dan tidak berfungsi dengan betul."
+  }
+ },
+ {
+  "stage": 3,
+  "chapter": "ch13",
+  "q": {
+   "zh": "系统获得抗性（SAR）的主要信号分子是？",
+   "en": "What is the main signal molecule of systemic acquired resistance?",
+   "ms": "Apakah molekul isyarat utama rintangan perolehan sistemik?"
+  },
+  "options": [
+   {
+    "zh": "茉莉酸",
+    "en": "Jasmonic acid",
+    "ms": "Asid jasmonik"
+   },
+   {
+    "zh": "水杨酸",
+    "en": "Salicylic acid",
+    "ms": "Asid salisilik"
+   },
+   {
+    "zh": "赤霉素",
+    "en": "Gibberellin",
+    "ms": "Giberelin"
+   },
+   {
+    "zh": "细胞分裂素",
+    "en": "Cytokinin",
+    "ms": "Sitokinin"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "ISR 才依赖茉莉酸和乙烯；SAR 依赖水杨酸。",
+   "en": "ISR relies on jasmonate and ethylene; SAR on salicylic acid.",
+   "ms": "ISR bergantung pada jasmonat dan etilena; SAR pada asid salisilik."
+  }
+ },
+ {
+  "stage": 3,
+  "chapter": "ch14",
+  "q": {
+   "zh": "状态 2 中 LHCII 发生了什么？",
+   "en": "What happens to LHCII in state 2?",
+   "ms": "Apakah yang berlaku kepada LHCII dalam keadaan 2?"
+  },
+  "options": [
+   {
+    "zh": "被降解",
+    "en": "It is degraded",
+    "ms": "Ia diuraikan"
+   },
+   {
+    "zh": "被磷酸化并离开 PSII",
+    "en": "It is phosphorylated and detaches from PSII",
+    "ms": "Ia difosforilkan dan terlepas dari PSII"
+   },
+   {
+    "zh": "与 PSII 结合更紧",
+    "en": "It binds PSII more tightly",
+    "ms": "Ia terikat lebih erat pada PSII"
+   },
+   {
+    "zh": "变成玉米黄质",
+    "en": "It becomes zeaxanthin",
+    "ms": "Ia menjadi zeaxantin"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "PQH₂ 累积激活激酶，磷酸化的 LHCII 离开 PSII，减少送到 PSII 的光。",
+   "en": "Accumulated PQH₂ activates the kinase; phosphorylated LHCII leaves PSII, cutting its light supply.",
+   "ms": "PQH₂ yang terkumpul mengaktifkan kinase; LHCII terfosforil meninggalkan PSII, mengurangkan bekalan cahayanya."
+  }
+ },
+ {
+  "stage": 3,
+  "chapter": "ch14",
+  "q": {
+   "zh": "V = 10、A = 10、Z = 20，DEPS 是多少？",
+   "en": "If V = 10, A = 10 and Z = 20, what is the DEPS?",
+   "ms": "Jika V = 10, A = 10 dan Z = 20, berapakah DEPS?"
+  },
+  "options": [
+   {
+    "zh": "0.25",
+    "en": "0.25",
+    "ms": "0.25"
+   },
+   {
+    "zh": "0.5",
+    "en": "0.5",
+    "ms": "0.5"
+   },
+   {
+    "zh": "0.625",
+    "en": "0.625",
+    "ms": "0.625"
+   },
+   {
+    "zh": "0.75",
+    "en": "0.75",
+    "ms": "0.75"
+   }
+  ],
+  "answer": 2,
+  "why": {
+   "zh": "(10/2 + 20) / (10 + 10 + 20) = 25 / 40 = 0.625。",
+   "en": "(10/2 + 20) / (10 + 10 + 20) = 25 / 40 = 0.625.",
+   "ms": "(10/2 + 20) / (10 + 10 + 20) = 25 / 40 = 0.625."
+  }
+ },
+ {
+  "stage": 3,
+  "chapter": "ch14",
+  "q": {
+   "zh": "在强光下长大的植物，其光响应曲线的初始斜率为何较低？",
+   "en": "Why is the initial slope of the light-response curve lower in high-light-grown plants?",
+   "ms": "Mengapa cerun awal lengkung tindak balas cahaya lebih rendah dalam tumbuhan yang tumbuh dalam cahaya tinggi?"
+  },
+  "options": [
+   {
+    "zh": "rubisco 较少",
+    "en": "Less rubisco",
+    "ms": "Kurang rubisco"
+   },
+   {
+    "zh": "叶绿素 a/b 比升高，集光效率降低",
+    "en": "A higher chlorophyll a/b ratio, so less efficient light harvesting",
+    "ms": "Nisbah klorofil a/b lebih tinggi, jadi penuaian cahaya kurang cekap"
+   },
+   {
+    "zh": "气孔关闭",
+    "en": "Stomata are closed",
+    "ms": "Stoma tertutup"
+   },
+   {
+    "zh": "呼吸停止",
+    "en": "Respiration stops",
+    "ms": "Respirasi berhenti"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "LHCII（富含叶绿素 b）减少，天线变小。",
+   "en": "LHCII, rich in chlorophyll b, is reduced, so the antenna shrinks.",
+   "ms": "LHCII, kaya klorofil b, dikurangkan, jadi antena mengecil."
+  }
+ },
+ {
+  "stage": 3,
+  "chapter": "ch14",
+  "q": {
+   "zh": "抗冻蛋白怎样起作用？",
+   "en": "How do antifreeze proteins work?",
+   "ms": "Bagaimana protein antibeku berfungsi?"
+  },
+  "options": [
+   {
+    "zh": "降低细胞的冰点到 −40 °C",
+    "en": "They lower the cell's freezing point to −40 °C",
+    "ms": "Ia menurunkan takat beku sel kepada −40 °C"
+   },
+   {
+    "zh": "结合在冰晶表面，抑制冰晶长大",
+    "en": "They bind ice-crystal surfaces and stop crystals growing",
+    "ms": "Ia terikat pada permukaan hablur ais dan menghentikan hablur membesar"
+   },
+   {
+    "zh": "在细胞内产生热",
+    "en": "They generate heat inside cells",
+    "ms": "Ia menjana haba di dalam sel"
+   },
+   {
+    "zh": "把水泵出细胞",
+    "en": "They pump water out of cells",
+    "ms": "Ia mengepam air keluar dari sel"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "它们以亲水氨基酸和冰晶中的水形成氢键。",
+   "en": "They hydrogen-bond through hydrophilic amino acids to water in the ice lattice.",
+   "ms": "Ia membentuk ikatan hidrogen melalui asid amino hidrofilik dengan air dalam kekisi ais."
+  }
+ },
+ {
+  "stage": 3,
+  "chapter": "ch15",
+  "q": {
+   "zh": "C₄ 植物固定每个 CO₂ 需要多少 ATP 和 NADPH？",
+   "en": "How much ATP and NADPH does a C₄ plant spend per CO₂?",
+   "ms": "Berapa banyak ATP dan NADPH dibelanjakan tumbuhan C₄ bagi setiap CO₂?"
+  },
+  "options": [
+   {
+    "zh": "3 ATP + 2 NADPH",
+    "en": "3 ATP + 2 NADPH",
+    "ms": "3 ATP + 2 NADPH"
+   },
+   {
+    "zh": "5 ATP + 2 NADPH",
+    "en": "5 ATP + 2 NADPH",
+    "ms": "5 ATP + 2 NADPH"
+   },
+   {
+    "zh": "2 ATP + 5 NADPH",
+    "en": "2 ATP + 5 NADPH",
+    "ms": "2 ATP + 5 NADPH"
+   },
+   {
+    "zh": "5 ATP + 5 NADPH",
+    "en": "5 ATP + 5 NADPH",
+    "ms": "5 ATP + 5 NADPH"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "比 C₃ 多 2 个 ATP，用在 PPDK 再生 PEP。",
+   "en": "Two more ATP than C₃, spent by PPDK to regenerate PEP.",
+   "ms": "Dua ATP lebih daripada C₃, dibelanjakan oleh PPDK untuk menjana semula PEP."
+  }
+ },
+ {
+  "stage": 3,
+  "chapter": "ch15",
+  "q": {
+   "zh": "C₄ 和 CAM 最根本的分别是什么？",
+   "en": "What is the fundamental difference between C₄ and CAM?",
+   "ms": "Apakah perbezaan asas antara C₄ dan CAM?"
+  },
+  "options": [
+   {
+    "zh": "C₄ 不用 PEP 羧化酶",
+    "en": "C₄ does not use PEP carboxylase",
+    "ms": "C₄ tidak menggunakan PEP karboksilase"
+   },
+   {
+    "zh": "C₄ 在空间上分隔两步，CAM 在时间上分隔",
+    "en": "C₄ separates the steps in space, CAM in time",
+    "ms": "C₄ memisahkan langkah dari segi ruang, CAM dari segi masa"
+   },
+   {
+    "zh": "CAM 没有卡尔文循环",
+    "en": "CAM has no Calvin cycle",
+    "ms": "CAM tiada kitaran Calvin"
+   },
+   {
+    "zh": "CAM 只在热带",
+    "en": "CAM is only tropical",
+    "ms": "CAM hanya tropika"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "C₄：叶肉细胞 vs 维管束鞘；CAM：同一细胞的夜晚 vs 白天。",
+   "en": "C₄: mesophyll vs bundle sheath; CAM: the same cell, night vs day.",
+   "ms": "C₄: mesofil lawan seludang berkas; CAM: sel yang sama, malam lawan siang."
+  }
+ },
+ {
+  "stage": 3,
+  "chapter": "ch15",
+  "q": {
+   "zh": "为什么 C₄ 植物较怕低温？",
+   "en": "Why are C₄ plants more sensitive to cold?",
+   "ms": "Mengapa tumbuhan C₄ lebih sensitif kepada sejuk?"
+  },
+  "options": [
+   {
+    "zh": "rubisco 在低温下失活",
+    "en": "Rubisco is inactivated by cold",
+    "ms": "Rubisco dinyahaktifkan oleh sejuk"
+   },
+   {
+    "zh": "丙酮酸磷酸双激酶（PPDK）对低温不稳定",
+    "en": "Pyruvate phosphate dikinase (PPDK) is cold-labile",
+    "ms": "Piruvat fosfat dikinase (PPDK) labil sejuk"
+   },
+   {
+    "zh": "它们没有叶黄素循环",
+    "en": "They lack a xanthophyll cycle",
+    "ms": "Ia tiada kitaran xantofil"
+   },
+   {
+    "zh": "它们的气孔不能关闭",
+    "en": "Their stomata cannot close",
+    "ms": "Stomanya tidak dapat menutup"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "PPDK 再生 PEP；低温使它失活，C₄ 循环就停了。",
+   "en": "PPDK regenerates PEP; when cold inactivates it, the C₄ cycle stops.",
+   "ms": "PPDK menjana semula PEP; apabila sejuk menyahaktifkannya, kitaran C₄ berhenti."
+  }
+ },
+ {
+  "stage": 3,
+  "chapter": "ch15",
+  "q": {
+   "zh": "阴生叶为何叶绿素 a/b 比较低？",
+   "en": "Why do shade leaves have a lower chlorophyll a/b ratio?",
+   "ms": "Mengapa daun teduh mempunyai nisbah klorofil a/b yang lebih rendah?"
+  },
+  "options": [
+   {
+    "zh": "它们缺镁",
+    "en": "They lack magnesium",
+    "ms": "Ia kekurangan magnesium"
+   },
+   {
+    "zh": "它们有较多富含叶绿素 b 的集光复合体",
+    "en": "They have more chlorophyll-b-rich light-harvesting complex",
+    "ms": "Ia mempunyai lebih banyak kompleks penuai cahaya kaya klorofil b"
+   },
+   {
+    "zh": "它们的反应中心较多",
+    "en": "They have more reaction centres",
+    "ms": "Ia mempunyai lebih banyak pusat tindak balas"
+   },
+   {
+    "zh": "它们只进行循环电子传递",
+    "en": "They run only cyclic electron flow",
+    "ms": "Ia hanya menjalankan aliran elektron berkitar"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "较大的天线让弱光下的集光效率更高。",
+   "en": "A larger antenna harvests dim light more efficiently.",
+   "ms": "Antena yang lebih besar menuai cahaya malap dengan lebih cekap."
+  }
+ },
+ {
+  "stage": 4,
+  "chapter": "ch16",
+  "q": {
+   "zh": "双受精中，胚乳的染色体倍数是多少？",
+   "en": "In double fertilisation, what is the ploidy of the endosperm?",
+   "ms": "Dalam persenyawaan berganda, apakah ploidi endosperma?"
+  },
+  "options": [
+   {
+    "zh": "N",
+    "en": "N",
+    "ms": "N"
+   },
+   {
+    "zh": "2N",
+    "en": "2N",
+    "ms": "2N"
+   },
+   {
+    "zh": "3N",
+    "en": "3N",
+    "ms": "3N"
+   },
+   {
+    "zh": "4N",
+    "en": "4N",
+    "ms": "4N"
+   }
+  ],
+  "answer": 2,
+  "why": {
+   "zh": "一个精核（N）加上两个极核（N + N）。",
+   "en": "One sperm nucleus (N) plus two polar nuclei (N + N).",
+   "ms": "Satu nukleus sperma (N) serta dua nukleus kutub (N + N)."
+  }
+ },
+ {
+  "stage": 4,
+  "chapter": "ch16",
+  "q": {
+   "zh": "什么时候萌发算完成？",
+   "en": "When is germination considered complete?",
+   "ms": "Bilakah percambahan dianggap selesai?"
+  },
+  "options": [
+   {
+    "zh": "种子开始吸水时",
+    "en": "When the seed starts to take up water",
+    "ms": "Apabila biji mula mengambil air"
+   },
+   {
+    "zh": "胚根伸出种子时",
+    "en": "When the radicle emerges",
+    "ms": "Apabila radikel muncul"
+   },
+   {
+    "zh": "第一片真叶展开时",
+    "en": "When the first true leaf opens",
+    "ms": "Apabila daun sejati pertama terbuka"
+   },
+   {
+    "zh": "开始光合作用时",
+    "en": "When photosynthesis begins",
+    "ms": "Apabila fotosintesis bermula"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "胚根伸出由细胞增大和吸胀压力推动。",
+   "en": "Radicle emergence is driven by cell enlargement and imbibition pressure.",
+   "ms": "Kemunculan radikel dipacu oleh pembesaran sel dan tekanan imbibisi."
+  }
+ },
+ {
+  "stage": 4,
+  "chapter": "ch16",
+  "q": {
+   "zh": "侧根从哪里起源？",
+   "en": "Where do lateral roots originate?",
+   "ms": "Dari manakah akar sisi berasal?"
+  },
+  "options": [
+   {
+    "zh": "表皮",
+    "en": "The epidermis",
+    "ms": "Epidermis"
+   },
+   {
+    "zh": "皮层",
+    "en": "The cortex",
+    "ms": "Korteks"
+   },
+   {
+    "zh": "中柱鞘",
+    "en": "The pericycle",
+    "ms": "Perisikel"
+   },
+   {
+    "zh": "根冠",
+    "en": "The root cap",
+    "ms": "Tudung akar"
+   }
+  ],
+  "answer": 2,
+  "why": {
+   "zh": "中柱鞘在内皮层内侧；侧根要穿过皮层和表皮才能出来。",
+   "en": "The pericycle lies inside the endodermis; laterals must push through cortex and epidermis.",
+   "ms": "Perisikel terletak di dalam endodermis; akar sisi mesti menembusi korteks dan epidermis."
+  }
+ },
+ {
+  "stage": 4,
+  "chapter": "ch16",
+  "q": {
+   "zh": "下面哪一个不是程序性细胞死亡的例子？",
+   "en": "Which of these is NOT an example of programmed cell death?",
+   "ms": "Antara berikut, yang manakah BUKAN contoh kematian sel terprogram?"
+  },
+  "options": [
+   {
+    "zh": "管状分子成熟",
+    "en": "Maturation of tracheary elements",
+    "ms": "Pematangan unsur trakea"
+   },
+   {
+    "zh": "形成通气组织",
+    "en": "Aerenchyma formation",
+    "ms": "Pembentukan aerenkima"
+   },
+   {
+    "zh": "过敏反应",
+    "en": "The hypersensitive response",
+    "ms": "Tindak balas hipersensitif"
+   },
+   {
+    "zh": "形成层细胞分裂",
+    "en": "Division of cambium cells",
+    "ms": "Pembahagian sel kambium"
+   }
+  ],
+  "answer": 3,
+  "why": {
+   "zh": "形成层分裂是生长；其余三者都是受控的细胞死亡。",
+   "en": "Cambial division is growth; the other three are controlled cell death.",
+   "ms": "Pembahagian kambium ialah pertumbuhan; tiga yang lain ialah kematian sel terkawal."
+  }
+ },
+ {
+  "stage": 4,
+  "chapter": "ch17",
+  "q": {
+   "zh": "dV/dt = m(P − Y) 中，Y 代表什么？",
+   "en": "In dV/dt = m(P − Y), what is Y?",
+   "ms": "Dalam dV/dt = m(P − Y), apakah Y?"
+  },
+  "options": [
+   {
+    "zh": "细胞体积",
+    "en": "Cell volume",
+    "ms": "Isi padu sel"
+   },
+   {
+    "zh": "屈服阈值：细胞开始扩张所需的最低膨压",
+    "en": "The yield threshold: minimum turgor for expansion",
+    "ms": "Ambang alah: turgor minimum untuk pengembangan"
+   },
+   {
+    "zh": "细胞壁伸展性",
+    "en": "Wall extensibility",
+    "ms": "Keterlanjuran dinding"
+   },
+   {
+    "zh": "水势",
+    "en": "Water potential",
+    "ms": "Keupayaan air"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "只有膨压超过 Y 的那部分才推动生长。",
+   "en": "Only turgor in excess of Y drives growth.",
+   "ms": "Hanya turgor melebihi Y yang memacu pertumbuhan."
+  }
+ },
+ {
+  "stage": 4,
+  "chapter": "ch17",
+  "q": {
+   "zh": "扩张蛋白在什么条件下最活跃？",
+   "en": "Under what condition are expansins most active?",
+   "ms": "Dalam keadaan apakah ekspansin paling aktif?"
+  },
+  "options": [
+   {
+    "zh": "高 pH",
+    "en": "High pH",
+    "ms": "pH tinggi"
+   },
+   {
+    "zh": "低 pH",
+    "en": "Low pH",
+    "ms": "pH rendah"
+   },
+   {
+    "zh": "黑暗中",
+    "en": "In the dark",
+    "ms": "Dalam gelap"
+   },
+   {
+    "zh": "缺水时",
+    "en": "Under drought",
+    "ms": "Semasa kemarau"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "这就是“酸生长”：生长素使细胞壁酸化。",
+   "en": "That is acid growth: auxin acidifies the wall.",
+   "ms": "Itulah pertumbuhan asid: auksin mengasidkan dinding."
+  }
+ },
+ {
+  "stage": 4,
+  "chapter": "ch17",
+  "q": {
+   "zh": "PLC 把 PIP₂ 切成哪两个信使？",
+   "en": "PLC splits PIP₂ into which two messengers?",
+   "ms": "PLC membelah PIP₂ menjadi dua utusan yang mana?"
+  },
+  "options": [
+   {
+    "zh": "cAMP 和 GTP",
+    "en": "cAMP and GTP",
+    "ms": "cAMP dan GTP"
+   },
+   {
+    "zh": "IP₃ 和 DAG",
+    "en": "IP₃ and DAG",
+    "ms": "IP₃ dan DAG"
+   },
+   {
+    "zh": "Ca²⁺ 和 ROS",
+    "en": "Ca²⁺ and ROS",
+    "ms": "Ca²⁺ dan ROS"
+   },
+   {
+    "zh": "PA 和 ATP",
+    "en": "PA and ATP",
+    "ms": "PA dan ATP"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "IP₃ 释放胞内 Ca²⁺；DAG 再转成磷脂酸。",
+   "en": "IP₃ releases internal Ca²⁺; DAG is converted to phosphatidic acid.",
+   "ms": "IP₃ membebaskan Ca²⁺ dalaman; DAG ditukar kepada asid fosfatidik."
+  }
+ },
+ {
+  "stage": 4,
+  "chapter": "ch17",
+  "q": {
+   "zh": "植物细胞的胞质分裂怎样进行？",
+   "en": "How does cytokinesis happen in plant cells?",
+   "ms": "Bagaimana sitokinesis berlaku dalam sel tumbuhan?"
+  },
+  "options": [
+   {
+    "zh": "细胞膜向内缢缩",
+    "en": "The membrane pinches inwards",
+    "ms": "Membran mengecut ke dalam"
+   },
+   {
+    "zh": "成膜体引导高尔基囊泡融合成细胞板，由内向外扩展",
+    "en": "The phragmoplast guides Golgi vesicles into a cell plate that grows outwards",
+    "ms": "Fragmoplas memandu vesikel Golgi menjadi plat sel yang tumbuh ke luar"
+   },
+   {
+    "zh": "细胞壁从外向内长",
+    "en": "The wall grows from the outside in",
+    "ms": "Dinding tumbuh dari luar ke dalam"
+   },
+   {
+    "zh": "不需要新的细胞壁",
+    "en": "No new wall is needed",
+    "ms": "Tiada dinding baharu diperlukan"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "植物从细胞内部向外建造新的膜和壁。",
+   "en": "Plants build new membrane and wall from the inside outwards.",
+   "ms": "Tumbuhan membina membran dan dinding baharu dari dalam ke luar."
+  }
+ },
+ {
+  "stage": 4,
+  "chapter": "ch18",
+  "q": {
+   "zh": "燕麦弯曲试验中，弯曲度与什么成正比？",
+   "en": "In the Avena curvature test, curvature is proportional to…",
+   "ms": "Dalam ujian lengkungan Avena, lengkungan berkadar dengan…"
+  },
+  "options": [
+   {
+    "zh": "光的强度",
+    "en": "Light intensity",
+    "ms": "Keamatan cahaya"
+   },
+   {
+    "zh": "琼脂块中生长素的量",
+    "en": "The amount of auxin in the agar block",
+    "ms": "Jumlah auksin dalam blok agar"
+   },
+   {
+    "zh": "胚芽鞘的长度",
+    "en": "Coleoptile length",
+    "ms": "Panjang koleoptil"
+   },
+   {
+    "zh": "温度",
+    "en": "Temperature",
+    "ms": "Suhu"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "这让 Went 能定量测定生长素。",
+   "en": "This let Went measure auxin quantitatively.",
+   "ms": "Ini membolehkan Went mengukur auksin secara kuantitatif."
+  }
+ },
+ {
+  "stage": 4,
+  "chapter": "ch18",
+  "q": {
+   "zh": "生长素存在时，AUX/IAA 蛋白发生了什么？",
+   "en": "What happens to AUX/IAA proteins when auxin is present?",
+   "ms": "Apakah yang berlaku kepada protein AUX/IAA apabila auksin hadir?"
+  },
+  "options": [
+   {
+    "zh": "被磷酸化而激活",
+    "en": "They are phosphorylated and activated",
+    "ms": "Ia difosforilkan dan diaktifkan"
+   },
+   {
+    "zh": "与 TIR1 结合，被 SCF 泛素化后由 26S 蛋白酶体降解",
+    "en": "They bind TIR1, are ubiquitinated by SCF and destroyed by the 26S proteasome",
+    "ms": "Ia terikat pada TIR1, diubikuitinkan oleh SCF dan dimusnahkan proteasom 26S"
+   },
+   {
+    "zh": "运到细胞壁",
+    "en": "They move to the cell wall",
+    "ms": "Ia bergerak ke dinding sel"
+   },
+   {
+    "zh": "与 ARF 结合得更紧",
+    "en": "They bind ARF more tightly",
+    "ms": "Ia terikat lebih erat pada ARF"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "生长素是“分子胶”；抑制者被降解后 ARF 才能启动转录。",
+   "en": "Auxin is the ‘molecular glue’; with the repressor gone, ARF activates transcription.",
+   "ms": "Auksin ialah ‘gam molekul’; apabila penindas hilang, ARF mengaktifkan transkripsi."
+  }
+ },
+ {
+  "stage": 4,
+  "chapter": "ch18",
+  "q": {
+   "zh": "化学渗透模型中，为什么生长素只能往基部走？",
+   "en": "In the chemiosmotic model, why does auxin move only towards the base?",
+   "ms": "Dalam model kemiosmosis, mengapa auksin hanya bergerak ke arah pangkal?"
+  },
+  "options": [
+   {
+    "zh": "重力把它往下拉",
+    "en": "Gravity pulls it down",
+    "ms": "Graviti menariknya ke bawah"
+   },
+   {
+    "zh": "PIN 外排载体只位于细胞基部",
+    "en": "PIN efflux carriers sit only at the cell base",
+    "ms": "Pembawa efluks PIN hanya terletak di pangkal sel"
+   },
+   {
+    "zh": "韧皮部只往下流",
+    "en": "Phloem flows only downwards",
+    "ms": "Floem hanya mengalir ke bawah"
+   },
+   {
+    "zh": "AUX1 只在基部",
+    "en": "AUX1 is only at the base",
+    "ms": "AUX1 hanya di pangkal"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "细胞内的 IAA⁻ 被困住，只能从有 PIN 的基部出去。",
+   "en": "IAA⁻ is trapped inside and can leave only at the base, where PIN is.",
+   "ms": "IAA⁻ terperangkap di dalam dan hanya boleh keluar di pangkal, tempat PIN berada."
+  }
+ },
+ {
+  "stage": 4,
+  "chapter": "ch18",
+  "q": {
+   "zh": "下列哪个是生长素运输抑制剂？",
+   "en": "Which of these inhibits auxin transport?",
+   "ms": "Antara berikut, yang manakah merencat pengangkutan auksin?"
+  },
+  "options": [
+   {
+    "zh": "2,4-D",
+    "en": "2,4-D",
+    "ms": "2,4-D"
+   },
+   {
+    "zh": "NPA",
+    "en": "NPA",
+    "ms": "NPA"
+   },
+   {
+    "zh": "IBA",
+    "en": "IBA",
+    "ms": "IBA"
+   },
+   {
+    "zh": "NAA",
+    "en": "NAA",
+    "ms": "NAA"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "NPA、TIBA、形态素是植物向性素；其余三个是生长素（2,4-D 高浓度作除草剂）。",
+   "en": "NPA, TIBA and morphactin are phytotropins; the others are auxins (2,4-D is a herbicide at high doses).",
+   "ms": "NPA, TIBA dan morfaktin ialah fitotropin; yang lain auksin (2,4-D racun rumpai pada dos tinggi)."
+  }
+ },
+ {
+  "stage": 4,
+  "chapter": "ch19",
+  "q": {
+   "zh": "赤霉素合成的第一个关键前体（C₂₀）是什么？",
+   "en": "What is the key C₂₀ precursor of gibberellin synthesis?",
+   "ms": "Apakah prekursor C₂₀ utama sintesis giberelin?"
+  },
+  "options": [
+   {
+    "zh": "IPP",
+    "en": "IPP",
+    "ms": "IPP"
+   },
+   {
+    "zh": "GGPP",
+    "en": "GGPP",
+    "ms": "GGPP"
+   },
+   {
+    "zh": "FPP",
+    "en": "FPP",
+    "ms": "FPP"
+   },
+   {
+    "zh": "色氨酸",
+    "en": "Tryptophan",
+    "ms": "Triptofan"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "GGPP 环化成内根-贝壳杉烯，再氧化成 GA₁₂-7-醛。",
+   "en": "GGPP cyclises to ent-kaurene, which is oxidised to GA₁₂-7-aldehyde.",
+   "ms": "GGPP mengitar menjadi ent-kaurena, yang dioksidakan kepada GA₁₂-7-aldehid."
+  }
+ },
+ {
+  "stage": 4,
+  "chapter": "ch19",
+  "q": {
+   "zh": "为什么 gai 突变体矮小、对赤霉素不敏感？",
+   "en": "Why is the gai mutant dwarf and gibberellin-insensitive?",
+   "ms": "Mengapa mutan gai kerdil dan tidak sensitif giberelin?"
+  },
+  "options": [
+   {
+    "zh": "它不能合成赤霉素",
+    "en": "It cannot make gibberellin",
+    "ms": "Ia tidak dapat membuat giberelin"
+   },
+   {
+    "zh": "突变的 DELLA 不能与 GA–GID1 结合，无法被降解",
+    "en": "Its mutant DELLA cannot bind GA–GID1 and is never destroyed",
+    "ms": "DELLA mutannya tidak dapat terikat pada GA–GID1 dan tidak pernah dimusnahkan"
+   },
+   {
+    "zh": "它没有 GID1",
+    "en": "It has no GID1",
+    "ms": "Ia tiada GID1"
+   },
+   {
+    "zh": "它的赤霉素被氧化",
+    "en": "Its gibberellin is oxidised",
+    "ms": "Giberelinnya dioksidakan"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "刹车拆不掉，生长基因一直被抑制。",
+   "en": "The brake cannot be removed, so growth genes stay repressed.",
+   "ms": "Brek tidak dapat dibuang, jadi gen pertumbuhan kekal ditindas."
+  }
+ },
+ {
+  "stage": 4,
+  "chapter": "ch19",
+  "q": {
+   "zh": "谷粒萌发时，赤霉素在糊粉层诱导什么？",
+   "en": "In a germinating grain, what does gibberellin induce in the aleurone?",
+   "ms": "Dalam bijirin yang bercambah, apakah yang diaruh giberelin dalam aleuron?"
+  },
+  "options": [
+   {
+    "zh": "叶绿素",
+    "en": "Chlorophyll",
+    "ms": "Klorofil"
+   },
+   {
+    "zh": "α-淀粉酶等水解酶",
+    "en": "α-Amylase and other hydrolases",
+    "ms": "α-Amilase dan hidrolase lain"
+   },
+   {
+    "zh": "脱落酸",
+    "en": "Abscisic acid",
+    "ms": "Asid absisik"
+   },
+   {
+    "zh": "纤维素",
+    "en": "Cellulose",
+    "ms": "Selulosa"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "酶分泌进胚乳分解淀粉，供胚生长。",
+   "en": "The enzymes are secreted into the endosperm to break down starch for the embryo.",
+   "ms": "Enzim dirembeskan ke dalam endosperma untuk menguraikan kanji untuk embrio."
+  }
+ },
+ {
+  "stage": 4,
+  "chapter": "ch19",
+  "q": {
+   "zh": "哪个抑制剂的作用只能用 GA₁ 本身逆转？",
+   "en": "Which inhibitor's effect can be reversed only by GA₁ itself?",
+   "ms": "Kesan perencat yang manakah hanya boleh diterbalikkan oleh GA₁ sendiri?"
+  },
+  "options": [
+   {
+    "zh": "CCC",
+    "en": "CCC",
+    "ms": "CCC"
+   },
+   {
+    "zh": "AMO-1618",
+    "en": "AMO-1618",
+    "ms": "AMO-1618"
+   },
+   {
+    "zh": "BX-112",
+    "en": "BX-112",
+    "ms": "BX-112"
+   },
+   {
+    "zh": "嘧啶醇",
+    "en": "Ancymidol",
+    "ms": "Ansimidol"
+   }
+  ],
+  "answer": 2,
+  "why": {
+   "zh": "BX-112 阻断最后一步 GA₂₀ → GA₁。",
+   "en": "BX-112 blocks the final step, GA₂₀ → GA₁.",
+   "ms": "BX-112 menyekat langkah terakhir, GA₂₀ → GA₁."
+  }
+ },
+ {
+  "stage": 4,
+  "chapter": "ch20",
+  "q": {
+   "zh": "组织培养中，生长素/细胞分裂素比值很高时，愈伤组织会长出什么？",
+   "en": "In tissue culture, a high auxin:cytokinin ratio makes callus form…",
+   "ms": "Dalam kultur tisu, nisbah auksin:sitokinin yang tinggi menjadikan kalus membentuk…"
+  },
+  "options": [
+   {
+    "zh": "芽",
+    "en": "Shoots",
+    "ms": "Pucuk"
+   },
+   {
+    "zh": "根",
+    "en": "Roots",
+    "ms": "Akar"
+   },
+   {
+    "zh": "花",
+    "en": "Flowers",
+    "ms": "Bunga"
+   },
+   {
+    "zh": "完整植株",
+    "en": "Whole plants",
+    "ms": "Tumbuhan lengkap"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "高生长素长根，高细胞分裂素长芽，比例合适才再生整株。",
+   "en": "High auxin gives roots, high cytokinin shoots; the right balance regenerates a plant.",
+   "ms": "Auksin tinggi memberi akar, sitokinin tinggi pucuk; imbangan yang betul menjana semula tumbuhan."
+  }
+ },
+ {
+  "stage": 4,
+  "chapter": "ch20",
+  "q": {
+   "zh": "细胞分裂素合成的限速酶是？",
+   "en": "The rate-limiting enzyme of cytokinin synthesis is…",
+   "ms": "Enzim pengehad kadar sintesis sitokinin ialah…"
+  },
+  "options": [
+   {
+    "zh": "CKX",
+    "en": "CKX",
+    "ms": "CKX"
+   },
+   {
+    "zh": "IPT",
+    "en": "IPT",
+    "ms": "IPT"
+   },
+   {
+    "zh": "LOG",
+    "en": "LOG",
+    "ms": "LOG"
+   },
+   {
+    "zh": "AHK4",
+    "en": "AHK4",
+    "ms": "AHK4"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "IPT 把 DMAPP 的异戊烯基接到 AMP 上；CKX 是降解酶。",
+   "en": "IPT adds DMAPP's isopentenyl group to AMP; CKX is the degrading enzyme.",
+   "ms": "IPT menambah kumpulan isopentenil DMAPP kepada AMP; CKX ialah enzim pengurai."
+  }
+ },
+ {
+  "stage": 4,
+  "chapter": "ch20",
+  "q": {
+   "zh": "细胞分裂素信号中，把磷酸从受体带进细胞核的是？",
+   "en": "In cytokinin signalling, what carries the phosphate from the receptor into the nucleus?",
+   "ms": "Dalam pengisyaratan sitokinin, apakah yang membawa fosfat dari reseptor ke nukleus?"
+  },
+  "options": [
+   {
+    "zh": "A 型 ARR",
+    "en": "Type-A ARR",
+    "ms": "ARR jenis A"
+   },
+   {
+    "zh": "AHP（组氨酸磷酸转移蛋白）",
+    "en": "AHP (histidine phosphotransfer protein)",
+    "ms": "AHP (protein pemindahan fosfo histidina)"
+   },
+   {
+    "zh": "DELLA",
+    "en": "DELLA",
+    "ms": "DELLA"
+   },
+   {
+    "zh": "TIR1",
+    "en": "TIR1",
+    "ms": "TIR1"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "His → Asp（受体）→ AHP → B 型 ARR（转录因子）。",
+   "en": "His → Asp (receptor) → AHP → type-B ARR (transcription factor).",
+   "ms": "His → Asp (reseptor) → AHP → ARR jenis B (faktor transkripsi)."
+  }
+ },
+ {
+  "stage": 4,
+  "chapter": "ch20",
+  "q": {
+   "zh": "冠瘿瘤的 T-DNA 带有哪些基因？",
+   "en": "What genes does crown-gall T-DNA carry?",
+   "ms": "Gen apakah yang dibawa T-DNA gal mahkota?"
+  },
+  "options": [
+   {
+    "zh": "固氮基因",
+    "en": "Nitrogen-fixation genes",
+    "ms": "Gen pengikatan nitrogen"
+   },
+   {
+    "zh": "生长素与细胞分裂素合成基因，以及冠瘿碱合成基因",
+    "en": "Auxin and cytokinin synthesis genes, plus an opine-synthesis gene",
+    "ms": "Gen sintesis auksin dan sitokinin, serta gen sintesis opina"
+   },
+   {
+    "zh": "抗病 R 基因",
+    "en": "R resistance genes",
+    "ms": "Gen rintangan R"
+   },
+   {
+    "zh": "叶绿素合成基因",
+    "en": "Chlorophyll-synthesis genes",
+    "ms": "Gen sintesis klorofil"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "激素基因让细胞增生成瘤，冠瘿碱是细菌的养分。",
+   "en": "The hormone genes make the cells proliferate into a tumour; opines feed the bacterium.",
+   "ms": "Gen hormon menjadikan sel membiak menjadi tumor; opina memberi makan bakteria."
+  }
+ },
+ {
+  "stage": 4,
+  "chapter": "ch21",
+  "q": {
+   "zh": "ABA 合成中，哪一步由 NCED 催化？",
+   "en": "Which step of ABA synthesis does NCED catalyse?",
+   "ms": "Langkah sintesis ABA manakah yang dimangkinkan oleh NCED?"
+  },
+  "options": [
+   {
+    "zh": "黄氧素 → 脱落醛",
+    "en": "Xanthoxin → abscisic aldehyde",
+    "ms": "Xantoksin → aldehid absisik"
+   },
+   {
+    "zh": "紫黄质 → 黄氧素（C₄₀ 切成 C₁₅）",
+    "en": "Violaxanthin → xanthoxin (C₄₀ cut to C₁₅)",
+    "ms": "Violaxantin → xantoksin (C₄₀ dipotong kepada C₁₅)"
+   },
+   {
+    "zh": "ABA → 红花菜豆酸",
+    "en": "ABA → phaseic acid",
+    "ms": "ABA → asid faseik"
+   },
+   {
+    "zh": "IPP → GGPP",
+    "en": "IPP → GGPP",
+    "ms": "IPP → GGPP"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "这是在叶绿体中的关键步骤；之后在细胞质完成。",
+   "en": "That is the key step, in the chloroplast; the rest happens in the cytosol.",
+   "ms": "Itulah langkah utama, dalam kloroplas; selebihnya berlaku dalam sitosol."
+  }
+ },
+ {
+  "stage": 4,
+  "chapter": "ch21",
+  "q": {
+   "zh": "照光时 ABA 为什么会累积在叶绿体里？",
+   "en": "Why does ABA accumulate in chloroplasts in the light?",
+   "ms": "Mengapa ABA terkumpul dalam kloroplas dalam cahaya?"
+  },
+  "options": [
+   {
+    "zh": "叶绿体合成 ABA",
+    "en": "Chloroplasts make ABA",
+    "ms": "Kloroplas membuat ABA"
+   },
+   {
+    "zh": "基质偏碱，ABAH 进入后解离成 ABA⁻ 被困住",
+    "en": "The stroma is alkaline, so ABAH that enters dissociates to ABA⁻ and is trapped",
+    "ms": "Stroma beralkali, jadi ABAH yang masuk terurai kepada ABA⁻ dan terperangkap"
+   },
+   {
+    "zh": "有 ABA 泵",
+    "en": "There is an ABA pump",
+    "ms": "Terdapat pam ABA"
+   },
+   {
+    "zh": "基质偏酸",
+    "en": "The stroma is acidic",
+    "ms": "Stroma berasid"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "阴离子陷阱：带电的 ABA⁻ 不能穿膜。",
+   "en": "An anion trap: charged ABA⁻ cannot cross the membrane.",
+   "ms": "Perangkap anion: ABA⁻ yang bercas tidak dapat merentasi membran."
+  }
+ },
+ {
+  "stage": 4,
+  "chapter": "ch21",
+  "q": {
+   "zh": "ABA 与 PYR/PYL 结合后直接抑制的是？",
+   "en": "What does ABA-bound PYR/PYL directly inhibit?",
+   "ms": "Apakah yang direncat secara langsung oleh PYR/PYL yang terikat ABA?"
+  },
+  "options": [
+   {
+    "zh": "SnRK2 激酶",
+    "en": "SnRK2 kinase",
+    "ms": "Kinase SnRK2"
+   },
+   {
+    "zh": "PP2C 磷酸酶",
+    "en": "PP2C phosphatase",
+    "ms": "Fosfatase PP2C"
+   },
+   {
+    "zh": "H⁺-ATP 酶",
+    "en": "H⁺-ATPase",
+    "ms": "H⁺-ATPase"
+   },
+   {
+    "zh": "NCED",
+    "en": "NCED",
+    "ms": "NCED"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "PP2C 被抑制后，SnRK2 才能活化——“抑制一个抑制者”。",
+   "en": "With PP2C inhibited, SnRK2 becomes active — inhibiting an inhibitor.",
+   "ms": "Dengan PP2C direncat, SnRK2 menjadi aktif — merencat perencat."
+  }
+ },
+ {
+  "stage": 4,
+  "chapter": "ch21",
+  "q": {
+   "zh": "玉米胎萌突变体为什么在穗上就发芽？",
+   "en": "Why do viviparous maize mutants germinate on the cob?",
+   "ms": "Mengapa mutan jagung vivipar bercambah di tongkol?"
+  },
+  "options": [
+   {
+    "zh": "赤霉素太少",
+    "en": "Too little gibberellin",
+    "ms": "Terlalu sedikit giberelin"
+   },
+   {
+    "zh": "缺乏 ABA（多数也缺类胡萝卜素）",
+    "en": "They lack ABA (most also lack carotenoids)",
+    "ms": "Ia tiada ABA (kebanyakannya juga tiada karotenoid)"
+   },
+   {
+    "zh": "乙烯太多",
+    "en": "Too much ethylene",
+    "ms": "Terlalu banyak etilena"
+   },
+   {
+    "zh": "胚乳太大",
+    "en": "The endosperm is too large",
+    "ms": "Endosperma terlalu besar"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "ABA 由类胡萝卜素合成；没有 ABA，胚就不进入休眠。",
+   "en": "ABA is made from carotenoids; without ABA the embryo never becomes dormant.",
+   "ms": "ABA dibuat daripada karotenoid; tanpa ABA embrio tidak pernah dorman."
+  }
+ },
+ {
+  "stage": 4,
+  "chapter": "ch22",
+  "q": {
+   "zh": "乙烯合成的限速酶是？",
+   "en": "The rate-limiting enzyme of ethylene synthesis is…",
+   "ms": "Enzim pengehad kadar sintesis etilena ialah…"
+  },
+  "options": [
+   {
+    "zh": "SAM 合成酶",
+    "en": "SAM synthetase",
+    "ms": "SAM sintetase"
+   },
+   {
+    "zh": "ACC 合成酶",
+    "en": "ACC synthase",
+    "ms": "ACC sintase"
+   },
+   {
+    "zh": "ACC 氧化酶",
+    "en": "ACC oxidase",
+    "ms": "ACC oksidase"
+   },
+   {
+    "zh": "NCED",
+    "en": "NCED",
+    "ms": "NCED"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "生长素、伤害、逆境和乙烯本身都在转录层次诱导 ACS。",
+   "en": "Auxin, wounding, stress and ethylene itself all induce ACS transcriptionally.",
+   "ms": "Auksin, luka, tekanan dan etilena itu sendiri semuanya mengaruh ACS secara transkripsi."
+  }
+ },
+ {
+  "stage": 4,
+  "chapter": "ch22",
+  "q": {
+   "zh": "etr1 突变体在乙烯中会怎样？",
+   "en": "How does an etr1 mutant behave in ethylene?",
+   "ms": "Bagaimana mutan etr1 berkelakuan dalam etilena?"
+  },
+  "options": [
+   {
+    "zh": "表现很强的三重反应",
+    "en": "A strong triple response",
+    "ms": "Tindak balas tiga serangkai yang kuat"
+   },
+   {
+    "zh": "对乙烯不敏感，长得又直又长",
+    "en": "Ethylene-insensitive: long and straight",
+    "ms": "Tidak sensitif etilena: panjang dan lurus"
+   },
+   {
+    "zh": "不能合成乙烯",
+    "en": "It cannot make ethylene",
+    "ms": "Ia tidak dapat membuat etilena"
+   },
+   {
+    "zh": "立刻死亡",
+    "en": "It dies at once",
+    "ms": "Ia mati serta-merta"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "突变的受体无法被乙烯关闭，抑制一直存在。",
+   "en": "The mutant receptor cannot be switched off by ethylene, so the repression stays.",
+   "ms": "Reseptor mutan tidak dapat dimatikan oleh etilena, jadi penindasan kekal."
+  }
+ },
+ {
+  "stage": 4,
+  "chapter": "ch22",
+  "q": {
+   "zh": "为什么香蕉可以青着采收、到市场再催熟？",
+   "en": "Why can bananas be picked green and ripened at market?",
+   "ms": "Mengapa pisang boleh dipetik hijau dan dimasakkan di pasaran?"
+  },
+  "options": [
+   {
+    "zh": "它们是非跃变果实",
+    "en": "They are non-climacteric",
+    "ms": "Ia bukan klimakterik"
+   },
+   {
+    "zh": "它们是跃变果实，乙烯合成自催化",
+    "en": "They are climacteric and ethylene synthesis is autocatalytic",
+    "ms": "Ia klimakterik dan sintesis etilena autokatalitik"
+   },
+   {
+    "zh": "赤霉素让它们成熟",
+    "en": "Gibberellin ripens them",
+    "ms": "Giberelin memasakkannya"
+   },
+   {
+    "zh": "它们在黑暗中成熟",
+    "en": "They ripen in the dark",
+    "ms": "Ia masak dalam gelap"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "给一点乙烯就引发更多乙烯，带动整个成熟过程。",
+   "en": "A little ethylene triggers more, driving the whole ripening programme.",
+   "ms": "Sedikit etilena mencetuskan lebih banyak, memacu seluruh program pemasakan."
+  }
+ },
+ {
+  "stage": 4,
+  "chapter": "ch22",
+  "q": {
+   "zh": "ETR1 结合乙烯需要哪种金属辅因子？",
+   "en": "What metal cofactor does ETR1 need to bind ethylene?",
+   "ms": "Kofaktor logam apakah yang diperlukan ETR1 untuk mengikat etilena?"
+  },
+  "options": [
+   {
+    "zh": "铁",
+    "en": "Iron",
+    "ms": "Besi"
+   },
+   {
+    "zh": "铜",
+    "en": "Copper",
+    "ms": "Kuprum"
+   },
+   {
+    "zh": "锌",
+    "en": "Zinc",
+    "ms": "Zink"
+   },
+   {
+    "zh": "镁",
+    "en": "Magnesium",
+    "ms": "Magnesium"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "感应结构域含铜。",
+   "en": "The sensor domain holds a copper cofactor.",
+   "ms": "Domain penderia mengandungi kofaktor kuprum."
+  }
+ },
+ {
+  "stage": 4,
+  "chapter": "ch23",
+  "q": {
+   "zh": "油菜素甾醇的受体在哪里？",
+   "en": "Where is the brassinosteroid receptor?",
+   "ms": "Di manakah reseptor brasinosteroid?"
+  },
+  "options": [
+   {
+    "zh": "细胞核",
+    "en": "In the nucleus",
+    "ms": "Dalam nukleus"
+   },
+   {
+    "zh": "质膜",
+    "en": "In the plasma membrane",
+    "ms": "Dalam membran plasma"
+   },
+   {
+    "zh": "内质网膜",
+    "en": "In the ER membrane",
+    "ms": "Dalam membran RE"
+   },
+   {
+    "zh": "叶绿体",
+    "en": "In the chloroplast",
+    "ms": "Dalam kloroplas"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "BRI1/BAK1 是质膜上的受体激酶——和动物甾醇激素的核内受体不同。",
+   "en": "BRI1/BAK1 are plasma-membrane receptor kinases — unlike the nuclear receptors of animal steroids.",
+   "ms": "BRI1/BAK1 ialah kinase reseptor membran plasma — tidak seperti reseptor nukleus steroid haiwan."
+  }
+ },
+ {
+  "stage": 4,
+  "chapter": "ch23",
+  "q": {
+   "zh": "没有油菜素甾醇时，BZR1 为什么留在细胞质？",
+   "en": "Without brassinosteroid, why does BZR1 stay in the cytosol?",
+   "ms": "Tanpa brasinosteroid, mengapa BZR1 kekal di sitosol?"
+  },
+  "options": [
+   {
+    "zh": "被 BIN2 磷酸化",
+    "en": "It is phosphorylated by BIN2",
+    "ms": "Ia difosforilkan oleh BIN2"
+   },
+   {
+    "zh": "被泛素化降解",
+    "en": "It is ubiquitinated and destroyed",
+    "ms": "Ia diubikuitinkan dan dimusnahkan"
+   },
+   {
+    "zh": "被 BRI1 结合",
+    "en": "It is bound by BRI1",
+    "ms": "Ia terikat pada BRI1"
+   },
+   {
+    "zh": "缺少 ATP",
+    "en": "There is no ATP",
+    "ms": "Tiada ATP"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "信号来时 BIN2 被抑制，BZR1 去磷酸化后进核。",
+   "en": "When the signal arrives BIN2 is inhibited and dephosphorylated BZR1 enters the nucleus.",
+   "ms": "Apabila isyarat tiba BIN2 direncat dan BZR1 yang dinyahfosforil masuk ke nukleus."
+  }
+ },
+ {
+  "stage": 4,
+  "chapter": "ch23",
+  "q": {
+   "zh": "油菜素甾醇由哪种前体经环化而来？",
+   "en": "Brassinosteroids derive from the cyclisation of which precursor?",
+   "ms": "Brasinosteroid berasal daripada pengitaran prekursor yang mana?"
+  },
+  "options": [
+   {
+    "zh": "GGPP",
+    "en": "GGPP",
+    "ms": "GGPP"
+   },
+   {
+    "zh": "鲨烯（来自法尼基焦磷酸）",
+    "en": "Squalene (from farnesyl pyrophosphate)",
+    "ms": "Skualena (daripada farnesil pirofosfat)"
+   },
+   {
+    "zh": "色氨酸",
+    "en": "Tryptophan",
+    "ms": "Triptofan"
+   },
+   {
+    "zh": "紫黄质",
+    "en": "Violaxanthin",
+    "ms": "Violaxantin"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "鲨烯 → 环阿屯醇 → 菜油甾醇 → 油菜素内酯。",
+   "en": "Squalene → cycloartenol → campesterol → brassinolide.",
+   "ms": "Skualena → sikloartenol → kampesterol → brasinolida."
+  }
+ },
+ {
+  "stage": 5,
+  "chapter": "ch24",
+  "q": {
+   "zh": "莴苣种子依次照红光、远红光、红光、远红光，会萌发吗？",
+   "en": "Lettuce seeds get R, FR, R, FR in sequence. Will they germinate?",
+   "ms": "Biji salad diberi M, MJ, M, MJ berturut-turut. Adakah ia bercambah?"
+  },
+  "options": [
+   {
+    "zh": "会",
+    "en": "Yes",
+    "ms": "Ya"
+   },
+   {
+    "zh": "不会",
+    "en": "No",
+    "ms": "Tidak"
+   },
+   {
+    "zh": "一半会",
+    "en": "Half will",
+    "ms": "Separuh akan"
+   },
+   {
+    "zh": "要看温度",
+    "en": "It depends on temperature",
+    "ms": "Bergantung pada suhu"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "结果只取决于最后一次：最后是远红光，Pfr 回到 Pr。",
+   "en": "Only the last flash counts: far-red last returns Pfr to Pr.",
+   "ms": "Hanya kilatan terakhir dikira: merah jauh terakhir mengembalikan Pfr kepada Pr."
+  }
+ },
+ {
+  "stage": 5,
+  "chapter": "ch24",
+  "q": {
+   "zh": "哪一种光敏色素在照光后很快被降解？",
+   "en": "Which phytochrome is rapidly destroyed in light?",
+   "ms": "Fitokrom manakah yang dimusnahkan dengan cepat dalam cahaya?"
+  },
+  "options": [
+   {
+    "zh": "phyA",
+    "en": "phyA",
+    "ms": "phyA"
+   },
+   {
+    "zh": "phyB",
+    "en": "phyB",
+    "ms": "phyB"
+   },
+   {
+    "zh": "phyC",
+    "en": "phyC",
+    "ms": "phyC"
+   },
+   {
+    "zh": "全部",
+    "en": "All of them",
+    "ms": "Semuanya"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "phyA 光不稳定，负责 VLFR 和远红光 HIR；phyB–E 光下稳定。",
+   "en": "phyA is light-labile and handles VLFR and FR-HIR; phyB–E are light-stable.",
+   "ms": "phyA labil cahaya dan mengendalikan VLFR dan HIR-MJ; phyB–E stabil cahaya."
+  }
+ },
+ {
+  "stage": 5,
+  "chapter": "ch24",
+  "q": {
+   "zh": "为什么树冠下的植物会长得又高又细？",
+   "en": "Why do plants under a canopy grow tall and spindly?",
+   "ms": "Mengapa tumbuhan di bawah kanopi tumbuh tinggi dan kurus?"
+  },
+  "options": [
+   {
+    "zh": "那里温度高",
+    "en": "It is warmer there",
+    "ms": "Di situ lebih panas"
+   },
+   {
+    "zh": "光富含远红光（ζ 低），phyB 的 Pfr 减少，引起避荫反应",
+    "en": "The light is far-red-rich (low ζ), lowering phyB Pfr and triggering shade avoidance",
+    "ms": "Cahaya kaya merah jauh (ζ rendah), merendahkan Pfr phyB dan mencetuskan pengelakan teduhan"
+   },
+   {
+    "zh": "CO₂ 较多",
+    "en": "There is more CO₂",
+    "ms": "Lebih banyak CO₂"
+   },
+   {
+    "zh": "缺氮",
+    "en": "Nitrogen deficiency",
+    "ms": "Kekurangan nitrogen"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "叶片吸收红光、透过远红光，冠层下 ζ 可低到 0.05。",
+   "en": "Leaves absorb red and pass far-red; under a canopy ζ can fall to 0.05.",
+   "ms": "Daun menyerap merah dan melepaskan merah jauh; di bawah kanopi ζ boleh jatuh ke 0.05."
+  }
+ },
+ {
+  "stage": 5,
+  "chapter": "ch24",
+  "q": {
+   "zh": "隐花色素的色素团是什么？",
+   "en": "What are cryptochrome's chromophores?",
+   "ms": "Apakah kromofor kriptokrom?"
+  },
+  "options": [
+   {
+    "zh": "光敏色素胆素",
+    "en": "Phytochromobilin",
+    "ms": "Fitokromobilin"
+   },
+   {
+    "zh": "FAD 和蝶呤",
+    "en": "FAD and a pterin",
+    "ms": "FAD dan pterin"
+   },
+   {
+    "zh": "视黄醛",
+    "en": "Retinal",
+    "ms": "Retinal"
+   },
+   {
+    "zh": "叶绿素 a",
+    "en": "Chlorophyll a",
+    "ms": "Klorofil a"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "结构像 DNA 光裂合酶，结合 FAD 和蝶呤。",
+   "en": "Like DNA photolyase, it binds FAD and a pterin.",
+   "ms": "Seperti fotoliase DNA, ia mengikat FAD dan pterin."
+  }
+ },
+ {
+  "stage": 5,
+  "chapter": "ch25",
+  "q": {
+   "zh": "向光性的受体是？",
+   "en": "What is the photoreceptor for phototropism?",
+   "ms": "Apakah fotoreseptor fototropisme?"
+  },
+  "options": [
+   {
+    "zh": "光敏色素 B",
+    "en": "Phytochrome B",
+    "ms": "Fitokrom B"
+   },
+   {
+    "zh": "向光素（phot1、phot2）",
+    "en": "Phototropin (phot1, phot2)",
+    "ms": "Fototropin (phot1, phot2)"
+   },
+   {
+    "zh": "叶绿素",
+    "en": "Chlorophyll",
+    "ms": "Klorofil"
+   },
+   {
+    "zh": "UV-B 受体",
+    "en": "The UV-B receptor",
+    "ms": "Reseptor UV-B"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "向光性是蓝光反应，向光素有两个结合 FMN 的 LOV 结构域。",
+   "en": "Phototropism is a blue-light response; phototropin has two FMN-binding LOV domains.",
+   "ms": "Fototropisme ialah tindak balas cahaya biru; fototropin mempunyai dua domain LOV pengikat FMN."
+  }
+ },
+ {
+  "stage": 5,
+  "chapter": "ch25",
+  "q": {
+   "zh": "根横放时为什么往下弯？",
+   "en": "Why does a horizontal root bend downwards?",
+   "ms": "Mengapa akar mendatar membengkok ke bawah?"
+  },
+  "options": [
+   {
+    "zh": "下侧生长素较多，促进伸长",
+    "en": "More auxin on the lower side promotes elongation",
+    "ms": "Lebih banyak auksin di sisi bawah menggalakkan pemanjangan"
+   },
+   {
+    "zh": "下侧生长素较多，抑制根的伸长",
+    "en": "More auxin on the lower side inhibits root elongation",
+    "ms": "Lebih banyak auksin di sisi bawah merencat pemanjangan akar"
+   },
+   {
+    "zh": "上侧细胞死亡",
+    "en": "Upper cells die",
+    "ms": "Sel atas mati"
+   },
+   {
+    "zh": "重力直接把根拉下",
+    "en": "Gravity simply pulls it down",
+    "ms": "Graviti hanya menariknya ke bawah"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "根对生长素很敏感，同样的浓度在茎促进、在根抑制。",
+   "en": "Roots are very sensitive to auxin: a level that promotes shoot growth inhibits roots.",
+   "ms": "Akar sangat sensitif kepada auksin: paras yang menggalakkan pertumbuhan pucuk merencat akar."
+  }
+ },
+ {
+  "stage": 5,
+  "chapter": "ch25",
+  "q": {
+   "zh": "哪一项不是淀粉-平衡石假说的证据？",
+   "en": "Which is NOT evidence for the starch–statolith hypothesis?",
+   "ms": "Antara berikut, yang manakah BUKAN bukti hipotesis kanji–statolit?"
+  },
+  "options": [
+   {
+    "zh": "失去淀粉就失去向重力性",
+    "en": "Losing starch abolishes gravitropism",
+    "ms": "Kehilangan kanji menghapuskan gravitropisme"
+   },
+   {
+    "zh": "呈递时间与淀粉沉降速率相关",
+    "en": "Presentation time tracks starch sedimentation",
+    "ms": "Masa persembahan mengikut pemendapan kanji"
+   },
+   {
+    "zh": "磁场推动造粉体能引起弯曲",
+    "en": "Moving amyloplasts magnetically causes bending",
+    "ms": "Menggerakkan amiloplas secara magnet menyebabkan pembengkokan"
+   },
+   {
+    "zh": "蓝光的作用光谱在 450 nm 有峰",
+    "en": "The blue-light action spectrum peaks at 450 nm",
+    "ms": "Spektrum tindakan cahaya biru memuncak pada 450 nm"
+   }
+  ],
+  "answer": 3,
+  "why": {
+   "zh": "那是向光性的证据。",
+   "en": "That is evidence about phototropism.",
+   "ms": "Itu bukti tentang fototropisme."
+  }
+ },
+ {
+  "stage": 5,
+  "chapter": "ch25",
+  "q": {
+   "zh": "叶枕运动细胞的膨压变化主要来自哪种离子的移动？",
+   "en": "Turgor changes in pulvinus motor cells come mainly from the movement of which ion?",
+   "ms": "Perubahan turgor sel motor pulvinus datang terutamanya daripada pergerakan ion yang mana?"
+  },
+  "options": [
+   {
+    "zh": "Ca²⁺",
+    "en": "Ca²⁺",
+    "ms": "Ca²⁺"
+   },
+   {
+    "zh": "K⁺（由 Cl⁻ 平衡）",
+    "en": "K⁺ (balanced by Cl⁻)",
+    "ms": "K⁺ (diimbangi Cl⁻)"
+   },
+   {
+    "zh": "Na⁺",
+    "en": "Na⁺",
+    "ms": "Na⁺"
+   },
+   {
+    "zh": "NO₃⁻",
+    "en": "NO₃⁻",
+    "ms": "NO₃⁻"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "和气孔开关的原理相同。",
+   "en": "The same principle as stomatal movement.",
+   "ms": "Prinsip yang sama seperti pergerakan stoma."
+  }
+ },
+ {
+  "stage": 5,
+  "chapter": "ch26",
+  "q": {
+   "zh": "苍耳在 16 小时光照、8 小时黑暗下会开花吗？",
+   "en": "Will Xanthium flower on 16 hours light and 8 hours dark?",
+   "ms": "Adakah Xanthium berbunga pada 16 jam cahaya dan 8 jam gelap?"
+  },
+  "options": [
+   {
+    "zh": "会",
+    "en": "Yes",
+    "ms": "Ya"
+   },
+   {
+    "zh": "不会",
+    "en": "No",
+    "ms": "Tidak"
+   },
+   {
+    "zh": "只有加夜断才会",
+    "en": "Only with a night break",
+    "ms": "Hanya dengan gangguan malam"
+   },
+   {
+    "zh": "一定会，与光周期无关",
+    "en": "Always, regardless of photoperiod",
+    "ms": "Sentiasa, tanpa mengira fotoperiod"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "暗期 8 小时短于临界夜长 8.5 小时。",
+   "en": "An 8-hour night is shorter than the 8.5-hour critical night.",
+   "ms": "Malam 8 jam lebih pendek daripada malam kritikal 8.5 jam."
+  }
+ },
+ {
+  "stage": 5,
+  "chapter": "ch26",
+  "q": {
+   "zh": "在长夜中间用红光打断，短日植物会怎样？若之后立刻照远红光呢？",
+   "en": "A short-day plant gets a red night break mid-night. What happens — and if far-red follows straight after?",
+   "ms": "Tumbuhan hari pendek mendapat gangguan malam merah di tengah malam. Apa berlaku — dan jika merah jauh menyusul serta-merta?"
+  },
+  "options": [
+   {
+    "zh": "开花；照远红光后也开花",
+    "en": "It flowers; it still flowers after far-red",
+    "ms": "Ia berbunga; ia masih berbunga selepas merah jauh"
+   },
+   {
+    "zh": "不开花；照远红光后恢复开花",
+    "en": "It does not flower; after far-red it flowers again",
+    "ms": "Ia tidak berbunga; selepas merah jauh ia berbunga semula"
+   },
+   {
+    "zh": "不开花；照远红光后仍不开花",
+    "en": "It does not flower; far-red changes nothing",
+    "ms": "Ia tidak berbunga; merah jauh tidak mengubah apa-apa"
+   },
+   {
+    "zh": "立即开花",
+    "en": "It flowers at once",
+    "ms": "Ia berbunga serta-merta"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "红光/远红光可逆，表示光敏色素参与。",
+   "en": "Red/far-red reversibility shows phytochrome is involved.",
+   "ms": "Kebolehbalikan merah/merah jauh menunjukkan fitokrom terlibat."
+  }
+ },
+ {
+  "stage": 5,
+  "chapter": "ch26",
+  "q": {
+   "zh": "植物由哪个器官感受光周期？",
+   "en": "Which organ perceives the photoperiod?",
+   "ms": "Organ manakah yang mengesan fotoperiod?"
+  },
+  "options": [
+   {
+    "zh": "茎尖分生组织",
+    "en": "The shoot apical meristem",
+    "ms": "Meristem apeks pucuk"
+   },
+   {
+    "zh": "叶片",
+    "en": "The leaves",
+    "ms": "Daun"
+   },
+   {
+    "zh": "根",
+    "en": "The roots",
+    "ms": "Akar"
+   },
+   {
+    "zh": "花芽",
+    "en": "The flower buds",
+    "ms": "Tunas bunga"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "叶片感受，再把信号（成花素）送到顶端分生组织。",
+   "en": "Leaves perceive it and send a signal (florigen) to the apex.",
+   "ms": "Daun mengesannya dan menghantar isyarat (florigen) ke apeks."
+  }
+ },
+ {
+  "stage": 5,
+  "chapter": "ch26",
+  "q": {
+   "zh": "下列哪一项不是生物钟节律的特点？",
+   "en": "Which is NOT a feature of clock-driven rhythms?",
+   "ms": "Antara berikut, yang manakah BUKAN ciri irama dipacu jam?"
+  },
+  "options": [
+   {
+    "zh": "在恒定条件下持续",
+    "en": "They persist in constant conditions",
+    "ms": "Ia berterusan dalam keadaan malar"
+   },
+   {
+    "zh": "可被光或温度重设",
+    "en": "They can be reset by light or temperature",
+    "ms": "Ia boleh ditetapkan semula oleh cahaya atau suhu"
+   },
+   {
+    "zh": "周期随温度大幅改变",
+    "en": "Their period changes greatly with temperature",
+    "ms": "Tempohnya berubah besar dengan suhu"
+   },
+   {
+    "zh": "可被授时因子同步",
+    "en": "They can be entrained by a zeitgeber",
+    "ms": "Ia boleh diselaraskan oleh zeitgeber"
+   }
+  ],
+  "answer": 2,
+  "why": {
+   "zh": "生物钟有温度补偿，周期基本不随温度改变。",
+   "en": "The clock is temperature-compensated; its period hardly changes with temperature.",
+   "ms": "Jam berpampasan suhu; tempohnya hampir tidak berubah dengan suhu."
+  }
+ },
+ {
+  "stage": 5,
+  "chapter": "ch27",
+  "q": {
+   "zh": "C 类基因（AG）突变，花会长成什么？",
+   "en": "A class-C (AG) mutant flower has which whorls?",
+   "ms": "Bunga mutan kelas C (AG) mempunyai lingkaran apa?"
+  },
+  "options": [
+   {
+    "zh": "萼片-花瓣-花瓣-萼片",
+    "en": "Sepal–petal–petal–sepal",
+    "ms": "Sepal–kelopak–kelopak–sepal"
+   },
+   {
+    "zh": "心皮-雄蕊-雄蕊-心皮",
+    "en": "Carpel–stamen–stamen–carpel",
+    "ms": "Karpel–stamen–stamen–karpel"
+   },
+   {
+    "zh": "萼片-萼片-心皮-心皮",
+    "en": "Sepal–sepal–carpel–carpel",
+    "ms": "Sepal–sepal–karpel–karpel"
+   },
+   {
+    "zh": "全部是叶",
+    "en": "All leaves",
+    "ms": "Semuanya daun"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "没有 C，A 扩展到内两轮：第 3 轮 A+B=花瓣，第 4 轮 A=萼片。",
+   "en": "Without C, A spreads inwards: whorl 3 is A+B = petal, whorl 4 A = sepal.",
+   "ms": "Tanpa C, A merebak ke dalam: lingkaran 3 ialah A+B = kelopak, lingkaran 4 A = sepal."
+  }
+ },
+ {
+  "stage": 5,
+  "chapter": "ch27",
+  "q": {
+   "zh": "烟草（短日）与天仙子（长日）嫁接实验说明了什么？",
+   "en": "What do the tobacco (SD) × henbane (LD) grafts show?",
+   "ms": "Apakah yang ditunjukkan oleh cantuman tembakau (HP) × henbane (HPj)?"
+  },
+  "options": [
+   {
+    "zh": "两者的成花信号完全不同",
+    "en": "Their flowering signals are completely different",
+    "ms": "Isyarat pembungaannya berbeza sama sekali"
+   },
+   {
+    "zh": "最终的成花信号在生理上是相同的，可穿过嫁接口",
+    "en": "The final floral signal is physiologically equivalent and crosses the graft",
+    "ms": "Isyarat bunga akhir setara secara fisiologi dan merentasi cantuman"
+   },
+   {
+    "zh": "开花与叶片无关",
+    "en": "Flowering does not involve leaves",
+    "ms": "Pembungaan tidak melibatkan daun"
+   },
+   {
+    "zh": "赤霉素就是成花素",
+    "en": "Gibberellin is florigen",
+    "ms": "Giberelin ialah florigen"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "诱导中的一方能让另一方在“错误”的光周期下开花。",
+   "en": "The induced partner makes the other flower under its ‘wrong’ photoperiod.",
+   "ms": "Pasangan yang diaruh menjadikan yang lain berbunga di bawah fotoperiod ‘salah’nya."
+  }
+ },
+ {
+  "stage": 5,
+  "chapter": "ch27",
+  "q": {
+   "zh": "禾谷类春化后，哪个基因被表达、进而解除对 VRN3（FT）的抑制？",
+   "en": "After vernalisation in cereals, which gene is expressed and so releases VRN3 (FT)?",
+   "ms": "Selepas pemvernalan dalam bijirin, gen manakah yang diekspresikan dan dengan itu membebaskan VRN3 (FT)?"
+  },
+  "options": [
+   {
+    "zh": "VRN2",
+    "en": "VRN2",
+    "ms": "VRN2"
+   },
+   {
+    "zh": "VRN1",
+    "en": "VRN1",
+    "ms": "VRN1"
+   },
+   {
+    "zh": "FLC",
+    "en": "FLC",
+    "ms": "FLC"
+   },
+   {
+    "zh": "CO",
+    "en": "CO",
+    "ms": "CO"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "VRN1 阻止抑制者 VRN2 的表达，VRN3 才能诱导开花。",
+   "en": "VRN1 blocks expression of the repressor VRN2, letting VRN3 induce flowering.",
+   "ms": "VRN1 menyekat ekspresi penindas VRN2, membenarkan VRN3 mengaruh pembungaan."
+  }
+ },
+ {
+  "stage": 5,
+  "chapter": "ch27",
+  "q": {
+   "zh": "春化由哪个部位感受？",
+   "en": "Which part of the plant perceives vernalisation?",
+   "ms": "Bahagian tumbuhan manakah yang mengesan pemvernalan?"
+  },
+  "options": [
+   {
+    "zh": "成熟叶片",
+    "en": "Mature leaves",
+    "ms": "Daun matang"
+   },
+   {
+    "zh": "茎顶端",
+    "en": "The shoot apex",
+    "ms": "Apeks pucuk"
+   },
+   {
+    "zh": "根",
+    "en": "The roots",
+    "ms": "Akar"
+   },
+   {
+    "zh": "花",
+    "en": "The flowers",
+    "ms": "Bunga"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "与光周期不同：光周期由叶片感受，春化由茎顶端感受。",
+   "en": "Unlike photoperiod (leaves), vernalisation is perceived by the shoot apex.",
+   "ms": "Tidak seperti fotoperiod (daun), pemvernalan dikesan oleh apeks pucuk."
+  }
+ },
+ {
+  "stage": 5,
+  "chapter": "ch28",
+  "q": {
+   "zh": "草甘膦抑制哪一个酶？",
+   "en": "Which enzyme does glyphosate inhibit?",
+   "ms": "Enzim manakah yang direncat oleh glifosat?"
+  },
+  "options": [
+   {
+    "zh": "PAL",
+    "en": "PAL",
+    "ms": "PAL"
+   },
+   {
+    "zh": "EPSP 合酶（莽草酸途径）",
+    "en": "EPSP synthase (shikimate pathway)",
+    "ms": "EPSP sintase (laluan shikimat)"
+   },
+   {
+    "zh": "查耳酮合酶",
+    "en": "Chalcone synthase",
+    "ms": "Kalkon sintase"
+   },
+   {
+    "zh": "rubisco",
+    "en": "Rubisco",
+    "ms": "Rubisco"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "阻断莽草酸途径，芳香族氨基酸就合成不了。",
+   "en": "It blocks the shikimate pathway, so aromatic amino acids cannot be made.",
+   "ms": "Ia menyekat laluan shikimat, jadi asid amino aromatik tidak dapat dibuat."
+  }
+ },
+ {
+  "stage": 5,
+  "chapter": "ch28",
+  "q": {
+   "zh": "酚类合成的入口酶是？",
+   "en": "The entry enzyme of phenolic synthesis is…",
+   "ms": "Enzim pintu masuk sintesis fenolik ialah…"
+  },
+  "options": [
+   {
+    "zh": "苯丙氨酸解氨酶（PAL）",
+    "en": "Phenylalanine ammonia-lyase (PAL)",
+    "ms": "Fenilalanina amonia-liase (PAL)"
+   },
+   {
+    "zh": "ACC 合成酶",
+    "en": "ACC synthase",
+    "ms": "ACC sintase"
+   },
+   {
+    "zh": "NCED",
+    "en": "NCED",
+    "ms": "NCED"
+   },
+   {
+    "zh": "IPT",
+    "en": "IPT",
+    "ms": "IPT"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "PAL 把苯丙氨酸脱氨成肉桂酸。",
+   "en": "PAL deaminates phenylalanine to cinnamic acid.",
+   "ms": "PAL menyahaminasi fenilalanina kepada asid sinamik."
+  }
+ },
+ {
+  "stage": 5,
+  "chapter": "ch28",
+  "q": {
+   "zh": "生物碱有什么共同特点？",
+   "en": "What do alkaloids have in common?",
+   "ms": "Apakah persamaan alkaloid?"
+  },
+  "options": [
+   {
+    "zh": "都是萜类",
+    "en": "They are all terpenes",
+    "ms": "Semuanya terpena"
+   },
+   {
+    "zh": "含氮、溶于水、生物活性高",
+    "en": "They contain nitrogen, are water-soluble and highly active",
+    "ms": "Ia mengandungi nitrogen, larut air dan sangat aktif"
+   },
+   {
+    "zh": "都是糖苷",
+    "en": "They are all glycosides",
+    "ms": "Semuanya glikosida"
+   },
+   {
+    "zh": "都带颜色",
+    "en": "They are all coloured",
+    "ms": "Semuanya berwarna"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "例如吗啡、可待因、毒芹碱。",
+   "en": "Morphine, codeine and coniine, for example.",
+   "ms": "Morfin, kodeina dan koniina, contohnya."
+  }
+ }
+]

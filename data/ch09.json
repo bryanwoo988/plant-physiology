@@ -1,0 +1,405 @@
+{
+ "id": "ch09",
+ "num": 9,
+ "stage": 2,
+ "title": {
+  "zh": "光合产物的分配与运输",
+  "en": "Allocation and translocation of photoassimilates",
+  "ms": "Peruntukan dan translokasi fotoasimilat"
+ },
+ "sources": [
+  "HH",
+  "LEC"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "淀粉还是蔗糖？",
+    "en": "Starch or sucrose?",
+    "ms": "Kanji atau sukrosa?"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "卡尔文循环做出来的丙糖磷酸，要决定变成叶绿体里的淀粉，还是细胞质里的蔗糖。这个决定叫{{t:allocation}}。",
+      "en": "The triose phosphate made by the Calvin cycle must be turned either into starch in the chloroplast or into sucrose in the cytosol. That decision is {{t:allocation}}.",
+      "ms": "Triosa fosfat yang dihasilkan oleh kitaran Calvin mesti ditukar sama ada kepada kanji dalam kloroplas atau kepada sukrosa dalam sitosol. Keputusan itu ialah {{t:allocation}}."
+     },
+     "defines": [
+      "allocation"
+     ],
+     "src": [
+      "HH:152",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "淀粉在叶绿体里合成：葡萄糖-1-磷酸和 ATP 由 ADP-葡萄糖焦磷酸化酶变成 ADP-葡萄糖（葡萄糖的活化形式），淀粉合酶接成 α-(1,4) 链，分支酶加上 α-(1,6) 分支。淀粉不溶于水，大量累积也不会造成渗透压问题。",
+      "en": "Starch is made in the chloroplast: glucose-1-phosphate and ATP become ADP-glucose (activated glucose) through ADP-glucose pyrophosphorylase; starch synthase joins α-(1,4) chains, and branching enzyme adds α-(1,6) branches. Starch is insoluble, so it can build up without osmotic consequences.",
+      "ms": "Kanji dibuat dalam kloroplas: glukosa-1-fosfat dan ATP menjadi ADP-glukosa (glukosa teraktif) melalui ADP-glukosa pirofosforilase; kanji sintase menyambung rantai α-(1,4), dan enzim pencabangan menambah cabang α-(1,6). Kanji tidak larut, jadi ia boleh terkumpul tanpa kesan osmotik."
+     },
+     "src": [
+      "HH:152-153",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "蔗糖在细胞质里合成：丙糖磷酸经由叶绿体内膜上的“丙糖磷酸/Pi 转运体”一对一换出 Pi 运出，再经果糖-1,6-二磷酸 → 果糖-6-磷酸，另一边做成 UDP-葡萄糖；蔗糖磷酸合酶把两者接成蔗糖-6-磷酸，蔗糖磷酸磷酸酶再去掉磷酸。蔗糖合酶的那条路（UDP-葡萄糖 + 果糖）ΔG ≈ +14 kJ，正常情况下是反方向工作，用来分解蔗糖。",
+      "en": "Sucrose is made in the cytosol. Triose phosphate leaves the chloroplast through the triose phosphate/Pi translocator, which swaps it one-for-one with Pi; it becomes fructose-1,6-bisphosphate, then fructose-6-phosphate, while UDP-glucose is made on the other side. Sucrose phosphate synthase joins them into sucrose-6-phosphate, and sucrose phosphate phosphatase removes the phosphate. The sucrose synthase route (UDP-glucose + fructose) has ΔG ≈ +14 kJ and normally runs backwards, breaking sucrose down.",
+      "ms": "Sukrosa dibuat dalam sitosol. Triosa fosfat keluar dari kloroplas melalui translokator triosa fosfat/Pi, yang menukarnya satu-dengan-satu dengan Pi; ia menjadi fruktosa-1,6-bisfosfat, kemudian fruktosa-6-fosfat, manakala UDP-glukosa dibuat di sebelah lain. Sukrosa fosfat sintase menggabungkannya menjadi sukrosa-6-fosfat, dan sukrosa fosfat fosfatase membuang fosfat. Laluan sukrosa sintase (UDP-glukosa + fruktosa) mempunyai ΔG ≈ +14 kJ dan biasanya berjalan ke belakang, menguraikan sukrosa."
+     },
+     "src": [
+      "HH:153-155",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "两者怎样竞争？关键调节物是果糖-2,6-二磷酸：它抑制细胞质的果糖-1,6-二磷酸磷酸酶（FBPase）。当蔗糖用得少、累积起来时，F-2,6-BP 增加，蔗糖合成放慢，丙糖磷酸和 Pi 的比例改变，丙糖磷酸留在叶绿体里，于是转去合成淀粉。所以白天叶片常先存淀粉，晚上再把它分解、做成蔗糖运走。",
+      "en": "How do the two compete? A key regulator is fructose-2,6-bisphosphate, which inhibits the cytosolic fructose-1,6-bisphosphatase (FBPase). When sucrose use slows and it builds up, F-2,6-BP rises, sucrose synthesis slows, the triose-P/Pi balance shifts, triose phosphate stays in the chloroplast and is diverted into starch. Leaves therefore often store starch by day and break it down to make and export sucrose at night.",
+      "ms": "Bagaimana kedua-duanya bersaing? Pengawal atur utama ialah fruktosa-2,6-bisfosfat, yang merencat fruktosa-1,6-bisfosfatase (FBPase) sitosol. Apabila penggunaan sukrosa perlahan dan ia terkumpul, F-2,6-BP meningkat, sintesis sukrosa perlahan, imbangan triosa-P/Pi berubah, triosa fosfat kekal dalam kloroplas dan dialihkan kepada kanji. Daun oleh itu sering menyimpan kanji pada siang hari dan menguraikannya untuk membuat dan mengeksport sukrosa pada waktu malam."
+     },
+     "src": [
+      "HH:154-156",
+      "LEC"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": {
+      "zh": "约 10 % 的陆生植物（包括一些重要的禾谷类作物）还会在液泡里把蔗糖接成果糖的聚合物——果聚糖，可累积到干重的 40 %。",
+      "en": "About 10 % of land plants, including some important cereals, also link sucrose into fructose polymers — fructans — in the vacuole, reaching up to 40 % of dry weight.",
+      "ms": "Kira-kira 10 % tumbuhan darat, termasuk beberapa bijirin penting, juga menyambung sukrosa menjadi polimer fruktosa — fruktan — dalam vakuol, mencapai sehingga 40 % berat kering."
+     },
+     "src": [
+      "HH:156"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "糖走的是韧皮部",
+    "en": "Sugar travels in the phloem",
+    "ms": "Gula bergerak dalam floem"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "17 世纪 Malpighi 做了环剥实验：把树干剥掉一圈树皮（韧皮部在树皮里），环剥口上方的树皮会膨大——糖下不来。后来用 ¹⁴CO₂ 喂叶子，放射性很快出现在{{t:phloem}}中。从蚜虫口针收集韧皮部汁液（把正在吸食的蚜虫麻醉、切掉身体，口针会持续流出汁液）是分析其成分的好方法。",
+      "en": "In the 17th century Malpighi girdled trees, removing a ring of bark (where the phloem is): the bark above the girdle swelled, because sugar could not pass down. Later, leaves fed ¹⁴CO₂ quickly showed radioactivity in the {{t:phloem}}. Aphid stylets are a neat way to sample phloem sap: anaesthetise a feeding aphid, cut away its body, and the stylet keeps exuding sap.",
+      "ms": "Pada abad ke-17 Malpighi menggelang pokok, membuang gelang kulit kayu (tempat floem berada): kulit di atas gelang membengkak, kerana gula tidak dapat turun. Kemudian, daun yang diberi ¹⁴CO₂ dengan cepat menunjukkan keradioaktifan dalam {{t:phloem}}. Stilet afid ialah cara yang kemas untuk mengambil sampel sap floem: biuskan afid yang sedang makan, potong badannya, dan stilet terus meleleh sap."
+     },
+     "defines": [
+      "phloem"
+     ],
+     "src": [
+      "HH:156-158",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "韧皮部汁液的干物质约 80 % 是蔗糖（对 500 多种植物的调查）。为什么是蔗糖？它是非还原糖：没有游离的醛基或酮基，化学上稳定，不会在途中和其他物质反应。有些植物运送的是棉子糖系列（棉子糖、水苏糖、毛蕊花糖），在蔗糖上再接半乳糖。",
+      "en": "About 80 % of the dry matter of phloem sap is sucrose (a survey of over 500 species). Why sucrose? It is a non-reducing sugar, with no free aldehyde or ketone group, so it is chemically stable and does not react with other substances on the way. Some plants also carry the raffinose series (raffinose, stachyose, verbascose) — sucrose with galactose units added.",
+      "ms": "Kira-kira 80 % bahan kering sap floem ialah sukrosa (tinjauan lebih 500 spesies). Mengapa sukrosa? Ia gula bukan penurun, tanpa kumpulan aldehid atau keton bebas, jadi ia stabil dari segi kimia dan tidak bertindak balas dengan bahan lain dalam perjalanan. Sesetengah tumbuhan juga membawa siri rafinosa (rafinosa, stakiosa, verbaskosa) — sukrosa dengan unit galaktosa ditambah."
+     },
+     "src": [
+      "HH:158",
+      "LEC"
+     ]
+    },
+    {
+     "type": "table",
+     "src": [
+      "HH:159-161",
+      "LEC"
+     ],
+     "defines": [
+      "sieve-element",
+      "companion-cell"
+     ],
+     "caption": {
+      "zh": "韧皮部的两种主要细胞",
+      "en": "The two main cells of the phloem",
+      "ms": "Dua sel utama floem"
+     },
+     "headers": [
+      {
+       "zh": "特征",
+       "en": "Feature",
+       "ms": "Ciri"
+      },
+      {
+       "zh": "{{t:sieve-element}}",
+       "en": "{{t:sieve-element}}",
+       "ms": "{{t:sieve-element}}"
+      },
+      {
+       "zh": "{{t:companion-cell}}",
+       "en": "{{t:companion-cell}}",
+       "ms": "{{t:companion-cell}}"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "zh": "死活",
+        "en": "Alive?",
+        "ms": "Hidup?"
+       },
+       {
+        "zh": "活的，但高度简化",
+        "en": "Living, but stripped down",
+        "ms": "Hidup, tetapi sangat ringkas"
+       },
+       {
+        "zh": "活的，代谢旺盛",
+        "en": "Living and very active",
+        "ms": "Hidup dan sangat aktif"
+       }
+      ],
+      [
+       {
+        "zh": "胞内结构",
+        "en": "Contents",
+        "ms": "Kandungan"
+       },
+       {
+        "zh": "没有细胞核、液泡膜、核糖体、高尔基体",
+        "en": "No nucleus, tonoplast, ribosomes or Golgi",
+        "ms": "Tiada nukleus, tonoplas, ribosom atau Golgi"
+       },
+       {
+        "zh": "完整的细胞质和细胞器",
+        "en": "Full cytoplasm and organelles",
+        "ms": "Sitoplasma dan organel lengkap"
+       }
+      ],
+      [
+       {
+        "zh": "连接",
+        "en": "Connections",
+        "ms": "Sambungan"
+       },
+       {
+        "zh": "端壁成筛板，以大孔首尾相连成筛管",
+        "en": "End walls are sieve plates, joined into sieve tubes through large pores",
+        "ms": "Dinding hujung ialah plat tapis, bersambung menjadi tiub tapis melalui liang besar"
+       },
+       {
+        "zh": "与筛分子之间有大量胞间连丝",
+        "en": "Linked to its sieve element by many plasmodesmata",
+        "ms": "Dihubungkan kepada unsur tapisnya oleh banyak plasmodesmata"
+       }
+      ],
+      [
+       {
+        "zh": "关系",
+        "en": "Relationship",
+        "ms": "Hubungan"
+       },
+       {
+        "zh": "靠伴胞维持生命",
+        "en": "Kept alive by the companion cell",
+        "ms": "Dikekalkan hidup oleh sel rakan"
+       },
+       {
+        "zh": "筛管死了，伴胞也跟着死",
+        "en": "Dies when its sieve tube dies",
+        "ms": "Mati apabila tiub tapisnya mati"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "筛管受伤时有两道“止血”机制：P 蛋白会被冲到筛板上把孔堵住；筛孔周围还会迅速沉积胼胝质（β-1,3-葡聚糖）。这样可以保住筛管的压力，减少汁液流失。",
+      "en": "Damaged sieve tubes have two ways of stopping the leak: P-protein is swept against the sieve plates and plugs the pores, and callose (a β-1,3-glucan) is rapidly deposited around them. This preserves the pressure in the sieve tubes and limits the loss of sap.",
+      "ms": "Tiub tapis yang rosak mempunyai dua cara menghentikan kebocoran: protein-P disapu ke plat tapis dan menyumbat liang, dan kalos (β-1,3-glukan) dimendapkan dengan cepat di sekelilingnya. Ini mengekalkan tekanan dalam tiub tapis dan mengehadkan kehilangan sap."
+     },
+     "src": [
+      "HH:160-161"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "压力流：从源到库",
+    "en": "Pressure flow: from source to sink",
+    "ms": "Aliran tekanan: dari sumber ke sinki"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "产出糖的器官叫{{t:source}}（例如成熟的叶子），用掉或贮存糖的叫{{t:sink}}（根、果实、种子、幼叶）。任何韧皮部运输理论都要解释：筛板的阻力、50–250 cm/h 的快速运输、同一时间不同筛管往不同方向运送、装载和卸载。",
+      "en": "An organ that produces sugar is a {{t:source}} (a mature leaf, for instance); one that uses or stores it is a {{t:sink}} (roots, fruits, seeds, young leaves). A theory of phloem transport must explain the resistance of sieve plates, rapid rates of 50–250 cm/h, transport in different directions in different sieve tubes at the same time, and loading and unloading.",
+      "ms": "Organ yang menghasilkan gula ialah {{t:source}} (contohnya daun matang); yang menggunakan atau menyimpannya ialah {{t:sink}} (akar, buah, biji, daun muda). Teori pengangkutan floem mesti menerangkan rintangan plat tapis, kadar pantas 50–250 cm/j, pengangkutan ke arah berbeza dalam tiub tapis berbeza pada masa yang sama, serta pemuatan dan pemunggahan."
+     },
+     "defines": [
+      "source",
+      "sink"
+     ],
+     "src": [
+      "HH:161",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "被广泛接受的是 Münch 的{{t:pressure-flow}}学说：在源端，糖被装进筛管，筛管的水势下降，水从旁边的木质部渗进来，膨压升高；在库端，糖被卸出，水势回升，水离开，膨压下降。两端的膨压差推动整柱溶液集流，糖被动地随水走。能量只花在装载和卸载上，以及维持筛管细胞活着。",
+      "en": "The accepted explanation is Münch's {{t:pressure-flow}} hypothesis. At the source, sugar is loaded into the sieve tubes, lowering their water potential; water enters from the neighbouring xylem and turgor rises. At the sink, sugar is unloaded, water potential rises, water leaves and turgor falls. The turgor difference between the two ends drives bulk flow of the whole solution, and the sugar is carried passively with the water. Energy is spent only on loading and unloading and on keeping the sieve tubes alive.",
+      "ms": "Penjelasan yang diterima ialah hipotesis {{t:pressure-flow}} Münch. Di sumber, gula dimuatkan ke dalam tiub tapis, merendahkan keupayaan airnya; air masuk dari xilem berjiran dan turgor meningkat. Di sinki, gula dipunggah, keupayaan air meningkat, air keluar dan turgor jatuh. Perbezaan turgor antara kedua-dua hujung memacu aliran pukal seluruh larutan, dan gula dibawa secara pasif bersama air. Tenaga hanya digunakan untuk pemuatan dan pemunggahan serta mengekalkan tiub tapis hidup."
+     },
+     "defines": [
+      "pressure-flow"
+     ],
+     "src": [
+      "HH:161-163",
+      "LEC"
+     ]
+    },
+    {
+     "type": "widget",
+     "id": "W9"
+    },
+    {
+     "type": "note",
+     "kind": "key",
+     "text": {
+      "zh": "压力流最直接的证据：从蚜虫口针可以连续好几天流出汁液，说明筛管里确实有正压。计算显示，10 % 蔗糖溶液在筛管里以 100 cm/h 流动，只需要每米约 0.06 MPa 的压力降，实测的压力差足够。",
+      "en": "The most direct evidence: sap keeps exuding from aphid stylets for days, so the sieve tubes are under positive pressure. Calculations show that a 10 % sucrose solution flowing at 100 cm/h through a sieve tube needs a pressure drop of only about 0.06 MPa per metre, well within the measured differences.",
+      "ms": "Bukti paling langsung: sap terus meleleh dari stilet afid selama berhari-hari, jadi tiub tapis berada di bawah tekanan positif. Pengiraan menunjukkan larutan sukrosa 10 % yang mengalir pada 100 cm/j melalui tiub tapis hanya memerlukan penurunan tekanan kira-kira 0.06 MPa bagi setiap meter, jauh dalam lingkungan perbezaan yang diukur."
+     },
+     "src": [
+      "HH:162-163"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "装载与卸载",
+    "en": "Loading and unloading",
+    "ms": "Pemuatan dan pemunggahan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:phloem-loading}}是把同化物从叶肉细胞送进筛分子–伴胞复合体。有两条路：共质体途径经胞间连丝一路走；质外体途径则先把蔗糖释放到细胞壁，再由伴胞或筛分子膜上的蔗糖–H⁺ 同向转运体吸进去，这一步逆浓度梯度、耗能——证据之一是吸收糖时外面溶液的 pH 会升高（H⁺ 跟着糖一起进去了）。",
+      "en": "{{t:phloem-loading}} moves assimilate from mesophyll cells into the sieve element–companion cell complex. There are two routes: the symplastic route, through plasmodesmata all the way, and the apoplastic route, in which sucrose is first released into the cell walls and then taken up by sucrose–H⁺ symporters in the membranes of companion cells or sieve elements. That step runs against the concentration gradient and costs energy; one piece of evidence is that the outside solution becomes more alkaline as sugar is taken up — H⁺ goes in with it.",
+      "ms": "{{t:phloem-loading}} menggerakkan asimilat dari sel mesofil ke dalam kompleks unsur tapis–sel rakan. Ada dua laluan: laluan simplas, melalui plasmodesmata sepanjang jalan, dan laluan apoplas, di mana sukrosa mula-mula dibebaskan ke dinding sel dan kemudian diambil oleh simporter sukrosa–H⁺ dalam membran sel rakan atau unsur tapis. Langkah itu melawan kecerunan kepekatan dan memerlukan tenaga; salah satu buktinya ialah larutan luar menjadi lebih beralkali apabila gula diambil — H⁺ masuk bersamanya."
+     },
+     "defines": [
+      "phloem-loading"
+     ],
+     "src": [
+      "HH:163-165",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "卸载是糖从筛管送到库细胞。在有的库里（例如正在生长的根尖和幼叶）糖经胞间连丝直接进入共质体，不需要耗能载体；在另一些库里（例如贮存蔗糖的甘蔗茎、发育中的种子）糖先进入质外体，这时可能需要耗能的载体，或由细胞壁上的酸性转化酶把蔗糖切成葡萄糖和果糖，维持浓度梯度。",
+      "en": "Unloading moves sugar from the sieve tube into the sink cells. In some sinks — growing root tips and young leaves — sugar passes directly into the symplast through plasmodesmata, with no energy-dependent carrier. In others — the sucrose-storing stems of sugarcane, developing seeds — it first enters the apoplast; there energy-dependent carriers may be involved, or a cell-wall acid invertase splits sucrose into glucose and fructose, keeping the gradient steep.",
+      "ms": "Pemunggahan menggerakkan gula dari tiub tapis ke dalam sel sinki. Dalam sesetengah sinki — hujung akar yang sedang tumbuh dan daun muda — gula terus masuk ke simplas melalui plasmodesmata, tanpa pembawa bergantung tenaga. Dalam sinki lain — batang tebu yang menyimpan sukrosa, biji yang sedang berkembang — ia mula-mula memasuki apoplas; di situ pembawa bergantung tenaga mungkin terlibat, atau invertase asid dinding sel memecahkan sukrosa kepada glukosa dan fruktosa, mengekalkan kecerunan yang curam."
+     },
+     "src": [
+      "HH:165-166",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "heading": {
+    "zh": "谁分到多少：分配与库强",
+    "en": "Who gets how much: partitioning and sink strength",
+    "ms": "Siapa dapat berapa: pembahagian dan kekuatan sinki"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "一片叶子的同化物有几种用途：叶片自己的代谢和维持、短期贮存（以便夜间继续供应——光合作用只在白天，生长却 24 小时进行），以及输出。新同化的碳大约一半被分配去输出。幼叶本身是库，酸性转化酶活性高；长大到约一半大小时才转变成源。",
+      "en": "A leaf's assimilate has several uses: its own metabolism and maintenance, short-term storage (to keep supplying at night — photosynthesis happens only by day, growth goes on for 24 hours) and export. About half the newly fixed carbon is allocated to export. Young leaves are sinks themselves, with high acid invertase activity, becoming sources only as they mature.",
+      "ms": "Asimilat daun mempunyai beberapa kegunaan: metabolisme dan penyelenggaraannya sendiri, penyimpanan jangka pendek (untuk terus membekal pada waktu malam — fotosintesis hanya berlaku pada siang hari, pertumbuhan berterusan 24 jam) dan eksport. Kira-kira separuh karbon yang baru diikat diperuntukkan untuk eksport. Daun muda ialah sinki sendiri, dengan aktiviti invertase asid yang tinggi, hanya menjadi sumber apabila matang."
+     },
+     "src": [
+      "HH:166-168",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "同化物在各个库之间怎么分，叫{{t:partitioning}}。方向和多寡取决于{{t:sink-strength}} = 库容量（库的总质量）× 库活性（单位干重、单位时间的吸收速率）。距离也有影响：同化物偏向运往最近的库——靠近顶端的源叶主要供应茎尖，靠近基部的老叶主要供应根；这种偏向甚至能压过库的大小。",
+      "en": "How assimilate is divided among the sinks is {{t:partitioning}}. Its direction and amounts depend on {{t:sink-strength}} = sink size (total mass) × sink activity (rate of uptake per unit dry weight per unit time). Distance matters too: assimilate is biased towards the nearest sink — source leaves near the top mainly supply the shoot apex, older leaves near the base mainly the roots — and this bias can outweigh even sink size.",
+      "ms": "Bagaimana asimilat dibahagikan antara sinki ialah {{t:partitioning}}. Arah dan jumlahnya bergantung pada {{t:sink-strength}} = saiz sinki (jumlah jisim) × aktiviti sinki (kadar pengambilan per unit berat kering per unit masa). Jarak juga penting: asimilat cenderung ke sinki terdekat — daun sumber berhampiran puncak terutamanya membekalkan apeks pucuk, daun tua berhampiran pangkal terutamanya akar — dan kecenderungan ini boleh mengatasi saiz sinki."
+     },
+     "defines": [
+      "partitioning",
+      "sink-strength"
+     ],
+     "src": [
+      "HH:166-169",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "这对农业很重要：种玉米的人希望多分给籽粒，种菠菜的人希望多留在叶子。可收获部分占总生物量的比例叫{{t:harvest-index}}；传统上靠育种和选择来提高：小麦和玉米的野生祖先穗子稀疏、种子很小。",
+      "en": "This matters in farming: a maize grower wants more sent to the grain, a spinach grower wants more kept in the leaves. The ratio of the usable part to total biomass is the {{t:harvest-index}}; it has traditionally been raised by breeding and selection — the wild ancestors of wheat and maize bore sparse heads of small seeds.",
+      "ms": "Ini penting dalam pertanian: penanam jagung mahu lebih banyak dihantar ke bijirin, penanam bayam mahu lebih banyak disimpan dalam daun. Nisbah bahagian berguna kepada jumlah biojisim ialah {{t:harvest-index}}; ia secara tradisi ditingkatkan melalui pembiakbakaan dan pemilihan — moyang liar gandum dan jagung menghasilkan tangkai jarang dengan biji kecil."
+     },
+     "defines": [
+      "harvest-index"
+     ],
+     "src": [
+      "HH:169",
+      "LEC"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "allocation",
+  "phloem",
+  "sieve-element",
+  "companion-cell",
+  "source",
+  "sink",
+  "pressure-flow",
+  "phloem-loading",
+  "partitioning",
+  "sink-strength",
+  "harvest-index"
+ ]
+}

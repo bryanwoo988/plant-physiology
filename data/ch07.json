@@ -1,0 +1,391 @@
+{
+ "id": "ch07",
+ "num": 7,
+ "stage": 2,
+ "title": {
+  "zh": "光反应：捕捉光能",
+  "en": "The light reactions: harvesting light",
+  "ms": "Tindak balas cahaya: menuai tenaga cahaya"
+ },
+ "sources": [
+  "HH",
+  "LEC"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "叶片：为光而设计",
+    "en": "The leaf: built for light",
+    "ms": "Daun: direka untuk cahaya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "光合作用把光能变成稳定的化学能，并把 CO₂ 还原成碳水化合物。绿色植物、绿藻（真核）和蓝细菌（原核）都能进行。它分两段：依赖光的反应（本章）和把 CO₂ 还原成糖的碳反应（第 8 章）。",
+      "en": "Photosynthesis turns light energy into stable chemical energy and reduces CO₂ to carbohydrate. Green plants, green algae (eukaryotes) and cyanobacteria (prokaryotes) all do it. It has two parts: the light-dependent reactions (this chapter) and the carbon reactions that reduce CO₂ to sugar (Chapter 8).",
+      "ms": "Fotosintesis menukar tenaga cahaya kepada tenaga kimia yang stabil dan menurunkan CO₂ kepada karbohidrat. Tumbuhan hijau, alga hijau (eukariot) dan sianobakteria (prokariot) semuanya melakukannya. Ia ada dua bahagian: tindak balas bergantung cahaya (bab ini) dan tindak balas karbon yang menurunkan CO₂ kepada gula (Bab 8)."
+     },
+     "src": [
+      "HH:109-110",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "双子叶植物的叶子里，上表皮下面是 1–3 层排得紧密的栅栏组织，再下面是排列疏松、间隙很多的海绵组织，两者合称{{t:mesophyll}}。单子叶植物（例如禾本科）的叶肉则没有栅栏和海绵之分。",
+      "en": "In a dicot leaf, below the upper epidermis lie one to three layers of tightly packed palisade cells, and below them the loosely arranged, airy spongy cells; together they make up the {{t:mesophyll}}. In monocots such as grasses the mesophyll is not divided into palisade and spongy layers.",
+      "ms": "Dalam daun dikotiledon, di bawah epidermis atas terdapat satu hingga tiga lapisan sel palisad yang tersusun rapat, dan di bawahnya sel span yang tersusun longgar dan berongga; bersama-sama ia membentuk {{t:mesophyll}}. Dalam monokotiledon seperti rumput, mesofil tidak dibahagikan kepada lapisan palisad dan span."
+     },
+     "defines": [
+      "mesophyll"
+     ],
+     "src": [
+      "HH:110-111",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "一个光子进入叶子后，可能被叶绿体吸收，也可能从叶绿体之间的空隙直接穿过（筛效应）。折射、散射和反射会让光在叶内绕路，增加被吸收的机会。实验发现叶片吸收的光比预期少：栅栏细胞像光纤一样把光往下导，而上层光合作用往往已饱和，再多的光反而有害。针叶则以减少光捕获为代价，换来较大的表面积与体积比。",
+      "en": "A photon entering a leaf may be absorbed by a chloroplast or may slip through the gaps between chloroplasts (the sieve effect). Refraction, scattering and reflection send light on longer paths inside the leaf, raising its chance of absorption. Measurements show leaves absorb less light than expected: palisade cells act as light guides, channelling light deeper, while the upper layers are often already light-saturated and more light would only do harm. Needle leaves trade some light capture for a larger surface-to-volume ratio.",
+      "ms": "Foton yang memasuki daun mungkin diserap oleh kloroplas atau mungkin melepasi celah antara kloroplas (kesan penapis). Pembiasan, penyerakan dan pantulan menghantar cahaya pada laluan lebih panjang di dalam daun, meningkatkan peluang penyerapan. Pengukuran menunjukkan daun menyerap kurang cahaya daripada jangkaan: sel palisad bertindak sebagai pemandu cahaya, menyalurkan cahaya lebih dalam, manakala lapisan atas selalunya sudah tepu cahaya dan lebih banyak cahaya hanya mendatangkan mudarat. Daun jarum mengorbankan sedikit penangkapan cahaya untuk nisbah permukaan kepada isi padu yang lebih besar."
+     },
+     "src": [
+      "HH:110-112",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "光合作用是一个氧化还原过程",
+    "en": "Photosynthesis is a redox process",
+    "ms": "Fotosintesis ialah proses redoks"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "1920 年代，van Niel 研究光合硫细菌，发现它们用 H₂S 而不是 H₂O，放出的是硫而不是氧。他把光合作用写成一般式：CO₂ + 2H₂A → (CH₂O) + 2A + H₂O。A 是氧的叫产氧型，不是氧的叫不产氧型。由此推论：植物放出的氧来自水，而不是 CO₂。",
+      "en": "In the 1920s van Niel studied photosynthetic sulphur bacteria, which use H₂S instead of H₂O and release sulphur instead of oxygen. He wrote photosynthesis in general form: CO₂ + 2H₂A → (CH₂O) + 2A + H₂O. Where A is oxygen it is oxygenic; otherwise anoxygenic. The inference: the oxygen plants release comes from water, not from CO₂.",
+      "ms": "Pada 1920-an van Niel mengkaji bakteria sulfur fotosintetik, yang menggunakan H₂S dan bukannya H₂O serta membebaskan sulfur dan bukannya oksigen. Beliau menulis fotosintesis dalam bentuk umum: CO₂ + 2H₂A → (CH₂O) + 2A + H₂O. Jika A ialah oksigen ia oksigenik; jika tidak, anoksigenik. Kesimpulannya: oksigen yang dibebaskan tumbuhan datang daripada air, bukan CO₂."
+     },
+     "src": [
+      "HH:112-113",
+      "LEC"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "Hill：分离的叶绿体在有人工电子受体时，照光就能放氧，即使没有 CO₂（希尔反应）——证明光反应和 CO₂ 还原可以分开。",
+       "en": "Hill: isolated chloroplasts given an artificial electron acceptor evolve oxygen in light even without CO₂ (the Hill reaction) — the light reactions can be separated from CO₂ reduction.",
+       "ms": "Hill: kloroplas terpencil yang diberi penerima elektron buatan membebaskan oksigen dalam cahaya walaupun tanpa CO₂ (tindak balas Hill) — tindak balas cahaya boleh dipisahkan daripada penurunan CO₂."
+      },
+      {
+       "zh": "Ruben 和 Kamen（1940 年代初）：用 ¹⁸O 标记，只有给 H₂¹⁸O 时放出的氧才带标记，给 C¹⁸O₂ 时不带——氧确实来自水。",
+       "en": "Ruben and Kamen (early 1940s): with ¹⁸O, labelled oxygen came out only when H₂¹⁸O was supplied, not C¹⁸O₂ — the oxygen does come from water.",
+       "ms": "Ruben dan Kamen (awal 1940-an): dengan ¹⁸O, oksigen berlabel keluar hanya apabila H₂¹⁸O dibekalkan, bukan C¹⁸O₂ — oksigen memang datang daripada air."
+      }
+     ],
+     "src": [
+      "HH:113-114",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "光系统：天线加反应中心",
+    "en": "Photosystems: antenna plus reaction centre",
+    "ms": "Fotosistem: antena dan pusat tindak balas"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "光合电子传递链由几个大型的膜蛋白复合体组成：光系统 II、细胞色素 b₆f 复合体、光系统 I，再加上 ATP 合酶。它们合作完成四件事：从水里抽出低能量的电子、用叶绿素捕捉光能、把电子的能量提高，最后造出强还原剂 NADPH。",
+      "en": "The photosynthetic electron transport chain is built from large membrane complexes: photosystem II, the cytochrome b₆f complex and photosystem I, plus ATP synthase. Together they extract low-energy electrons from water, trap light energy in chlorophyll, raise the electrons' energy and finally produce a strong reductant, NADPH.",
+      "ms": "Rantai pengangkutan elektron fotosintetik dibina daripada kompleks membran besar: fotosistem II, kompleks sitokrom b₆f dan fotosistem I, serta ATP sintase. Bersama-sama ia mengekstrak elektron bertenaga rendah daripada air, memerangkap tenaga cahaya dalam klorofil, menaikkan tenaga elektron dan akhirnya menghasilkan agen penurunan yang kuat, NADPH."
+     },
+     "src": [
+      "HH:114-116",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "每个{{t:photosystem}}都由天线和反应中心组成。天线（核心天线加上{{t:lhc}}）里的数百个色素分子负责吸光，并以诱导共振把能量一站站送到反应中心。LHCI 和 LHCII 合起来可占叶绿素的 70 %，叶绿素 b 大部分在 LHCII。{{t:reaction-center}}是一对特别的叶绿素 a，以吸收最强的波长命名：光系统 II 是 P680，光系统 I 是 P700。",
+      "en": "Each {{t:photosystem}} consists of an antenna and a reaction centre. The antenna — the core antenna plus the {{t:lhc}} — holds hundreds of pigment molecules that absorb light and pass the energy, by inductive resonance, towards the reaction centre. LHCI and LHCII together hold as much as 70 % of the chlorophyll, and most chlorophyll b is in LHCII. The {{t:reaction-center}} is a special pair of chlorophyll a molecules named after the wavelength they absorb best: P680 in photosystem II and P700 in photosystem I.",
+      "ms": "Setiap {{t:photosystem}} terdiri daripada antena dan pusat tindak balas. Antena — antena teras serta {{t:lhc}} — mengandungi ratusan molekul pigmen yang menyerap cahaya dan memindahkan tenaga, melalui resonans aruhan, ke arah pusat tindak balas. LHCI dan LHCII bersama-sama mengandungi sehingga 70 % klorofil, dan kebanyakan klorofil b berada dalam LHCII. {{t:reaction-center}} ialah pasangan khas molekul klorofil a yang dinamakan sempena panjang gelombang yang paling baik diserapnya: P680 dalam fotosistem II dan P700 dalam fotosistem I."
+     },
+     "defines": [
+      "photosystem",
+      "lhc",
+      "reaction-center"
+     ],
+     "src": [
+      "HH:114-117",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "电子的路线：Z 形图",
+    "en": "The path of electrons: the Z-scheme",
+    "ms": "Laluan elektron: skema Z"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "把各个载体按氧化还原电位排起来，电子的路线像一个躺着的 Z，叫{{t:z-scheme}}。考试常要求按顺序写出来：",
+      "en": "Laid out by redox potential, the electron carriers trace a sideways Z — the {{t:z-scheme}}. Exams often ask for the sequence:",
+      "ms": "Apabila disusun mengikut keupayaan redoks, pembawa elektron membentuk Z melintang — {{t:z-scheme}}. Peperiksaan sering meminta urutannya:"
+     },
+     "defines": [
+      "z-scheme"
+     ],
+     "src": [
+      "HH:116-120",
+      "LEC"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "光系统 II：激发能到达 P680 → P680*，把电子交给脱镁叶绿素（Pheo，第一个受体），P680 变成 P680⁺——这一步叫“电荷分离”，一个光子放出一个电子，光能变成化学能。",
+       "en": "Photosystem II: excitation reaches P680 → P680*, which gives an electron to pheophytin (Pheo, the primary acceptor), leaving P680⁺. This is charge separation: one photon, one electron — light energy becomes chemical energy.",
+       "ms": "Fotosistem II: pengujaan sampai ke P680 → P680*, yang memberi elektron kepada feofitin (Pheo, penerima primer), meninggalkan P680⁺. Inilah pemisahan cas: satu foton, satu elektron — tenaga cahaya menjadi tenaga kimia."
+      },
+      {
+       "zh": "Pheo⁻ 很快把电子交给醌 QA，以免和 P680⁺ 重新结合；QA 再交给结合在 D1 蛋白 QB 位点的质体醌（PQ）。PQ 接到两个电子、再从基质拿两个 H⁺，变成 PQH₂，离开 PSII。",
+       "en": "Pheo⁻ quickly passes the electron to the quinone QA, preventing recombination with P680⁺; QA passes it to plastoquinone (PQ) bound at the QB site of the D1 protein. After two electrons and two H⁺ from the stroma, PQ becomes PQH₂ and leaves PSII.",
+       "ms": "Pheo⁻ dengan cepat memindahkan elektron kepada kuinon QA, mengelakkan penggabungan semula dengan P680⁺; QA memindahkannya kepada plastokuinon (PQ) yang terikat pada tapak QB protein D1. Selepas dua elektron dan dua H⁺ dari stroma, PQ menjadi PQH₂ dan meninggalkan PSII."
+      },
+      {
+       "zh": "P680⁺ 是极强的氧化剂，从水抽电子。{{t:oec}}含四个锰离子，位于类囊体腔一侧：2 H₂O → O₂ + 4 H⁺ + 4 e⁻。反应中心要被“打开、关上”四次，即用四个光子，才放出一个 O₂。",
+       "en": "P680⁺ is an extremely strong oxidant that pulls electrons from water. The {{t:oec}}, with a cluster of four manganese ions on the lumen side, carries out 2 H₂O → O₂ + 4 H⁺ + 4 e⁻. The reaction centre must be ‘closed’ and ‘opened’ four times — four photons — to release one O₂.",
+       "ms": "P680⁺ ialah agen pengoksidaan yang sangat kuat yang menarik elektron daripada air. {{t:oec}}, dengan gugusan empat ion mangan di sebelah lumen, menjalankan 2 H₂O → O₂ + 4 H⁺ + 4 e⁻. Pusat tindak balas mesti ‘ditutup’ dan ‘dibuka’ empat kali — empat foton — untuk membebaskan satu O₂."
+      },
+      {
+       "zh": "细胞色素 b₆f 复合体：PQH₂ 把电子交给 Rieske 铁硫蛋白（FeS），再到细胞色素 f，再交给可移动的含铜小蛋白——质体蓝素（PC）。",
+       "en": "Cytochrome b₆f complex: PQH₂ hands electrons to the Rieske iron–sulphur protein (FeS), then to cytochrome f, then to the small mobile copper protein plastocyanin (PC).",
+       "ms": "Kompleks sitokrom b₆f: PQH₂ menyerahkan elektron kepada protein besi–sulfur Rieske (FeS), kemudian kepada sitokrom f, kemudian kepada protein kuprum kecil yang bergerak, plastosianin (PC)."
+      },
+      {
+       "zh": "光系统 I：激发能到达 P700 → P700*，电子交给初级受体 A₀（一个叶绿素 a），再经醌和几个铁硫中心，到基质中的可溶性铁硫蛋白——铁氧还蛋白（Fd，Em = −0.42 V）。P700⁺ 由 PC 补回电子。",
+       "en": "Photosystem I: excitation reaches P700 → P700*, which passes an electron to the primary acceptor A₀ (a chlorophyll a), then through a quinone and several FeS centres to the soluble FeS protein of the stroma, ferredoxin (Fd, Em = −0.42 V). PC refills P700⁺.",
+       "ms": "Fotosistem I: pengujaan sampai ke P700 → P700*, yang memindahkan elektron kepada penerima primer A₀ (klorofil a), kemudian melalui kuinon dan beberapa pusat FeS kepada protein FeS larut dalam stroma, feredoksin (Fd, Em = −0.42 V). PC mengisi semula P700⁺."
+      },
+      {
+       "zh": "铁氧还蛋白–NADP⁺ 氧化还原酶（FNR）用 Fd 的电子把 NADP⁺ 还原成 NADPH（Em = −0.32 V），NADPH 在基质里用于还原 CO₂。",
+       "en": "Ferredoxin–NADP⁺ oxidoreductase (FNR) uses electrons from Fd to reduce NADP⁺ to NADPH (Em = −0.32 V), which reduces CO₂ in the stroma.",
+       "ms": "Feredoksin–NADP⁺ oksidoreduktase (FNR) menggunakan elektron daripada Fd untuk menurunkan NADP⁺ kepada NADPH (Em = −0.32 V), yang menurunkan CO₂ dalam stroma."
+      }
+     ],
+     "ordered": true,
+     "defines": [
+      "oec"
+     ],
+     "src": [
+      "HH:116-120",
+      "LEC"
+     ]
+    },
+    {
+     "type": "widget",
+     "id": "W7"
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "每个电子要经过两次激发（PSII 一次、PSI 一次）。放一个 O₂ 要转移四个电子，所以至少需要 8 个光子，这叫量子需要量（8 光子/O₂）。被吸收的光能约有 32 % 保存在 NADPH 里；其余一部分在 PSII 和 PSI 之间“下坡”的电子传递中用来把质子送进类囊体腔，供合成 ATP。",
+      "en": "Each electron needs two excitations, one at PSII and one at PSI. Evolving one O₂ moves four electrons, so at least eight photons are needed — the quantum requirement of 8 photons per O₂. About 32 % of the absorbed light energy is conserved in NADPH; part of the rest is used, as electrons run ‘downhill’ between PSII and PSI, to move protons into the lumen for ATP synthesis.",
+      "ms": "Setiap elektron memerlukan dua pengujaan, satu di PSII dan satu di PSI. Membebaskan satu O₂ memindahkan empat elektron, jadi sekurang-kurangnya lapan foton diperlukan — keperluan kuantum 8 foton bagi setiap O₂. Kira-kira 32 % tenaga cahaya yang diserap disimpan dalam NADPH; sebahagian daripada bakinya digunakan, semasa elektron ‘menuruni bukit’ antara PSII dan PSI, untuk menggerakkan proton ke dalam lumen bagi sintesis ATP."
+     },
+     "src": [
+      "HH:119-120",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "heading": {
+    "zh": "光合磷酸化：非循环与循环",
+    "en": "Photophosphorylation: non-cyclic and cyclic",
+    "ms": "Fotofosforilasi: tak berkitar dan berkitar"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "光驱动的 ATP 合成叫{{t:photophosphorylation}}，按第 5 章的化学渗透机制进行。从水一路到 NADP⁺ 的电子流叫非循环（线性）电子传递，同时产生 ATP 和 NADPH。",
+      "en": "Light-driven ATP synthesis is {{t:photophosphorylation}}, working by the chemiosmotic mechanism of Chapter 5. Electron flow all the way from water to NADP⁺ is non-cyclic (linear) electron transport, and it yields both ATP and NADPH.",
+      "ms": "Sintesis ATP yang dipacu cahaya ialah {{t:photophosphorylation}}, berfungsi melalui mekanisme kemiosmosis Bab 5. Aliran elektron dari air hingga ke NADP⁺ ialah pengangkutan elektron tak berkitar (linear), dan ia menghasilkan ATP dan NADPH."
+     },
+     "defines": [
+      "photophosphorylation"
+     ],
+     "src": [
+      "HH:120",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "质子从哪里来？水氧化每 2 个电子在腔内放出 2 个 H⁺；PQH₂ 经细胞色素 b₆f 的 Q 循环，每 2 个电子再把 4 个 H⁺ 送进腔内。所以非循环电子传递每 2 个电子贡献 6 个 H⁺。一般认为每合成 1 个 ATP 要有 3 个 H⁺ 流过 CF₀–CF₁，因此理论上每产生 1 个 NADPH 约得 2 个 ATP。",
+      "en": "Where do the protons come from? Water oxidation releases 2 H⁺ into the lumen per pair of electrons, and the Q-cycle of the cytochrome b₆f complex moves another 4 H⁺ per pair. Non-cyclic transport therefore contributes 6 H⁺ per two electrons. Since about 3 H⁺ must pass through CF₀–CF₁ for each ATP, this predicts roughly 2 ATP per NADPH.",
+      "ms": "Dari mana datangnya proton? Pengoksidaan air membebaskan 2 H⁺ ke dalam lumen bagi setiap pasangan elektron, dan kitaran Q kompleks sitokrom b₆f memindahkan 4 H⁺ lagi bagi setiap pasangan. Oleh itu pengangkutan tak berkitar menyumbang 6 H⁺ bagi setiap dua elektron. Oleh sebab kira-kira 3 H⁺ mesti melalui CF₀–CF₁ bagi setiap ATP, ini meramalkan kira-kira 2 ATP bagi setiap NADPH."
+     },
+     "src": [
+      "HH:120-122",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "PSI 也可以单独运转：Fd 的电子不给 NADP⁺，而是送回 PQ 和细胞色素复合体，再经 PC 回到 P700，绕一圈。这叫{{t:cyclic-electron-flow}}：每 2 个电子送 4 个 H⁺，只产生 ATP，不产生 NADPH，也不放氧。它被认为是补充额外 ATP 的来源。",
+      "en": "PSI can also run on its own: electrons from Fd go not to NADP⁺ but back to PQ and the cytochrome complex, returning to P700 through PC in a loop. This is {{t:cyclic-electron-flow}}: it moves 4 H⁺ per pair of electrons and makes ATP only — no NADPH and no oxygen. It is thought to supply extra ATP.",
+      "ms": "PSI juga boleh berfungsi sendiri: elektron daripada Fd tidak pergi ke NADP⁺ tetapi kembali ke PQ dan kompleks sitokrom, kembali ke P700 melalui PC dalam satu gelung. Inilah {{t:cyclic-electron-flow}}: ia memindahkan 4 H⁺ bagi setiap pasangan elektron dan menghasilkan ATP sahaja — tiada NADPH dan tiada oksigen. Ia dianggap membekalkan ATP tambahan."
+     },
+     "defines": [
+      "cyclic-electron-flow"
+     ],
+     "src": [
+      "HH:120-122",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "heading": {
+    "zh": "类囊体膜上的分工",
+    "en": "Division of labour in the thylakoid",
+    "ms": "Pembahagian kerja dalam tilakoid"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "四个复合体在类囊体膜上分布并不均匀，叫{{t:lateral-heterogeneity}}：PSII 和 LHCII 几乎都在基粒中互相紧贴（堆叠）的区域；PSI 和 ATP 合酶只在不堆叠、面向基质的区域（基质类囊体和基粒边缘）；细胞色素 b₆f 两处都有。两个光系统之间靠可移动的 PQ（在膜内）和 PC（在腔内）连接。",
+      "en": "The four complexes are not spread evenly through the thylakoid membrane — {{t:lateral-heterogeneity}}. PSII and LHCII sit almost entirely in the appressed (stacked) regions of the grana; PSI and ATP synthase only in the non-appressed regions facing the stroma (stroma thylakoids and grana margins); the cytochrome b₆f complex is found in both. The two photosystems are linked by mobile carriers: PQ in the membrane and PC in the lumen.",
+      "ms": "Keempat-empat kompleks tidak tersebar sekata dalam membran tilakoid — {{t:lateral-heterogeneity}}. PSII dan LHCII hampir sepenuhnya berada di kawasan bertindan grana; PSI dan ATP sintase hanya di kawasan tidak bertindan yang menghadap stroma (tilakoid stroma dan pinggir grana); kompleks sitokrom b₆f terdapat di kedua-duanya. Kedua-dua fotosistem dihubungkan oleh pembawa bergerak: PQ dalam membran dan PC dalam lumen."
+     },
+     "defines": [
+      "lateral-heterogeneity"
+     ],
+     "src": [
+      "HH:122-123",
+      "LEC"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "蓝细菌也是产氧光合生物，电子传递链和高等植物相同，但它们的集光天线是附在类囊体膜外面的藻胆体，而不是嵌在膜里的 LHCII。",
+      "en": "Cyanobacteria are oxygenic too, with the same electron transport chain as higher plants, but their light-harvesting antenna is the phycobilisome attached to the outside of the thylakoid, rather than LHCII embedded in it.",
+      "ms": "Sianobakteria juga oksigenik, dengan rantai pengangkutan elektron yang sama seperti tumbuhan tinggi, tetapi antena penuai cahayanya ialah fikobilisom yang melekat di luar tilakoid, bukan LHCII yang terbenam di dalamnya."
+     },
+     "src": [
+      "HH:123-124",
+      "LEC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "heading": {
+    "zh": "除草剂怎样打断光反应",
+    "en": "How herbicides break the light reactions",
+    "ms": "Bagaimana racun rumpai memutuskan tindak balas cahaya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "许多重要的除草剂作用在光合电子传递。脲类（例如敌草隆 diuron，即 {{t:dcmu}}、灭草隆 monuron）和三嗪类（例如莠去津 atrazine、西玛津 simazine）由根吸收、运到叶片，结合在 PSII D1 蛋白的 QB 位点，把质体醌挤开，电子就无法从 PSII 传到 PQ。所以 D1 也叫“除草剂结合蛋白”，实验室常用 DCMU 来阻断两个光系统之间的电子流。",
+      "en": "Many important herbicides act on photosynthetic electron transport. The ureas (diuron — {{t:dcmu}} — and monuron) and the triazines (atrazine, simazine) are taken up by roots, carried to the leaves and bind to the QB site of the D1 protein of PSII, displacing plastoquinone so electrons cannot pass from PSII to PQ. D1 is therefore also called the herbicide-binding protein, and DCMU is used in the lab to block electron flow between the two photosystems.",
+      "ms": "Banyak racun rumpai penting bertindak ke atas pengangkutan elektron fotosintetik. Kumpulan urea (diuron — {{t:dcmu}} — dan monuron) dan triazina (atrazina, simazina) diambil oleh akar, dibawa ke daun dan terikat pada tapak QB protein D1 PSII, menyesarkan plastokuinon supaya elektron tidak dapat berpindah dari PSII ke PQ. Oleh itu D1 juga dipanggil protein pengikat racun rumpai, dan DCMU digunakan di makmal untuk menyekat aliran elektron antara kedua-dua fotosistem."
+     },
+     "defines": [
+      "dcmu"
+     ],
+     "src": [
+      "HH:124-125",
+      "LEC"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "三嗪类大量用在玉米田：玉米根里有一种酶能把它分解成无活性的形式。",
+       "en": "Triazines are used heavily in cornfields because maize roots carry an enzyme that degrades them to an inactive form.",
+       "ms": "Triazina banyak digunakan di ladang jagung kerana akar jagung mempunyai enzim yang menguraikannya kepada bentuk tidak aktif."
+      },
+      {
+       "zh": "棉花把除草剂隔离在特殊腺体里；有些植物的根扎得很深，避开施药层。",
+       "en": "Cotton sequesters the herbicide in special glands; other plants avoid it with roots that reach below the treated layer.",
+       "ms": "Kapas mengasingkan racun rumpai dalam kelenjar khas; tumbuhan lain mengelaknya dengan akar yang menembusi di bawah lapisan yang dirawat."
+      },
+      {
+       "zh": "很多杂草已演化出抗三嗪的生物型，往往只是 D1 蛋白上一个氨基酸的替换，降低了对除草剂的亲和力。",
+       "en": "Many weeds have evolved triazine-resistant biotypes, often through a single amino-acid change in D1 that lowers its affinity for the herbicide.",
+       "ms": "Banyak rumpai telah berevolusi menjadi biotip tahan triazina, selalunya melalui satu perubahan asid amino dalam D1 yang mengurangkan afinitinya terhadap racun rumpai."
+      },
+      {
+       "zh": "百草枯（甲基紫精）则在 PSI 一端抢走电子，交给氧气，产生破坏性的活性氧。",
+       "en": "Paraquat (methyl viologen) instead steals electrons at the PSI end and hands them to oxygen, generating destructive reactive oxygen.",
+       "ms": "Parakuat (metil viologen) pula mencuri elektron di hujung PSI dan menyerahkannya kepada oksigen, menghasilkan oksigen reaktif yang merosakkan."
+      }
+     ],
+     "src": [
+      "HH:124-125",
+      "LEC"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "mesophyll",
+  "photosystem",
+  "lhc",
+  "reaction-center",
+  "z-scheme",
+  "oec",
+  "photophosphorylation",
+  "cyclic-electron-flow",
+  "lateral-heterogeneity",
+  "dcmu"
+ ]
+}

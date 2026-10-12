@@ -1,0 +1,3554 @@
+[
+ {
+  "id": "adhesion",
+  "name": {
+   "zh": "附着力",
+   "en": "adhesion",
+   "ms": "adhesi"
+  },
+  "short": {
+   "zh": "水分子被固体表面（例如细胞壁、导管壁）吸引。",
+   "en": "The attraction of water molecules to solid surfaces such as cell walls and vessel walls.",
+   "ms": "Tarikan molekul air kepada permukaan pepejal seperti dinding sel dan dinding salur."
+  },
+  "chapter": 1
+ },
+ {
+  "id": "aquaporin",
+  "name": {
+   "zh": "水通道蛋白",
+   "en": "aquaporin",
+   "ms": "akuaporin"
+  },
+  "short": {
+   "zh": "膜上的四聚体通道蛋白，让水快速通过；质膜上的叫 PIP，液泡膜上的叫 TIP。",
+   "en": "A tetrameric membrane channel that lets water through quickly; PIPs in the plasma membrane, TIPs in the tonoplast.",
+   "ms": "Saluran membran tetramer yang membenarkan air melalui dengan cepat; PIP dalam membran plasma, TIP dalam tonoplas."
+  },
+  "chapter": 1
+ },
+ {
+  "id": "bulk-flow",
+  "name": {
+   "zh": "集流",
+   "en": "bulk flow",
+   "ms": "aliran pukal"
+  },
+  "short": {
+   "zh": "整团液体因压力差而一起流动，又叫质流。",
+   "en": "A mass of liquid moving together because of a pressure difference; also called mass flow.",
+   "ms": "Jisim cecair yang bergerak bersama kerana perbezaan tekanan; juga dipanggil aliran jisim."
+  },
+  "chapter": 1
+ },
+ {
+  "id": "chemical-potential",
+  "name": {
+   "zh": "化学势",
+   "en": "chemical potential",
+   "ms": "keupayaan kimia"
+  },
+  "short": {
+   "zh": "每摩尔物质可用来做功的自由能；物质自发地从化学势高处移向低处。",
+   "en": "The free energy per mole of a substance available for work; substances move spontaneously from high to low chemical potential.",
+   "ms": "Tenaga bebas per mol bahan yang boleh digunakan untuk kerja; bahan bergerak secara spontan dari keupayaan kimia tinggi ke rendah."
+  },
+  "chapter": 1
+ },
+ {
+  "id": "cohesion",
+  "name": {
+   "zh": "内聚力",
+   "en": "cohesion",
+   "ms": "kohesi"
+  },
+  "short": {
+   "zh": "水分子彼此之间的吸引，带来高表面张力和高抗张强度。",
+   "en": "The attraction of water molecules to each other, giving high surface tension and tensile strength.",
+   "ms": "Tarikan antara molekul air sesama sendiri, memberi tegangan permukaan dan kekuatan tegangan yang tinggi."
+  },
+  "chapter": 1
+ },
+ {
+  "id": "diffusion",
+  "name": {
+   "zh": "扩散",
+   "en": "diffusion",
+   "ms": "resapan"
+  },
+  "short": {
+   "zh": "分子因浓度差，从高浓度处自发移向低浓度处。",
+   "en": "The spontaneous movement of molecules from higher to lower concentration.",
+   "ms": "Pergerakan spontan molekul dari kepekatan tinggi ke rendah."
+  },
+  "chapter": 1
+ },
+ {
+  "id": "hydrogen-bond",
+  "name": {
+   "zh": "氢键",
+   "en": "hydrogen bond",
+   "ms": "ikatan hidrogen"
+  },
+  "short": {
+   "zh": "一个水分子带部分正电的氢，与另一个分子带部分负电的氧之间的吸引，约 20 kJ/mol。",
+   "en": "The attraction between the partly positive hydrogen of one water molecule and the partly negative oxygen of another; about 20 kJ/mol.",
+   "ms": "Tarikan antara hidrogen bercas separa positif pada satu molekul air dengan oksigen bercas separa negatif pada molekul lain; kira-kira 20 kJ/mol."
+  },
+  "chapter": 1
+ },
+ {
+  "id": "matric-potential",
+  "name": {
+   "zh": "衬质势",
+   "en": "matric potential",
+   "ms": "keupayaan matrik"
+  },
+  "short": {
+   "zh": "水被吸附在固体表面而降低的水势；对干种子和土壤很重要。",
+   "en": "The lowering of water potential by water binding to solid surfaces; important in dry seeds and soil.",
+   "ms": "Penurunan keupayaan air apabila air terikat pada permukaan pepejal; penting dalam biji benih kering dan tanah."
+  },
+  "chapter": 1,
+  "abbr": "Ψm"
+ },
+ {
+  "id": "osmosis",
+  "name": {
+   "zh": "渗透作用",
+   "en": "osmosis",
+   "ms": "osmosis"
+  },
+  "short": {
+   "zh": "水穿过选择透过性膜的扩散。",
+   "en": "The diffusion of water across a selectively permeable membrane.",
+   "ms": "Resapan air merentasi membran telap memilih."
+  },
+  "chapter": 1
+ },
+ {
+  "id": "osmotic-potential",
+  "name": {
+   "zh": "渗透势（溶质势）",
+   "en": "osmotic potential (solute potential)",
+   "ms": "keupayaan osmotik (keupayaan zat terlarut)"
+  },
+  "short": {
+   "zh": "溶质使水势降低的部分，等于渗透压的负值，总是 ≤ 0。",
+   "en": "The lowering of water potential by dissolved solute, equal to minus the osmotic pressure; always ≤ 0.",
+   "ms": "Penurunan keupayaan air oleh zat terlarut, sama dengan negatif tekanan osmotik; sentiasa ≤ 0."
+  },
+  "chapter": 1,
+  "abbr": "Ψs"
+ },
+ {
+  "id": "plasmolysis",
+  "name": {
+   "zh": "质壁分离",
+   "en": "plasmolysis",
+   "ms": "plasmolisis"
+  },
+  "short": {
+   "zh": "细胞在高渗溶液中失水，原生质体收缩、离开细胞壁。",
+   "en": "The shrinking of the protoplast away from the cell wall as a cell loses water in a hypertonic solution.",
+   "ms": "Pengecutan protoplas menjauhi dinding sel apabila sel kehilangan air dalam larutan hipertonik."
+  },
+  "chapter": 1
+ },
+ {
+  "id": "pressure-potential",
+  "name": {
+   "zh": "压力势（膨压）",
+   "en": "pressure potential (turgor)",
+   "ms": "keupayaan tekanan (turgor)"
+  },
+  "short": {
+   "zh": "高于大气压的静水压力；活细胞里是正的膨压，蒸腾中的木质部里是负的张力。",
+   "en": "Hydrostatic pressure above atmospheric: positive turgor in living cells, negative tension in transpiring xylem.",
+   "ms": "Tekanan hidrostatik melebihi atmosfera: turgor positif dalam sel hidup, tegangan negatif dalam xilem yang bertranspirasi."
+  },
+  "chapter": 1,
+  "abbr": "Ψp"
+ },
+ {
+  "id": "specific-heat",
+  "name": {
+   "zh": "比热",
+   "en": "specific heat",
+   "ms": "haba tentu"
+  },
+  "short": {
+   "zh": "让 1 克物质升高 1 °C 所需的能量；水是 4.184 J g⁻¹ °C⁻¹。",
+   "en": "The energy needed to warm 1 g of a substance by 1 °C; for water 4.184 J g⁻¹ °C⁻¹.",
+   "ms": "Tenaga yang diperlukan untuk memanaskan 1 g bahan sebanyak 1 °C; bagi air 4.184 J g⁻¹ °C⁻¹."
+  },
+  "chapter": 1
+ },
+ {
+  "id": "two-component-system",
+  "name": {
+   "zh": "双组分系统",
+   "en": "two-component system",
+   "ms": "sistem dua komponen"
+  },
+  "short": {
+   "zh": "由感应蛋白（组氨酸激酶）和反应调节蛋白组成的信号系统，以磷酸基团传递信号。",
+   "en": "A signalling system made of a sensor (histidine kinase) and a response regulator, passing the signal as a phosphate group.",
+   "ms": "Sistem isyarat yang terdiri daripada penderia (histidina kinase) dan pengawal atur tindak balas, memindahkan isyarat sebagai kumpulan fosfat."
+  },
+  "chapter": 1
+ },
+ {
+  "id": "water-potential",
+  "name": {
+   "zh": "水势",
+   "en": "water potential",
+   "ms": "keupayaan air"
+  },
+  "short": {
+   "zh": "水的化学势相对于纯水的差，以压力单位（MPa）表示；水从 Ψ 高处流向 Ψ 低处。Ψ = Ψp + Ψs。",
+   "en": "The chemical potential of water relative to pure water, in pressure units (MPa); water flows from high to low Ψ. Ψ = Ψp + Ψs.",
+   "ms": "Keupayaan kimia air berbanding air tulen, dalam unit tekanan (MPa); air mengalir dari Ψ tinggi ke rendah. Ψ = Ψp + Ψs."
+  },
+  "chapter": 1,
+  "abbr": "Ψ"
+ },
+ {
+  "id": "apoplast",
+  "name": {
+   "zh": "质外体",
+   "en": "apoplast",
+   "ms": "apoplas"
+  },
+  "short": {
+   "zh": "细胞膜以外的连续空间：细胞壁、细胞间隙和死的导管。",
+   "en": "The continuous space outside the plasma membranes: cell walls, intercellular spaces and dead conduits.",
+   "ms": "Ruang berterusan di luar membran plasma: dinding sel, ruang antara sel dan saluran mati."
+  },
+  "chapter": 2
+ },
+ {
+  "id": "boundary-layer",
+  "name": {
+   "zh": "边界层",
+   "en": "boundary layer",
+   "ms": "lapisan sempadan"
+  },
+  "short": {
+   "zh": "紧贴叶面的一层不流动空气，是蒸腾的额外阻力；风越大越薄。",
+   "en": "The layer of still air against the leaf surface; an extra resistance to transpiration, thinner in wind.",
+   "ms": "Lapisan udara pegun pada permukaan daun; rintangan tambahan kepada transpirasi, lebih nipis apabila berangin."
+  },
+  "chapter": 2
+ },
+ {
+  "id": "casparian-strip",
+  "name": {
+   "zh": "凯氏带",
+   "en": "Casparian band",
+   "ms": "jalur Caspary"
+  },
+  "short": {
+   "zh": "内皮层细胞壁上由疏水木栓质构成的带，阻断质外体，迫使水和溶质穿过细胞膜。",
+   "en": "A band of hydrophobic suberin in endodermal cell walls that blocks the apoplast, forcing water and solutes through membranes.",
+   "ms": "Jalur suberin hidrofobik dalam dinding sel endodermis yang menyekat apoplas, memaksa air dan zat terlarut melalui membran."
+  },
+  "chapter": 2
+ },
+ {
+  "id": "cavitation",
+  "name": {
+   "zh": "气穴现象",
+   "en": "cavitation",
+   "ms": "kavitasi"
+  },
+  "short": {
+   "zh": "张力下的木质部水柱中，气泡迅速形成并扩大，使水柱断裂。",
+   "en": "The rapid formation and expansion of a gas bubble in xylem sap under tension, breaking the column.",
+   "ms": "Pembentukan dan pengembangan pantas gelembung gas dalam sap xilem yang bertegangan, memutuskan turus."
+  },
+  "chapter": 2
+ },
+ {
+  "id": "cohesion-tension",
+  "name": {
+   "zh": "内聚力–张力学说",
+   "en": "cohesion–tension theory",
+   "ms": "teori kohesi–tegangan"
+  },
+  "short": {
+   "zh": "叶片蒸发在木质部产生张力，靠水的内聚力把连续的水柱拉上来。",
+   "en": "Evaporation from leaves creates tension in the xylem, and water's cohesion lets the continuous column be pulled up.",
+   "ms": "Penyejatan dari daun menghasilkan tegangan dalam xilem, dan kohesi air membolehkan turus yang berterusan ditarik naik."
+  },
+  "chapter": 2
+ },
+ {
+  "id": "embolism",
+  "name": {
+   "zh": "栓塞",
+   "en": "embolism",
+   "ms": "embolisme"
+  },
+  "short": {
+   "zh": "气穴后堵在导管或管胞里的大气泡，使那条管道不能再输水。",
+   "en": "The gas bubble left in a conduit after cavitation, which stops it conducting water.",
+   "ms": "Gelembung gas yang tertinggal dalam saluran selepas kavitasi, menghalangnya daripada mengalirkan air."
+  },
+  "chapter": 2
+ },
+ {
+  "id": "field-capacity",
+  "name": {
+   "zh": "田间持水量",
+   "en": "field capacity",
+   "ms": "kapasiti ladang"
+  },
+  "short": {
+   "zh": "土壤饱和后，多余的水被重力排干时仍保持的含水量。",
+   "en": "The water a soil retains after saturation once excess water has drained away under gravity.",
+   "ms": "Air yang ditahan tanah selepas tepu apabila lebihannya telah mengalir keluar oleh graviti."
+  },
+  "chapter": 2
+ },
+ {
+  "id": "permanent-wilting",
+  "name": {
+   "zh": "永久萎蔫点",
+   "en": "permanent wilting percentage",
+   "ms": "peratusan layu kekal"
+  },
+  "short": {
+   "zh": "植物再也吸不到水、无法恢复的土壤含水量；土壤水势约 −1.5 MPa。",
+   "en": "The soil water content at which plants can no longer take up water and cannot recover; soil Ψ about −1.5 MPa.",
+   "ms": "Kandungan air tanah di mana tumbuhan tidak lagi dapat mengambil air dan tidak boleh pulih; Ψ tanah kira-kira −1.5 MPa."
+  },
+  "chapter": 2
+ },
+ {
+  "id": "relative-humidity",
+  "name": {
+   "zh": "相对湿度",
+   "en": "relative humidity",
+   "ms": "kelembapan relatif"
+  },
+  "short": {
+   "zh": "空气实际水汽压与同温度下饱和水汽压之比，以百分比表示。",
+   "en": "Actual vapour pressure of the air divided by the saturation vapour pressure at that temperature, as a percentage.",
+   "ms": "Tekanan wap sebenar udara dibahagi tekanan wap tepu pada suhu itu, dalam peratus."
+  },
+  "chapter": 2,
+  "abbr": "RH"
+ },
+ {
+  "id": "root-pressure",
+  "name": {
+   "zh": "根压",
+   "en": "root pressure",
+   "ms": "tekanan akar"
+  },
+  "short": {
+   "zh": "根把离子运进木质部、水随之渗入而产生的正压；造成伤流和吐水。",
+   "en": "Positive xylem pressure from ions loaded by the root drawing water in osmotically; causes bleeding sap and guttation.",
+   "ms": "Tekanan xilem positif daripada ion yang dimuatkan akar menarik air masuk secara osmosis; menyebabkan sap meleleh dan gutasi."
+  },
+  "chapter": 2
+ },
+ {
+  "id": "stoma",
+  "name": {
+   "zh": "气孔",
+   "en": "stoma (pl. stomata)",
+   "ms": "stoma"
+  },
+  "short": {
+   "zh": "叶表皮上由两个保卫细胞围成的小孔，是气体交换和蒸腾的主要通道。",
+   "en": "A pore in the leaf epidermis bordered by two guard cells; the main route for gas exchange and transpiration.",
+   "ms": "Liang pada epidermis daun yang dikelilingi dua sel pengawal; laluan utama pertukaran gas dan transpirasi."
+  },
+  "chapter": 2
+ },
+ {
+  "id": "symplast",
+  "name": {
+   "zh": "共质体",
+   "en": "symplast",
+   "ms": "simplas"
+  },
+  "short": {
+   "zh": "经胞间连丝相连的所有活细胞的细胞质。",
+   "en": "The cytoplasm of all living cells, connected through plasmodesmata.",
+   "ms": "Sitoplasma semua sel hidup, bersambung melalui plasmodesmata."
+  },
+  "chapter": 2
+ },
+ {
+  "id": "tracheid",
+  "name": {
+   "zh": "管胞",
+   "en": "tracheid",
+   "ms": "trakeid"
+  },
+  "short": {
+   "zh": "单个细长、两端封闭的输水细胞，水经纹孔通过；裸子植物主要靠它。",
+   "en": "A single elongated, closed-ended water-conducting cell; water passes through pits. The main conduit of gymnosperms.",
+   "ms": "Sel pengalir air tunggal yang panjang dan berhujung tertutup; air melalui pit. Saluran utama gimnosperma."
+  },
+  "chapter": 2
+ },
+ {
+  "id": "transpiration",
+  "name": {
+   "zh": "蒸腾作用",
+   "en": "transpiration",
+   "ms": "transpirasi"
+  },
+  "short": {
+   "zh": "植物以水蒸气形式散失水分，九成以上经由叶片的气孔。",
+   "en": "The loss of water from a plant as vapour, mostly through leaf stomata.",
+   "ms": "Kehilangan air daripada tumbuhan sebagai wap, kebanyakannya melalui stoma daun."
+  },
+  "chapter": 2
+ },
+ {
+  "id": "vessel",
+  "name": {
+   "zh": "导管",
+   "en": "vessel",
+   "ms": "salur"
+  },
+  "short": {
+   "zh": "由导管分子首尾相连、端壁穿孔而成的长管，输水能力远强于管胞。",
+   "en": "A long tube of vessel members joined end to end through perforated end walls; conducts far more than tracheids.",
+   "ms": "Tiub panjang daripada anggota salur yang bersambung melalui dinding hujung bertebuk; mengalirkan jauh lebih banyak daripada trakeid."
+  },
+  "chapter": 2
+ },
+ {
+  "id": "xylem",
+  "name": {
+   "zh": "木质部",
+   "en": "xylem",
+   "ms": "xilem"
+  },
+  "short": {
+   "zh": "运输水和矿物质的维管组织，输水细胞成熟后是死的。",
+   "en": "The vascular tissue that carries water and minerals; its conducting cells are dead at maturity.",
+   "ms": "Tisu vaskular yang membawa air dan mineral; sel pengalirnya mati apabila matang."
+  },
+  "chapter": 2
+ },
+ {
+  "id": "active-transport",
+  "name": {
+   "zh": "主动运输",
+   "en": "active transport",
+   "ms": "pengangkutan aktif"
+  },
+  "short": {
+   "zh": "与代谢能（通常 ATP）偶联、逆电化学梯度运送溶质。",
+   "en": "Moving a solute against its electrochemical gradient, coupled to metabolic energy, usually ATP.",
+   "ms": "Menggerakkan zat terlarut melawan kecerunan elektrokimianya, diganding dengan tenaga metabolik, biasanya ATP."
+  },
+  "chapter": 3
+ },
+ {
+  "id": "cation-exchange",
+  "name": {
+   "zh": "阳离子交换",
+   "en": "cation exchange",
+   "ms": "pertukaran kation"
+  },
+  "short": {
+   "zh": "吸附力较强的阳离子把胶体表面上较弱的阳离子置换下来；根分泌 H⁺ 以释放养分。",
+   "en": "A more strongly held cation displacing a weaker one from colloid surfaces; roots secrete H⁺ to release nutrients.",
+   "ms": "Kation yang lebih kuat terikat menyesarkan kation yang lebih lemah daripada permukaan koloid; akar merembeskan H⁺ untuk membebaskan nutrien."
+  },
+  "chapter": 3
+ },
+ {
+  "id": "colloid",
+  "name": {
+   "zh": "胶体",
+   "en": "colloid",
+   "ms": "koloid"
+  },
+  "short": {
+   "zh": "小到不会沉降、又大到不成真溶液的颗粒；土壤里是黏土和腐殖质，表面大且带负电。",
+   "en": "Particles too small to settle but too large to dissolve; in soil, clay and humus, with large, negatively charged surfaces.",
+   "ms": "Zarah terlalu kecil untuk mendap tetapi terlalu besar untuk larut; dalam tanah, liat dan humus, dengan permukaan besar bercas negatif."
+  },
+  "chapter": 3
+ },
+ {
+  "id": "cotransport",
+  "name": {
+   "zh": "协同运输",
+   "en": "cotransport",
+   "ms": "pengangkutan bersama"
+  },
+  "short": {
+   "zh": "H⁺ 顺梯度回流时同时带动另一溶质：同向（symport）或反向（antiport）。",
+   "en": "H⁺ flowing back down its gradient while carrying another solute, in the same direction (symport) or the opposite one (antiport).",
+   "ms": "H⁺ mengalir balik menuruni kecerunan sambil membawa zat terlarut lain, ke arah yang sama (simport) atau bertentangan (antiport)."
+  },
+  "chapter": 3
+ },
+ {
+  "id": "facilitated-diffusion",
+  "name": {
+   "zh": "协助扩散",
+   "en": "facilitated diffusion",
+   "ms": "resapan berbantu"
+  },
+  "short": {
+   "zh": "借载体或通道蛋白顺梯度穿膜，不直接耗能。",
+   "en": "Movement down a gradient across a membrane through a carrier or channel protein, with no direct energy cost.",
+   "ms": "Pergerakan menuruni kecerunan merentasi membran melalui protein pembawa atau saluran, tanpa kos tenaga langsung."
+  },
+  "chapter": 3
+ },
+ {
+  "id": "free-space",
+  "name": {
+   "zh": "表观自由空间",
+   "en": "apparent free space",
+   "ms": "ruang bebas ketara"
+  },
+  "short": {
+   "zh": "根中不被膜隔开、与外面溶液自由相通的空间（主要是皮层细胞壁），止于内皮层。",
+   "en": "The part of a root not separated from the outside solution by a membrane — mainly cortical cell walls — ending at the endodermis.",
+   "ms": "Bahagian akar yang tidak dipisahkan oleh membran daripada larutan luar — terutamanya dinding sel korteks — berakhir di endodermis."
+  },
+  "chapter": 3,
+  "abbr": "AFS"
+ },
+ {
+  "id": "membrane-potential",
+  "name": {
+   "zh": "膜电位",
+   "en": "membrane potential",
+   "ms": "keupayaan membran"
+  },
+  "short": {
+   "zh": "膜两侧的电位差；植物细胞内部通常负 100 mV 以上。",
+   "en": "The voltage across a membrane; plant cells are typically more than 100 mV negative inside.",
+   "ms": "Voltan merentasi membran; sel tumbuhan biasanya lebih daripada 100 mV negatif di dalam."
+  },
+  "chapter": 3
+ },
+ {
+  "id": "mycorrhiza",
+  "name": {
+   "zh": "菌根",
+   "en": "mycorrhiza",
+   "ms": "mikoriza"
+  },
+  "short": {
+   "zh": "根与真菌的互利共生，扩大吸收面积，对磷特别重要；分外生和内生（丛枝）两类。",
+   "en": "A mutualism between root and fungus that enlarges the absorbing surface, especially important for phosphorus; ecto- and endo- (arbuscular) forms.",
+   "ms": "Mutualisme antara akar dan kulat yang meluaskan permukaan penyerapan, sangat penting untuk fosforus; bentuk ekto dan endo (arbuskular)."
+  },
+  "chapter": 3
+ },
+ {
+  "id": "nernst-equation",
+  "name": {
+   "zh": "能斯特方程",
+   "en": "Nernst equation",
+   "ms": "persamaan Nernst"
+  },
+  "short": {
+   "zh": "ΔE = (59/z) log(C外/C内)：预测某离子只靠被动移动时，平衡下内外浓度比与膜电位的关系。",
+   "en": "ΔE = (59/z) log(C_out/C_in): relates membrane potential to the inside/outside ratio an ion would reach by passive movement alone.",
+   "ms": "ΔE = (59/z) log(C_luar/C_dalam): mengaitkan keupayaan membran dengan nisbah dalam/luar yang dicapai ion melalui pergerakan pasif sahaja."
+  },
+  "chapter": 3
+ },
+ {
+  "id": "proton-pump",
+  "name": {
+   "zh": "质子泵（H⁺-ATPase）",
+   "en": "proton pump (H⁺-ATPase)",
+   "ms": "pam proton (H⁺-ATPase)"
+  },
+  "short": {
+   "zh": "水解 ATP 把 H⁺ 泵出细胞的膜蛋白；生电，是膜电位和质子梯度的主要来源。",
+   "en": "A membrane protein that uses ATP to pump H⁺ out of the cell; electrogenic, the main source of the membrane potential and proton gradient.",
+   "ms": "Protein membran yang menggunakan ATP untuk mengepam H⁺ keluar dari sel; elektrogenik, sumber utama keupayaan membran dan kecerunan proton."
+  },
+  "chapter": 3
+ },
+ {
+  "id": "rhizosphere",
+  "name": {
+   "zh": "根际",
+   "en": "rhizosphere",
+   "ms": "rizosfera"
+  },
+  "short": {
+   "zh": "受活根影响的根周围土壤，微生物特别多。",
+   "en": "The zone of soil around a living root that it influences; rich in microorganisms.",
+   "ms": "Zon tanah di sekeliling akar hidup yang dipengaruhinya; kaya dengan mikroorganisma."
+  },
+  "chapter": 3
+ },
+ {
+  "id": "chelate",
+  "name": {
+   "zh": "螯合物",
+   "en": "chelate",
+   "ms": "kelat"
+  },
+  "short": {
+   "zh": "金属离子与有机配体共用电子对形成的稳定可溶复合物，例如 Fe-EDTA。",
+   "en": "A stable, soluble complex of a metal ion and an organic ligand sharing electron pairs, e.g. Fe-EDTA.",
+   "ms": "Kompleks stabil yang larut antara ion logam dan ligan organik yang berkongsi pasangan elektron, cth. Fe-EDTA."
+  },
+  "chapter": 4
+ },
+ {
+  "id": "chlorosis",
+  "name": {
+   "zh": "黄化（失绿）",
+   "en": "chlorosis",
+   "ms": "klorosis"
+  },
+  "short": {
+   "zh": "叶绿素减少导致叶片发黄；是许多缺素症的共同症状。",
+   "en": "Yellowing from loss of chlorophyll; a common sign of many deficiencies.",
+   "ms": "Penguningan akibat kehilangan klorofil; tanda biasa banyak kekurangan nutrien."
+  },
+  "chapter": 4
+ },
+ {
+  "id": "critical-concentration",
+  "name": {
+   "zh": "临界浓度",
+   "en": "critical concentration",
+   "ms": "kepekatan kritikal"
+  },
+  "short": {
+   "zh": "组织中刚好低于最大生长所需的养分浓度；低于它即缺乏。",
+   "en": "The tissue nutrient level just below that giving maximum growth; below it the plant is deficient.",
+   "ms": "Paras nutrien tisu tepat di bawah paras yang memberi pertumbuhan maksimum; di bawahnya tumbuhan kekurangan."
+  },
+  "chapter": 4
+ },
+ {
+  "id": "essential-element",
+  "name": {
+   "zh": "必需元素",
+   "en": "essential element",
+   "ms": "unsur perlu"
+  },
+  "short": {
+   "zh": "缺了它植物无法完成生活史，或它是必需成分的一部分；共 17 个。",
+   "en": "An element without which a plant cannot complete its life cycle, or which is part of an essential constituent; there are 17.",
+   "ms": "Unsur yang tanpanya tumbuhan tidak dapat melengkapkan kitaran hidup, atau yang sebahagian daripada juzuk perlu; ada 17."
+  },
+  "chapter": 4
+ },
+ {
+  "id": "hydroponics",
+  "name": {
+   "zh": "水培（营养液培养）",
+   "en": "solution culture (hydroponics)",
+   "ms": "kultur larutan (hidroponik)"
+  },
+  "short": {
+   "zh": "不用土壤、把植物种在配好的营养液里；研究营养需求的基本方法。",
+   "en": "Growing plants without soil in a defined nutrient solution; the basic method for studying nutrient needs.",
+   "ms": "Menanam tumbuhan tanpa tanah dalam larutan nutrien yang ditentukan; kaedah asas mengkaji keperluan nutrien."
+  },
+  "chapter": 4
+ },
+ {
+  "id": "macronutrient",
+  "name": {
+   "zh": "大量元素",
+   "en": "macronutrient",
+   "ms": "makronutrien"
+  },
+  "short": {
+   "zh": "组织中含量高的必需元素：C、H、O、N、P、K、S、Ca、Mg。",
+   "en": "Essential elements present in large amounts: C, H, O, N, P, K, S, Ca, Mg.",
+   "ms": "Unsur perlu yang hadir dalam jumlah besar: C, H, O, N, P, K, S, Ca, Mg."
+  },
+  "chapter": 4
+ },
+ {
+  "id": "micronutrient",
+  "name": {
+   "zh": "微量元素",
+   "en": "micronutrient (trace element)",
+   "ms": "mikronutrien (unsur surih)"
+  },
+  "short": {
+   "zh": "需要量很少的必需元素：Fe、B、Cu、Zn、Mn、Mo、Cl、Ni。",
+   "en": "Essential elements needed in small amounts: Fe, B, Cu, Zn, Mn, Mo, Cl, Ni.",
+   "ms": "Unsur perlu yang diperlukan dalam jumlah kecil: Fe, B, Cu, Zn, Mn, Mo, Cl, Ni."
+  },
+  "chapter": 4
+ },
+ {
+  "id": "atp",
+  "name": {
+   "zh": "腺苷三磷酸（ATP）",
+   "en": "adenosine triphosphate (ATP)",
+   "ms": "adenosina trifosfat (ATP)"
+  },
+  "short": {
+   "zh": "细胞的能量货币；它能做功是因为细胞把 ATP/ADP 比维持在远离平衡。",
+   "en": "The cell's energy currency; it can do work because the cell holds ATP/ADP far from equilibrium.",
+   "ms": "Mata wang tenaga sel; ia boleh melakukan kerja kerana sel mengekalkan ATP/ADP jauh dari keseimbangan."
+  },
+  "chapter": 5,
+  "abbr": "ATP"
+ },
+ {
+  "id": "atp-synthase",
+  "name": {
+   "zh": "ATP 合酶",
+   "en": "ATP synthase",
+   "ms": "ATP sintase"
+  },
+  "short": {
+   "zh": "让质子回流并借此合成 ATP 的旋转酶；叶绿体中称 CF₀–CF₁。",
+   "en": "The rotary enzyme that lets protons flow back and uses them to make ATP; CF₀–CF₁ in chloroplasts.",
+   "ms": "Enzim berputar yang membenarkan proton mengalir balik dan menggunakannya untuk membuat ATP; CF₀–CF₁ dalam kloroplas."
+  },
+  "chapter": 5
+ },
+ {
+  "id": "bioenergetics",
+  "name": {
+   "zh": "生物能量学",
+   "en": "bioenergetics",
+   "ms": "bioenergetik"
+  },
+  "short": {
+   "zh": "研究生物体内能量流动与转换的学问。",
+   "en": "The study of energy flow and transformation in living organisms.",
+   "ms": "Kajian aliran dan transformasi tenaga dalam organisma hidup."
+  },
+  "chapter": 5
+ },
+ {
+  "id": "chemiosmosis",
+  "name": {
+   "zh": "化学渗透",
+   "en": "chemiosmosis",
+   "ms": "kemiosmosis"
+  },
+  "short": {
+   "zh": "Mitchell 的学说：电子传递把质子泵过膜，质子经 ATP 合酶回流时合成 ATP。",
+   "en": "Mitchell's theory: electron transport pumps protons across a membrane, and their return through ATP synthase makes ATP.",
+   "ms": "Teori Mitchell: pengangkutan elektron mengepam proton merentasi membran, dan kepulangannya melalui ATP sintase menghasilkan ATP."
+  },
+  "chapter": 5
+ },
+ {
+  "id": "entropy",
+  "name": {
+   "zh": "熵",
+   "en": "entropy",
+   "ms": "entropi"
+  },
+  "short": {
+   "zh": "无序程度的量度；第二定律说孤立系统的熵会自然增加。",
+   "en": "A measure of disorder; by the second law it tends to increase.",
+   "ms": "Ukuran ketidakteraturan; menurut hukum kedua ia cenderung meningkat."
+  },
+  "chapter": 5,
+  "abbr": "S"
+ },
+ {
+  "id": "gibbs-free-energy",
+  "name": {
+   "zh": "吉布斯自由能",
+   "en": "Gibbs free energy",
+   "ms": "tenaga bebas Gibbs"
+  },
+  "short": {
+   "zh": "恒温下能用来做功的能量；ΔG < 0 的反应自发进行。",
+   "en": "The energy available to do work at constant temperature; reactions with ΔG < 0 run spontaneously.",
+   "ms": "Tenaga yang tersedia untuk kerja pada suhu malar; tindak balas dengan ΔG < 0 berlaku secara spontan."
+  },
+  "chapter": 5,
+  "abbr": "G"
+ },
+ {
+  "id": "pmf",
+  "name": {
+   "zh": "质子动力势",
+   "en": "proton motive force",
+   "ms": "daya gerak proton"
+  },
+  "short": {
+   "zh": "跨膜质子梯度储存的能量：pmf = ΔΨ − 59 ΔpH。",
+   "en": "The energy stored in a proton gradient across a membrane: pmf = ΔΨ − 59 ΔpH.",
+   "ms": "Tenaga yang tersimpan dalam kecerunan proton merentasi membran: pmf = ΔΨ − 59 ΔpH."
+  },
+  "chapter": 5,
+  "abbr": "pmf"
+ },
+ {
+  "id": "redox",
+  "name": {
+   "zh": "氧化还原反应",
+   "en": "redox reaction",
+   "ms": "tindak balas redoks"
+  },
+  "short": {
+   "zh": "电子从供体（被氧化）转移到受体（被还原）的反应。",
+   "en": "A reaction in which electrons pass from a donor (oxidised) to an acceptor (reduced).",
+   "ms": "Tindak balas di mana elektron berpindah dari penderma (dioksidakan) ke penerima (diturunkan)."
+  },
+  "chapter": 5
+ },
+ {
+  "id": "absorption-spectrum",
+  "name": {
+   "zh": "吸收光谱",
+   "en": "absorption spectrum",
+   "ms": "spektrum penyerapan"
+  },
+  "short": {
+   "zh": "一种色素对各波长光的吸收程度曲线，像分子的指纹。",
+   "en": "A plot of how strongly a pigment absorbs each wavelength; a molecular fingerprint.",
+   "ms": "Plot kekuatan penyerapan pigmen pada setiap panjang gelombang; cap jari molekul."
+  },
+  "chapter": 6
+ },
+ {
+  "id": "action-spectrum",
+  "name": {
+   "zh": "作用光谱",
+   "en": "action spectrum",
+   "ms": "spektrum tindakan"
+  },
+  "short": {
+   "zh": "各波长光引起某生理反应的效果曲线；与吸收光谱对照可找出负责的色素。",
+   "en": "A plot of how effectively each wavelength drives a response; compared with absorption spectra it identifies the pigment.",
+   "ms": "Plot keberkesanan setiap panjang gelombang memacu tindak balas; dibandingkan dengan spektrum penyerapan ia mengenal pasti pigmen."
+  },
+  "chapter": 6
+ },
+ {
+  "id": "carotenoid",
+  "name": {
+   "zh": "类胡萝卜素",
+   "en": "carotenoid",
+   "ms": "karotenoid"
+  },
+  "short": {
+   "zh": "C₄₀ 萜类黄橙色色素，包括胡萝卜素和叶黄素，吸收蓝光。",
+   "en": "Yellow-orange C₄₀ terpenoid pigments — carotenes and xanthophylls — that absorb blue light.",
+   "ms": "Pigmen terpenoid C₄₀ kuning-jingga — karotena dan xantofil — yang menyerap cahaya biru."
+  },
+  "chapter": 6
+ },
+ {
+  "id": "chlorophyll",
+  "name": {
+   "zh": "叶绿素",
+   "en": "chlorophyll",
+   "ms": "klorofil"
+  },
+  "short": {
+   "zh": "含镁卟啉头加叶绿醇尾巴的绿色色素，吸收红光和蓝光以进行光合作用。",
+   "en": "The green pigment with an Mg-porphyrin head and phytol tail that absorbs red and blue light for photosynthesis.",
+   "ms": "Pigmen hijau dengan kepala porfirin-Mg dan ekor fitol yang menyerap cahaya merah dan biru untuk fotosintesis."
+  },
+  "chapter": 6
+ },
+ {
+  "id": "chromophore",
+  "name": {
+   "zh": "色素团（发色团）",
+   "en": "chromophore",
+   "ms": "kromofor"
+  },
+  "short": {
+   "zh": "色素蛋白中负责吸收光的那一部分。",
+   "en": "The light-absorbing part of a chromoprotein.",
+   "ms": "Bahagian penyerap cahaya dalam kromoprotein."
+  },
+  "chapter": 6
+ },
+ {
+  "id": "fluorescence",
+  "name": {
+   "zh": "荧光",
+   "en": "fluorescence",
+   "ms": "pendarflour"
+  },
+  "short": {
+   "zh": "激发态电子回到基态时发出的光，波长比吸收的光长。",
+   "en": "Light emitted as an excited electron returns to the ground state; longer in wavelength than the light absorbed.",
+   "ms": "Cahaya yang dipancarkan apabila elektron teruja kembali ke keadaan asas; lebih panjang gelombangnya daripada cahaya yang diserap."
+  },
+  "chapter": 6
+ },
+ {
+  "id": "par",
+  "name": {
+   "zh": "光合有效辐射",
+   "en": "photosynthetically active radiation",
+   "ms": "sinaran aktif fotosintesis"
+  },
+  "short": {
+   "zh": "400–700 nm 的光；光合用光量常以 μmol m⁻² s⁻¹ PAR 表示。",
+   "en": "Light between 400 and 700 nm; light for photosynthesis is given in μmol m⁻² s⁻¹ PAR.",
+   "ms": "Cahaya antara 400 dan 700 nm; cahaya untuk fotosintesis dinyatakan dalam μmol m⁻² s⁻¹ PAR."
+  },
+  "chapter": 6,
+  "abbr": "PAR"
+ },
+ {
+  "id": "photon",
+  "name": {
+   "zh": "光子",
+   "en": "photon",
+   "ms": "foton"
+  },
+  "short": {
+   "zh": "光的能量粒子；能量 E = hc/λ，波长越短能量越高。",
+   "en": "A particle of light; its energy E = hc/λ is higher at shorter wavelengths.",
+   "ms": "Zarah cahaya; tenaganya E = hc/λ lebih tinggi pada panjang gelombang lebih pendek."
+  },
+  "chapter": 6
+ },
+ {
+  "id": "photoreceptor",
+  "name": {
+   "zh": "光受体",
+   "en": "photoreceptor",
+   "ms": "fotoreseptor"
+  },
+  "short": {
+   "zh": "把光的能量或信息转成植物可用形式的色素分子，通常是色素蛋白。",
+   "en": "A pigment molecule that converts light's energy or information into a usable form; usually a chromoprotein.",
+   "ms": "Molekul pigmen yang menukar tenaga atau maklumat cahaya kepada bentuk boleh guna; biasanya kromoprotein."
+  },
+  "chapter": 6
+ },
+ {
+  "id": "resonance-transfer",
+  "name": {
+   "zh": "诱导共振（无辐射能量传递）",
+   "en": "inductive resonance (radiationless transfer)",
+   "ms": "resonans aruhan (pemindahan tanpa sinaran)"
+  },
+  "short": {
+   "zh": "激发能不发光、直接传给邻近色素分子；天线色素靠它把能量送到反应中心。",
+   "en": "Excitation energy passed directly to a nearby pigment without emitting light; how antennas feed reaction centres.",
+   "ms": "Tenaga pengujaan dipindahkan terus kepada pigmen berdekatan tanpa memancarkan cahaya; cara antena menyuap pusat tindak balas."
+  },
+  "chapter": 6
+ },
+ {
+  "id": "cyclic-electron-flow",
+  "name": {
+   "zh": "循环电子传递",
+   "en": "cyclic electron transport",
+   "ms": "pengangkutan elektron berkitar"
+  },
+  "short": {
+   "zh": "PSI 的电子经 Fd 回到 PQ 和细胞色素复合体再回 P700；只产生 ATP。",
+   "en": "Electrons from PSI return via Fd to PQ and the cytochrome complex and back to P700; makes ATP only.",
+   "ms": "Elektron dari PSI kembali melalui Fd ke PQ dan kompleks sitokrom dan semula ke P700; menghasilkan ATP sahaja."
+  },
+  "chapter": 7
+ },
+ {
+  "id": "dcmu",
+  "name": {
+   "zh": "DCMU（敌草隆）",
+   "en": "DCMU (diuron)",
+   "ms": "DCMU (diuron)"
+  },
+  "short": {
+   "zh": "结合在 D1 蛋白 QB 位点的脲类除草剂，阻断 PSII 到质体醌的电子传递。",
+   "en": "A urea herbicide that binds the QB site of D1 and blocks electron flow from PSII to plastoquinone.",
+   "ms": "Racun rumpai urea yang terikat pada tapak QB D1 dan menyekat aliran elektron dari PSII ke plastokuinon."
+  },
+  "chapter": 7,
+  "abbr": "DCMU"
+ },
+ {
+  "id": "lateral-heterogeneity",
+  "name": {
+   "zh": "侧向异质性",
+   "en": "lateral heterogeneity",
+   "ms": "keheterogenan sisian"
+  },
+  "short": {
+   "zh": "PSII/LHCII 在堆叠的基粒区，PSI 和 ATP 合酶在不堆叠的基质区的不均匀分布。",
+   "en": "The uneven layout of the thylakoid: PSII/LHCII in stacked grana, PSI and ATP synthase in unstacked stroma regions.",
+   "ms": "Susunan tidak sekata tilakoid: PSII/LHCII dalam grana bertindan, PSI dan ATP sintase di kawasan stroma tidak bertindan."
+  },
+  "chapter": 7
+ },
+ {
+  "id": "lhc",
+  "name": {
+   "zh": "集光复合体",
+   "en": "light-harvesting complex",
+   "ms": "kompleks penuai cahaya"
+  },
+  "short": {
+   "zh": "天线中的叶绿素 a/b 蛋白复合体（LHCI、LHCII），收集光能交给反应中心。",
+   "en": "Chlorophyll a/b–protein complexes of the antenna (LHCI, LHCII) that gather light for the reaction centre.",
+   "ms": "Kompleks klorofil a/b–protein antena (LHCI, LHCII) yang mengumpul cahaya untuk pusat tindak balas."
+  },
+  "chapter": 7,
+  "abbr": "LHC"
+ },
+ {
+  "id": "mesophyll",
+  "name": {
+   "zh": "叶肉",
+   "en": "mesophyll",
+   "ms": "mesofil"
+  },
+  "short": {
+   "zh": "表皮之间进行光合作用的组织；双子叶植物分栅栏组织和海绵组织。",
+   "en": "The photosynthetic tissue between the leaf epidermises; palisade and spongy layers in dicots.",
+   "ms": "Tisu fotosintetik antara epidermis daun; lapisan palisad dan span dalam dikotiledon."
+  },
+  "chapter": 7
+ },
+ {
+  "id": "oec",
+  "name": {
+   "zh": "放氧复合体",
+   "en": "oxygen-evolving complex",
+   "ms": "kompleks pembebasan oksigen"
+  },
+  "short": {
+   "zh": "PSII 腔侧含四个锰离子的部分，把 2 H₂O 氧化成 O₂、4 H⁺ 和 4 e⁻。",
+   "en": "The four-manganese part of PSII on the lumen side that oxidises 2 H₂O to O₂, 4 H⁺ and 4 e⁻.",
+   "ms": "Bahagian empat mangan PSII di sebelah lumen yang mengoksidakan 2 H₂O kepada O₂, 4 H⁺ dan 4 e⁻."
+  },
+  "chapter": 7,
+  "abbr": "OEC"
+ },
+ {
+  "id": "photophosphorylation",
+  "name": {
+   "zh": "光合磷酸化",
+   "en": "photophosphorylation",
+   "ms": "fotofosforilasi"
+  },
+  "short": {
+   "zh": "叶绿体中由光驱动、经化学渗透合成 ATP。",
+   "en": "Light-driven ATP synthesis by chemiosmosis in chloroplasts.",
+   "ms": "Sintesis ATP yang dipacu cahaya melalui kemiosmosis dalam kloroplas."
+  },
+  "chapter": 7
+ },
+ {
+  "id": "photosystem",
+  "name": {
+   "zh": "光系统",
+   "en": "photosystem",
+   "ms": "fotosistem"
+  },
+  "short": {
+   "zh": "由天线色素和反应中心组成的色素蛋白复合体；PSII 氧化水，PSI 还原 NADP⁺。",
+   "en": "A pigment–protein complex of antenna and reaction centre; PSII oxidises water, PSI reduces NADP⁺.",
+   "ms": "Kompleks pigmen–protein antena dan pusat tindak balas; PSII mengoksidakan air, PSI menurunkan NADP⁺."
+  },
+  "chapter": 7
+ },
+ {
+  "id": "reaction-center",
+  "name": {
+   "zh": "反应中心",
+   "en": "reaction centre",
+   "ms": "pusat tindak balas"
+  },
+  "short": {
+   "zh": "进行电荷分离的一对特殊叶绿素 a：PSII 的 P680、PSI 的 P700。",
+   "en": "The special chlorophyll a pair where charge separation happens: P680 in PSII, P700 in PSI.",
+   "ms": "Pasangan khas klorofil a tempat pemisahan cas berlaku: P680 dalam PSII, P700 dalam PSI."
+  },
+  "chapter": 7
+ },
+ {
+  "id": "z-scheme",
+  "name": {
+   "zh": "Z 形图（非循环电子传递）",
+   "en": "Z-scheme (non-cyclic electron transport)",
+   "ms": "skema Z (pengangkutan elektron tak berkitar)"
+  },
+  "short": {
+   "zh": "电子从水经 PSII、细胞色素 b₆f、PSI 到 NADP⁺ 的路线，按氧化还原电位排列呈 Z 形。",
+   "en": "The route of electrons from water through PSII, cytochrome b₆f and PSI to NADP⁺, Z-shaped when plotted by redox potential.",
+   "ms": "Laluan elektron dari air melalui PSII, sitokrom b₆f dan PSI ke NADP⁺, berbentuk Z apabila diplot mengikut keupayaan redoks."
+  },
+  "chapter": 7
+ },
+ {
+  "id": "calvin-cycle",
+  "name": {
+   "zh": "卡尔文循环（C₃ 循环）",
+   "en": "Calvin cycle (PCR / C₃ cycle)",
+   "ms": "kitaran Calvin (kitaran PCR / C₃)"
+  },
+  "short": {
+   "zh": "在叶绿体基质中把 CO₂ 还原成丙糖磷酸的循环：羧化、还原、再生。",
+   "en": "The stromal cycle that reduces CO₂ to triose phosphate: carboxylation, reduction, regeneration.",
+   "ms": "Kitaran dalam stroma yang menurunkan CO₂ kepada triosa fosfat: pengkarboksilan, penurunan, penjanaan semula."
+  },
+  "chapter": 8,
+  "abbr": "PCR"
+ },
+ {
+  "id": "photorespiration",
+  "name": {
+   "zh": "光呼吸",
+   "en": "photorespiration",
+   "ms": "fotorespirasi"
+  },
+  "short": {
+   "zh": "rubisco 加氧后回收磷酸乙醇酸的 C₂ 途径，跨叶绿体、过氧化物酶体和线粒体，释放 CO₂。",
+   "en": "The C₂ pathway salvaging phosphoglycolate after rubisco oxygenation, across chloroplast, peroxisome and mitochondrion, releasing CO₂.",
+   "ms": "Laluan C₂ yang menyelamatkan fosfoglikolat selepas pengoksigenan rubisco, merentasi kloroplas, peroksisom dan mitokondria, membebaskan CO₂."
+  },
+  "chapter": 8
+ },
+ {
+  "id": "rubisco",
+  "name": {
+   "zh": "Rubisco（核酮糖二磷酸羧化酶/加氧酶）",
+   "en": "Rubisco",
+   "ms": "Rubisco"
+  },
+  "short": {
+   "zh": "把 CO₂（或 O₂）加到 RuBP 上的酶；占叶片可溶蛋白约一半，是世界上最多的蛋白质。",
+   "en": "The enzyme that adds CO₂ (or O₂) to RuBP; about half the soluble leaf protein and the most abundant protein on Earth.",
+   "ms": "Enzim yang menambah CO₂ (atau O₂) kepada RuBP; kira-kira separuh protein larut daun dan protein paling banyak di Bumi."
+  },
+  "chapter": 8
+ },
+ {
+  "id": "rubisco-activase",
+  "name": {
+   "zh": "Rubisco 活化酶",
+   "en": "rubisco activase",
+   "ms": "rubisco aktivase"
+  },
+  "short": {
+   "zh": "耗 ATP、帮助 rubisco 活化的蛋白质。",
+   "en": "An ATP-using protein that helps activate rubisco.",
+   "ms": "Protein yang menggunakan ATP untuk membantu mengaktifkan rubisco."
+  },
+  "chapter": 8
+ },
+ {
+  "id": "rubp",
+  "name": {
+   "zh": "核酮糖-1,5-二磷酸",
+   "en": "ribulose-1,5-bisphosphate",
+   "ms": "ribulosa-1,5-bisfosfat"
+  },
+  "short": {
+   "zh": "卡尔文循环中接受 CO₂ 的五碳糖。",
+   "en": "The five-carbon sugar that accepts CO₂ in the Calvin cycle.",
+   "ms": "Gula lima karbon yang menerima CO₂ dalam kitaran Calvin."
+  },
+  "chapter": 8,
+  "abbr": "RuBP"
+ },
+ {
+  "id": "stomatal-complex",
+  "name": {
+   "zh": "气孔复合体",
+   "en": "stomatal complex",
+   "ms": "kompleks stoma"
+  },
+  "short": {
+   "zh": "一对保卫细胞及周围的副卫细胞，控制气孔开度。",
+   "en": "A pair of guard cells and their subsidiary cells, controlling the pore.",
+   "ms": "Sepasang sel pengawal dan sel subsidiarinya, mengawal liang."
+  },
+  "chapter": 8
+ },
+ {
+  "id": "allocation",
+  "name": {
+   "zh": "分配（碳分配）",
+   "en": "allocation",
+   "ms": "peruntukan"
+  },
+  "short": {
+   "zh": "把光合产物转成蔗糖或淀粉、或用于不同代谢途径的调节。",
+   "en": "The regulated diversion of photoassimilate into sucrose, starch or other uses.",
+   "ms": "Pengalihan terkawal fotoasimilat kepada sukrosa, kanji atau kegunaan lain."
+  },
+  "chapter": 9
+ },
+ {
+  "id": "companion-cell",
+  "name": {
+   "zh": "伴胞",
+   "en": "companion cell",
+   "ms": "sel rakan"
+  },
+  "short": {
+   "zh": "紧贴筛分子、细胞器齐全的细胞，维持筛分子并参与装载。",
+   "en": "A cell beside the sieve element with full organelles; sustains it and helps with loading.",
+   "ms": "Sel di sebelah unsur tapis dengan organel lengkap; menyara unsur tapis dan membantu pemuatan."
+  },
+  "chapter": 9
+ },
+ {
+  "id": "harvest-index",
+  "name": {
+   "zh": "收获指数",
+   "en": "harvest index",
+   "ms": "indeks tuaian"
+  },
+  "short": {
+   "zh": "可收获部分占植株总生物量的比例。",
+   "en": "The fraction of total biomass that is the harvested product.",
+   "ms": "Pecahan jumlah biojisim yang merupakan hasil tuaian."
+  },
+  "chapter": 9
+ },
+ {
+  "id": "partitioning",
+  "name": {
+   "zh": "分配（库间分配）",
+   "en": "partitioning",
+   "ms": "pembahagian"
+  },
+  "short": {
+   "zh": "同化物在不同库之间的分配。",
+   "en": "The division of assimilate among competing sinks.",
+   "ms": "Pembahagian asimilat antara sinki yang bersaing."
+  },
+  "chapter": 9
+ },
+ {
+  "id": "phloem",
+  "name": {
+   "zh": "韧皮部",
+   "en": "phloem",
+   "ms": "floem"
+  },
+  "short": {
+   "zh": "运输有机物（主要是蔗糖）的活组织，由筛分子和伴胞组成。",
+   "en": "The living tissue that carries organic solutes, mainly sucrose; made of sieve elements and companion cells.",
+   "ms": "Tisu hidup yang membawa zat terlarut organik, terutamanya sukrosa; terdiri daripada unsur tapis dan sel rakan."
+  },
+  "chapter": 9
+ },
+ {
+  "id": "phloem-loading",
+  "name": {
+   "zh": "韧皮部装载",
+   "en": "phloem loading",
+   "ms": "pemuatan floem"
+  },
+  "short": {
+   "zh": "同化物从叶肉送入筛分子–伴胞复合体；质外体途径靠蔗糖–H⁺ 同向转运。",
+   "en": "Moving assimilate from mesophyll into the sieve element–companion cell complex; the apoplastic route uses sucrose–H⁺ symport.",
+   "ms": "Menggerakkan asimilat dari mesofil ke kompleks unsur tapis–sel rakan; laluan apoplas menggunakan simport sukrosa–H⁺."
+  },
+  "chapter": 9
+ },
+ {
+  "id": "pressure-flow",
+  "name": {
+   "zh": "压力流学说",
+   "en": "pressure-flow hypothesis",
+   "ms": "hipotesis aliran tekanan"
+  },
+  "short": {
+   "zh": "Münch 提出：源端装糖使膨压升高、库端卸糖使膨压下降，压力差推动筛管内溶液集流。",
+   "en": "Münch's model: loading raises turgor at the source, unloading lowers it at the sink, and the difference drives bulk flow in the sieve tubes.",
+   "ms": "Model Münch: pemuatan menaikkan turgor di sumber, pemunggahan menurunkannya di sinki, dan perbezaannya memacu aliran pukal dalam tiub tapis."
+  },
+  "chapter": 9
+ },
+ {
+  "id": "sieve-element",
+  "name": {
+   "zh": "筛分子",
+   "en": "sieve element",
+   "ms": "unsur tapis"
+  },
+  "short": {
+   "zh": "韧皮部的输导细胞：活但没有核和液泡膜，以筛板相连成筛管。",
+   "en": "The conducting cell of phloem: alive but without nucleus or tonoplast, joined by sieve plates into sieve tubes.",
+   "ms": "Sel pengalir floem: hidup tetapi tanpa nukleus atau tonoplas, bersambung oleh plat tapis menjadi tiub tapis."
+  },
+  "chapter": 9
+ },
+ {
+  "id": "sink",
+  "name": {
+   "zh": "库",
+   "en": "sink",
+   "ms": "sinki"
+  },
+  "short": {
+   "zh": "输入并使用或贮存同化物的器官，例如根、果实、种子和幼叶。",
+   "en": "An organ that imports and uses or stores assimilate: roots, fruits, seeds, young leaves.",
+   "ms": "Organ yang mengimport dan menggunakan atau menyimpan asimilat: akar, buah, biji, daun muda."
+  },
+  "chapter": 9
+ },
+ {
+  "id": "sink-strength",
+  "name": {
+   "zh": "库强",
+   "en": "sink strength",
+   "ms": "kekuatan sinki"
+  },
+  "short": {
+   "zh": "库容量 × 库活性；决定一个库能吸引多少同化物。",
+   "en": "Sink size × sink activity; sets how much assimilate a sink draws.",
+   "ms": "Saiz sinki × aktiviti sinki; menentukan berapa banyak asimilat yang ditarik sinki."
+  },
+  "chapter": 9
+ },
+ {
+  "id": "source",
+  "name": {
+   "zh": "源",
+   "en": "source",
+   "ms": "sumber"
+  },
+  "short": {
+   "zh": "输出同化物的器官，例如成熟的叶片。",
+   "en": "An organ that exports assimilate, such as a mature leaf.",
+   "ms": "Organ yang mengeksport asimilat, seperti daun matang."
+  },
+  "chapter": 9
+ },
+ {
+  "id": "alternative-oxidase",
+  "name": {
+   "zh": "交替氧化酶",
+   "en": "alternative oxidase",
+   "ms": "oksidase alternatif"
+  },
+  "short": {
+   "zh": "把泛醌的电子直接交给 O₂ 的酶；抗氰、对 SHAM 敏感，几乎不产生 ATP，可产热。",
+   "en": "An enzyme passing electrons from ubiquinone straight to O₂; cyanide-resistant, SHAM-sensitive, yielding little ATP and releasing heat.",
+   "ms": "Enzim yang memindahkan elektron dari ubikuinon terus ke O₂; tahan sianida, sensitif SHAM, menghasilkan sedikit ATP dan membebaskan haba."
+  },
+  "chapter": 10,
+  "abbr": "AOX"
+ },
+ {
+  "id": "fermentation",
+  "name": {
+   "zh": "发酵",
+   "en": "fermentation",
+   "ms": "penapaian"
+  },
+  "short": {
+   "zh": "缺氧时把丙酮酸还原成乙醇或乳酸，以再生 NAD⁺。",
+   "en": "Reduction of pyruvate to ethanol or lactate without oxygen, regenerating NAD⁺.",
+   "ms": "Penurunan piruvat kepada etanol atau laktat tanpa oksigen, menjana semula NAD⁺."
+  },
+  "chapter": 10
+ },
+ {
+  "id": "glycolysis",
+  "name": {
+   "zh": "糖酵解",
+   "en": "glycolysis",
+   "ms": "glikolisis"
+  },
+  "short": {
+   "zh": "细胞质中把己糖分解成两个丙酮酸、不需要氧的途径。",
+   "en": "The cytosolic, oxygen-independent breakdown of hexose to two pyruvates.",
+   "ms": "Penguraian heksosa kepada dua piruvat dalam sitosol tanpa memerlukan oksigen."
+  },
+  "chapter": 10
+ },
+ {
+  "id": "glyoxylate-cycle",
+  "name": {
+   "zh": "乙醛酸循环",
+   "en": "glyoxylate cycle",
+   "ms": "kitaran glioksilat"
+  },
+  "short": {
+   "zh": "在乙醛酸循环体中把乙酰-CoA 转成琥珀酸，使油料种子能把脂肪变成糖。",
+   "en": "The glyoxysomal pathway converting acetyl-CoA to succinate, letting oily seeds turn fat into sugar.",
+   "ms": "Laluan dalam glioksisom yang menukar asetil-KoA kepada suksinat, membolehkan biji berminyak menukar lemak kepada gula."
+  },
+  "chapter": 10
+ },
+ {
+  "id": "oppp",
+  "name": {
+   "zh": "氧化戊糖磷酸途径",
+   "en": "oxidative pentose phosphate pathway",
+   "ms": "laluan pentosa fosfat oksidatif"
+  },
+  "short": {
+   "zh": "氧化葡萄糖-6-磷酸、产生 NADPH 和五碳糖的细胞质途径。",
+   "en": "The cytosolic pathway oxidising glucose-6-phosphate to NADPH and pentoses.",
+   "ms": "Laluan sitosol yang mengoksidakan glukosa-6-fosfat kepada NADPH dan pentosa."
+  },
+  "chapter": 10,
+  "abbr": "OPPP"
+ },
+ {
+  "id": "oxidative-phosphorylation",
+  "name": {
+   "zh": "氧化磷酸化",
+   "en": "oxidative phosphorylation",
+   "ms": "fosforilasi oksidatif"
+  },
+  "short": {
+   "zh": "线粒体中电子传给 O₂ 时建立质子梯度、再经 ATP 合酶合成 ATP。",
+   "en": "ATP synthesis in mitochondria driven by the proton gradient built as electrons pass to O₂.",
+   "ms": "Sintesis ATP dalam mitokondria yang dipacu oleh kecerunan proton yang dibina semasa elektron berpindah ke O₂."
+  },
+  "chapter": 10
+ },
+ {
+  "id": "tca-cycle",
+  "name": {
+   "zh": "柠檬酸循环（TCA 循环）",
+   "en": "citric acid (TCA) cycle",
+   "ms": "kitaran asid sitrik (TCA)"
+  },
+  "short": {
+   "zh": "线粒体基质中把乙酰-CoA 氧化成 CO₂、产生 NADH 和 FADH₂ 的循环。",
+   "en": "The matrix cycle oxidising acetyl-CoA to CO₂, producing NADH and FADH₂.",
+   "ms": "Kitaran dalam matriks yang mengoksidakan asetil-KoA kepada CO₂, menghasilkan NADH dan FADH₂."
+  },
+  "chapter": 10,
+  "abbr": "TCA"
+ },
+ {
+  "id": "bacteroid",
+  "name": {
+   "zh": "类菌体",
+   "en": "bacteroid",
+   "ms": "bakteroid"
+  },
+  "short": {
+   "zh": "根瘤细胞内被膜包围、已分化的固氮根瘤菌。",
+   "en": "A differentiated nitrogen-fixing rhizobium inside a nodule cell, enclosed by a membrane.",
+   "ms": "Rizobium pengikat nitrogen yang terbeza di dalam sel nodul, dibalut membran."
+  },
+  "chapter": 11
+ },
+ {
+  "id": "dinitrogenase",
+  "name": {
+   "zh": "固氮酶",
+   "en": "dinitrogenase (nitrogenase)",
+   "ms": "dinitrogenase (nitrogenase)"
+  },
+  "short": {
+   "zh": "由 Fe 蛋白和 MoFe 蛋白组成、把 N₂ 还原成 NH₃ 的酶复合体；怕氧、耗大量 ATP。",
+   "en": "The Fe protein + MoFe protein complex that reduces N₂ to NH₃; oxygen-sensitive and ATP-hungry.",
+   "ms": "Kompleks protein Fe + protein MoFe yang menurunkan N₂ kepada NH₃; sensitif oksigen dan banyak menggunakan ATP."
+  },
+  "chapter": 11
+ },
+ {
+  "id": "gs-gogat",
+  "name": {
+   "zh": "GS–GOGAT 循环（谷氨酸合酶循环）",
+   "en": "GS–GOGAT (glutamate synthase) cycle",
+   "ms": "kitaran GS–GOGAT (glutamat sintase)"
+  },
+  "short": {
+   "zh": "谷氨酰胺合成酶加上谷氨酸合酶，把铵同化进谷氨酰胺和谷氨酸的主要途径。",
+   "en": "Glutamine synthetase plus glutamate synthase: the main route assimilating ammonium into glutamine and glutamate.",
+   "ms": "Glutamina sintetase serta glutamat sintase: laluan utama mengasimilasi ammonium kepada glutamina dan glutamat."
+  },
+  "chapter": 11,
+  "abbr": "GS–GOGAT"
+ },
+ {
+  "id": "heterocyst",
+  "name": {
+   "zh": "异形胞",
+   "en": "heterocyst",
+   "ms": "heterosista"
+  },
+  "short": {
+   "zh": "蓝细菌中壁厚、呼吸旺盛、专门固氮的细胞。",
+   "en": "A thick-walled, highly respiring cyanobacterial cell specialised for nitrogen fixation.",
+   "ms": "Sel sianobakteria berdinding tebal dan berespirasi giat yang dikhususkan untuk pengikatan nitrogen."
+  },
+  "chapter": 11
+ },
+ {
+  "id": "infection-thread",
+  "name": {
+   "zh": "侵染线",
+   "en": "infection thread",
+   "ms": "benang jangkitan"
+  },
+  "short": {
+   "zh": "根毛细胞膜内陷形成的管道，根瘤菌经由它进入根瘤。",
+   "en": "An inward-growing tube of root-hair membrane through which rhizobia reach the nodule.",
+   "ms": "Tiub membran bulu akar yang tumbuh ke dalam, melaluinya rizobia sampai ke nodul."
+  },
+  "chapter": 11
+ },
+ {
+  "id": "leghemoglobin",
+  "name": {
+   "zh": "豆血红蛋白",
+   "en": "leghemoglobin",
+   "ms": "leghemoglobin"
+  },
+  "short": {
+   "zh": "根瘤中由植物合成的结合氧蛋白，调节类菌体的氧供应；使根瘤呈粉红色。",
+   "en": "A plant-made oxygen-binding protein in nodules that meters oxygen to bacteroids; makes nodules pink.",
+   "ms": "Protein pengikat oksigen buatan tumbuhan dalam nodul yang menyukat oksigen kepada bakteroid; menjadikan nodul merah jambu."
+  },
+  "chapter": 11
+ },
+ {
+  "id": "nitrate-reductase",
+  "name": {
+   "zh": "硝酸还原酶",
+   "en": "nitrate reductase",
+   "ms": "nitrat reduktase"
+  },
+  "short": {
+   "zh": "细胞质中用 NAD(P)H 把硝酸盐还原成亚硝酸盐的酶，受严密调控。",
+   "en": "The cytosolic enzyme that reduces nitrate to nitrite with NAD(P)H; tightly regulated.",
+   "ms": "Enzim sitosol yang menurunkan nitrat kepada nitrit dengan NAD(P)H; dikawal rapi."
+  },
+  "chapter": 11,
+  "abbr": "NR"
+ },
+ {
+  "id": "nitrification",
+  "name": {
+   "zh": "硝化作用",
+   "en": "nitrification",
+   "ms": "penitritan"
+  },
+  "short": {
+   "zh": "土壤细菌把铵氧化成亚硝酸盐（亚硝化单胞菌）再氧化成硝酸盐（硝化杆菌）。",
+   "en": "The oxidation of ammonium to nitrite (Nitrosomonas) and then nitrate (Nitrobacter) by soil bacteria.",
+   "ms": "Pengoksidaan ammonium kepada nitrit (Nitrosomonas) dan kemudian nitrat (Nitrobacter) oleh bakteria tanah."
+  },
+  "chapter": 11
+ },
+ {
+  "id": "nitrogen-fixation",
+  "name": {
+   "zh": "生物固氮",
+   "en": "biological nitrogen fixation",
+   "ms": "pengikatan nitrogen biologi"
+  },
+  "short": {
+   "zh": "原核生物用固氮酶把 N₂ 还原成 NH₃。",
+   "en": "The reduction of N₂ to NH₃ by prokaryotes using dinitrogenase.",
+   "ms": "Penurunan N₂ kepada NH₃ oleh prokariot menggunakan dinitrogenase."
+  },
+  "chapter": 11
+ },
+ {
+  "id": "nod-factor",
+  "name": {
+   "zh": "结瘤因子",
+   "en": "Nod factor",
+   "ms": "faktor Nod"
+  },
+  "short": {
+   "zh": "根瘤菌分泌的脂几丁寡糖信号，使根毛卷曲并诱导根瘤原基。",
+   "en": "A lipo-chito-oligosaccharide signal from rhizobia that curls root hairs and starts the nodule.",
+   "ms": "Isyarat lipo-kito-oligosakarida daripada rizobia yang menggulung bulu akar dan memulakan nodul."
+  },
+  "chapter": 11
+ },
+ {
+  "id": "nodule",
+  "name": {
+   "zh": "根瘤",
+   "en": "nodule",
+   "ms": "nodul"
+  },
+  "short": {
+   "zh": "豆科根上为根瘤菌提供固氮环境的特化结构。",
+   "en": "A specialised structure on legume roots that houses nitrogen-fixing rhizobia.",
+   "ms": "Struktur khusus pada akar kekacang yang menempatkan rizobia pengikat nitrogen."
+  },
+  "chapter": 11
+ },
+ {
+  "id": "rhizobia",
+  "name": {
+   "zh": "根瘤菌",
+   "en": "rhizobia",
+   "ms": "rizobia"
+  },
+  "short": {
+   "zh": "与豆科植物共生、在根瘤中固氮的细菌的统称。",
+   "en": "The bacteria that fix nitrogen in symbiosis with legumes, inside root nodules.",
+   "ms": "Bakteria yang mengikat nitrogen secara simbiosis dengan kekacang, di dalam nodul akar."
+  },
+  "chapter": 11
+ },
+ {
+  "id": "ureide",
+  "name": {
+   "zh": "酰脲类（尿囊素等）",
+   "en": "ureides",
+   "ms": "ureida"
+  },
+  "short": {
+   "zh": "尿囊素和尿囊酸，一些固氮植物用来经木质部运输氮，C:N 比划算。",
+   "en": "Allantoin and allantoic acid, used by some nitrogen-fixing plants to carry N in the xylem at an economical C:N ratio.",
+   "ms": "Alantoin dan asid alantoik, digunakan oleh sesetengah tumbuhan pengikat nitrogen untuk membawa N dalam xilem pada nisbah C:N yang jimat."
+  },
+  "chapter": 11
+ },
+ {
+  "id": "co2-compensation-point",
+  "name": {
+   "zh": "CO₂ 补偿点",
+   "en": "CO₂ compensation point",
+   "ms": "titik pampasan CO₂"
+  },
+  "short": {
+   "zh": "光合吸收与呼吸（含光呼吸）放出 CO₂ 相等时的 CO₂ 浓度。",
+   "en": "The CO₂ concentration at which photosynthetic uptake equals release by respiration and photorespiration.",
+   "ms": "Kepekatan CO₂ di mana pengambilan fotosintesis sama dengan pembebasan oleh respirasi dan fotorespirasi."
+  },
+  "chapter": 12
+ },
+ {
+  "id": "growth-respiration",
+  "name": {
+   "zh": "生长呼吸",
+   "en": "growth respiration",
+   "ms": "respirasi pertumbuhan"
+  },
+  "short": {
+   "zh": "建造新组织所消耗的碳。",
+   "en": "The carbon cost of building new tissue.",
+   "ms": "Kos karbon membina tisu baharu."
+  },
+  "chapter": 12
+ },
+ {
+  "id": "lai",
+  "name": {
+   "zh": "叶面积指数",
+   "en": "leaf area index",
+   "ms": "indeks luas daun"
+  },
+  "short": {
+   "zh": "叶片总面积与其覆盖地面面积之比。",
+   "en": "Total leaf area divided by the ground area it covers.",
+   "ms": "Jumlah luas daun dibahagi luas tanah yang diliputinya."
+  },
+  "chapter": 12,
+  "abbr": "LAI"
+ },
+ {
+  "id": "light-compensation-point",
+  "name": {
+   "zh": "光补偿点",
+   "en": "light compensation point",
+   "ms": "titik pampasan cahaya"
+  },
+  "short": {
+   "zh": "光合吸收的 CO₂ 刚好等于呼吸放出的 CO₂ 时的光量。",
+   "en": "The light level at which photosynthetic CO₂ uptake equals respiratory release.",
+   "ms": "Paras cahaya di mana pengambilan CO₂ fotosintesis sama dengan pembebasan respirasi."
+  },
+  "chapter": 12
+ },
+ {
+  "id": "light-saturation",
+  "name": {
+   "zh": "光饱和",
+   "en": "light saturation",
+   "ms": "ketepuan cahaya"
+  },
+  "short": {
+   "zh": "光再增加也不再提高光合速率的状态；C₃ 植物此时受 CO₂ 限制。",
+   "en": "The point beyond which more light no longer raises photosynthesis; C₃ plants are then CO₂-limited.",
+   "ms": "Titik di mana lebih banyak cahaya tidak lagi meningkatkan fotosintesis; tumbuhan C₃ kemudian dihadkan CO₂."
+  },
+  "chapter": 12
+ },
+ {
+  "id": "maintenance-respiration",
+  "name": {
+   "zh": "维持呼吸",
+   "en": "maintenance respiration",
+   "ms": "respirasi penyelenggaraan"
+  },
+  "short": {
+   "zh": "维持现有组织运作所消耗的呼吸。",
+   "en": "Respiration spent keeping existing tissue running.",
+   "ms": "Respirasi yang digunakan untuk mengekalkan tisu sedia ada."
+  },
+  "chapter": 12
+ },
+ {
+  "id": "primary-productivity",
+  "name": {
+   "zh": "初级生产力",
+   "en": "primary productivity",
+   "ms": "produktiviti primer"
+  },
+  "short": {
+   "zh": "光合生物把太阳能转成有机物的速率；GPP 是总量，NPP 是扣除呼吸后的净量。",
+   "en": "The rate at which photosynthetic organisms turn solar energy into organic matter; GPP is the total, NPP what remains after respiration.",
+   "ms": "Kadar organisma fotosintetik menukar tenaga suria kepada bahan organik; GPP ialah jumlah, NPP baki selepas respirasi."
+  },
+  "chapter": 12,
+  "abbr": "GPP / NPP"
+ },
+ {
+  "id": "q10",
+  "name": {
+   "zh": "温度系数 Q₁₀",
+   "en": "temperature coefficient (Q₁₀)",
+   "ms": "pekali suhu (Q₁₀)"
+  },
+  "short": {
+   "zh": "温度升高 10 °C 时速率变化的倍数；多数生物过程约 2–3。",
+   "en": "The factor by which a rate changes for a 10 °C rise; about 2–3 for most biological processes.",
+   "ms": "Faktor perubahan kadar bagi kenaikan 10 °C; kira-kira 2–3 bagi kebanyakan proses biologi."
+  },
+  "chapter": 12,
+  "abbr": "Q₁₀"
+ },
+ {
+  "id": "chilling-injury",
+  "name": {
+   "zh": "冷害",
+   "en": "chilling injury",
+   "ms": "kecederaan kedinginan"
+  },
+  "short": {
+   "zh": "零度以上低温对冷敏感植物造成的伤害，与膜脂相变有关。",
+   "en": "Damage to chilling-sensitive plants by cold above freezing, linked to membrane lipid phase change.",
+   "ms": "Kerosakan pada tumbuhan sensitif kedinginan oleh sejuk di atas takat beku, berkait dengan perubahan fasa lipid membran."
+  },
+  "chapter": 13
+ },
+ {
+  "id": "d1-repair",
+  "name": {
+   "zh": "D1 修复循环",
+   "en": "D1 repair cycle",
+   "ms": "kitaran pembaikan D1"
+  },
+  "short": {
+   "zh": "拆除受损的 D1、由叶绿体 psbA 基因合成新 D1 装回 PSII 的过程。",
+   "en": "Removal of damaged D1 and insertion of a new one made from the chloroplast psbA gene.",
+   "ms": "Pembuangan D1 yang rosak dan pemasukan yang baharu yang dibuat daripada gen psbA kloroplas."
+  },
+  "chapter": 13
+ },
+ {
+  "id": "effector",
+  "name": {
+   "zh": "效应蛋白",
+   "en": "effector",
+   "ms": "efektor"
+  },
+  "short": {
+   "zh": "病原送进植物细胞、用来压制免疫的蛋白质。",
+   "en": "A pathogen protein delivered into plant cells to suppress immunity.",
+   "ms": "Protein patogen yang dihantar ke dalam sel tumbuhan untuk menindas keimunan."
+  },
+  "chapter": 13
+ },
+ {
+  "id": "eti",
+  "name": {
+   "zh": "效应蛋白触发的免疫",
+   "en": "effector-triggered immunity",
+   "ms": "keimunan dicetuskan efektor"
+  },
+  "short": {
+   "zh": "R 蛋白识别特定效应蛋白后引发的强烈防御，常伴随过敏反应。",
+   "en": "Strong defence when an R protein recognises a specific effector, often with a hypersensitive response.",
+   "ms": "Pertahanan kuat apabila protein R mengenal pasti efektor tertentu, selalunya dengan tindak balas hipersensitif."
+  },
+  "chapter": 13,
+  "abbr": "ETI"
+ },
+ {
+  "id": "heat-shock-protein",
+  "name": {
+   "zh": "热激蛋白",
+   "en": "heat shock protein",
+   "ms": "protein kejutan haba"
+  },
+  "short": {
+   "zh": "高温诱导的分子伴侣，帮助其他蛋白质正确折叠。",
+   "en": "A heat-induced molecular chaperone that helps other proteins fold correctly.",
+   "ms": "Pendamping molekul yang diaruh haba yang membantu protein lain berlipat dengan betul."
+  },
+  "chapter": 13,
+  "abbr": "HSP"
+ },
+ {
+  "id": "homeostasis",
+  "name": {
+   "zh": "体内恒定",
+   "en": "homeostasis",
+   "ms": "homeostasis"
+  },
+  "short": {
+   "zh": "生物维持稳定内部状态、平衡能量进出的能力。",
+   "en": "An organism's maintenance of a steady internal state, balancing energy in and out.",
+   "ms": "Pengekalan keadaan dalaman yang stabil oleh organisma, mengimbangi tenaga masuk dan keluar."
+  },
+  "chapter": 13
+ },
+ {
+  "id": "hypersensitive-response",
+  "name": {
+   "zh": "过敏反应",
+   "en": "hypersensitive response",
+   "ms": "tindak balas hipersensitif"
+  },
+  "short": {
+   "zh": "感染点附近细胞程序性死亡并产生抗菌物质，把病原困住。",
+   "en": "Programmed death of cells around an infection site, with antimicrobial compounds, trapping the pathogen.",
+   "ms": "Kematian terprogram sel di sekitar tapak jangkitan, dengan sebatian antimikrob, memerangkap patogen."
+  },
+  "chapter": 13,
+  "abbr": "HR"
+ },
+ {
+  "id": "osmotic-adjustment",
+  "name": {
+   "zh": "渗透调节",
+   "en": "osmotic adjustment",
+   "ms": "pelarasan osmotik"
+  },
+  "short": {
+   "zh": "累积相容性溶质（脯氨酸、甜菜碱等）以降低细胞水势、维持吸水。",
+   "en": "Accumulating compatible solutes (proline, betaine and others) to lower cell water potential and keep taking up water.",
+   "ms": "Mengumpul zat terlarut serasi (prolina, betaina dan lain-lain) untuk merendahkan keupayaan air sel dan terus mengambil air."
+  },
+  "chapter": 13
+ },
+ {
+  "id": "photoinhibition",
+  "name": {
+   "zh": "光抑制",
+   "en": "photoinhibition",
+   "ms": "fotoperencatan"
+  },
+  "short": {
+   "zh": "过量的光使光合效率和能力下降，主要损伤 PSII 的 D1 蛋白。",
+   "en": "A fall in photosynthetic efficiency and capacity caused by excess light, mainly damaging the D1 protein of PSII.",
+   "ms": "Penurunan kecekapan dan kapasiti fotosintesis akibat cahaya berlebihan, terutamanya merosakkan protein D1 PSII."
+  },
+  "chapter": 13
+ },
+ {
+  "id": "pti",
+  "name": {
+   "zh": "PAMP 触发的免疫",
+   "en": "PAMP-triggered immunity",
+   "ms": "keimunan dicetuskan PAMP"
+  },
+  "short": {
+   "zh": "模式识别受体认出病原保守分子后引发的快速、广谱防御。",
+   "en": "Fast, broad defence triggered when pattern-recognition receptors detect conserved pathogen molecules.",
+   "ms": "Pertahanan pantas dan luas yang dicetuskan apabila reseptor pengecaman corak mengesan molekul patogen terpelihara."
+  },
+  "chapter": 13,
+  "abbr": "PTI"
+ },
+ {
+  "id": "sar",
+  "name": {
+   "zh": "系统获得抗性",
+   "en": "systemic acquired resistance",
+   "ms": "rintangan perolehan sistemik"
+  },
+  "short": {
+   "zh": "局部感染后全株获得的持久广谱抗性，以水杨酸为信号。",
+   "en": "Long-lasting, broad resistance throughout the plant after a local infection, signalled by salicylic acid.",
+   "ms": "Rintangan tahan lama dan luas di seluruh tumbuhan selepas jangkitan setempat, diisyaratkan oleh asid salisilik."
+  },
+  "chapter": 13,
+  "abbr": "SAR"
+ },
+ {
+  "id": "stress",
+  "name": {
+   "zh": "逆境（胁迫）",
+   "en": "stress",
+   "ms": "tekanan"
+  },
+  "short": {
+   "zh": "扰乱体内恒定的因素；分生物逆境和非生物逆境。",
+   "en": "Any factor that disrupts homeostasis; biotic or abiotic.",
+   "ms": "Mana-mana faktor yang mengganggu homeostasis; biotik atau abiotik."
+  },
+  "chapter": 13
+ },
+ {
+  "id": "acclimation",
+  "name": {
+   "zh": "驯化（锻炼）",
+   "en": "acclimation (hardening)",
+   "ms": "penyesuaian (pengerasan)"
+  },
+  "short": {
+   "zh": "个体在一生中对逆境做出的、不遗传的调整。",
+   "en": "A non-heritable adjustment an individual makes to stress within its lifetime.",
+   "ms": "Pelarasan tidak diwarisi yang dibuat individu terhadap tekanan dalam hayatnya."
+  },
+  "chapter": 14
+ },
+ {
+  "id": "antifreeze-protein",
+  "name": {
+   "zh": "抗冻蛋白",
+   "en": "antifreeze protein",
+   "ms": "protein antibeku"
+  },
+  "short": {
+   "zh": "冷驯化后分泌到质外体、结合冰晶表面抑制其生长的蛋白质。",
+   "en": "A protein secreted into the apoplast after cold acclimation that binds ice crystals and stops them growing.",
+   "ms": "Protein yang dirembeskan ke apoplas selepas penyesuaian sejuk yang terikat pada hablur ais dan menghentikan pertumbuhannya."
+  },
+  "chapter": 14,
+  "abbr": "AFP"
+ },
+ {
+  "id": "asada-halliwell",
+  "name": {
+   "zh": "Asada–Halliwell 途径",
+   "en": "Asada–Halliwell pathway",
+   "ms": "laluan Asada–Halliwell"
+  },
+  "short": {
+   "zh": "以抗坏血酸和谷胱甘肽把叶绿体中的 H₂O₂ 还原成水的解毒途径。",
+   "en": "The detoxifying pathway that reduces chloroplast H₂O₂ to water using ascorbate and glutathione.",
+   "ms": "Laluan penyahtoksikan yang menurunkan H₂O₂ kloroplas kepada air menggunakan askorbat dan glutation."
+  },
+  "chapter": 14
+ },
+ {
+  "id": "excitation-pressure",
+  "name": {
+   "zh": "激发压力",
+   "en": "excitation pressure",
+   "ms": "tekanan pengujaan"
+  },
+  "short": {
+   "zh": "PSII 相对过度激发、PQ 库过度还原的状态；触发逆向基因调控。",
+   "en": "Relative over-excitation of PSII and over-reduction of the PQ pool; triggers retrograde gene regulation.",
+   "ms": "Pengujaan berlebihan relatif PSII dan penurunan berlebihan takungan PQ; mencetuskan pengawalaturan gen retrograd."
+  },
+  "chapter": 14
+ },
+ {
+  "id": "npq",
+  "name": {
+   "zh": "非光化学猝灭",
+   "en": "non-photochemical quenching",
+   "ms": "pelindapan bukan fotokimia"
+  },
+  "short": {
+   "zh": "把多余的吸收能量以热散掉，主要靠叶黄素循环。",
+   "en": "Dissipating surplus absorbed energy as heat, mainly via the xanthophyll cycle.",
+   "ms": "Melesapkan tenaga serapan berlebihan sebagai haba, terutamanya melalui kitaran xantofil."
+  },
+  "chapter": 14,
+  "abbr": "NPQ"
+ },
+ {
+  "id": "photoacclimation",
+  "name": {
+   "zh": "光驯化",
+   "en": "photoacclimation",
+   "ms": "fotopenyesuaian"
+  },
+  "short": {
+   "zh": "光合机构对生长光强与光质的长期调整。",
+   "en": "Long-term adjustment of the photosynthetic machinery to growth light intensity and quality.",
+   "ms": "Pelarasan jangka panjang jentera fotosintesis kepada keamatan dan kualiti cahaya pertumbuhan."
+  },
+  "chapter": 14
+ },
+ {
+  "id": "photochemical-quenching",
+  "name": {
+   "zh": "光化学猝灭",
+   "en": "photochemical quenching",
+   "ms": "pelindapan fotokimia"
+  },
+  "short": {
+   "zh": "把吸收的能量用于光化学、代谢和生长。",
+   "en": "Using absorbed energy for photochemistry, metabolism and growth.",
+   "ms": "Menggunakan tenaga yang diserap untuk fotokimia, metabolisme dan pertumbuhan."
+  },
+  "chapter": 14
+ },
+ {
+  "id": "state-transition",
+  "name": {
+   "zh": "状态转换",
+   "en": "state transition",
+   "ms": "peralihan keadaan"
+  },
+  "short": {
+   "zh": "LHCII 磷酸化后离开 PSII、去磷酸化后回来，以平衡两个光系统的激发。",
+   "en": "LHCII leaving PSII when phosphorylated and returning when dephosphorylated, balancing excitation of the two photosystems.",
+   "ms": "LHCII meninggalkan PSII apabila difosforilkan dan kembali apabila dinyahfosforilkan, mengimbangi pengujaan kedua-dua fotosistem."
+  },
+  "chapter": 14
+ },
+ {
+  "id": "xanthophyll-cycle",
+  "name": {
+   "zh": "叶黄素循环",
+   "en": "xanthophyll cycle",
+   "ms": "kitaran xantofil"
+  },
+  "short": {
+   "zh": "强光下紫黄质 → 花药黄质 → 玉米黄质，以玉米黄质散热保护 PSII；弱光下逆转。",
+   "en": "In strong light violaxanthin → antheraxanthin → zeaxanthin, which dissipates heat to protect PSII; reversed in weak light.",
+   "ms": "Dalam cahaya kuat violaxantin → anteraxantin → zeaxantin, yang melesapkan haba untuk melindungi PSII; berbalik dalam cahaya lemah."
+  },
+  "chapter": 14
+ },
+ {
+  "id": "adaptation",
+  "name": {
+   "zh": "适应",
+   "en": "adaptation",
+   "ms": "adaptasi"
+  },
+  "short": {
+   "zh": "经过演化、可遗传的有利特征；不同于个体一生中的驯化。",
+   "en": "An evolved, heritable trait; unlike acclimation within one lifetime.",
+   "ms": "Ciri yang berevolusi dan diwarisi; berbeza daripada penyesuaian dalam satu hayat."
+  },
+  "chapter": 15
+ },
+ {
+  "id": "c4-photosynthesis",
+  "name": {
+   "zh": "C₄ 光合作用",
+   "en": "C₄ photosynthesis",
+   "ms": "fotosintesis C₄"
+  },
+  "short": {
+   "zh": "先由 PEP 羧化酶把 CO₂ 固定成四碳酸，再在维管束鞘释放给 rubisco 的 CO₂ 浓缩机制。",
+   "en": "A CO₂-concentrating route: PEP carboxylase fixes CO₂ into a C₄ acid, which releases it to rubisco in the bundle sheath.",
+   "ms": "Laluan pemekatan CO₂: PEP karboksilase mengikat CO₂ menjadi asid C₄, yang membebaskannya kepada rubisco dalam seludang berkas."
+  },
+  "chapter": 15,
+  "abbr": "C₄"
+ },
+ {
+  "id": "cam",
+  "name": {
+   "zh": "景天酸代谢",
+   "en": "crassulacean acid metabolism",
+   "ms": "metabolisme asid krasulasea"
+  },
+  "short": {
+   "zh": "夜间开气孔、以 PEP 羧化酶固定 CO₂ 成苹果酸贮存，白天关气孔再释放给卡尔文循环。",
+   "en": "Stomata open at night to fix CO₂ into stored malate via PEP carboxylase; by day, with stomata shut, the CO₂ is released to the Calvin cycle.",
+   "ms": "Stoma terbuka pada waktu malam untuk mengikat CO₂ menjadi malat tersimpan melalui PEP karboksilase; pada siang hari, dengan stoma tertutup, CO₂ dibebaskan kepada kitaran Calvin."
+  },
+  "chapter": 15,
+  "abbr": "CAM"
+ },
+ {
+  "id": "kranz-anatomy",
+  "name": {
+   "zh": "花环结构",
+   "en": "Kranz anatomy",
+   "ms": "anatomi Kranz"
+  },
+  "short": {
+   "zh": "C₄ 叶中维管束外围绕一圈叶绿体多的维管束鞘细胞、外面再有叶肉细胞的结构。",
+   "en": "The C₄ leaf layout: vascular bundles ringed by chloroplast-rich bundle-sheath cells, with mesophyll outside.",
+   "ms": "Susunan daun C₄: berkas vaskular dikelilingi sel seludang berkas kaya kloroplas, dengan mesofil di luar."
+  },
+  "chapter": 15
+ },
+ {
+  "id": "pepcase",
+  "name": {
+   "zh": "PEP 羧化酶",
+   "en": "PEP carboxylase",
+   "ms": "PEP karboksilase"
+  },
+  "short": {
+   "zh": "把 HCO₃⁻ 加到 PEP 上形成草酰乙酸的酶；不与 O₂ 反应。",
+   "en": "The enzyme adding HCO₃⁻ to PEP to form oxaloacetate; it does not react with O₂.",
+   "ms": "Enzim yang menambah HCO₃⁻ kepada PEP untuk membentuk oksaloasetat; ia tidak bertindak balas dengan O₂."
+  },
+  "chapter": 15,
+  "abbr": "PEPcase"
+ },
+ {
+  "id": "wue",
+  "name": {
+   "zh": "水分利用效率",
+   "en": "water-use efficiency",
+   "ms": "kecekapan penggunaan air"
+  },
+  "short": {
+   "zh": "每蒸腾一摩尔水所同化的 CO₂ 摩尔数；倒数是蒸腾比。",
+   "en": "Moles of CO₂ assimilated per mole of water transpired; the inverse is the transpiration ratio.",
+   "ms": "Mol CO₂ yang diasimilasi bagi setiap mol air yang ditranspirasi; songsangnya ialah nisbah transpirasi."
+  },
+  "chapter": 15,
+  "abbr": "WUE"
+ },
+ {
+  "id": "development",
+  "name": {
+   "zh": "发育",
+   "en": "development",
+   "ms": "perkembangan"
+  },
+  "short": {
+   "zh": "细胞、组织、器官或个体在生活史中经历的所有变化。",
+   "en": "All the changes a cell, tissue, organ or organism goes through in its life cycle.",
+   "ms": "Semua perubahan yang dilalui sel, tisu, organ atau organisma dalam kitaran hidupnya."
+  },
+  "chapter": 16
+ },
+ {
+  "id": "differentiation",
+  "name": {
+   "zh": "分化",
+   "en": "differentiation",
+   "ms": "pembezaan"
+  },
+  "short": {
+   "zh": "细胞、组织或器官质的改变；在植物中可逆。",
+   "en": "A qualitative change in cells, tissues or organs; reversible in plants.",
+   "ms": "Perubahan kualitatif dalam sel, tisu atau organ; boleh berbalik dalam tumbuhan."
+  },
+  "chapter": 16
+ },
+ {
+  "id": "double-fertilization",
+  "name": {
+   "zh": "双受精",
+   "en": "double fertilisation",
+   "ms": "persenyawaan berganda"
+  },
+  "short": {
+   "zh": "一个精核与卵结合成合子（2N），另一个与两个极核结合成胚乳（3N）。",
+   "en": "One sperm fuses with the egg (zygote, 2N), the other with two polar nuclei (endosperm, 3N).",
+   "ms": "Satu sperma bergabung dengan telur (zigot, 2N), satu lagi dengan dua nukleus kutub (endosperma, 3N)."
+  },
+  "chapter": 16
+ },
+ {
+  "id": "growth",
+  "name": {
+   "zh": "生长",
+   "en": "growth",
+   "ms": "pertumbuhan"
+  },
+  "short": {
+   "zh": "细胞数目、大小或体积不可逆的量的增加。",
+   "en": "An irreversible quantitative increase in cell number, size or volume.",
+   "ms": "Peningkatan kuantitatif yang tidak boleh berbalik dalam bilangan, saiz atau isi padu sel."
+  },
+  "chapter": 16
+ },
+ {
+  "id": "imbibition",
+  "name": {
+   "zh": "吸胀",
+   "en": "imbibition",
+   "ms": "imbibisi"
+  },
+  "short": {
+   "zh": "干种子靠衬质力迅速吸水，是萌发的第一步。",
+   "en": "The rapid uptake of water by a dry seed through matric forces; the first step of germination.",
+   "ms": "Pengambilan air yang pantas oleh biji kering melalui daya matrik; langkah pertama percambahan."
+  },
+  "chapter": 16
+ },
+ {
+  "id": "meristem",
+  "name": {
+   "zh": "分生组织",
+   "en": "meristem",
+   "ms": "meristem"
+  },
+  "short": {
+   "zh": "植物中持续进行细胞分裂的区域。",
+   "en": "A region of ongoing cell division in a plant.",
+   "ms": "Kawasan pembahagian sel berterusan dalam tumbuhan."
+  },
+  "chapter": 16
+ },
+ {
+  "id": "pcd",
+  "name": {
+   "zh": "程序性细胞死亡",
+   "en": "programmed cell death",
+   "ms": "kematian sel terprogram"
+  },
+  "short": {
+   "zh": "主动、受控的细胞死亡，例如导管成熟、通气组织形成和过敏反应。",
+   "en": "Proactive, controlled cell death, as in vessel maturation, aerenchyma formation and the hypersensitive response.",
+   "ms": "Kematian sel proaktif dan terkawal, seperti dalam pematangan salur, pembentukan aerenkima dan tindak balas hipersensitif."
+  },
+  "chapter": 16,
+  "abbr": "PCD"
+ },
+ {
+  "id": "primary-growth",
+  "name": {
+   "zh": "初生生长",
+   "en": "primary growth",
+   "ms": "pertumbuhan primer"
+  },
+  "short": {
+   "zh": "顶端分生组织造成的纵向生长，使植物变长。",
+   "en": "Mainly vertical growth from apical meristems, lengthening the plant.",
+   "ms": "Pertumbuhan terutamanya menegak daripada meristem apeks, memanjangkan tumbuhan."
+  },
+  "chapter": 16
+ },
+ {
+  "id": "quiescent-center",
+  "name": {
+   "zh": "静止中心",
+   "en": "quiescent centre",
+   "ms": "pusat rehat"
+  },
+  "short": {
+   "zh": "根顶端分生组织中央分裂很慢的细胞群，周围是根的干细胞。",
+   "en": "The slowly dividing cells at the centre of the root apical meristem, surrounded by root stem cells.",
+   "ms": "Sel yang membahagi perlahan di tengah meristem apeks akar, dikelilingi sel stem akar."
+  },
+  "chapter": 16,
+  "abbr": "QC"
+ },
+ {
+  "id": "secondary-growth",
+  "name": {
+   "zh": "次生生长",
+   "en": "secondary growth",
+   "ms": "pertumbuhan sekunder"
+  },
+  "short": {
+   "zh": "由形成层增加次生组织、使茎和根变粗。",
+   "en": "Thickening of stems and roots by secondary tissues from the cambium.",
+   "ms": "Penebalan batang dan akar oleh tisu sekunder daripada kambium."
+  },
+  "chapter": 16
+ },
+ {
+  "id": "senescence",
+  "name": {
+   "zh": "衰老",
+   "en": "senescence",
+   "ms": "penuaan"
+  },
+  "short": {
+   "zh": "发育的最后阶段：受基因控制地分解组织、回收养分。",
+   "en": "The final, genetically controlled stage of development in which tissues are dismantled and nutrients recovered.",
+   "ms": "Peringkat akhir perkembangan yang dikawal gen di mana tisu dileraikan dan nutrien diperoleh semula."
+  },
+  "chapter": 16
+ },
+ {
+  "id": "totipotency",
+  "name": {
+   "zh": "全能性",
+   "en": "totipotency",
+   "ms": "totipotensi"
+  },
+  "short": {
+   "zh": "细胞不经生殖阶段就能回到胚胎状态、再生完整植株的能力。",
+   "en": "The capacity of a cell to return to an embryonic state and regenerate a whole plant without reproduction.",
+   "ms": "Keupayaan sel kembali ke keadaan embrio dan menjana semula seluruh tumbuhan tanpa pembiakan."
+  },
+  "chapter": 16
+ },
+ {
+  "id": "vascular-cambium",
+  "name": {
+   "zh": "维管形成层",
+   "en": "vascular cambium",
+   "ms": "kambium vaskular"
+  },
+  "short": {
+   "zh": "产生次生木质部和次生韧皮部的侧生分生组织。",
+   "en": "The lateral meristem that produces secondary xylem and phloem.",
+   "ms": "Meristem sisi yang menghasilkan xilem dan floem sekunder."
+  },
+  "chapter": 16
+ },
+ {
+  "id": "acid-growth",
+  "name": {
+   "zh": "酸生长学说",
+   "en": "acid-growth hypothesis",
+   "ms": "hipotesis pertumbuhan asid"
+  },
+  "short": {
+   "zh": "生长素促使 H⁺ 外排、细胞壁酸化，扩张蛋白在低 pH 下松动细胞壁，使细胞伸长。",
+   "en": "Auxin drives H⁺ extrusion; the acidified wall is loosened by expansins and the cell elongates.",
+   "ms": "Auksin memacu penyingkiran H⁺; dinding yang berasid dilonggarkan oleh ekspansin dan sel memanjang."
+  },
+  "chapter": 17
+ },
+ {
+  "id": "cdk",
+  "name": {
+   "zh": "细胞周期蛋白依赖性激酶",
+   "en": "cyclin-dependent kinase",
+   "ms": "kinase bergantung siklin"
+  },
+  "short": {
+   "zh": "与细胞周期蛋白结合后活化、控制细胞周期时序的激酶。",
+   "en": "A kinase activated by binding cyclin that times the cell cycle.",
+   "ms": "Kinase yang diaktifkan dengan mengikat siklin yang menentukan masa kitaran sel."
+  },
+  "chapter": 17,
+  "abbr": "CDK"
+ },
+ {
+  "id": "cell-cycle",
+  "name": {
+   "zh": "细胞周期",
+   "en": "cell cycle",
+   "ms": "kitaran sel"
+  },
+  "short": {
+   "zh": "G₁ → S → G₂ → M 的循环；G₁、S、G₂ 合称间期。",
+   "en": "The sequence G₁ → S → G₂ → M; G₁, S and G₂ make up interphase.",
+   "ms": "Urutan G₁ → S → G₂ → M; G₁, S dan G₂ membentuk interfasa."
+  },
+  "chapter": 17
+ },
+ {
+  "id": "cell-plate",
+  "name": {
+   "zh": "细胞板",
+   "en": "cell plate",
+   "ms": "plat sel"
+  },
+  "short": {
+   "zh": "高尔基囊泡融合而成、向外扩展把细胞一分为二的新壁。",
+   "en": "The new wall formed by fusing Golgi vesicles that grows outwards to divide the cell.",
+   "ms": "Dinding baharu yang terbentuk daripada vesikel Golgi yang bergabung dan tumbuh ke luar untuk membahagi sel."
+  },
+  "chapter": 17
+ },
+ {
+  "id": "expansin",
+  "name": {
+   "zh": "扩张蛋白",
+   "en": "expansin",
+   "ms": "ekspansin"
+  },
+  "short": {
+   "zh": "在低 pH 下松开细胞壁多糖连接、引起应力松弛的细胞壁蛋白。",
+   "en": "A wall protein that loosens polysaccharide links at low pH, causing stress relaxation.",
+   "ms": "Protein dinding yang melonggarkan pautan polisakarida pada pH rendah, menyebabkan kelonggaran tegasan."
+  },
+  "chapter": 17
+ },
+ {
+  "id": "phragmoplast",
+  "name": {
+   "zh": "成膜体",
+   "en": "phragmoplast",
+   "ms": "fragmoplas"
+  },
+  "short": {
+   "zh": "胞质分裂时由微管重组成的结构，引导囊泡形成细胞板。",
+   "en": "A microtubule structure formed at cytokinesis that guides vesicles into the cell plate.",
+   "ms": "Struktur mikrotubul yang terbentuk semasa sitokinesis yang memandu vesikel menjadi plat sel."
+  },
+  "chapter": 17
+ },
+ {
+  "id": "primary-wall",
+  "name": {
+   "zh": "初生壁",
+   "en": "primary cell wall",
+   "ms": "dinding sel primer"
+  },
+  "short": {
+   "zh": "生长中细胞的细胞壁：纤维素微纤丝、交联聚糖、果胶和蛋白质。",
+   "en": "The wall of growing cells: cellulose microfibrils, cross-linking glycans, pectin and protein.",
+   "ms": "Dinding sel yang sedang tumbuh: mikrofibril selulosa, glikan pemaut silang, pektin dan protein."
+  },
+  "chapter": 17
+ },
+ {
+  "id": "second-messenger",
+  "name": {
+   "zh": "第二信使",
+   "en": "second messenger",
+   "ms": "utusan kedua"
+  },
+  "short": {
+   "zh": "在细胞内转达信号的小分子或离子，例如 Ca²⁺、IP₃、cAMP、活性氧。",
+   "en": "A small molecule or ion relaying a signal inside the cell: Ca²⁺, IP₃, cAMP, ROS.",
+   "ms": "Molekul kecil atau ion yang menyampaikan isyarat di dalam sel: Ca²⁺, IP₃, cAMP, ROS."
+  },
+  "chapter": 17
+ },
+ {
+  "id": "signal-transduction",
+  "name": {
+   "zh": "信号转导",
+   "en": "signal transduction",
+   "ms": "transduksi isyarat"
+  },
+  "short": {
+   "zh": "接收 → 传递 → 反应：把细胞外信号转成细胞内反应的过程。",
+   "en": "Reception → transduction → response: turning an outside signal into a cellular response.",
+   "ms": "Penerimaan → transduksi → tindak balas: menukar isyarat luar kepada tindak balas sel."
+  },
+  "chapter": 17
+ },
+ {
+  "id": "wall-extensibility",
+  "name": {
+   "zh": "细胞壁伸展性",
+   "en": "wall extensibility",
+   "ms": "keterlanjuran dinding"
+  },
+  "short": {
+   "zh": "dV/dt = m(P − Y) 中的 m：细胞壁不可逆扩大面积的能力。",
+   "en": "The m in dV/dt = m(P − Y): the wall's capacity to enlarge irreversibly.",
+   "ms": "m dalam dV/dt = m(P − Y): keupayaan dinding membesar secara tidak berbalik."
+  },
+  "chapter": 17,
+  "abbr": "m"
+ },
+ {
+  "id": "apical-dominance",
+  "name": {
+   "zh": "顶端优势",
+   "en": "apical dominance",
+   "ms": "dominasi apeks"
+  },
+  "short": {
+   "zh": "茎尖产生的生长素抑制下方腋芽生长的现象。",
+   "en": "The suppression of axillary buds by auxin from the shoot apex.",
+   "ms": "Penindasan tunas ketiak oleh auksin dari apeks pucuk."
+  },
+  "chapter": 18
+ },
+ {
+  "id": "arf",
+  "name": {
+   "zh": "生长素响应因子",
+   "en": "auxin response factor",
+   "ms": "faktor tindak balas auksin"
+  },
+  "short": {
+   "zh": "结合在生长素响应基因启动子上的转录因子；被 AUX/IAA 抑制。",
+   "en": "A transcription factor on auxin-responsive promoters, held inactive by AUX/IAA.",
+   "ms": "Faktor transkripsi pada promoter responsif auksin, ditahan tidak aktif oleh AUX/IAA."
+  },
+  "chapter": 18,
+  "abbr": "ARF"
+ },
+ {
+  "id": "auxin",
+  "name": {
+   "zh": "生长素",
+   "en": "auxin",
+   "ms": "auksin"
+  },
+  "short": {
+   "zh": "最先发现的植物激素，主要促进细胞伸长；最常见的是 IAA。",
+   "en": "The first plant hormone discovered; chiefly promotes cell elongation. IAA is the commonest.",
+   "ms": "Hormon tumbuhan pertama yang ditemui; terutamanya menggalakkan pemanjangan sel. IAA paling biasa."
+  },
+  "chapter": 18
+ },
+ {
+  "id": "avena-test",
+  "name": {
+   "zh": "燕麦弯曲试验",
+   "en": "Avena curvature test",
+   "ms": "ujian lengkungan Avena"
+  },
+  "short": {
+   "zh": "Went 把含生长素的琼脂块偏放在去顶燕麦胚芽鞘上，弯曲度与生长素量成正比。",
+   "en": "Went's assay: an auxin-containing agar block placed off-centre on a decapitated oat coleoptile; curvature is proportional to the auxin.",
+   "ms": "Asai Went: blok agar mengandungi auksin diletakkan tidak sejajar pada koleoptil oat yang dipotong; lengkungan berkadar dengan auksin."
+  },
+  "chapter": 18
+ },
+ {
+  "id": "cholodny-went",
+  "name": {
+   "zh": "Cholodny–Went 学说",
+   "en": "Cholodny–Went hypothesis",
+   "ms": "hipotesis Cholodny–Went"
+  },
+  "short": {
+   "zh": "向性弯曲是因为生长素横向重新分布，较多的一侧伸长较快。",
+   "en": "Tropic bending results from lateral redistribution of auxin; the side with more auxin grows faster.",
+   "ms": "Pembengkokan tropik terhasil daripada pengagihan semula auksin secara sisi; sisi dengan lebih auksin tumbuh lebih cepat."
+  },
+  "chapter": 18
+ },
+ {
+  "id": "iaa",
+  "name": {
+   "zh": "吲哚-3-乙酸",
+   "en": "indole-3-acetic acid",
+   "ms": "asid indol-3-asetik"
+  },
+  "short": {
+   "zh": "最主要的天然生长素。",
+   "en": "The principal natural auxin.",
+   "ms": "Auksin semula jadi yang utama."
+  },
+  "chapter": 18,
+  "abbr": "IAA"
+ },
+ {
+  "id": "phytohormone",
+  "name": {
+   "zh": "植物激素",
+   "en": "plant hormone (phytohormone)",
+   "ms": "hormon tumbuhan (fitohormon)"
+  },
+  "short": {
+   "zh": "低浓度即可调节生长发育的内源有机分子；可就地合成就地作用，剂量反应不一定线性。",
+   "en": "An endogenous organic molecule regulating growth at low concentration; may act where it is made, with non-linear dose responses.",
+   "ms": "Molekul organik endogen yang mengawal pertumbuhan pada kepekatan rendah; boleh bertindak di tempat ia dibuat, dengan tindak balas dos tidak linear."
+  },
+  "chapter": 18
+ },
+ {
+  "id": "polar-transport",
+  "name": {
+   "zh": "极性运输",
+   "en": "polar auxin transport",
+   "ms": "pengangkutan auksin berkutub"
+  },
+  "short": {
+   "zh": "生长素经细胞基部的 PIN 外排载体单方向从细胞到细胞运输；化学渗透模型。",
+   "en": "One-way, cell-to-cell auxin movement through basal PIN efflux carriers, explained by the chemiosmotic model.",
+   "ms": "Pergerakan auksin sehala dari sel ke sel melalui pembawa efluks PIN di pangkal, diterangkan oleh model kemiosmosis."
+  },
+  "chapter": 18
+ },
+ {
+  "id": "scf-complex",
+  "name": {
+   "zh": "SCF 复合体",
+   "en": "SCF complex",
+   "ms": "kompleks SCF"
+  },
+  "short": {
+   "zh": "由 Skp1、Cullin 和 F-box 蛋白组成的 E3 泛素连接酶；F-box 决定降解哪个蛋白，之后由 26S 蛋白酶体分解。",
+   "en": "An E3 ubiquitin ligase of Skp1, Cullin and an F-box protein; the F-box picks the target, which the 26S proteasome then destroys.",
+   "ms": "Ligase ubikuitin E3 daripada Skp1, Cullin dan protein F-box; F-box memilih sasaran, yang kemudian dimusnahkan proteasom 26S."
+  },
+  "chapter": 18,
+  "abbr": "SCF"
+ },
+ {
+  "id": "tir1",
+  "name": {
+   "zh": "TIR1（生长素受体）",
+   "en": "TIR1 (auxin receptor)",
+   "ms": "TIR1 (reseptor auksin)"
+  },
+  "short": {
+   "zh": "核内的生长素受体，是 SCF 复合体的 F-box 亚基；结合生长素后让 AUX/IAA 被降解。",
+   "en": "The nuclear auxin receptor, the F-box subunit of an SCF complex; with auxin bound it marks AUX/IAA for destruction.",
+   "ms": "Reseptor auksin nukleus, subunit F-box kompleks SCF; dengan auksin terikat ia menandakan AUX/IAA untuk dimusnahkan."
+  },
+  "chapter": 18,
+  "abbr": "TIR1"
+ },
+ {
+  "id": "aleurone",
+  "name": {
+   "zh": "糊粉层",
+   "en": "aleurone layer",
+   "ms": "lapisan aleuron"
+  },
+  "short": {
+   "zh": "包围谷粒胚乳的细胞层；受赤霉素诱导分泌 α-淀粉酶等水解酶。",
+   "en": "The cell layer around the cereal endosperm that secretes α-amylase and other hydrolases in response to gibberellin.",
+   "ms": "Lapisan sel di sekeliling endosperma bijirin yang merembeskan α-amilase dan hidrolase lain sebagai tindak balas kepada giberelin."
+  },
+  "chapter": 19
+ },
+ {
+  "id": "antigibberellin",
+  "name": {
+   "zh": "抗赤霉素（生长延缓剂）",
+   "en": "antigibberellin (growth retardant)",
+   "ms": "antigiberelin (perencat pertumbuhan)"
+  },
+  "short": {
+   "zh": "阻断赤霉素合成、使植株矮化的化合物，例如 CCC、AMO-1618、嘧啶醇。",
+   "en": "A compound that blocks gibberellin synthesis and dwarfs plants: CCC, AMO-1618, ancymidol.",
+   "ms": "Sebatian yang menyekat sintesis giberelin dan membantutkan tumbuhan: CCC, AMO-1618, ansimidol."
+  },
+  "chapter": 19
+ },
+ {
+  "id": "bolting",
+  "name": {
+   "zh": "抽薹",
+   "en": "bolting",
+   "ms": "pembentukan batang bunga"
+  },
+  "short": {
+   "zh": "莲座状植物开花前茎急速伸长，由赤霉素介导。",
+   "en": "The rapid stem elongation of rosette plants before flowering, mediated by gibberellin.",
+   "ms": "Pemanjangan batang yang pantas oleh tumbuhan roset sebelum berbunga, diantara oleh giberelin."
+  },
+  "chapter": 19
+ },
+ {
+  "id": "della",
+  "name": {
+   "zh": "DELLA 蛋白",
+   "en": "DELLA protein",
+   "ms": "protein DELLA"
+  },
+  "short": {
+   "zh": "赤霉素信号的核内抑制者（例如 GAI、SLR1）；赤霉素使它被降解。",
+   "en": "A nuclear repressor of gibberellin signalling (GAI, SLR1); gibberellin causes its destruction.",
+   "ms": "Penindas nukleus pengisyaratan giberelin (GAI, SLR1); giberelin menyebabkan ia dimusnahkan."
+  },
+  "chapter": 19
+ },
+ {
+  "id": "ggpp",
+  "name": {
+   "zh": "香叶基香叶基焦磷酸",
+   "en": "geranylgeranyl pyrophosphate",
+   "ms": "geranilgeranil pirofosfat"
+  },
+  "short": {
+   "zh": "叶绿体中 C₂₀ 和 C₄₀ 萜类（赤霉素、类胡萝卜素等）的共同前体。",
+   "en": "The plastid precursor of C₂₀ and C₄₀ terpenes such as gibberellins and carotenoids.",
+   "ms": "Prekursor plastid terpena C₂₀ dan C₄₀ seperti giberelin dan karotenoid."
+  },
+  "chapter": 19,
+  "abbr": "GGPP"
+ },
+ {
+  "id": "gibberellin",
+  "name": {
+   "zh": "赤霉素",
+   "en": "gibberellin",
+   "ms": "giberelin"
+  },
+  "short": {
+   "zh": "一群二萜类激素，促进茎节间伸长、种子萌发、抽薹和果实发育；简称 GA。",
+   "en": "Diterpenoid hormones promoting internode elongation, germination, bolting and fruit growth; abbreviated GA.",
+   "ms": "Hormon diterpenoid yang menggalakkan pemanjangan ruas, percambahan, pembentukan batang bunga dan pertumbuhan buah; disingkat GA."
+  },
+  "chapter": 19,
+  "abbr": "GA"
+ },
+ {
+  "id": "gid1",
+  "name": {
+   "zh": "GID1（赤霉素受体）",
+   "en": "GID1 (gibberellin receptor)",
+   "ms": "GID1 (reseptor giberelin)"
+  },
+  "short": {
+   "zh": "可溶性核内赤霉素受体；GA–GID1 结合 DELLA，使其被 SCF^SLY1/GID2 降解。",
+   "en": "The soluble nuclear gibberellin receptor; GA–GID1 binds DELLA and sends it for destruction by SCF^SLY1/GID2.",
+   "ms": "Reseptor giberelin nukleus larut; GA–GID1 terikat pada DELLA dan menghantarnya untuk dimusnahkan oleh SCF^SLY1/GID2."
+  },
+  "chapter": 19,
+  "abbr": "GID1"
+ },
+ {
+  "id": "terpene",
+  "name": {
+   "zh": "萜类（类异戊二烯）",
+   "en": "terpene (isoprenoid)",
+   "ms": "terpena (isoprenoid)"
+  },
+  "short": {
+   "zh": "由五碳异戊二烯单位组成的化合物；包括赤霉素、类胡萝卜素、甾醇等。",
+   "en": "Compounds built from five-carbon isoprene units, including gibberellins, carotenoids and sterols.",
+   "ms": "Sebatian yang dibina daripada unit isoprena lima karbon, termasuk giberelin, karotenoid dan sterol."
+  },
+  "chapter": 19
+ },
+ {
+  "id": "ckx",
+  "name": {
+   "zh": "细胞分裂素氧化酶/脱氢酶",
+   "en": "cytokinin oxidase/dehydrogenase",
+   "ms": "sitokinin oksidase/dehidrogenase"
+  },
+  "short": {
+   "zh": "降解侧链有双键的细胞分裂素，是控制其活性的主要方式。",
+   "en": "Degrades cytokinins with a side-chain double bond; the main control on their activity.",
+   "ms": "Menguraikan sitokinin dengan ikatan ganda dua rantai sisi; kawalan utama aktivitinya."
+  },
+  "chapter": 20,
+  "abbr": "CKX"
+ },
+ {
+  "id": "cytokinin",
+  "name": {
+   "zh": "细胞分裂素",
+   "en": "cytokinin",
+   "ms": "sitokinin"
+  },
+  "short": {
+   "zh": "N⁶ 取代的腺嘌呤衍生物，与生长素一起促进细胞分裂、延缓衰老；例如玉米素。",
+   "en": "N⁶-substituted adenine derivatives that promote cell division with auxin and delay senescence, e.g. zeatin.",
+   "ms": "Terbitan adenina tertukar ganti N⁶ yang menggalakkan pembahagian sel bersama auksin dan melambatkan penuaan, cth. zeatin."
+  },
+  "chapter": 20
+ },
+ {
+  "id": "ipt",
+  "name": {
+   "zh": "异戊烯基转移酶",
+   "en": "isopentenyl transferase",
+   "ms": "isopentenil transferase"
+  },
+  "short": {
+   "zh": "把异戊烯基接到 AMP 上的酶，是细胞分裂素合成的限速步骤。",
+   "en": "The enzyme adding an isopentenyl group to AMP; the rate-limiting step of cytokinin synthesis.",
+   "ms": "Enzim yang menambah kumpulan isopentenil kepada AMP; langkah pengehad kadar sintesis sitokinin."
+  },
+  "chapter": 20,
+  "abbr": "IPT"
+ },
+ {
+  "id": "kinetin",
+  "name": {
+   "zh": "激动素",
+   "en": "kinetin",
+   "ms": "kinetin"
+  },
+  "short": {
+   "zh": "从高压灭菌的鲱鱼精子 DNA 得到的第一个细胞分裂素；植物中不存在。",
+   "en": "The first cytokinin, obtained from autoclaved herring sperm DNA; not found in plants.",
+   "ms": "Sitokinin pertama, diperoleh daripada DNA sperma hering yang diautoklaf; tidak terdapat dalam tumbuhan."
+  },
+  "chapter": 20
+ },
+ {
+  "id": "knox",
+  "name": {
+   "zh": "KNOX 同源框蛋白",
+   "en": "KNOX homeobox proteins",
+   "ms": "protein homeobox KNOX"
+  },
+  "short": {
+   "zh": "维持茎顶端分生组织的转录因子：上调细胞分裂素合成、抑制赤霉素合成。",
+   "en": "Transcription factors maintaining the shoot meristem by raising cytokinin and lowering gibberellin synthesis.",
+   "ms": "Faktor transkripsi yang mengekalkan meristem pucuk dengan meningkatkan sintesis sitokinin dan menurunkan sintesis giberelin."
+  },
+  "chapter": 20,
+  "abbr": "KNOX"
+ },
+ {
+  "id": "aba",
+  "name": {
+   "zh": "脱落酸",
+   "en": "abscisic acid",
+   "ms": "asid absisik"
+  },
+  "short": {
+   "zh": "15 碳倍半萜激素：诱导种子休眠、防止胎萌、在干旱时关闭气孔。",
+   "en": "A 15-carbon sesquiterpene hormone: imposes seed dormancy, prevents vivipary and closes stomata under drought.",
+   "ms": "Hormon seskuiterpena 15 karbon: mengenakan dorman biji, mencegah viviparti dan menutup stoma semasa kemarau."
+  },
+  "chapter": 21,
+  "abbr": "ABA"
+ },
+ {
+  "id": "nced",
+  "name": {
+   "zh": "9-顺式环氧类胡萝卜素双加氧酶",
+   "en": "9-cis-epoxycarotenoid dioxygenase",
+   "ms": "9-cis-epoksikarotenoid dioksigenase"
+  },
+  "short": {
+   "zh": "把紫黄质切成黄氧素的叶绿体酶，是 ABA 合成的关键步骤。",
+   "en": "The plastid enzyme cleaving violaxanthin to xanthoxin; the key step of ABA synthesis.",
+   "ms": "Enzim plastid yang membelah violaxantin kepada xantoksin; langkah utama sintesis ABA."
+  },
+  "chapter": 21,
+  "abbr": "NCED"
+ },
+ {
+  "id": "pyr-pyl",
+  "name": {
+   "zh": "PYR/PYL/RCAR 受体",
+   "en": "PYR/PYL/RCAR receptors",
+   "ms": "reseptor PYR/PYL/RCAR"
+  },
+  "short": {
+   "zh": "可溶性 ABA 受体：结合 ABA 后抑制 PP2C，使 SnRK2 激酶活化。",
+   "en": "Soluble ABA receptors: with ABA bound they inhibit PP2C, releasing SnRK2 kinases.",
+   "ms": "Reseptor ABA larut: dengan ABA terikat ia merencat PP2C, membebaskan kinase SnRK2."
+  },
+  "chapter": 21,
+  "abbr": "PYR/PYL"
+ },
+ {
+  "id": "vivipary",
+  "name": {
+   "zh": "胎萌",
+   "en": "vivipary",
+   "ms": "viviparti"
+  },
+  "short": {
+   "zh": "种子还在母株上就发芽；ABA 缺乏或不敏感时常见。",
+   "en": "Germination of seeds while still on the parent plant; common when ABA is lacking or not perceived.",
+   "ms": "Percambahan biji semasa masih pada tumbuhan induk; biasa apabila ABA tiada atau tidak dikesan."
+  },
+  "chapter": 21
+ },
+ {
+  "id": "acc-synthase",
+  "name": {
+   "zh": "ACC 合成酶",
+   "en": "ACC synthase",
+   "ms": "ACC sintase"
+  },
+  "short": {
+   "zh": "把 SAM 转成 ACC 的酶，是乙烯合成的限速步骤，受多种因素在转录层次诱导。",
+   "en": "The enzyme converting SAM to ACC; the rate-limiting step of ethylene synthesis, induced transcriptionally by many factors.",
+   "ms": "Enzim yang menukar SAM kepada ACC; langkah pengehad kadar sintesis etilena, diaruh secara transkripsi oleh banyak faktor."
+  },
+  "chapter": 22,
+  "abbr": "ACS"
+ },
+ {
+  "id": "climacteric",
+  "name": {
+   "zh": "呼吸跃变",
+   "en": "climacteric",
+   "ms": "klimakterik"
+  },
+  "short": {
+   "zh": "某些果实成熟时呼吸突然增加并伴随乙烯爆发。",
+   "en": "The sudden rise in respiration, with a burst of ethylene, as certain fruits ripen.",
+   "ms": "Kenaikan mendadak respirasi, dengan letusan etilena, semasa buah tertentu masak."
+  },
+  "chapter": 22
+ },
+ {
+  "id": "ethephon",
+  "name": {
+   "zh": "乙烯利",
+   "en": "ethephon",
+   "ms": "etefon"
+  },
+  "short": {
+   "zh": "在植物组织中分解放出乙烯的农用化合物（2-氯乙基膦酸）。",
+   "en": "An agricultural compound (2-chloroethylphosphonic acid) that releases ethylene in plant tissue.",
+   "ms": "Sebatian pertanian (asid 2-kloroetilfosfonik) yang membebaskan etilena dalam tisu tumbuhan."
+  },
+  "chapter": 22
+ },
+ {
+  "id": "ethylene",
+  "name": {
+   "zh": "乙烯",
+   "en": "ethylene",
+   "ms": "etilena"
+  },
+  "short": {
+   "zh": "气体激素 C₂H₄，主要与逆境、衰老和果实成熟相关。",
+   "en": "The gaseous hormone C₂H₄, linked chiefly to stress, senescence and fruit ripening.",
+   "ms": "Hormon gas C₂H₄, terutamanya berkait dengan tekanan, penuaan dan pemasakan buah."
+  },
+  "chapter": 22
+ },
+ {
+  "id": "etr1",
+  "name": {
+   "zh": "ETR1（乙烯受体）",
+   "en": "ETR1 (ethylene receptor)",
+   "ms": "ETR1 (reseptor etilena)"
+  },
+  "short": {
+   "zh": "内质网膜上含铜的双组分乙烯受体；没有乙烯时组成型活化、抑制反应。",
+   "en": "A copper-containing two-component ethylene receptor in the ER membrane; active without ethylene, repressing the response.",
+   "ms": "Reseptor etilena dua komponen mengandungi kuprum dalam membran RE; aktif tanpa etilena, menindas tindak balas."
+  },
+  "chapter": 22,
+  "abbr": "ETR1"
+ },
+ {
+  "id": "triple-response",
+  "name": {
+   "zh": "三重反应",
+   "en": "triple response",
+   "ms": "tindak balas tiga serangkai"
+  },
+  "short": {
+   "zh": "乙烯使黑暗中的幼苗下胚轴变短、变粗、顶钩加剧。",
+   "en": "Ethylene's effect on dark-grown seedlings: short, swollen hypocotyl and an exaggerated hook.",
+   "ms": "Kesan etilena pada anak benih dalam gelap: hipokotil pendek dan bengkak serta cangkuk berlebihan."
+  },
+  "chapter": 22
+ },
+ {
+  "id": "yang-cycle",
+  "name": {
+   "zh": "Yang 循环",
+   "en": "Yang cycle",
+   "ms": "kitaran Yang"
+  },
+  "short": {
+   "zh": "把 ACC 合成产生的含硫副产物回收成甲硫氨酸的循环。",
+   "en": "The cycle recycling the sulphur by-product of ACC synthesis back to methionine.",
+   "ms": "Kitaran yang mengitar semula hasil sampingan sulfur sintesis ACC kepada metionina."
+  },
+  "chapter": 22
+ },
+ {
+  "id": "brassinolide",
+  "name": {
+   "zh": "油菜素内酯",
+   "en": "brassinolide",
+   "ms": "brasinolida"
+  },
+  "short": {
+   "zh": "最主要、活性最强的油菜素甾醇；1979 年由油菜花粉鉴定出来。",
+   "en": "The principal and most active brassinosteroid, identified from rape pollen in 1979.",
+   "ms": "Brasinosteroid utama dan paling aktif, dikenal pasti daripada debunga kanola pada 1979."
+  },
+  "chapter": 23,
+  "abbr": "BL"
+ },
+ {
+  "id": "brassinosteroid",
+  "name": {
+   "zh": "油菜素甾醇",
+   "en": "brassinosteroid",
+   "ms": "brasinosteroid"
+  },
+  "short": {
+   "zh": "植物的甾醇激素，促进茎伸长和细胞分裂，效果类似赤霉素。",
+   "en": "The plant steroid hormones, promoting stem elongation and cell division much like gibberellin.",
+   "ms": "Hormon steroid tumbuhan, menggalakkan pemanjangan batang dan pembahagian sel seperti giberelin."
+  },
+  "chapter": 23,
+  "abbr": "BR"
+ },
+ {
+  "id": "bri1",
+  "name": {
+   "zh": "BRI1（油菜素甾醇受体）",
+   "en": "BRI1 (brassinosteroid receptor)",
+   "ms": "BRI1 (reseptor brasinosteroid)"
+  },
+  "short": {
+   "zh": "质膜上富含亮氨酸重复的受体激酶，与 BAK1 一起感知油菜素甾醇。",
+   "en": "A leucine-rich-repeat receptor kinase in the plasma membrane that, with BAK1, perceives brassinosteroids.",
+   "ms": "Kinase reseptor ulangan kaya leusina dalam membran plasma yang, bersama BAK1, mengesan brasinosteroid."
+  },
+  "chapter": 23,
+  "abbr": "BRI1"
+ },
+ {
+  "id": "cop1",
+  "name": {
+   "zh": "COP1",
+   "en": "COP1",
+   "ms": "COP1"
+  },
+  "short": {
+   "zh": "核内 E3 泛素连接酶，黑暗中抑制光形态建成；被隐花色素和光敏色素的信号解除。",
+   "en": "A nuclear E3 ligase that represses photomorphogenesis in the dark; relieved by cryptochrome and phytochrome signals.",
+   "ms": "Ligase E3 nukleus yang menindas fotomorfogenesis dalam gelap; dilegakan oleh isyarat kriptokrom dan fitokrom."
+  },
+  "chapter": 24,
+  "abbr": "COP1"
+ },
+ {
+  "id": "cryptochrome",
+  "name": {
+   "zh": "隐花色素",
+   "en": "cryptochrome",
+   "ms": "kriptokrom"
+  },
+  "short": {
+   "zh": "含 FAD 和蝶呤的蓝光/UV-A 受体，源自 DNA 光裂合酶。",
+   "en": "A blue/UV-A receptor with FAD and pterin chromophores, descended from DNA photolyases.",
+   "ms": "Reseptor biru/UV-A dengan kromofor FAD dan pterin, berasal daripada fotoliase DNA."
+  },
+  "chapter": 24,
+  "abbr": "cry"
+ },
+ {
+  "id": "de-etiolation",
+  "name": {
+   "zh": "去黄化",
+   "en": "de-etiolation",
+   "ms": "nyah-etiolasi"
+  },
+  "short": {
+   "zh": "黄化苗照光后：下胚轴停止伸长、弯钩伸直、叶片展开、叶绿体成熟变绿。",
+   "en": "What a dark-grown seedling does in light: hypocotyl stops, hook straightens, leaves open, chloroplasts green.",
+   "ms": "Apa yang dilakukan anak benih gelap dalam cahaya: hipokotil berhenti, cangkuk lurus, daun terbuka, kloroplas menghijau."
+  },
+  "chapter": 24
+ },
+ {
+  "id": "etiolation",
+  "name": {
+   "zh": "黄化",
+   "en": "etiolation",
+   "ms": "etiolasi"
+  },
+  "short": {
+   "zh": "黑暗中长出的幼苗：下胚轴细长、顶钩弯、子叶闭合、无叶绿素。",
+   "en": "The dark-grown seedling form: long hypocotyl, apical hook, closed cotyledons, no chlorophyll.",
+   "ms": "Bentuk anak benih yang tumbuh dalam gelap: hipokotil panjang, cangkuk apeks, kotiledon tertutup, tiada klorofil."
+  },
+  "chapter": 24
+ },
+ {
+  "id": "photomorphogenesis",
+  "name": {
+   "zh": "光形态建成",
+   "en": "photomorphogenesis",
+   "ms": "fotomorfogenesis"
+  },
+  "short": {
+   "zh": "光（质与量）对植物发育的调控。",
+   "en": "The control of plant development by the quality and quantity of light.",
+   "ms": "Kawalan perkembangan tumbuhan oleh kualiti dan kuantiti cahaya."
+  },
+  "chapter": 24
+ },
+ {
+  "id": "photoreversibility",
+  "name": {
+   "zh": "光可逆性",
+   "en": "photoreversibility",
+   "ms": "kebolehbalikan cahaya"
+  },
+  "short": {
+   "zh": "红光引起的反应可被随后的远红光抵消；结果取决于最后一次照光。",
+   "en": "A red-light response cancelled by a following far-red flash; the last flash decides.",
+   "ms": "Tindak balas cahaya merah dibatalkan oleh kilatan merah jauh berikutnya; kilatan terakhir menentukan."
+  },
+  "chapter": 24
+ },
+ {
+  "id": "phytochrome",
+  "name": {
+   "zh": "光敏色素",
+   "en": "phytochrome",
+   "ms": "fitokrom"
+  },
+  "short": {
+   "zh": "吸收红光与远红光的色素蛋白，在 Pr 与有活性的 Pfr 之间光可逆转换。",
+   "en": "A red/far-red-absorbing chromoprotein that switches photoreversibly between Pr and active Pfr.",
+   "ms": "Kromoprotein penyerap merah/merah jauh yang bertukar secara boleh berbalik antara Pr dan Pfr aktif."
+  },
+  "chapter": 24
+ },
+ {
+  "id": "pif",
+  "name": {
+   "zh": "光敏色素互作因子",
+   "en": "phytochrome-interacting factor",
+   "ms": "faktor berinteraksi fitokrom"
+  },
+  "short": {
+   "zh": "抑制光形态建成基因的转录因子；与 Pfr 结合后被降解。",
+   "en": "Transcription factors repressing photomorphogenic genes; destroyed after binding Pfr.",
+   "ms": "Faktor transkripsi yang menindas gen fotomorfogenik; dimusnahkan selepas terikat pada Pfr."
+  },
+  "chapter": 24,
+  "abbr": "PIF"
+ },
+ {
+  "id": "shade-avoidance",
+  "name": {
+   "zh": "避荫综合征",
+   "en": "shade avoidance syndrome",
+   "ms": "sindrom pengelakan teduhan"
+  },
+  "short": {
+   "zh": "感到远红光增加（ζ 降低）时，植物增加茎伸长、改变叶片以争取光。",
+   "en": "The responses to far-red-enriched (low ζ) light: faster stem elongation and leaf changes to reach light.",
+   "ms": "Tindak balas kepada cahaya kaya merah jauh (ζ rendah): pemanjangan batang lebih cepat dan perubahan daun untuk mencapai cahaya."
+  },
+  "chapter": 24
+ },
+ {
+  "id": "gravitropism",
+  "name": {
+   "zh": "向重力性",
+   "en": "gravitropism",
+   "ms": "gravitropisme"
+  },
+  "short": {
+   "zh": "按重力方向定向的生长：根向下、茎向上。",
+   "en": "Growth oriented by gravity: roots down, shoots up.",
+   "ms": "Pertumbuhan yang diarahkan oleh graviti: akar ke bawah, pucuk ke atas."
+  },
+  "chapter": 25
+ },
+ {
+  "id": "nastic-movement",
+  "name": {
+   "zh": "感性运动",
+   "en": "nastic movement",
+   "ms": "gerakan nastik"
+  },
+  "short": {
+   "zh": "方向由器官结构决定、与刺激方向无关的运动，例如感夜、感震运动。",
+   "en": "A movement whose direction is set by the organ, not the stimulus: nyctinasty, seismonasty.",
+   "ms": "Gerakan yang arahnya ditentukan oleh organ, bukan rangsangan: niktinasti, seismonasti."
+  },
+  "chapter": 25
+ },
+ {
+  "id": "phototropin",
+  "name": {
+   "zh": "向光素",
+   "en": "phototropin",
+   "ms": "fototropin"
+  },
+  "short": {
+   "zh": "质膜上的蓝光受体激酶，两个 LOV 结构域各结合一个 FMN；phot1、phot2。",
+   "en": "A plasma-membrane blue-light receptor kinase with two FMN-binding LOV domains; phot1 and phot2.",
+   "ms": "Kinase reseptor cahaya biru membran plasma dengan dua domain LOV pengikat FMN; phot1 dan phot2."
+  },
+  "chapter": 25,
+  "abbr": "phot"
+ },
+ {
+  "id": "phototropism",
+  "name": {
+   "zh": "向光性",
+   "en": "phototropism",
+   "ms": "fototropisme"
+  },
+  "short": {
+   "zh": "向光弯曲；蓝光反应，由向光素感受、生长素重新分布造成。",
+   "en": "Bending towards light; a blue-light response via phototropin and auxin redistribution.",
+   "ms": "Pembengkokan ke arah cahaya; tindak balas cahaya biru melalui fototropin dan pengagihan semula auksin."
+  },
+  "chapter": 25
+ },
+ {
+  "id": "pulvinus",
+  "name": {
+   "zh": "叶枕",
+   "en": "pulvinus",
+   "ms": "pulvinus"
+  },
+  "short": {
+   "zh": "叶柄或小叶基部的运动器官，靠伸肌与屈肌细胞的膨压变化使叶片运动。",
+   "en": "The motor organ at a leaf or leaflet base that moves it through turgor changes in extensor and flexor cells.",
+   "ms": "Organ motor di pangkal daun atau anak daun yang menggerakkannya melalui perubahan turgor sel ekstensor dan fleksor."
+  },
+  "chapter": 25
+ },
+ {
+  "id": "starch-statolith",
+  "name": {
+   "zh": "淀粉-平衡石假说",
+   "en": "starch–statolith hypothesis",
+   "ms": "hipotesis kanji–statolit"
+  },
+  "short": {
+   "zh": "重力感受靠根冠柱细胞中充满淀粉的造粉体沉降。",
+   "en": "Gravity is sensed by sedimenting starch-filled amyloplasts in root-cap columella cells.",
+   "ms": "Graviti dikesan oleh amiloplas berisi kanji yang mendap dalam sel kolumela tudung akar."
+  },
+  "chapter": 25
+ },
+ {
+  "id": "tropism",
+  "name": {
+   "zh": "向性",
+   "en": "tropism",
+   "ms": "tropisme"
+  },
+  "short": {
+   "zh": "植物朝着（正）或背着（负）有方向的刺激生长。",
+   "en": "Growth towards (positive) or away from (negative) a directional stimulus.",
+   "ms": "Pertumbuhan ke arah (positif) atau menjauhi (negatif) rangsangan berarah."
+  },
+  "chapter": 25
+ },
+ {
+  "id": "biological-clock",
+  "name": {
+   "zh": "生物钟",
+   "en": "biological clock",
+   "ms": "jam biologi"
+  },
+  "short": {
+   "zh": "植物内在的计时系统：能自由运转、可被重设、温度补偿。",
+   "en": "The internal time-keeper: free-running, resettable and temperature-compensated.",
+   "ms": "Pengukur masa dalaman: berjalan bebas, boleh ditetapkan semula dan berpampasan suhu."
+  },
+  "chapter": 26
+ },
+ {
+  "id": "circadian",
+  "name": {
+   "zh": "近日节律",
+   "en": "circadian rhythm",
+   "ms": "irama sirkadian"
+  },
+  "short": {
+   "zh": "周期约 24 小时的内源节律。",
+   "en": "An endogenous rhythm with a period of about 24 hours.",
+   "ms": "Irama endogen dengan tempoh kira-kira 24 jam."
+  },
+  "chapter": 26
+ },
+ {
+  "id": "critical-night",
+  "name": {
+   "zh": "临界夜长",
+   "en": "critical night length",
+   "ms": "panjang malam kritikal"
+  },
+  "short": {
+   "zh": "决定光周期反应的连续暗期长度；苍耳约 8.5 小时。",
+   "en": "The length of uninterrupted darkness that decides the photoperiodic response; about 8.5 hours in Xanthium.",
+   "ms": "Panjang gelap tanpa gangguan yang menentukan tindak balas fotoperiod; kira-kira 8.5 jam dalam Xanthium."
+  },
+  "chapter": 26
+ },
+ {
+  "id": "entrainment",
+  "name": {
+   "zh": "同步化（导引）",
+   "en": "entrainment",
+   "ms": "penyelarasan"
+  },
+  "short": {
+   "zh": "用规律的外界信号把内源节律校准到 24 小时。",
+   "en": "Setting an endogenous rhythm to 24 hours with a regular external signal.",
+   "ms": "Menetapkan irama endogen kepada 24 jam dengan isyarat luar yang teratur."
+  },
+  "chapter": 26
+ },
+ {
+  "id": "ldp",
+  "name": {
+   "zh": "长日植物",
+   "en": "long-day plant",
+   "ms": "tumbuhan hari panjang"
+  },
+  "short": {
+   "zh": "日长长于临界值（夜长短于临界夜长）才开花的植物，例如天仙子。",
+   "en": "A plant that flowers when day length exceeds a critical value (night shorter than critical); e.g. Hyoscyamus.",
+   "ms": "Tumbuhan yang berbunga apabila panjang hari melebihi nilai kritikal (malam lebih pendek daripada kritikal); cth. Hyoscyamus."
+  },
+  "chapter": 26,
+  "abbr": "LDP"
+ },
+ {
+  "id": "night-break",
+  "name": {
+   "zh": "夜断（暗期间断）",
+   "en": "night break",
+   "ms": "gangguan malam"
+  },
+  "short": {
+   "zh": "在长暗期中间短暂照光，使短日植物不开花、长日植物开花。",
+   "en": "A brief light exposure in the middle of a long night; stops short-day plants and allows long-day plants to flower.",
+   "ms": "Pendedahan cahaya singkat di tengah malam panjang; menghentikan tumbuhan hari pendek dan membenarkan tumbuhan hari panjang berbunga."
+  },
+  "chapter": 26
+ },
+ {
+  "id": "photoperiodism",
+  "name": {
+   "zh": "光周期现象",
+   "en": "photoperiodism",
+   "ms": "fotoperiodisme"
+  },
+  "short": {
+   "zh": "植物对昼夜相对长短的反应，例如开花、块茎形成和休眠。",
+   "en": "The response of plants to the relative lengths of day and night: flowering, tuberisation, dormancy.",
+   "ms": "Tindak balas tumbuhan kepada panjang relatif siang dan malam: pembungaan, pembentukan ubi, dorman."
+  },
+  "chapter": 26
+ },
+ {
+  "id": "sdp",
+  "name": {
+   "zh": "短日植物",
+   "en": "short-day plant",
+   "ms": "tumbuhan hari pendek"
+  },
+  "short": {
+   "zh": "日长短于临界值（即夜长长于临界夜长）才开花的植物，例如苍耳。",
+   "en": "A plant that flowers when day length is below a critical value — that is, when the night exceeds a critical length; e.g. Xanthium.",
+   "ms": "Tumbuhan yang berbunga apabila panjang hari di bawah nilai kritikal — iaitu apabila malam melebihi panjang kritikal; cth. Xanthium."
+  },
+  "chapter": 26,
+  "abbr": "SDP"
+ },
+ {
+  "id": "zeitgeber",
+  "name": {
+   "zh": "授时因子",
+   "en": "zeitgeber",
+   "ms": "zeitgeber"
+  },
+  "short": {
+   "zh": "用来同步生物钟的外界信号，例如光暗交替或温度。",
+   "en": "An external signal that entrains the clock, such as light–dark transitions or temperature.",
+   "ms": "Isyarat luar yang menyelaraskan jam, seperti peralihan cahaya–gelap atau suhu."
+  },
+  "chapter": 26
+ },
+ {
+  "id": "abc-model",
+  "name": {
+   "zh": "ABC 模型",
+   "en": "ABC model",
+   "ms": "model ABC"
+  },
+  "short": {
+   "zh": "A、B、C 三类器官身份基因的组合决定花的四轮：萼片 A、花瓣 AB、雄蕊 BC、心皮 C。",
+   "en": "Combinations of class A, B and C organ-identity genes fix the four whorls: sepal A, petal AB, stamen BC, carpel C.",
+   "ms": "Gabungan gen identiti organ kelas A, B dan C menetapkan empat lingkaran: sepal A, kelopak AB, stamen BC, karpel C."
+  },
+  "chapter": 27
+ },
+ {
+  "id": "dormancy",
+  "name": {
+   "zh": "休眠",
+   "en": "dormancy",
+   "ms": "dorman"
+  },
+  "short": {
+   "zh": "芽或种子在条件适合时仍不生长的状态。",
+   "en": "A state in which buds or seeds do not grow even when conditions are favourable.",
+   "ms": "Keadaan di mana tunas atau biji tidak tumbuh walaupun keadaan sesuai."
+  },
+  "chapter": 27
+ },
+ {
+  "id": "flc",
+  "name": {
+   "zh": "FLC（开花位点 C）",
+   "en": "FLOWERING LOCUS C (FLC)",
+   "ms": "FLOWERING LOCUS C (FLC)"
+  },
+  "short": {
+   "zh": "拟南芥中抑制 FT 的开花抑制者；低温使它沉默。",
+   "en": "The Arabidopsis repressor of FT; silenced by cold.",
+   "ms": "Penindas FT dalam Arabidopsis; disenyapkan oleh sejuk."
+  },
+  "chapter": 27,
+  "abbr": "FLC"
+ },
+ {
+  "id": "floral-identity",
+  "name": {
+   "zh": "花分生组织身份基因",
+   "en": "floral-meristem identity genes",
+   "ms": "gen identiti meristem bunga"
+  },
+  "short": {
+   "zh": "把顶端分生组织从长叶转成长花的基因：LFY、AP1、AP2、CAL。",
+   "en": "Genes that switch the apex from leaves to flowers: LFY, AP1, AP2, CAL.",
+   "ms": "Gen yang menukar apeks daripada daun kepada bunga: LFY, AP1, AP2, CAL."
+  },
+  "chapter": 27
+ },
+ {
+  "id": "florigen",
+  "name": {
+   "zh": "成花素",
+   "en": "florigen",
+   "ms": "florigen"
+  },
+  "short": {
+   "zh": "叶片感受光周期后产生、经韧皮部和嫁接口传到顶端的开花信号；现认为是 FT 蛋白。",
+   "en": "The flowering signal made in induced leaves and carried in the phloem (and across grafts) to the apex; now taken to be the FT protein.",
+   "ms": "Isyarat pembungaan yang dibuat dalam daun yang diaruh dan dibawa dalam floem (dan merentasi cantuman) ke apeks; kini dianggap protein FT."
+  },
+  "chapter": 27
+ },
+ {
+  "id": "ft",
+  "name": {
+   "zh": "FT（开花位点 T）",
+   "en": "FLOWERING LOCUS T (FT)",
+   "ms": "FLOWERING LOCUS T (FT)"
+  },
+  "short": {
+   "zh": "约 20 kD、经韧皮部移动的蛋白，由 CO 在叶中诱导，在顶端启动开花。",
+   "en": "A ~20 kD phloem-mobile protein induced by CO in leaves that starts flowering at the apex.",
+   "ms": "Protein ~20 kD yang bergerak dalam floem, diaruh oleh CO dalam daun, yang memulakan pembungaan di apeks."
+  },
+  "chapter": 27,
+  "abbr": "FT"
+ },
+ {
+  "id": "parthenocarpy",
+  "name": {
+   "zh": "单性结实",
+   "en": "parthenocarpy",
+   "ms": "partenokarpi"
+  },
+  "short": {
+   "zh": "不经受精而结果；可用生长素诱导。",
+   "en": "Fruit set without fertilisation; can be induced by auxin.",
+   "ms": "Pembentukan buah tanpa persenyawaan; boleh diaruh oleh auksin."
+  },
+  "chapter": 27
+ },
+ {
+  "id": "stratification",
+  "name": {
+   "zh": "层积处理",
+   "en": "stratification",
+   "ms": "stratifikasi"
+  },
+  "short": {
+   "zh": "吸水后给种子一段低温以打破休眠；不同于春化。",
+   "en": "Moist chilling of seeds to break dormancy; distinct from vernalisation.",
+   "ms": "Penyejukan lembap biji untuk memecahkan dorman; berbeza daripada pemvernalan."
+  },
+  "chapter": 27
+ },
+ {
+  "id": "vernalization",
+  "name": {
+   "zh": "春化作用",
+   "en": "vernalization",
+   "ms": "pemvernalan"
+  },
+  "short": {
+   "zh": "经过一段低温才开花或提早开花的现象；由茎顶端感受。",
+   "en": "The need for, or promotion of flowering by, a period of cold; perceived by the shoot apex.",
+   "ms": "Keperluan, atau galakan pembungaan oleh, tempoh sejuk; dikesan oleh apeks pucuk."
+  },
+  "chapter": 27
+ },
+ {
+  "id": "alkaloid",
+  "name": {
+   "zh": "生物碱",
+   "en": "alkaloid",
+   "ms": "alkaloid"
+  },
+  "short": {
+   "zh": "含氮、生物活性高的防御性次生代谢物，例如吗啡、尼古丁。",
+   "en": "A nitrogen-containing, highly active defensive secondary metabolite, such as morphine.",
+   "ms": "Metabolit sekunder pertahanan yang mengandungi nitrogen dan sangat aktif, seperti morfin."
+  },
+  "chapter": 28
+ },
+ {
+  "id": "flavonoid",
+  "name": {
+   "zh": "类黄酮",
+   "en": "flavonoid",
+   "ms": "flavonoid"
+  },
+  "short": {
+   "zh": "有 A、B、C 三环的酚类，包括花青素、异黄酮；查耳酮合酶催化第一步。",
+   "en": "Three-ringed (A, B, C) phenolics including anthocyanins and isoflavonoids; chalcone synthase makes the first committed step.",
+   "ms": "Fenolik tiga gelang (A, B, C) termasuk antosianin dan isoflavonoid; kalkon sintase membuat langkah komited pertama."
+  },
+  "chapter": 28
+ },
+ {
+  "id": "glycoside",
+  "name": {
+   "zh": "糖苷",
+   "en": "glycoside",
+   "ms": "glikosida"
+  },
+  "short": {
+   "zh": "糖与含羟基分子缩合成的化合物，例如皂苷、强心苷、含氰糖苷、硫代葡萄糖苷。",
+   "en": "A sugar condensed with a hydroxyl-bearing molecule: saponins, cardiac glycosides, cyanogenic glycosides, glucosinolates.",
+   "ms": "Gula yang berkondensasi dengan molekul berhidroksil: saponin, glikosida kardiak, glikosida sianogenik, glukosinolat."
+  },
+  "chapter": 28
+ },
+ {
+  "id": "pal",
+  "name": {
+   "zh": "苯丙氨酸解氨酶",
+   "en": "phenylalanine ammonia-lyase",
+   "ms": "fenilalanina amonia-liase"
+  },
+  "short": {
+   "zh": "把苯丙氨酸脱氨成肉桂酸，是酚类合成的入口酶。",
+   "en": "Deaminates phenylalanine to cinnamic acid; the entry enzyme to phenolics.",
+   "ms": "Menyahaminasi fenilalanina kepada asid sinamik; enzim pintu masuk kepada fenolik."
+  },
+  "chapter": 28,
+  "abbr": "PAL"
+ },
+ {
+  "id": "phenylpropanoid",
+  "name": {
+   "zh": "苯丙烷类（酚类）",
+   "en": "phenylpropanoid (phenolic)",
+   "ms": "fenilpropanoid (fenolik)"
+  },
+  "short": {
+   "zh": "由苯丙氨酸经莽草酸途径衍生的化合物：木质素、类黄酮、单宁等。",
+   "en": "Compounds derived from phenylalanine via the shikimate pathway: lignin, flavonoids, tannins.",
+   "ms": "Sebatian yang berasal daripada fenilalanina melalui laluan shikimat: lignin, flavonoid, tanin."
+  },
+  "chapter": 28
+ },
+ {
+  "id": "secondary-metabolite",
+  "name": {
+   "zh": "次生代谢物",
+   "en": "secondary metabolite",
+   "ms": "metabolit sekunder"
+  },
+  "short": {
+   "zh": "由初生代谢物衍生、非细胞必需但有益的化合物：萜类、糖苷、酚类、生物碱。",
+   "en": "A compound derived from primary metabolism, not essential to the cell but beneficial: terpenes, glycosides, phenolics, alkaloids.",
+   "ms": "Sebatian yang berasal daripada metabolisme primer, tidak penting kepada sel tetapi bermanfaat: terpena, glikosida, fenolik, alkaloid."
+  },
+  "chapter": 28
+ }
+]

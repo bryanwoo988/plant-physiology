@@ -29,7 +29,7 @@ function sanitiseMark(m) {
   if (!Number.isInteger(start) || !Number.isInteger(end) || start < 0 || end <= start) return null;
   return {
     id: str(m.id, 40) || newId(), ch: m.ch, lang: m.lang, blk: m.blk.slice(0, 40), start, end,
-    text: str(m.text, 2000), style: STYLES.includes(m.style) ? m.style : 'yellow',
+    text: str(m.text, 4000), style: STYLES.includes(m.style) ? m.style : 'yellow',
     note: str(m.note), at: Number.isFinite(m.at) ? m.at : 0,
   };
 }
@@ -77,19 +77,93 @@ export function toggleBookmark(ch, sec, now = Date.now()) {
   return k in state.bm;
 }
 
-/* Marks */
-const overlaps = (a, b) => a.ch === b.ch && a.lang === b.lang && a.blk === b.blk && a.start < b.end && b.start < a.end;
+/* Marks
 
-// A new mark replaces any it overlaps in the same block, so marks never nest.
+   Marks in one block never overlap. A new mark merges with same-style marks
+   it overlaps or touches, and cuts its range out of marks of other styles
+   (they keep whatever is left on either side). Erasing a range cuts it out
+   of every mark it crosses, so the middle of a highlight can be removed. */
+const sameSpot = (a, b) => a.ch === b.ch && a.lang === b.lang && a.blk === b.blk;
+const overlaps = (a, b) => sameSpot(a, b) && a.start < b.end && b.start < a.end;
+const touches = (a, b) => sameSpot(a, b) && a.start <= b.end && b.start <= a.end;
+
+// [a, b) of mark x as a mark of its own, trimmed of edge whitespace; null if nothing is left.
+function piece(x, a, b) {
+  const raw = x.text.slice(a - x.start, b - x.start);
+  const text = raw.trim();
+  if (!text) return null;
+  const lead = raw.length - raw.trimStart().length;
+  return { ...x, start: a + lead, end: a + lead + text.length, text };
+}
+
+// What is left of mark x once [start, end) is cut out of it. The first piece
+// keeps the id and the note.
+function cut(x, start, end) {
+  const out = [];
+  if (x.start < start) out.push(piece(x, x.start, start));
+  if (x.end > end) out.push(piece(x, end, x.end));
+  return out.filter(Boolean).map((p, i) => (i === 0 ? p : { ...p, id: newId(), note: '' }));
+}
+
+// Two touching or overlapping ranges joined into one, text included.
+function union(a, b) {
+  const [f, s] = a.start <= b.start ? [a, b] : [b, a];
+  return { start: f.start, end: Math.max(f.end, s.end), text: f.end >= s.end ? f.text : f.text + s.text.slice(f.end - s.start) };
+}
+
+const joinNotes = list => [...new Set(list.map(x => x.note).filter(Boolean))].join('\n');
+
 export function addMark(m, now = Date.now()) {
   const mark = sanitiseMark({ ...m, id: newId(), at: now });
   if (!mark) return null;
-  const notes = state.marks.filter(x => overlaps(x, mark) && x.note).map(x => x.note);
-  if (notes.length && !mark.note) mark.note = notes.join('\n');
-  state.marks = state.marks.filter(x => !overlaps(x, mark)).concat(mark);
+  const merged = state.marks.filter(x => x.style === mark.style && touches(x, mark));
+  for (const x of merged) Object.assign(mark, union(mark, x));
+  const others = state.marks.filter(x => !merged.includes(x) && overlaps(x, mark));
+  const swallowed = others.filter(x => x.start >= mark.start && x.end <= mark.end);
+  mark.note = joinNotes([mark, ...merged, ...swallowed]);
+  state.marks = state.marks
+    .filter(x => !merged.includes(x))
+    .flatMap(x => (others.includes(x) ? cut(x, mark.start, mark.end) : [x]))
+    .concat(mark);
   change('marks');
   return mark.id;
 }
+
+// Remove [start, end) of one block from every mark that covers part of it.
+export function eraseRange({ ch, lang, blk }, start, end) {
+  const range = { ch, lang, blk, start, end };
+  const hit = state.marks.filter(x => overlaps(x, range));
+  if (!hit.length) return 0;
+  state.marks = state.marks.flatMap(x => (hit.includes(x) ? cut(x, start, end) : [x]));
+  change('marks');
+  return hit.length;
+}
+
+/* What already lies under [start, end) of a block: the marks it crosses, and
+   the one style covering all of it (null when it is not fully covered by a
+   single style). Edge whitespace in gaps between marks does not count. */
+export function under({ ch, lang, blk }, start, end, text = '') {
+  const range = { ch, lang, blk, start, end };
+  const marks = state.marks.filter(x => overlaps(x, range)).sort((a, b) => a.start - b.start);
+  let style = marks.length && marks.every(x => x.style === marks[0].style) ? marks[0].style : null;
+  let pos = start;
+  for (const x of marks) {
+    if (x.start > pos && text.slice(pos - start, x.start - start).trim()) style = null;
+    pos = Math.max(pos, x.end);
+  }
+  if (pos < end && text.slice(pos - start).trim()) style = null;
+  return { marks: marks.map(x => ({ ...x })), style };
+}
+
+// A mark's block text moved (wording edited); re-anchor it without a redraw.
+export function moveMark(id, start, end) {
+  const m = state.marks.find(x => x.id === id);
+  if (!m || end <= start) return false;
+  m.start = start; m.end = end;
+  save();
+  return true;
+}
+
 export function updateMark(id, patch) {
   const m = state.marks.find(x => x.id === id);
   if (!m) return false;
@@ -131,7 +205,7 @@ export function exportText({ chapters, label, secLabel, headings }) {
     out.push(`## ${label(ch)}${fav ? ' ★' : ''}`);
     for (const k of bms) out.push(`🔖 ${secLabel(ch, k.split('/')[1])}`);
     for (const m of marks) {
-      out.push(`${m.style === 'underline' ? '＿' : '▍'} “${m.text}”`);
+      out.push(`${m.style === 'underline' ? '＿' : '▍'} “${m.text.replace(/\n+/g, ' / ')}”`);
       if (m.note) out.push(`   ✎ ${m.note}`);
     }
     if (note) out.push(`${headings.note}: ${note}`);

@@ -20,6 +20,7 @@ import { buildIndex, search } from './search.js';
 import * as tools from './tools.js';
 import * as study from './study.js';
 import * as annotate from './annotate.js';
+import { parseInline } from './markup.js';
 
 const $ = sel => document.querySelector(sel);
 const main = $('#main');
@@ -106,8 +107,16 @@ const ctxFor = () => ({
   },
 });
 
+// A render that is overtaken by a newer one (a quick second tap while a
+// chapter loads) is dropped instead of replacing the newer page.
+let renderSeq = 0;
+let flushNote = null;
+
 async function render({ keepAnchor = false } = {}) {
+  const seq = ++renderSeq;
   const r = parse(location.hash);
+  flushNote?.();
+  flushNote = null;
   current = { route: r, chapterNum: null, after: null };
   closeSheet();
   annotate.detach();
@@ -115,9 +124,11 @@ async function render({ keepAnchor = false } = {}) {
   document.documentElement.dataset.view = r.view;
   try {
     const view = await VIEWS[r.view](r);
+    if (seq !== renderSeq) return;
     main.replaceChildren(view);
     current.after?.();
   } catch (e) {
+    if (seq !== renderSeq) return;
     console.error(e);
     main.replaceChildren(el('div', { class: 'page' }, el('p', { class: 'error' }, tr('loadError'))));
   }
@@ -191,10 +202,11 @@ const VIEWS = {
   },
 
   async chapter({ id }) {
+    const job = current;   // this render's state, even if another starts while loading
     const meta = index.chapters.find(c => c.id === id && c.ready !== false);
     if (!meta) return VIEWS.home();
     const ch = await loadChapter(id);
-    current.chapterNum = ch.num;
+    job.chapterNum = ch.num;
     const ctx = ctxFor();
     const ready = readyChapters();
     const i = ready.findIndex(c => c.id === id);
@@ -233,10 +245,20 @@ const VIEWS = {
     noteBox.value = study.chapterNote(id);
     const noteStatus = el('span', { class: 'share-status', role: 'status' });
     let noteTimer = 0;
+    const saveNote = () => {
+      if (!noteTimer) return;
+      clearTimeout(noteTimer); noteTimer = 0;
+      study.setChapterNote(id, noteBox.value);
+      noteStatus.textContent = tr('saved');
+      setTimeout(() => { noteStatus.textContent = ''; }, 1500);
+    };
     noteBox.addEventListener('input', () => {
       clearTimeout(noteTimer);
-      noteTimer = setTimeout(() => { study.setChapterNote(id, noteBox.value); noteStatus.textContent = tr('saved'); setTimeout(() => { noteStatus.textContent = ''; }, 1500); }, 400);
+      noteTimer = setTimeout(saveNote, 400);
     });
+    // Leaving the page, switching language or closing the app inside the
+    // 400 ms wait must not lose the last words typed.
+    noteBox.addEventListener('blur', saveNote);
 
     const article = el('article', { class: 'chapter' },
       el('div', { class: 'chapter-head' },
@@ -260,7 +282,7 @@ const VIEWS = {
         el('div', { class: 'pager' },
           prev ? el('a', { class: 'pager-link', href: `#/ch/${prev.id}` }, el('span', { class: 'pager-dir' }, tr('prev')), pick(prev.title, lang())) : el('span'),
           next ? el('a', { class: 'pager-link is-next', href: `#/ch/${next.id}` }, el('span', { class: 'pager-dir' }, tr('next')), pick(next.title, lang())) : el('span'))));
-    current.after = () => annotate.attach({ root: article, ch: id, lang: lang(), openSheet, closeSheet });
+    job.after = () => { flushNote = saveNote; annotate.attach({ root: article, ch: id, lang: lang(), openSheet, closeSheet }); };
     return el('div', { class: 'page page-chapter' }, toc, article);
   },
 
@@ -275,7 +297,7 @@ const VIEWS = {
     const secTitle = (chId, sec) => {
       const c = loaded.get(chId);
       const h = c?.sections.find(x => x.id === sec)?.heading;
-      return h ? pick(h, l).replace(/\{\{t:[^|}]+\|?([^}]*)\}\}/g, '$1') : sec;
+      return h ? plainText(pick(h, l), l) : sec;
     };
     const blocks = [];
     const favs = Object.keys(s.fav).filter(x => byId.has(x)).sort();
@@ -377,6 +399,9 @@ const VIEWS = {
     }
   },
 };
+
+// Content text with {{…}} markup turned into the words a reader sees.
+const plainText = (str, l) => parseInline(str).map(x => x.text ?? x.label ?? (pick(terms?.get(x.term)?.name, l) || x.term)).join('');
 
 function addBookmarkButton(secEl, chId) {
   const h2 = secEl.querySelector('h2, summary');
@@ -512,6 +537,7 @@ function wire() {
   });
   matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', () => prefs.applyToDocument());
   document.addEventListener('visibilitychange', () => {
+    if (document.hidden) flushNote?.();
     if (!document.hidden) { visibleSince = performance.now(); checkForUpdate(); }
   });
   setInterval(checkForUpdate, 15 * 60e3);

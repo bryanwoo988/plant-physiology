@@ -212,5 +212,70 @@ await test('selecting text and choosing a colour makes a highlight that survives
   localStorage.removeItem('pphys.study.v1');
 });
 
+// Select [from, to) of a text node in the app and let annotate.js see it.
+async function selectIn(a, startNode, from, endNode, to) {
+  const r = a.d.createRange(); r.setStart(startNode, from); r.setEnd(endNode, to);
+  a.w.getSelection().removeAllRanges(); a.w.getSelection().addRange(r);
+  a.d.dispatchEvent(new a.w.Event('selectionchange'));
+  return until(() => !a.d.getElementById('markbar').hidden && a.d.getElementById('markbar'));
+}
+const stored = () => JSON.parse(localStorage.getItem('pphys.study.v1') || '{"marks":[]}').marks;
+
+await test('a highlight across list items keeps them apart; part of it can be erased', async () => {
+  localStorage.removeItem('pphys.study.v1');
+  const a = await openApp({ hash: '#/ch/ch01', prefs: { lang: 'en' } });
+  const ul = await until(() => a.d.querySelector('ul[data-blk]'));
+  const [li1, li2] = ul.querySelectorAll('li');
+  const end1 = a.d.createTreeWalker(li1, 4); let last1; for (let n = end1.nextNode(); n; n = end1.nextNode()) last1 = n;
+  const first2 = a.d.createTreeWalker(li2, 4).nextNode();
+  let bar = await selectIn(a, last1, Math.max(0, last1.length - 8), first2, Math.min(first2.length, 9));
+  assert(!bar.querySelector('.mb-delete'), 'bin shown for unmarked text');
+  bar.querySelector('.mb-yellow').click();
+  await until(() => stored().length === 1);
+  assert(stored()[0].text.includes('\n'), `items run together: ${JSON.stringify(stored()[0].text)}`);
+
+  // Selecting inside the mark shows the bin and the colour in use; erasing the
+  // middle leaves the two ends.
+  const mk = await until(() => ul.querySelector('mark.hl-yellow'));
+  const tn = mk.firstChild;
+  assert(tn.length >= 5, `mark piece too short: ${tn.length}`);
+  bar = await selectIn(a, tn, 2, tn, tn.length - 2);
+  assert(bar.querySelector('.mb-delete'), 'no bin over marked text');
+  assert(bar.querySelector('.mb-yellow').getAttribute('aria-pressed') === 'true', 'yellow not shown as in use');
+  const w = bar.getBoundingClientRect();
+  assert(w.left >= 0 && w.right <= a.w.innerWidth, `bar overflows: ${w.left}–${w.right}`);
+  bar.querySelector('.mb-delete').click();
+  await until(() => stored().length === 2);
+
+  // Tapping the same colour on a marked selection removes it too.
+  const rest = await until(() => ul.querySelector('mark.hl-yellow'));
+  bar = await selectIn(a, rest.firstChild, 0, rest.firstChild, rest.firstChild.length);
+  bar.querySelector('.mb-yellow').click();
+  await until(() => stored().length === 1);
+
+  // Tapping a mark opens the bar for it, with the bin.
+  a.w.getSelection().removeAllRanges();
+  (await until(() => ul.querySelector('mark.hl-yellow'))).click();
+  bar = await until(() => !a.d.getElementById('markbar').hidden && a.d.getElementById('markbar'));
+  assert(bar.querySelector('.mb-delete'), 'no bin for a tapped mark');
+  bar.querySelector('.mb-delete').click();
+  await until(() => stored().length === 0 && !ul.querySelector('mark.hl'));
+  a.close();
+});
+
+await test('the label of a note box is not part of what can be marked', async () => {
+  localStorage.removeItem('pphys.study.v1');
+  const a = await openApp({ hash: '#/ch/ch01', prefs: { lang: 'en' } });
+  const note = await until(() => a.d.querySelector('aside[data-blk]'));
+  const label = note.querySelector('.note-label').firstChild;
+  const body = a.d.createTreeWalker(note.querySelector('p:not(.note-label)'), 4).nextNode();
+  const bar = await selectIn(a, label, 0, body, 6);
+  bar.querySelector('.mb-green').click();
+  await until(() => stored().length === 1);
+  assert(stored()[0].text === body.data.slice(0, 6).trim(), `marked "${stored()[0].text}"`);
+  a.close();
+  localStorage.removeItem('pphys.study.v1');
+});
+
 document.getElementById('summary').textContent = `${passed} passed, ${failed} failed`;
 document.documentElement.dataset.done = 'true';

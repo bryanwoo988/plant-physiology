@@ -29,14 +29,84 @@ test('a mark is stored, restyled, annotated and removed', () => {
   assert.equal(study.marksFor('ch01', 'en').length, 0);
 });
 
-test('an overlapping mark replaces the old one and keeps its note', () => {
-  const a = study.addMark(base);
+// Marks over a real block text, so cut and merged pieces can be checked word by word.
+const TEXT = 'The quick brown fox jumps over the lazy dog';
+const at = (words, style = 'yellow') => {
+  const start = TEXT.indexOf(words);
+  return { ch: 'ch01', lang: 'en', blk: 's1:0', start, end: start + words.length, text: words, style };
+};
+const spot = { ch: 'ch01', lang: 'en', blk: 's1:0' };
+const view = () => study.marksFor('ch01', 'en').sort((a, b) => a.start - b.start)
+  .map(m => { assert.equal(TEXT.slice(m.start, m.end), m.text); return `${m.style}:${m.text}`; });
+
+test('a different colour over the middle of a mark splits it instead of deleting it', () => {
+  study.addMark(at('quick brown fox jumps'));
+  study.addMark(at('brown fox', 'green'));
+  assert.deepEqual(view(), ['yellow:quick', 'green:brown fox', 'yellow:jumps']);
+});
+
+test('the same colour again merges with what it overlaps or touches', () => {
+  const a = study.addMark(at('quick brown'));
   study.updateMark(a, { note: 'keep me' });
-  study.addMark({ ...base, start: 5, end: 12, text: 'x'.repeat(7), style: 'green' });
-  const marks = study.marksFor('ch01', 'en');
-  assert.equal(marks.length, 1);
-  assert.equal(marks[0].style, 'green');
-  assert.equal(marks[0].note, 'keep me');
+  study.addMark(at('brown fox jumps'));
+  study.addMark(at('quick brown'));
+  assert.deepEqual(view(), ['yellow:quick brown fox jumps']);
+  assert.equal(study.marksFor('ch01', 'en')[0].note, 'keep me');
+});
+
+test('erasing the middle of a highlight leaves both ends, the note on the first', () => {
+  const a = study.addMark(at('quick brown fox jumps'));
+  study.updateMark(a, { note: 'n' });
+  const r = at('brown fox');
+  assert.equal(study.eraseRange(spot, r.start, r.end), 1);
+  assert.deepEqual(view(), ['yellow:quick', 'yellow:jumps']);
+  const [first, second] = study.marksFor('ch01', 'en').sort((x, y) => x.start - y.start);
+  assert.equal(first.id, a); assert.equal(first.note, 'n'); assert.equal(second.note, '');
+  study.init(store);
+  assert.deepEqual(view(), ['yellow:quick', 'yellow:jumps']);
+});
+
+test('erasing across several marks removes only the selected words', () => {
+  study.addMark(at('The quick'));
+  study.addMark(at('fox jumps', 'underline'));
+  const r = at('quick brown fox');
+  study.eraseRange(spot, r.start, r.end);
+  assert.deepEqual(view(), ['yellow:The', 'underline:jumps']);
+  assert.equal(study.eraseRange(spot, 0, 1), 1);
+  assert.equal(study.eraseRange(spot, r.start, r.end), 0);
+});
+
+test('a mark wholly covered by a new one passes its note on', () => {
+  const a = study.addMark(at('fox', 'pink'));
+  study.updateMark(a, { note: 'fox note' });
+  study.addMark(at('brown fox jumps', 'blue'));
+  assert.deepEqual(view(), ['blue:brown fox jumps']);
+  assert.equal(study.marksFor('ch01', 'en')[0].note, 'fox note');
+});
+
+test('under() reports the one style covering a selection', () => {
+  study.addMark(at('quick brown'));
+  study.addMark(at('fox', 'green'));
+  const q = (w) => { const r = at(w); return study.under(spot, r.start, r.end, w); };
+  assert.equal(q('quick brown').style, 'yellow');
+  assert.equal(q('brown').style, 'yellow');
+  assert.equal(q('brown fox').style, null);
+  assert.equal(q('brown fox').marks.length, 2);
+  assert.equal(q('jumps').marks.length, 0);
+  assert.equal(q('quick brown fox').style, null);
+});
+
+test('moveMark re-anchors without losing the mark', () => {
+  const id = study.addMark(at('lazy'));
+  assert.equal(study.moveMark(id, 1, 5), true);
+  study.init(store);
+  assert.equal(study.markById(id).start, 1);
+});
+
+test('export joins a multi-item mark with slashes, not a run-on word', () => {
+  study.addMark({ ...base, text: 'end of one.\nStart of two', end: base.start + 24 });
+  const text = study.exportText({ chapters: ['ch01'], label: c => c, secLabel: (c, s) => s, headings: { note: 'N' } });
+  assert.match(text, /“end of one\. \/ Start of two”/);
 });
 
 test('invalid marks and corrupt storage are rejected', () => {

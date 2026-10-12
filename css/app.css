@@ -578,7 +578,7 @@ a.chip { color: var(--ink-2); text-decoration: none; }
 /* ===== Study layer: favourites, bookmarks, highlights, notes ===== */
 :root { --hl-yellow: #fff1a6; --hl-green: #c9f0d2; --hl-pink: #ffd3e2; --hl-blue: #cfe6ff; }
 :root[data-theme="dark"] { --hl-yellow: #5d5418; --hl-green: #1f4a2d; --hl-pink: #5a2338; --hl-blue: #1d3b5c; }
-mark.hl { color: inherit; border-radius: 3px; padding: 0 1px; cursor: pointer; }
+mark.hl { color: inherit; border-radius: 2px; padding: 0; cursor: pointer; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
 .hl-yellow { background: var(--hl-yellow); }
 .hl-green { background: var(--hl-green); }
 .hl-pink { background: var(--hl-pink); }
@@ -594,7 +594,7 @@ mark.has-note::after { content: '✎'; font-size: .75em; margin-left: 2px; color
 .study-hint { font-size: .82rem; margin: -6px 0 14px; }
 .chapter-notes { margin-top: 2.2em; padding-top: 1em; border-top: 1px solid var(--line); }
 .note-area { min-height: 110px; padding: 10px 14px; line-height: 1.6; resize: vertical; }
-.note-quote { margin: 8px 0 12px; padding: 8px 12px; border-radius: 8px; font-size: .95rem; }
+.note-quote { margin: 8px 0 12px; padding: 8px 12px; border-radius: 8px; font-size: .95rem; white-space: pre-line; }
 .markbar { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(14px + env(safe-area-inset-bottom)); z-index: 40;
   display: flex; gap: 6px; align-items: center; padding: 8px 10px; border-radius: 999px; background: var(--surface); border: 1px solid var(--line);
   box-shadow: 0 8px 30px rgba(0,0,0,.18); max-width: calc(100vw - 24px); }
@@ -603,11 +603,17 @@ mark.has-note::after { content: '✎'; font-size: .75em; margin-left: 2px; color
 .mb-yellow { background: var(--hl-yellow); } .mb-green { background: var(--hl-green); } .mb-pink { background: var(--hl-pink); } .mb-blue { background: var(--hl-blue); }
 .mb-underline { text-decoration: underline; text-decoration-thickness: 2px; text-decoration-color: var(--mercury); }
 .mb-close { background: transparent; border-color: transparent; color: var(--muted); }
+.mb-btn { flex: none; }
+.mb-btn[aria-pressed="true"] { box-shadow: 0 0 0 2px var(--surface), 0 0 0 4px var(--accent); }
+@media (max-width: 400px) {
+  .markbar { gap: 4px; padding: 6px 8px; }
+  .mb-btn { width: 34px; height: 34px; }
+}
 body.markbar-open .update-banner { bottom: 80px; }
 .mark-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
 .mark-ch { font-weight: 700; margin-top: 10px; }
 .mark-item { padding: 10px 12px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
-.mark-quote { color: var(--ink); display: inline; padding: 1px 3px; border-radius: 3px; }
+.mark-quote { color: var(--ink); display: inline; padding: 1px 3px; border-radius: 3px; white-space: pre-line; }
 .mark-quote:hover { text-decoration: none; }
 .mark-note { margin: 6px 0 0; font-size: .92rem; color: var(--ink-2); white-space: pre-wrap; }
 .mark-where { margin: 4px 0 0; font-size: .78rem; }

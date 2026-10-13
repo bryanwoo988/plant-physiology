@@ -1,4 +1,7 @@
 [
+ {"v": "1.1.0", "date": "2026-10-13", "notes": [
+  {"zh": "「关于」页显示版本号和这一版的更新日期、时间，也可以随时打开全部更新记录。", "en": "The About page shows the version with the date and time of this update, and opens the full list of updates.", "ms": "Halaman Perihal menunjukkan versi bersama tarikh dan masa kemas kini ini, dan membuka senarai penuh kemas kini."}
+ ]},
  {"v": "1.0.2", "date": "2026-10-12", "notes": [
   {"zh": "“细胞放进溶液”图：膨压滑杆不会再显示超过 −Ψs 的数值；Z 形图的 DCMU 说明更准确。", "en": "Cell-in-solution figure: the turgor slider no longer shows a value above −Ψs; clearer DCMU note on the Z-scheme.", "ms": "Rajah sel dalam larutan: gelangsar turgor tidak lagi menunjukkan nilai melebihi −Ψs; nota DCMU pada skema Z lebih jelas."},
   {"zh": "“关于”页和章节目录的几个标签现在也会跟着语言切换。", "en": "A few labels on the About page and the chapter contents now follow the chosen language.", "ms": "Beberapa label pada halaman Perihal dan kandungan bab kini mengikut bahasa yang dipilih."}

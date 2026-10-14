@@ -62,6 +62,8 @@
 })();
 </script>
 <link rel="stylesheet" href="css/app.css">
+<link rel="stylesheet" href="css/reader.css">
+<script src="js/reader.js"></script>
 <script type="module" src="js/app.js"></script>
 </head>
 <body>
@@ -77,14 +79,22 @@
   </a>
   <nav class="actions" aria-label="App">
     <button type="button" class="icon-btn" data-action="search"></button>
-    <button type="button" class="icon-btn lang-btn" data-action="lang"></button>
-    <button type="button" class="icon-btn" data-action="theme"></button>
-    <button type="button" class="icon-btn" data-action="scale"></button>
     <button type="button" class="icon-btn" data-action="more"></button>
   </nav>
 </header>
 
 <main id="main" class="layout" tabindex="-1"></main>
+
+<!-- Bottom bar: everything the thumb needs, where the thumb is. -->
+<nav class="bottomnav" id="bottomnav">
+  <button type="button" data-nav="home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h11"/></svg><span data-ui="contents">Contents</span></button>
+  <button type="button" data-nav="listen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/></svg><span id="nav-listen">Read aloud</span></button>
+  <button type="button" data-nav="notes"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h4l10-10-4-4L4 16z"/><path d="M13.5 6.5l4 4"/></svg><span data-ui="notes">Notes</span></button>
+  <button type="button" data-nav="bookmarks"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg><span data-ui="bookmarks">Bookmarks</span></button>
+  <button type="button" data-nav="settings"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg><span data-ui="settings">Settings</span></button>
+</nav>
+
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
 
 <div id="picker" class="picker" role="dialog" aria-modal="true" aria-labelledby="picker-title" hidden>
   <div class="picker-card">

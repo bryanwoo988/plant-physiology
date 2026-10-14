@@ -81,7 +81,7 @@ export function chooseLang(lang) {
   return lang;
 }
 
-// Using the header button is a choice too, so the picker does not come back.
+// Cycling is a choice too, so the picker does not come back.
 export function cycleLang() {
   return chooseLang(next(LANGS, state.lang));
 }
@@ -94,6 +94,21 @@ export function cycleTheme() {
 
 export function cycleFontScale() {
   state.scale = next(SCALES, state.scale);
+  change('scale');
+  return state.scale;
+}
+
+// Settings screen: set directly.
+export function setTheme(theme) {
+  if (!THEMES.includes(theme)) return state.theme;
+  state.theme = theme;
+  change('theme');
+  return state.theme;
+}
+
+export function setScale(scale) {
+  if (!SCALES.includes(scale)) return state.scale;
+  state.scale = scale;
   change('scale');
   return state.scale;
 }

@@ -19,7 +19,7 @@ const TOOLS = [
 export function toolsIndex(lang) {
   return el('div', { class: 'page' }, el('h1', {}, t('tools', null, lang)),
     el('ul', { class: 'tool-list' },
-      el('li', {}, el('a', { href: '#/notebook' }, t('notebook', null, lang))),
+      el('li', {}, el('a', { href: '#/notes' }, t('notes', null, lang))),
       TOOLS.map(([route, key]) => el('li', {}, el('a', { href: `#/tools/${route}` }, t(key, null, lang))))));
 }
 

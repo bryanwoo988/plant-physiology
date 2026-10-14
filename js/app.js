@@ -4,10 +4,14 @@
      #/                     home: the five stages
      #/stage/N              one stage
      #/ch/chNN[/sID]        a chapter, optionally scrolled to a section
-     #/info  #/share  #/search  #/tools/<name>[/N] */
+     #/notes  #/bookmarks  #/settings (#/info)  #/share  #/search  #/tools/<name>[/N]
+
+   Highlights, notes on passages, bookmarks and read-aloud are reader.js
+   (window.Reader, shared with OPWiki and Oil Palm Basics); the bottom bar
+   below the page opens them. */
 
 import * as prefs from './prefs.js';
-import { t, pick, LANG_GLYPH } from './i18n.js';
+import { t, pick, LANG_NATIVE } from './i18n.js';
 import { loadIndex, loadChapter, loadData, renderSections, el } from './content.js';
 import { loadTerms, openTermSheet, renderNewTerms } from './terms.js';
 import { newerRevision, updateAction, mayAutoReload } from './updatelogic.js';
@@ -19,8 +23,7 @@ import { mountWidget } from './widgets/index.js';
 import { buildIndex, search } from './search.js';
 import * as tools from './tools.js';
 import * as study from './study.js';
-import * as annotate from './annotate.js';
-import { parseInline } from './markup.js';
+import { migrate } from './migrate.js';
 
 const $ = sel => document.querySelector(sel);
 const main = $('#main');
@@ -29,20 +32,12 @@ const main = $('#main');
 const svg = d => `<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
 const ICON = {
   search: svg('<circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/>'),
-  sun: svg('<circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/>'),
-  moon: svg('<path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/>'),
-  auto: svg('<circle cx="12" cy="12" r="8.5"/><path d="M12 3.5v17A8.5 8.5 0 0 0 12 3.5Z" fill="currentColor"/>'),
   more: svg('<circle cx="5.5" cy="12" r="1.2" fill="currentColor"/><circle cx="12" cy="12" r="1.2" fill="currentColor"/><circle cx="18.5" cy="12" r="1.2" fill="currentColor"/>'),
   close: svg('<path d="M6 6l12 12M18 6 6 18"/>'),
   check: svg('<path d="m5 12.5 4.5 4.5L19 7.5"/>'),
-  arrowL: svg('<path d="M15 5l-7 7 7 7"/>'),
-  arrowR: svg('<path d="M9 5l7 7-7 7"/>'),
   star: svg('<path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8-4.3-4.1 5.9-.9Z"/>'),
   starOn: svg('<path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8-4.3-4.1 5.9-.9Z" fill="currentColor"/>'),
-  bm: svg('<path d="M7 3.5h10v17l-5-3.5-5 3.5Z"/>'),
-  bmOn: svg('<path d="M7 3.5h10v17l-5-3.5-5 3.5Z" fill="currentColor"/>'),
 };
-const SCALE_LABEL = { 1: 'A', 1.15: 'AA', 1.3: 'AAA', 1.5: 'AAA+' };
 
 /* ---------- State ---------- */
 let index = null, terms = null, sources = null, releases = [];
@@ -57,16 +52,23 @@ const readyChapters = () => index.chapters.filter(c => c.ready !== false);
 
 /* ---------- Header ---------- */
 function paintHeader() {
-  const p = prefs.get();
   const set = (sel, html, label) => { const b = $(sel); b.innerHTML = html; b.setAttribute('aria-label', label); b.title = label; };
   set('[data-action="search"]', ICON.search, tr('search'));
-  set('[data-action="lang"]', `<span class="glyph">${LANG_GLYPH[p.lang]}</span>`, tr('langButton'));
-  set('[data-action="theme"]', ICON[p.theme === 'auto' ? 'auto' : p.theme === 'dark' ? 'moon' : 'sun'], tr('themeButton'));
-  set('[data-action="scale"]', `<span class="glyph glyph-scale">${SCALE_LABEL[p.scale]}</span>`, tr('scaleButton'));
   set('[data-action="more"]', ICON.more, tr('more'));
+  $('#bottomnav').setAttribute('aria-label', tr('menu'));
   $('.sheet-close').innerHTML = ICON.close;
   $('.sheet-close').setAttribute('aria-label', tr('close'));
   for (const n of document.querySelectorAll('[data-ui]')) n.textContent = tr(n.dataset.ui);
+  markNav();
+}
+
+let toastTimer = 0;
+function toast(message) {
+  const n = $('#toast');
+  n.textContent = message;
+  n.hidden = false;
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => { n.hidden = true; }, 1900);
 }
 
 /* ---------- Sheet ---------- */
@@ -90,7 +92,9 @@ function parse(hash) {
   if (a === 'stage') return { view: 'stage', n: Number(b) };
   if (a === 'ch') return { view: 'chapter', id: b, section: c };
   if (a === 'tools') return { view: 'tools', name: b, arg: c };
-  if (['info', 'share', 'search', 'notebook'].includes(a)) return { view: a };
+  if (a === 'info' || a === 'settings') return { view: 'settings' };
+  if (a === 'notebook' || a === 'notes') return { view: 'notes' };
+  if (['share', 'search', 'bookmarks'].includes(a)) return { view: a };
   return { view: 'home' };
 }
 
@@ -119,12 +123,15 @@ async function render({ keepAnchor = false } = {}) {
   flushNote = null;
   current = { route: r, chapterNum: null, after: null };
   closeSheet();
-  annotate.detach();
   const anchor = keepAnchor ? readingAnchor() : null;
+  const y = window.scrollY;
   document.documentElement.dataset.view = r.view;
   try {
     const view = await VIEWS[r.view](r);
     if (seq !== renderSeq) return;
+    // Reading aloud follows the chapter it started in. Going anywhere else
+    // stops it, unless the reading itself turned the page (readerNext).
+    if (!ttsTurningPage) window.Reader.stop();
     main.replaceChildren(view);
     current.after?.();
   } catch (e) {
@@ -132,10 +139,16 @@ async function render({ keepAnchor = false } = {}) {
     console.error(e);
     main.replaceChildren(el('div', { class: 'page' }, el('p', { class: 'error' }, tr('loadError'))));
   }
+  window.Reader.refresh();
+  markNav();
+  const reveal = r.view === 'chapter' ? pendingReveal : null;
+  pendingReveal = null;
   if (anchor) restoreAnchor(anchor);
+  else if (reveal) requestAnimationFrame(() => window.Reader.reveal(reveal));
   else if (r.section) scrollToSection(r.section);
-  else window.scrollTo(0, 0);
+  else window.scrollTo(0, keepAnchor ? y : 0);
   if (r.view === 'chapter') prefs.setLastRoute(location.hash);
+  for (const fn of afterRender.splice(0)) fn();
 }
 
 function scrollToSection(id) {
@@ -239,7 +252,6 @@ const VIEWS = {
     paintFav();
 
     const sections = renderSections(ch, ctx);
-    for (const secEl of sections.querySelectorAll?.('.section') ?? []) addBookmarkButton(secEl, id);
 
     const noteBox = el('textarea', { class: 'field note-area', rows: '4', placeholder: tr('chapterNoteHint'), 'aria-label': tr('myNotes') });
     noteBox.value = study.chapterNote(id);
@@ -260,7 +272,7 @@ const VIEWS = {
     // 400 ms wait must not lose the last words typed.
     noteBox.addEventListener('blur', saveNote);
 
-    const article = el('article', { class: 'chapter' },
+    const article = el('article', { class: 'chapter', 'data-num': ch.num },
       el('div', { class: 'chapter-head' },
         el('p', { class: 'kicker' }, el('a', { href: `#/stage/${ch.stage}` }, tr('stageN', { n: ch.stage })), ` · ${tr('chapterN', { n: ch.num })}`),
         favBtn),
@@ -282,68 +294,56 @@ const VIEWS = {
         el('div', { class: 'pager' },
           prev ? el('a', { class: 'pager-link', href: `#/ch/${prev.id}` }, el('span', { class: 'pager-dir' }, tr('prev')), pick(prev.title, lang())) : el('span'),
           next ? el('a', { class: 'pager-link is-next', href: `#/ch/${next.id}` }, el('span', { class: 'pager-dir' }, tr('next')), pick(next.title, lang())) : el('span'))));
-    job.after = () => { flushNote = saveNote; annotate.attach({ root: article, ch: id, lang: lang(), openSheet, closeSheet }); };
+    job.after = () => { flushNote = saveNote; };
     return el('div', { class: 'page page-chapter' }, toc, article);
   },
 
-  async notebook() {
-    const l = lang();
-    const s = study.get();
-    const chapters = index.chapters.filter(c => c.ready !== false);
-    const title = c => `${c.num}. ${pick(c.title, l)}`;
-    const byId = new Map(chapters.map(c => [c.id, c]));
-    const need = new Set([...Object.keys(s.bm).map(k => k.split('/')[0]), ...s.marks.map(m => m.ch)]);
-    const loaded = new Map(await Promise.all([...need].filter(x => byId.has(x)).map(async x => [x, await loadChapter(x)])));
-    const secTitle = (chId, sec) => {
-      const c = loaded.get(chId);
-      const h = c?.sections.find(x => x.id === sec)?.heading;
-      return h ? plainText(pick(h, l), l) : sec;
-    };
-    const blocks = [];
-    const favs = Object.keys(s.fav).filter(x => byId.has(x)).sort();
-    if (favs.length) blocks.push(el('h2', {}, tr('favourites')), el('ul', { class: 'tool-list' }, favs.map(x => el('li', {}, el('a', { href: `#/ch/${x}` }, '★ ', title(byId.get(x)))))));
-    const bms = Object.keys(s.bm).filter(k => byId.has(k.split('/')[0])).sort();
-    if (bms.length) blocks.push(el('h2', {}, tr('bookmarks')), el('ul', { class: 'tool-list' }, bms.map(k => {
-      const [x, sec] = k.split('/');
-      return el('li', {}, el('a', { href: `#/ch/${x}/${sec}` }, el('span', { class: 'muted' }, `${byId.get(x).num}. `), secTitle(x, sec)));
-    })));
-    const marks = s.marks.filter(m => byId.has(m.ch)).sort((a, b) => a.ch.localeCompare(b.ch) || a.blk.localeCompare(b.blk, 'en', { numeric: true }) || a.start - b.start);
-    if (marks.length) {
-      blocks.push(el('h2', {}, tr('highlights')));
-      let lastCh = null;
-      const list = el('ul', { class: 'mark-list' });
-      for (const m of marks) {
-        if (m.ch !== lastCh) { list.append(el('li', { class: 'mark-ch' }, el('a', { href: `#/ch/${m.ch}` }, title(byId.get(m.ch))))); lastCh = m.ch; }
-        const sec = m.blk.split(':')[0];
-        list.append(el('li', { class: 'mark-item' },
-          el('a', { href: `#/ch/${m.ch}/${sec}`, class: `mark-quote hl-${m.style}`, lang: m.lang === 'zh' ? 'zh-Hans' : m.lang }, m.text),
-          m.note ? el('p', { class: 'mark-note' }, `✎ ${m.note}`) : null,
-          el('p', { class: 'muted mark-where' }, `${secTitle(m.ch, sec)}${m.lang !== l ? ` · ${LANG_GLYPH[m.lang]}` : ''}`)));
-      }
-      blocks.push(list);
+  // Notes and highlights share a screen; bookmarks have their own. Under the
+  // reader.js lists: the free chapter notes, and the favourite chapters.
+  async notes() {
+    const list = el('div', { class: 'card lib-list' });
+    const view = el('div', { class: 'page page-lib' },
+      el('h1', {}, tr('notes')),
+      segmented([['notes', tr('notes')], ['marks', tr('highlights')]], notesKind, k => { notesKind = k; render({ keepAnchor: true }); }),
+      list);
+    window.Reader.renderList(list, notesKind);
+    if (notesKind === 'notes') {
+      const chs = readyChapters().filter(c => study.chapterNote(c.id));
+      if (chs.length) view.append(el('h2', { class: 'lib-h' }, tr('chapterNotes')), el('div', { class: 'card' }, chs.map(c =>
+        el('a', { class: 'nb-note', href: `#/ch/${c.id}` },
+          el('span', { class: 'nb-note-ch' }, `${tr('chapterN', { n: c.num })} · ${pick(c.title, lang())}`),
+          el('span', { class: 'nb-note-text' }, study.chapterNote(c.id))))));
     }
-    const notes = Object.keys(s.notes).filter(x => byId.has(x)).sort();
-    if (notes.length) blocks.push(el('h2', {}, tr('myNotes')), notes.map(x => el('section', { class: 'nb-note' },
-      el('h3', {}, el('a', { href: `#/ch/${x}` }, title(byId.get(x)))), el('p', { class: 'nb-note-text' }, s.notes[x]))));
-    const status = el('span', { class: 'share-status', role: 'status' });
-    const exportBtn = el('button', { type: 'button', class: 'button button-quiet', onclick: async () => {
-      const text = study.exportText({ chapters: chapters.map(c => c.id), label: x => title(byId.get(x)), secLabel: secTitle, headings: { note: tr('myNotes') } });
-      try {
-        if (navigator.share && matchMedia('(pointer: coarse)').matches) await navigator.share({ title: tr('notebook'), text });
-        else { await navigator.clipboard.writeText(text); status.textContent = tr('copied'); setTimeout(() => { status.textContent = ''; }, 2000); }
-      } catch { /* cancelled or no clipboard */ }
-    } }, tr('exportNotes'));
-    return el('div', { class: 'page page-notebook' },
-      el('h1', {}, tr('notebook')),
-      el('p', { class: 'lede' }, tr('notebookHint')),
-      study.isEmpty() ? el('p', { class: 'muted' }, tr('notebookEmpty')) : [el('div', { class: 'stage-tools' }, exportBtn, status), ...blocks]);
+    return view;
   },
 
-  async info() {
+  async bookmarks() {
+    const list = el('div', { class: 'card lib-list' });
+    const view = el('div', { class: 'page page-lib' }, el('h1', {}, tr('bookmarks')), list);
+    window.Reader.renderList(list, 'bookmarks');
+    const favs = readyChapters().filter(c => study.isFav(c.id));
+    if (favs.length) view.append(el('h2', { class: 'lib-h' }, tr('favourites')), el('ul', { class: 'tool-list' }, favs.map(c =>
+      el('li', {}, el('a', { href: `#/ch/${c.id}` }, '★ ', `${c.num}. ${pick(c.title, lang())}`)))));
+    return view;
+  },
+
+  // Language, theme, text size and read aloud (what used to be the buttons at
+  // the top of the screen), then what the About page had.
+  async settings() {
     const status = el('p', { class: 'status' }, '…');
     offlineStatus().then(ok => { status.textContent = tr(ok ? 'offlineReady' : 'offlineNotYet'); status.classList.add(ok ? 'is-ok' : 'is-pending'); });
+    const p = prefs.get();
+    const row = (title, control) => el('div', { class: 'setrow' }, el('h3', {}, title), control);
+    const tts = el('div');
+    window.Reader.renderSettings(tts);
     return el('div', { class: 'page page-info' },
-      el('h1', {}, tr('info')),
+      el('h1', {}, tr('settings')),
+      el('div', { class: 'card setgroup' },
+        row(tr('language'), segmented(prefs.LANGS.map(l => [l, LANG_NATIVE[l]]), p.lang, l => prefs.chooseLang(l))),
+        row(tr('theme'), segmented([['auto', tr('themeAuto')], ['light', tr('themeLight')], ['dark', tr('themeDark')]], p.theme, th => prefs.setTheme(th))),
+        row(tr('textSize'), segmented(prefs.SCALES.map(sc => [sc, `${Math.round(sc * 100)}%`]), p.scale, sc => prefs.setScale(sc))),
+        row(tr('readAloud'), tts)),
+      el('h2', { class: 'lib-h' }, tr('info')),
       el('p', { class: 'lede' }, tr('tagline')),
       el('dl', { class: 'keyval' },
         el('dt', {}, tr('version')), el('dd', {}, releases[0] ? `v${releases[0].v} · ${builtAt() || releases[0].date} · ` : '',
@@ -401,22 +401,10 @@ const VIEWS = {
   },
 };
 
-// Content text with {{…}} markup turned into the words a reader sees.
-const plainText = (str, l) => parseInline(str).map(x => x.text ?? x.label ?? (pick(terms?.get(x.term)?.name, l) || x.term)).join('');
-
-function addBookmarkButton(secEl, chId) {
-  const h2 = secEl.querySelector('h2, summary');
-  if (!h2) return;
-  const b = el('button', { type: 'button', class: 'icon-btn bm-btn' });
-  const paint = () => {
-    const on = study.isBookmarked(chId, secEl.id);
-    b.innerHTML = on ? ICON.bmOn : ICON.bm;
-    b.setAttribute('aria-pressed', String(on));
-    b.setAttribute('aria-label', tr(on ? 'removeBookmark' : 'addBookmark')); b.title = b.getAttribute('aria-label');
-  };
-  b.addEventListener('click', e => { e.preventDefault(); e.stopPropagation(); study.toggleBookmark(chId, secEl.id); paint(); });
-  paint();
-  h2.append(b);
+/* A row of buttons, one of them on: language, theme, text size, notes/highlights. */
+function segmented(options, current, onPick) {
+  return el('div', { class: 'rd-seg setseg' }, options.map(([value, label]) =>
+    el('button', { type: 'button', class: value === current ? 'on' : null, 'aria-pressed': String(value === current), onclick: () => onPick(value) }, label)));
 }
 
 function stageCard(s, p) {
@@ -446,10 +434,10 @@ function openMore() {
   const item = (href, key) => el('li', {}, el('a', { href, onclick: closeSheet }, tr(key)));
   openSheet(el('nav', { class: 'more-menu' },
     el('ul', {},
-      item('#/', 'home'), item('#/notebook', 'notebook'), item('#/tools/glossary', 'glossary'), item('#/tools/abbr', 'abbr'),
+      item('#/tools/glossary', 'glossary'), item('#/tools/abbr', 'abbr'),
       item('#/tools/map', 'conceptMap'), item('#/tools/cards', 'flashcards'), item('#/tools/quiz', 'quiz'),
       item('#/tools/hormones', 'hormones'), item('#/tools/essays', 'essays'),
-      item('#/share', 'share'), item('#/info', 'info'))));
+      item('#/share', 'share'))));
 }
 
 /* ---------- Offline + updates ---------- */
@@ -473,7 +461,7 @@ async function checkForUpdate() {
   if (!newerRevision(document.lastModified, live)) return;
   const action = updateAction({
     hidden: document.hidden, asked,
-    busy: !$('#sheet').hidden || window.scrollY > 200,
+    busy: !$('#sheet').hidden || window.scrollY > 200 || window.Reader.isBusy() || window.Reader.isListening(),
     sinceVisibleMs: performance.now() - visibleSince,
   });
   if (action === 'defer') return;
@@ -537,9 +525,6 @@ function wire() {
     const a = e.target.closest('[data-action]');
     if (!a) return;
     switch (a.dataset.action) {
-      case 'lang': prefs.cycleLang(); break;
-      case 'theme': prefs.cycleTheme(); break;
-      case 'scale': prefs.cycleFontScale(); break;
       case 'more': openMore(); break;
       case 'search': location.hash = '#/search'; break;
       case 'close-sheet': closeSheet(); break;
@@ -552,7 +537,7 @@ function wire() {
   prefs.subscribe(what => {
     prefs.applyToDocument();
     paintHeader();
-    if (what === 'lang' || what === 'scale') render({ keepAnchor: true });
+    if (what === 'lang' || what === 'scale' || (what === 'theme' && current.route?.view === 'settings')) render({ keepAnchor: true });
   });
   matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', () => prefs.applyToDocument());
   document.addEventListener('visibilitychange', () => {
@@ -560,6 +545,92 @@ function wire() {
     if (!document.hidden) { visibleSince = performance.now(); checkForUpdate(); }
   });
   setInterval(checkForUpdate, 15 * 60e3);
+}
+
+/* ---------- Bottom bar and reader.js ---------- */
+let notesKind = 'notes';
+let pendingReveal = null;
+let ttsTurningPage = false;
+const afterRender = [];
+
+/* "Chapter 5 · Section heading" — where a saved block lives. */
+function whereOf(u) {
+  const num = u.closest('[data-num]')?.dataset.num;
+  const sec = u.closest('.section');
+  const head = sec?.querySelector(':scope > h2, :scope > summary');
+  const words = head ? [...head.childNodes].filter(n => !n.classList?.contains('adv-tag')).map(n => n.textContent).join('').trim() : '';
+  return [num ? tr('chapterN', { n: num }) : '', words].filter(Boolean).join(' · ');
+}
+
+/* Go to the chapter a saved block is in, then bring the block on screen. */
+function openSaved(key) {
+  const chId = key.split('/')[0];
+  const r = parse(location.hash);
+  if (r.view === 'chapter' && r.id === chId && window.Reader.reveal(key)) return;
+  pendingReveal = key;
+  location.hash = `#/ch/${chId}`;
+}
+
+/* Reading aloud reached the end of a chapter: turn to the next one. */
+async function readerNext() {
+  const r = parse(location.hash);
+  if (r.view !== 'chapter') return false;
+  const ready = readyChapters();
+  const next = ready[ready.findIndex(c => c.id === r.id) + 1];
+  if (!next) return false;
+  ttsTurningPage = true;
+  const done = new Promise(resolve => afterRender.push(resolve));
+  location.hash = `#/ch/${next.id}`;
+  await done;
+  ttsTurningPage = false;
+  return true;
+}
+
+function markNav() {
+  if (!window.Reader || !$('#bottomnav')) return;
+  const view = parse(location.hash).view;
+  const tab = { notes: 'notes', bookmarks: 'bookmarks', settings: 'settings', share: 'settings' }[view] || 'home';
+  const listening = window.Reader.isListening();
+  for (const b of document.querySelectorAll('#bottomnav [data-nav]')) {
+    const on = b.dataset.nav === 'listen' ? listening : b.dataset.nav === tab;
+    b.classList.toggle('on', on);
+    if (b.dataset.nav === 'listen') continue;
+    if (on) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current');
+  }
+  $('#nav-listen').textContent = tr(listening ? 'stopReading' : 'readAloud');
+}
+
+function wireBottomNav() {
+  $('#bottomnav').addEventListener('click', e => {
+    const b = e.target.closest('[data-nav]');
+    if (!b) return;
+    switch (b.dataset.nav) {
+      case 'home': location.hash = '#/'; break;
+      case 'listen':
+        if (!window.Reader.isListening() && parse(location.hash).view !== 'chapter') { toast(tr('openChapterFirst')); return; }
+        window.Reader.listen();
+        break;
+      case 'notes': location.hash = '#/notes'; break;
+      case 'bookmarks': location.hash = '#/bookmarks'; break;
+      case 'settings': location.hash = '#/settings'; break;
+    }
+  });
+}
+
+/* Marks and section bookmarks made before 1.2.0 move into reader.js once. */
+async function moveOldMarks() {
+  const old = study.legacy();
+  if (!old.marks.length && !Object.keys(old.bm).length) return;
+  try {
+    await migrate({
+      legacy: old, lang: lang(), where: whereOf,
+      chapter: async (id, l) => {
+        const ch = await loadChapter(id);
+        return el('article', { 'data-num': ch.num }, renderSections(ch, { lang: l, terms }));
+      },
+    });
+    study.dropLegacy();
+  } catch (e) { console.warn('[migrate]', e); }
 }
 
 function showPicker() {
@@ -583,6 +654,22 @@ async function boot() {
   [index, terms, sources, releases] = await Promise.all([
     loadIndex(), loadTerms(), loadData('sources'), loadData('releases').catch(() => []),
   ]);
+  await moveOldMarks();
+  window.Reader.init({
+    app: 'pphys',
+    root: () => main,
+    units: '[data-rk]',
+    lang,
+    where: whereOf,
+    open: openSaved,
+    next: readerNext,
+    toast,
+    onState: markNav,
+    topOffset: () => $('.topbar').getBoundingClientRect().bottom,
+  });
+  // A note edited or deleted from a list: draw the list again.
+  window.Reader.onChange(() => { if (['notes', 'bookmarks'].includes(parse(location.hash).view)) render({ keepAnchor: true }); });
+  wireBottomNav();
   paintHeader();
   wire();
   $('#splash').classList.add('is-done');

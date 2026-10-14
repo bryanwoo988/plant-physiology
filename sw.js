@@ -9,10 +9,11 @@
    any file — index.html included — makes installed copies update. */
 
 /* --- generated:begin --- */
-const CACHE = 'pphys-222b8e50ba';
+const CACHE = 'pphys-335cea97f5';
 const ASSETS = [
   './',
   'css/app.css',
+  'css/reader.css',
   'data/ch01.json',
   'data/ch02.json',
   'data/ch03.json',
@@ -80,17 +81,18 @@ const ASSETS = [
   'icons/splash/828x1792-dark.png',
   'icons/splash/828x1792-light.png',
   'index.html',
-  'js/annotate.js',
   'js/app.js',
   'js/charts.js',
   'js/config.js',
   'js/content.js',
   'js/i18n.js',
   'js/markup.js',
+  'js/migrate.js',
   'js/plantmath.js',
   'js/prefs.js',
   'js/qrcode.js',
   'js/quiz.js',
+  'js/reader.js',
   'js/releases.js',
   'js/search.js',
   'js/share.js',

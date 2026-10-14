@@ -1,4 +1,10 @@
 [
+ {"v": "1.2.0", "date": "2026-10-14", "notes": [
+  {"zh": "点一下段落，就能用五种颜色画荧光笔或下划线、写笔记、加书签、复制，或从这里开始朗读；长按选取几个字，只标记那几个字。", "en": "Tap a paragraph to highlight or underline it in five colours, add a note, bookmark it, copy it or read aloud from there; long-press to mark just a few words.", "ms": "Ketik perenggan untuk menyerlah atau menggaris bawah dalam lima warna, menambah nota, menanda, menyalin atau membaca kuat dari situ; tekan lama untuk menanda beberapa perkataan sahaja."},
+  {"zh": "屏幕底部新增菜单：目录、朗读、笔记、书签、设置。语言、深浅色和字号移到「设置」里，那里也可以导出和导入笔记备份。", "en": "A new menu at the bottom of the screen: Contents, Read aloud, Notes, Bookmarks and Settings. Language, theme and text size are now in Settings, which can also export and import a backup of your notes.", "ms": "Menu baharu di bawah skrin: Kandungan, Baca kuat, Nota, Penanda dan Tetapan. Bahasa, tema dan saiz teks kini dalam Tetapan, yang juga boleh mengeksport dan mengimport sandaran nota anda."},
+  {"zh": "朗读用手机自带的声音，一段一段读，读完一章会接着读下一章。", "en": "Read aloud uses your phone's own voices, paragraph by paragraph, and carries on into the next chapter.", "ms": "Baca kuat menggunakan suara telefon anda sendiri, perenggan demi perenggan, dan terus ke bab seterusnya."},
+  {"zh": "以前的划线、笔记和章节书签都已自动搬到新的笔记和书签里。", "en": "Your earlier highlights, notes and section bookmarks have been moved into the new Notes and Bookmarks.", "ms": "Serlahan, nota dan penanda bahagian anda sebelum ini telah dipindahkan ke Nota dan Penanda yang baharu."}
+ ]},
  {"v": "1.1.0", "date": "2026-10-13", "notes": [
   {"zh": "「关于」页显示版本号和这一版的更新日期、时间，也可以随时打开全部更新记录。", "en": "The About page shows the version with the date and time of this update, and opens the full list of updates.", "ms": "Halaman Perihal menunjukkan versi bersama tarikh dan masa kemas kini ini, dan membuka senarai penuh kemas kini."}
  ]},

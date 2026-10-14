@@ -21,17 +21,30 @@ Live: <https://bryanwoo988.github.io/plant-physiology/>
   equation, polar auxin transport, hormone signalling switches, R / FR lettuce
   germination, night breaks, the ABC model, vernalization and more. All are
   redrawn; none is copied from a book or slide.
-- **Study tools**: favourite chapters (★), bookmark sections (🔖), select text
-  to highlight in four colours or underline, attach a note to any mark, and a
-  free note per chapter. Everything appears in the **Notebook**, which can be
-  exported as plain text. All of it stays on the device.
+- **Highlights, notes, bookmarks, read aloud.** Tap any paragraph, list item,
+  table row, key/value pair or note box to highlight or underline it in one of
+  five colours, add a note, bookmark it, copy it, or start reading aloud from
+  it. Those marks are keyed by chapter, section and position, so they stay on
+  the same block in all three languages. Long-press to select just a few words
+  instead: those marks are character offsets in that language and show only
+  there; the Notes list says which. Read aloud uses the phone's own voices,
+  paragraph by paragraph, and carries on into the next chapter (Malay falls
+  back to an Indonesian voice). `js/reader.js` and `css/reader.css` are shared
+  with OPWiki and Oil Palm Basics — keep all copies identical. Stored in the
+  browser (`pphys.reader`); Settings exports and imports a backup. Marks and
+  section bookmarks made before 1.2.0 are moved over once (`js/migrate.js`).
+- **Bottom bar**: Contents, Read aloud, Notes (notes and highlights, plus the
+  free note per chapter), Bookmarks (plus favourite chapters ★) and Settings
+  (language, theme, text size, read-aloud voice and speed, notes backup, then
+  version, offline status and sources). Search and the tools menu stay at the
+  top.
 - **Revision**: glossary, hormone table, 14 essay-question outlines,
   flashcards, stage quizzes with explanations, search across all three
   languages.
-- **House conventions**: first-run language picker (default English), 中 → EN →
-  BM toggle that keeps your place, light / dark / auto theme, AAA reading
-  scale, offline after the first visit, auto-updating service worker with a
-  "what's new" sheet, QR-code / share / copy-link page, Info page.
+- **House conventions**: first-run language picker (default English);
+  language, light / dark / auto theme and text size in Settings; offline after
+  the first visit; auto-updating service worker with a "what's new" sheet;
+  QR-code / share / copy-link page.
 
 ## Sources
 
@@ -59,8 +72,8 @@ node tools/check-links.mjs        # every outside link still answers
 ```
 
 Browser tests run at <http://127.0.0.1:4200/tests/> (overflow at 375 px in all
-three languages, every widget, highlights surviving a reload, quiz, share
-page…).
+three languages, every widget, highlights and notes in every language, marks
+moved over from before 1.2.0, read aloud, quiz, share page…).
 
 ## Editing content
 

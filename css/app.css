@@ -575,47 +575,63 @@ a.chip { color: var(--ink-2); text-decoration: none; }
 .abc-table { display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 6px; margin-top: 8px; }
 .abc-table div { background: var(--surface-2); border-radius: 10px; padding: 6px 10px; display: grid; }
 
-/* ===== Study layer: favourites, bookmarks, highlights, notes ===== */
-:root { --hl-yellow: #fff1a6; --hl-green: #c9f0d2; --hl-pink: #ffd3e2; --hl-blue: #cfe6ff; }
-:root[data-theme="dark"] { --hl-yellow: #5d5418; --hl-green: #1f4a2d; --hl-pink: #5a2338; --hl-blue: #1d3b5c; }
-mark.hl { color: inherit; border-radius: 2px; padding: 0; cursor: pointer; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
-.hl-yellow { background: var(--hl-yellow); }
-.hl-green { background: var(--hl-green); }
-.hl-pink { background: var(--hl-pink); }
-.hl-blue { background: var(--hl-blue); }
-mark.hl-underline, .mark-quote.hl-underline { background: none; text-decoration: underline; text-decoration-color: var(--mercury); text-decoration-thickness: 2px; text-underline-offset: 3px; }
-mark.has-note::after { content: '✎'; font-size: .75em; margin-left: 2px; color: var(--accent); vertical-align: super; }
+/* ===== Study layer: favourite chapters and chapter notes ===== */
 .chapter-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
 .chapter-head .kicker { margin: 0; }
 .fav-btn[aria-pressed="true"] { color: var(--sun); }
-.bm-btn { width: 34px; height: 34px; margin-left: 6px; vertical-align: middle; color: var(--muted); }
-.bm-btn svg { width: 18px; height: 18px; }
-.bm-btn[aria-pressed="true"] { color: var(--accent); }
 .study-hint { font-size: .82rem; margin: -6px 0 14px; }
 .chapter-notes { margin-top: 2.2em; padding-top: 1em; border-top: 1px solid var(--line); }
 .note-area { min-height: 110px; padding: 10px 14px; line-height: 1.6; resize: vertical; }
-.note-quote { margin: 8px 0 12px; padding: 8px 12px; border-radius: 8px; font-size: .95rem; white-space: pre-line; }
-.markbar { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(14px + env(safe-area-inset-bottom)); z-index: 40;
-  display: flex; gap: 6px; align-items: center; padding: 8px 10px; border-radius: 999px; background: var(--surface); border: 1px solid var(--line);
-  box-shadow: 0 8px 30px rgba(0,0,0,.18); max-width: calc(100vw - 24px); }
-.mb-btn { width: 38px; height: 38px; border-radius: 50%; border: 1px solid var(--line); background: var(--surface-2); color: var(--ink); font-weight: 800; font-size: 1rem; cursor: pointer; display: inline-grid; place-items: center; padding: 0; }
-.mb-swatch { border: 2px solid rgba(0,0,0,.12); }
-.mb-yellow { background: var(--hl-yellow); } .mb-green { background: var(--hl-green); } .mb-pink { background: var(--hl-pink); } .mb-blue { background: var(--hl-blue); }
-.mb-underline { text-decoration: underline; text-decoration-thickness: 2px; text-decoration-color: var(--mercury); }
-.mb-close { background: transparent; border-color: transparent; color: var(--muted); }
-.mb-btn { flex: none; }
-.mb-btn[aria-pressed="true"] { box-shadow: 0 0 0 2px var(--surface), 0 0 0 4px var(--accent); }
-@media (max-width: 400px) {
-  .markbar { gap: 4px; padding: 6px 8px; }
-  .mb-btn { width: 34px; height: 34px; }
+
+/* ===== Bottom bar, highlights, notes, read aloud (css/reader.css) ===== */
+:root {
+  --rd-bg: var(--bg);
+  --rd-surface: var(--surface);
+  --rd-ink: var(--ink);
+  --rd-muted: var(--muted);
+  --rd-line: var(--line);
+  --rd-accent: var(--accent);
+  --rd-accent-ink: var(--accent-ink);
+  --rd-nav-h: 60px;
 }
-body.markbar-open .update-banner { bottom: 80px; }
-.mark-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
-.mark-ch { font-weight: 700; margin-top: 10px; }
-.mark-item { padding: 10px 12px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
-.mark-quote { color: var(--ink); display: inline; padding: 1px 3px; border-radius: 3px; white-space: pre-line; }
-.mark-quote:hover { text-decoration: none; }
-.mark-note { margin: 6px 0 0; font-size: .92rem; color: var(--ink-2); white-space: pre-wrap; }
-.mark-where { margin: 4px 0 0; font-size: .78rem; }
-.nb-note { padding: 10px 0; border-bottom: 1px solid var(--line); }
-.nb-note-text { white-space: pre-wrap; margin: 4px 0 0; color: var(--ink-2); }
+
+/* room under the last line for the bottom bar, and the player above it */
+.page { padding-bottom: calc(var(--rd-nav-h) + 48px + env(safe-area-inset-bottom)); }
+:root.rd-playing .page { padding-bottom: calc(var(--rd-nav-h) + 150px + env(safe-area-inset-bottom)); }
+:root.rd-selecting .page { padding-bottom: 180px; }
+
+/* the bottom bar sits under sheets, the splash and the language picker */
+.sheet { z-index: 60; }
+#splash, .picker { z-index: 90; }
+.update-banner { bottom: calc(var(--rd-nav-h) + 12px + env(safe-area-inset-bottom)); z-index: 52; }
+:root.rd-playing .update-banner { bottom: calc(var(--rd-nav-h) + 132px + env(safe-area-inset-bottom)); }
+
+.toast {
+  position: fixed; left: 50%; transform: translateX(-50%); z-index: 75;
+  bottom: calc(var(--rd-nav-h) + 14px + env(safe-area-inset-bottom));
+  max-width: min(92vw, 26rem); padding: 10px 18px; border-radius: 999px;
+  background: var(--accent); color: var(--accent-ink); font-size: .9rem; font-weight: 600; text-align: center;
+  box-shadow: 0 6px 24px rgba(0,0,0,.18);
+}
+:root.rd-playing .toast { bottom: calc(var(--rd-nav-h) + 132px + env(safe-area-inset-bottom)); }
+:root.rd-selecting .toast { bottom: 150px; }
+
+/* the key/value pair is one markable block, laid out by the grid above */
+.keyval-row { display: contents; }
+
+/* Settings, Notes and Bookmarks screens */
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; }
+.setgroup { display: grid; gap: 16px; margin: 16px 0 28px; }
+.setrow { display: grid; gap: 8px; }
+.setrow > h3 { font-size: .86rem; font-weight: 700; color: var(--muted); }
+.setseg { display: flex; width: 100%; }
+.rd-seg.setseg button { flex: 1; min-width: 0; font-size: .86rem; padding: 8px 4px; white-space: normal; line-height: 1.25; overflow-wrap: anywhere; }
+.page-lib .setseg { margin: 16px 0 12px; }
+.page-lib > h1 + .lib-list { margin-top: 16px; }
+.lib-list { padding-top: 0; padding-bottom: 0; }
+.lib-h { margin: 28px 0 10px; }
+.nb-note { display: grid; gap: 4px; padding: 10px 0; border-bottom: 1px solid var(--line); color: var(--ink); }
+.nb-note:last-child { border-bottom: 0; }
+.nb-note:hover { text-decoration: none; }
+.nb-note-ch { font-size: .78rem; color: var(--muted); }
+.nb-note-text { white-space: pre-wrap; color: var(--ink-2); display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }

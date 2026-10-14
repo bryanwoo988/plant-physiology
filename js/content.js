@@ -48,6 +48,11 @@ export function inline(value, ctx) {
     const label = piece.label ?? (term ? pick(term.name, ctx.lang) : piece.term);
     frag.append(el('button', { class: 'term', type: 'button', 'data-term': piece.term, onclick: () => ctx.onTerm?.(piece.term) }, label));
   }
+  // Each markable block gets a key that is the same in every language:
+  // chapter, section, place in the section.
+  for (const sec of frag.children) {
+    sec.querySelectorAll(UNITS).forEach((u, i) => { u.dataset.rk = `${chapter.id}/${sec.id}#${i}`; });
+  }
   return frag;
 }
 
@@ -68,7 +73,9 @@ function block(b, ctx) {
       return el(tag, {}, b.items.map(i => el('li', {}, inline(i, ctx))));
     }
     case 'keyval':
-      return el('dl', { class: 'keyval' }, b.rows.map(r => [el('dt', {}, inline(r.k, ctx)), el('dd', {}, inline(r.v, ctx))]));
+      // Each pair in its own <div> (valid inside <dl>; display: contents in the
+      // stylesheet keeps the grid) so a pair can be marked as one block.
+      return el('dl', { class: 'keyval' }, b.rows.map(r => el('div', { class: 'keyval-row' }, el('dt', {}, inline(r.k, ctx)), el('dd', {}, inline(r.v, ctx)))));
     case 'table':
       return el('figure', { class: 'table-wrap' },
         b.caption ? el('figcaption', {}, inline(b.caption, ctx)) : null,
@@ -102,12 +109,17 @@ function block(b, ctx) {
   }
 }
 
+/* What a reader can mark, bookmark or have read aloud (reader.js), in
+   reading order within a section. */
+const UNITS = ':scope > p[data-blk], :scope > ul[data-blk] > li, :scope > ol[data-blk] > li, '
+  + ':scope > dl[data-blk] > .keyval-row, :scope > aside[data-blk], :scope > figure[data-blk] tbody tr';
+
 export function renderSections(chapter, ctx) {
   const frag = document.createDocumentFragment();
   for (const sec of chapter.sections) {
     const body = sec.blocks.map((b, i) => {
       const node = block(b, ctx);
-      // Anchor for highlights and notes (annotate.js): section id + block index.
+      // Section id + block index: where marks made before 1.2.0 were anchored.
       if (node && MARKABLE.has(b.type)) node.dataset.blk = `${sec.id}:${i}`;
       const src = ['chart', 'widget', 'map', 'dataset'].includes(b.type) ? null : sourceTag(b, ctx);
       return src && node ? [node, src] : node;
@@ -119,6 +131,11 @@ export function renderSections(chapter, ctx) {
     } else {
       frag.append(el('section', { class: 'section', id: sec.id }, el('h2', {}, inline(sec.heading, ctx)), ...body));
     }
+  }
+  // Each markable block gets a key that is the same in every language:
+  // chapter, section, place in the section.
+  for (const sec of frag.children) {
+    sec.querySelectorAll(UNITS).forEach((u, i) => { u.dataset.rk = `${chapter.id}/${sec.id}#${i}`; });
   }
   return frag;
 }
